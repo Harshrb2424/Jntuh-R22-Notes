@@ -1,33 +1,32 @@
-html{
-    padding-left: 10%;
-    padding-right: 10%;
+html {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 nav div {
-    padding: 20px;
-    height:70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  padding: 20px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-nav h2{
-    display: inline;
+nav h2 {
+  display: inline;
 }
-nav img{
-    margin: 20px;
-    height: 50px;
+nav img {
+  margin: 20px;
+  height: 50px;
 }
-nav p{
-
-    text-align: justify;
+nav p {
+  text-align: justify;
 }
 
 @media (max-width: 1200px) {
-    iframe {
-        width: 80%;
-    }
+  iframe {
+    width: 80%;
+  }
 }
 @media (max-width: 767px) {
-    iframe {
-        width: 100%;
-    }
+  iframe {
+    width: 100%;
+  }
 }
