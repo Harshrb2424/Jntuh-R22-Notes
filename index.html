@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>JNTUH R22 Notes</title>
   <link rel="stylesheet" href="./public/styles.css" />
 
+  <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/JNTU_Hyderabad_logo.png/220px-JNTU_Hyderabad_logo.png" type="image/x-icon">
   <!-- Add Bootstrap CSS via CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
 
@@ -17,6 +18,14 @@
 </head>
 
 <body>
+  <nav>
+    <div>
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/JNTU_Hyderabad_logo.png/220px-JNTU_Hyderabad_logo.png" alt="">
+      <h2>R22</h2>
+    </div>
+    <p>This page is dedicated to providing a seamless and user-friendly platform for effortless access to a comprehensive repository of class notes meticulously tailored to the R22 Regulation curriculum, catering specifically to students of JNTUH-affiliated colleges. Designed with utmost precision and organization, our platform aims to simplify the academic journey by offering structured and easily searchable class notes, study materials, and educational resources, all thoughtfully categorized to align with the R22 Regulation syllabus. With a commitment to excellence and accessibility, we endeavor to empower students, educators, and academic enthusiasts alike in their pursuit of knowledge within the realm of JNTUH's R22 Regulation, fostering a conducive environment for learning and growth.</p>
+  </nav>
+
   <!-- ? Year 1 -->
   <p>
     <a class="btn btn-success btn-lg" data-toggle="collapse" href="#collapseYr1" role="button" aria-expanded="false"
@@ -30,143 +39,199 @@
       <h2>Subjects</h2>
 
       <div id="accordion">
+        <!-- ? Year 1 sub 1: M1 -->
         <div class="card">
-          <div class="card-header" id="headingOne">
+          <div class="card-header" id="heading-M1">
             <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseM1" aria-expanded="true"
-                aria-controls="collapseM1">
-                <!-- ? Year 1 sub 1: M1 -->
-                M1
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-M1"
+                aria-expanded="false" aria-controls="collapse-M1">
+                <h2>Matrices and Calculus (M1)</h2>
               </button>
             </h5>
           </div>
-
-          <div id="collapseM1" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div id="collapse-M1" class="collapse" aria-labelledby="heading-M1" data-parent="#accordion">
             <div class="card-body">
 
               <!-- ? Year 1 sub 1: M1 U1 -->
-              <h4>Unit 1</h4>
-              <p>Unit Details</p>
-              <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
-                aria-expanded="false" aria-controls="collapseExample">
+              <h4>Unit 1: Water and its Treatment</h4>
+              <ul>
+                  <li>Introduction to Hardness of Water</li>
+                  <li>Estimation of Hardness of Water by Complexometric Method</li>
+                  <li>Potable Water and its Specifications</li>
+                  <li>Steps Involved in the Treatment of Potable Water</li>
+                  <li>Disinfection of Potable Water by Chlorination and Break-Point Chlorination</li>
+                  <li>Defluoridation</li>
+                  <li>Determination of F- Ion by Ion-Selective Electrode Method</li>
+                  <li>Boiler Troubles: Sludges, Scales, and Caustic Embrittlement</li>
+                  <li>Internal Treatment of Boiler Feed Water: Calgon Conditioning, Phosphate Conditioning, Colloidal Conditioning</li>
+                  <li>External Treatment Methods: Softening of Water by Ion-Exchange Processes</li>
+                  <li>Desalination of Water: Reverse Osmosis</li>
+              </ul>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapse-M1-U1" role="button" aria-expanded="false"
+                aria-controls="collapse-M1-U1">
                 Show PDF
               </a>
-              <a href="./public/resources/Sem 1 Unit 1 Matrices.pdf" download>
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
-                  aria-expanded="false" aria-controls="collapseExample">
+              <a href="./public/resources/1st Year/MA101-Unit1.pdf" download>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-M1-U1"
+                  aria-expanded="false" aria-controls="collapse-M1-U1">
                   Download PDF
                 </button>
               </a>
               </p>
-              <div class="collapse" id="collapseExample">
+              <div class="collapse" id="collapse-M1-U1">
                 <div class="card card-body">
 
-                  <iframe src="./public/resources/Sem 1 Unit 1 Matrices.pdf#toolbar=0" width="50%"
-                    height="500"></iframe>
+                  <iframe src="./public/resources/1st Year/MA101-Unit1.pdf#toolbar=0" width="50%" height="500"></iframe>
                 </div>
               </div>
               <!-- ! Year 1 sub 1: M1 U1 END -->
               <!-- ? Year 1 sub 1: M1 U2 -->
-              <h4>Unit 2</h4>
-              <p>Unit Details</p>
-              <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
-                aria-expanded="false" aria-controls="collapseExample">
+              <br>
+              <h4>Unit 2: Battery Chemistry & Corrosion</h4>
+              <ul>
+                  <li>Introduction to Batteries</li>
+                  <li>Classification of Batteries: Primary, Secondary, and Reserve Batteries</li>
+                  <li>Basic Requirements for Commercial Batteries</li>
+                  <li>Construction, Working, and Applications of Zn-Air Battery</li>
+                  <li>Construction, Working, and Applications of Lithium-Ion Battery</li>
+                  <li>Applications of Li-Ion Battery to Electrical Vehicles</li>
+                  <li>Introduction to Fuel Cells</li>
+                  <li>Differences Between Battery and Fuel Cell</li>
+                  <li>Construction and Applications of Methanol Oxygen Fuel Cell</li>
+                  <li>Construction and Applications of Solid Oxide Fuel Cell</li>
+                  <li>Introduction to Solar Cells and Applications</li>
+                  <li>Causes and Effects of Corrosion</li>
+                  <li>Theories of Chemical and Electrochemical Corrosion</li>
+                  <li>Mechanism of Electrochemical Corrosion</li>
+                  <li>Types of Corrosion: Galvanic, Water-Line, and Pitting Corrosion</li>
+                  <li>Factors Affecting Rate of Corrosion</li>
+                  <li>Corrosion Control Methods: Cathodic Protection, Sacrificial Anode, Impressed Current Methods</li>
+              </ul>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapse-M1-U2" role="button" aria-expanded="false"
+                aria-controls="collapse-M1-U2">
                 Show PDF
               </a>
-              <a href="./public/resources/Sem 1 Unit 1 Matrices.pdf" download>
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
-                  aria-expanded="false" aria-controls="collapseExample">
+              <a href="./public/resources/1st Year/MA101-Unit2.pdf" download>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-M1-U2"
+                  aria-expanded="false" aria-controls="collapse-M1-U2">
                   Download PDF
                 </button>
               </a>
               </p>
-              <div class="collapse" id="collapseExample">
+              <div class="collapse" id="collapse-M1-U2">
                 <div class="card card-body">
 
-                  <iframe src="./public/resources/Sem 1 Unit 1 Matrices.pdf#toolbar=0" width="50%"
-                    height="500"></iframe>
+                  <iframe src="./public/resources/1st Year/MA101-Unit2.pdf#toolbar=0" width="50%" height="500"></iframe>
                 </div>
               </div>
               <!-- ! Year 1 sub 1: M1 U2 END -->
               <!-- ? Year 1 sub 1: M1 U3 -->
-              <h4>Unit 3</h4>
-              <p>Unit Details</p>
-              <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
-                aria-expanded="false" aria-controls="collapseExample">
+              <br>
+              <h4>Unit 3: Polymeric Materials</h4>
+              <ul>
+                  <li>Definition and Classification of Polymers</li>
+                  <li>Types of Polymerization: Addition and Condensation</li>
+                  <li>Examples of Addition and Condensation Polymerization</li>
+                  <li>Nylon 6:6 and Terylene</li>
+                  <li>Definition and Characteristics of Plastics: Thermoplastic and Thermosetting Plastics</li>
+                  <li>Preparation, Properties, and Applications of PVC</li>
+                  <li>Preparation, Properties, and Applications of Bakelite</li>
+                  <li>Introduction to Teflon and Fiber Reinforced Plastics (FRP)</li>
+                  <li>Natural Rubber and Vulcanization</li>
+                  <li>Characteristics, Preparation, Properties, and Applications of Buna-S, Butyl, and Thiokol Rubber</li>
+                  <li>Characteristics of Conducting Polymers, Classification, and Applications</li>
+                  <li>Concept and Advantages of Biodegradable Polymers: PLA and PVA</li>
+              </ul>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapse-M1-U3" role="button" aria-expanded="false"
+                aria-controls="collapse-M1-U3">
                 Show PDF
               </a>
-              <a href="./public/resources/Sem 1 Unit 1 Matrices.pdf" download>
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
-                  aria-expanded="false" aria-controls="collapseExample">
+              <a href="./public/resources/1st Year/MA101-Unit3.pdf" download>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-M1-U3"
+                  aria-expanded="false" aria-controls="collapse-M1-U3">
                   Download PDF
                 </button>
               </a>
               </p>
-              <div class="collapse" id="collapseExample">
+              <div class="collapse" id="collapse-M1-U3">
                 <div class="card card-body">
 
-                  <iframe src="./public/resources/Sem 1 Unit 1 Matrices.pdf#toolbar=0" width="50%"
-                    height="500"></iframe>
+                  <iframe src="./public/resources/1st Year/MA101-Unit3.pdf#toolbar=0" width="50%" height="500"></iframe>
                 </div>
               </div>
               <!-- ! Year 1 sub 1: M1 U3 END -->
               <!-- ? Year 1 sub 1: M1 U4 -->
-              <h4>Unit 4</h4>
-              <p>Unit Details</p>
-              <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
-                aria-expanded="false" aria-controls="collapseExample">
+              <br>
+              <h4>Unit 4: Energy Sources</h4>
+              <ul>
+                  <li>Introduction and Calorific Value of Fuel</li>
+                  <li>Classification of Energy Sources</li>
+                  <li>Solid Fuels: Coal and Analysis</li>
+                  <li>Liquid Fuels: Petroleum, Refining, Cracking, Octane and Cetane Rating, Synthetic Petrol</li>
+                  <li>Gaseous Fuels: Composition and Uses of Natural Gas, LPG, CNG</li>
+                  <li>Introduction to Biodiesel, Transesterification, Advantages</li>
+              </ul>
+          
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapse-M1-U4" role="button" aria-expanded="false"
+                aria-controls="collapse-M1-U4">
                 Show PDF
               </a>
-              <a href="./public/resources/Sem 1 Unit 1 Matrices.pdf" download>
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
-                  aria-expanded="false" aria-controls="collapseExample">
+              <a href="./public/resources/1st Year/MA101-Unit4.pdf" download>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-M1-U4"
+                  aria-expanded="false" aria-controls="collapse-M1-U4">
                   Download PDF
                 </button>
               </a>
               </p>
-              <div class="collapse" id="collapseExample">
+              <div class="collapse" id="collapse-M1-U4">
                 <div class="card card-body">
 
-                  <iframe src="./public/resources/Sem 1 Unit 1 Matrices.pdf#toolbar=0" width="50%"
-                    height="500"></iframe>
+                  <iframe src="./public/resources/1st Year/MA101-Unit4.pdf#toolbar=0" width="50%" height="500"></iframe>
                 </div>
               </div>
               <!-- ! Year 1 sub 1: M1 U4 END -->
               <!-- ? Year 1 sub 1: M1 U5 -->
-              <h4>Unit 5</h4>
-              <p>Unit Details</p>
-              <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
-                aria-expanded="false" aria-controls="collapseExample">
+              <br>
+              <h4>Unit 5: Engineering Materials</h4>
+              <ul>
+                  <li>Introduction to Cement and Portland Cement</li>
+                  <li>Composition, Setting, and Hardening of Portland Cement</li>
+                  <li>Introduction to Smart Materials and Their Engineering Applications</li>
+                  <li>Shape Memory Materials: Poly L- Lactic Acid</li>
+                  <li>Thermoresponse Materials: Polyacryl Amides, Poly Vinyl Amides</li>
+                  <li>Classification of Lubricants, Characteristics of Good Lubricants</li>
+                  <li>Mechanism of Lubrication: Thick Film, Thin Film, Extreme Pressure</li>
+                  <li>Properties of Lubricants: Viscosity, Cloud Point, Pour Point, Flash Point, Fire Point</li>
+              </ul>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapse-M1-U5" role="button" aria-expanded="false"
+                aria-controls="collapse-M1-U5">
                 Show PDF
               </a>
-              <a href="./public/resources/Sem 1 Unit 1 Matrices.pdf" download>
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
-                  aria-expanded="false" aria-controls="collapseExample">
+              <a href="./public/resources/1st Year/MA101-Unit5.pdf" download>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-M1-U5"
+                  aria-expanded="false" aria-controls="collapse-M1-U5">
                   Download PDF
                 </button>
               </a>
               </p>
-              <div class="collapse" id="collapseExample">
+              <div class="collapse" id="collapse-M1-U5">
                 <div class="card card-body">
 
-                  <iframe src="./public/resources/Sem 1 Unit 1 Matrices.pdf#toolbar=0" width="50%"
-                    height="500"></iframe>
+                  <iframe src="./public/resources/1st Year/MA101-Unit5.pdf#toolbar=0" width="50%" height="500"></iframe>
                 </div>
               </div>
               <!-- ! Year 1 sub 1: M1 U5 END -->
-
-
             </div>
           </div>
         </div>
-
+        <!-- ! Year 1 sub 1: M1 END -->
         <!-- ? Year 1 sub 2: M2 -->
         <div class="card">
           <div class="card-header" id="headingM2">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseM2"
                 aria-expanded="false" aria-controls="collapseM2">
-                M2
+                <h2>Ordinary Differential Equations and Vector Calculus (M2)</h2> 
               </button>
             </h5>
           </div>
@@ -219,16 +284,16 @@
                 </li>
                 <li>Applications of Higher Order ODEs: Electric Circuits</li>
               </ul>
-              <a class="btn btn-primary" data-toggle="collapse" href="#collapseM2U2" role="button" aria-expanded="false"
+              <a class="btn btn-primary disabled" data-toggle="collapse" href="#collapseM2U2" role="button" aria-expanded="false"
                 aria-controls="collapseM2U2">
                 Show PDF
               </a>
-              <a href="./public/resources/1st Year/MA201-Unit2.pdf" download>
+              <!-- <a href="./public/resources/1st Year/MA201-Unit2.pdf" download>
                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseM2U2"
                   aria-expanded="false" aria-controls="collapseM2U2">
                   Download PDF
                 </button>
-              </a>
+              </a> -->
               </p>
               <div class="collapse" id="collapseM2U2">
                 <div class="card card-body">
@@ -339,7 +404,7 @@
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-AP"
                 aria-expanded="false" aria-controls="collapse-AP">
-                AP
+                <h2>Applied Physics</h2>
               </button>
             </h5>
           </div>
@@ -355,16 +420,16 @@
                 <li>Orthogonal Trajectories (only in Cartesian Coordinates)</li>
                 <li>Applications of First Order ODEs: Newton’s Law of Cooling, Law of Natural Growth and Decay</li>
               </ul>
-              <a class="btn btn-primary" data-toggle="collapse" href="#collapse-AP-U1" role="button" aria-expanded="false"
+              <a class="btn btn-primary disabled" data-toggle="collapse" href="#collapse-AP-U1" role="button" aria-expanded="false"
                 aria-controls="collapse-AP-U1">
                 Show PDF
               </a>
-              <a href="./public/resources/1st Year/PH102-Unit1.pdf" download>
+              <!-- <a href="./public/resources/1st Year/PH102-Unit1.pdf" download>
                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-AP-U1"
                   aria-expanded="false" aria-controls="collapse-AP-U1">
                   Download PDF
                 </button>
-              </a>
+              </a> -->
               </p>
               <div class="collapse" id="collapse-AP-U1">
                 <div class="card card-body">
@@ -425,16 +490,16 @@
                 <li>Convolution Theorem (without Proof)</li>
                 <li>Applications of Laplace Transforms: Solving Initial Value Problems</li>
               </ul>
-              <a class="btn btn-primary" data-toggle="collapse" href="#collapse-AP-U3" role="button" aria-expanded="false"
+              <a class="btn btn-primary disabled" data-toggle="collapse" href="#collapse-AP-U3" role="button" aria-expanded="false"
                 aria-controls="collapse-AP-U3">
                 Show PDF
               </a>
-              <a href="./public/resources/1st Year/PH102-Unit3.pdf" download>
+              <!-- <a href="./public/resources/1st Year/PH102-Unit3.pdf" download>
                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-AP-U3"
                   aria-expanded="false" aria-controls="collapse-AP-U3">
                   Download PDF
                 </button>
-              </a>
+              </a> -->
               </p>
               <div class="collapse" id="collapse-AP-U3">
                 <div class="card card-body">
@@ -692,175 +757,33 @@
             </div>
           </div>
         </div>
-        <!-- ! Year 1 sub 4: AP END -->
-
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-                aria-expanded="false" aria-controls="collapseThree">
-                Collapsible Group Item #3
-              </button>
-            </h5>
-          </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-              terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
-              skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-              Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-              single-origin coffee nulla assumenda shoreditch et. Nihil anim
-              keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-              sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-              occaecat craft beer farm-to-table, raw denim aesthetic synth
-              nesciunt you probably haven't heard of them accusamus labore
-              sustainable VHS.
-            </div>
-          </div>
-        </div>
+        <!-- ! Year 1 sub 4: EC END -->
       </div>
-
-
-
     </div>
   </div>
 
 
 
   <p>
-    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
-      aria-controls="collapseExample">
+    <h4>QE Notes</h4>
+    <a class="btn btn-primary" data-toggle="collapse" href="#collapse-QE" role="button" aria-expanded="false"
+      aria-controls="collapse-QE">
       Show PDF
     </a>
     <a href="./public/resources/Sem 1 Unit 1 Matrices.pdf" download>
-      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
-        aria-expanded="false" aria-controls="collapseExample">
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-QE"
+        aria-expanded="false" aria-controls="collapse-QE">
         Download PDF
       </button>
     </a>
   </p>
-  <div class="collapse" id="collapseExample">
+  <div class="collapse" id="collapse-QE">
     <div class="card card-body">
       <p>Unit Details</p>
       <iframe src="./public/resources/Sem 1 Unit 1 Matrices.pdf#toolbar=0" width="50%" height="500"></iframe>
     </div>
   </div>
 
-  <div id="accordion">
-    <div class="card">
-      <div class="card-header" id="headingOne">
-        <h5 class="mb-0">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-            aria-controls="collapseOne">
-            Collapsible Group Item #1
-          </button>
-        </h5>
-      </div>
-
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-        <div class="card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
-          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-          Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-          single-origin coffee nulla assumenda shoreditch et. Nihil anim
-          keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-          sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-          occaecat craft beer farm-to-table, raw denim aesthetic synth
-          nesciunt you probably haven't heard of them accusamus labore
-          sustainable VHS.
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header" id="headingTwo">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-            aria-controls="collapseTwo">
-            Collapsible Group Item #2
-          </button>
-        </h5>
-      </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-        <div class="card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
-          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-          Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-          single-origin coffee nulla assumenda shoreditch et. Nihil anim
-          keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-          sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-          occaecat craft beer farm-to-table, raw denim aesthetic synth
-          nesciunt you probably haven't heard of them accusamus labore
-          sustainable VHS.
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header" id="headingThree">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-            aria-expanded="false" aria-controls="collapseThree">
-            Collapsible Group Item #3
-          </button>
-        </h5>
-      </div>
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-        <div class="card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
-          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-          Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-          single-origin coffee nulla assumenda shoreditch et. Nihil anim
-          keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-          sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-          occaecat craft beer farm-to-table, raw denim aesthetic synth
-          nesciunt you probably haven't heard of them accusamus labore
-          sustainable VHS.
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <h1>R22</h1>
-  <h2>Years</h2>
-  <div>
-    <h3>1st Year</h3>
-    <h4>Subjects</h4>
-    <div>
-      <h5>M1</h5>
-      <div>
-        <h6>Unit 1</h6>
-        <p>Matrix</p>
-        <iframe src="./public/resources/Sem 1 Unit 1 Matrices.pdf#toolbar=0" width="50%" height="500"></iframe>
-
-        <a href="./public/resources/Sem 1 Unit 1 Matrices.pdf" download>
-          <button>Download PDF</button>
-        </a>
-      </div>
-    </div>
-  </div>
-  <div>
-    <h3>2nd Year</h3>
-    <h4>Subjects</h4>
-    <div>
-      <h5>M2</h5>
-    </div>
-  </div>
-  <div>
-    <h3>3rd Year</h3>
-    <h4>Subjects</h4>
-    <div>
-      <h5>M1</h5>
-    </div>
-  </div>
-  <div>
-    <h3>4th Year</h3>
-    <h4>Subjects</h4>
-    <div>
-      <h5>M1</h5>
-    </div>
-  </div>
 </body>
 
 </html>
