@@ -21,3 +21,13 @@ nav p{
     text-align: justify;
 }
 
+@media (max-width: 1200px) {
+    iframe {
+        width: 80%;
+    }
+}
+@media (max-width: 767px) {
+    iframe {
+        width: 100%;
+    }
+}
