@@ -16,13 +16,27 @@ nav img {
   margin: 20px;
   height: 50px;
 }
-nav p {
+nav p, footer p{
   text-align: justify;
 }
 
 @media (max-width: 1200px) {
   iframe {
     width: 80%;
+  }
+
+  html {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  nav, footer{
+    padding-left: 10%;
+    padding-right: 10%;
+
+  }
+  .yrbtn{
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
 @media (max-width: 767px) {
