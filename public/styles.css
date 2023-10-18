@@ -20,6 +20,9 @@ nav p, footer p{
   text-align: justify;
 }
 
+footer li{
+  padding-left: 10px;
+}
 @media (max-width: 1200px) {
   iframe {
     width: 80%;
