@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&family=Rubik&display=swap');
+:root {
+    --bg-color: #200518;
+    --text-color: #fefefd;
+    --div-color: #8ad10c;
+    --secondary-color: #689800;
+  }
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+  }
+  
+  p{
+    margin: 10px 0;
+}
+.filters{
+    padding: 0 25px;
+}
+
+.subject{
+    width: 500px;
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    padding: 10px 10px 10px 30px;
+}
+.tags > p{
+    background-color: var(--div-color);
+    border-radius: 20px;
+    display: inline;
+    padding: 5px 15px;
+}
+.tags{
+    margin: 10px;
+}
+.button{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.button > button{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: var(--div-color);
+    color: #ffffff;
+}
+
+.inActive{
+    background-color: var(--div-color);
+    opacity: 0.5;
+    border-radius: 20px;
+    display: inline;
+    transform: scale(0.3);
+    transition: all ease 500ms;
+    color: #ffffff00;
+    padding: 5px 15px;
+    transition: all ease 500ms;
+}
+.inActive:hover{
+    opacity: 1;
+}
+.filter{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.filter:hover .inActive{
+    color: #ffffff;
+    padding: 5px 15px;
+    transform: scale(1);
+}
+.active {
+    opacity: 0.8;
+    background-color: var(--div-color);
+    color: #ffffff;
+    border-radius: 20px;
+    display: inline;
+    padding: 5px 15px;
+    transition: all ease 500ms;
+}
