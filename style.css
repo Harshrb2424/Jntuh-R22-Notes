@@ -12,11 +12,23 @@ body {
     font-style: normal;
     background-color: var(--bg-color);
     color: var(--text-color);
-    display: flex;
+
   }
   
   p{
     margin: 10px 0;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header img{
+    height: 50px;
+}
+body > div{
+    display: flex;
 }
 .filters{
     padding: 0 25px;
@@ -27,6 +39,7 @@ body {
     border-radius: 20px;
     background-color: var(--secondary-color);
     padding: 10px 10px 10px 30px;
+    /* margin: 20px 0; */
 }
 .tags > p{
     background-color: var(--div-color);
@@ -62,6 +75,12 @@ body {
 }
 .inActive:hover{
     opacity: 1;
+}
+.subjects{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .filter{
     display: flex;

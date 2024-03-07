@@ -2,26 +2,40 @@ $(document).ready(function () {
   // Assume your JSON data is stored in a variable called 'subjectsData'
   var subjectsData = [
     {
-      name: "Subject 1",
-      code: "MSF",
+      name: "Matrices and Calculus",
+      code: "M1",
       year: 1,
       sem: 1,
-      tags: ["Theory", "Technical"],
-      info: "Subject 1 info",
+      credits: 4,
+      tags: ["Math"],
+      info: [
+        "Matrices",
+        " Eigen values and Eigen vectors",
+        " Calculus",
+        " Multivariable Calculus",
+        " Multivariable Calculus",
+      ],
     },
     {
-      name: "Subject 2",
-      code: "OS",
-      year: 2,
-      sem: 2,
-      tags: ["Lab"],
-      info: "Subject 2 info",
+      name: "Applied Physics",
+      code: "AP",
+      year: 1,
+      sem: 1,
+      credits: 4,
+      tags: ["Theory"],
+      info: [
+        "Quantum Physics and Solids",
+        " Semiconductors and Devices",
+        " Dielectric, Magnetic and Energy Materials",
+        " Nanotechnology",
+        " Laser and Fiber Optics",
+      ],
     },
     {
       name: "Python",
       code: "PY",
       tags: ["Technical"],
-      info: "Subject 2 info",
+      info: ["Subject 2 info"],
     },
   ];
 
@@ -47,8 +61,13 @@ $(document).ready(function () {
       // Create a div element with class 'tags' and append p elements for each tag
       var $tagsDiv = $('<div class="tags"></div>');
 
-      subject.year && $tagsDiv.append("<p>#" + subject.year + " Year</p>");
-      subject.sem && $tagsDiv.append("<p>#" + subject.sem + " Sem</p>");
+      subject.year &&
+        subject.sem &&
+        $newSubject.append(
+          "<p>Year " + subject.year + " Sem " + subject.sem + "</p>"
+        );
+      subject.credits &&
+        $newSubject.append("<p>Credits: " + subject.credits + "</p>");
 
       $.each(subject.tags, function (i, tag) {
         $tagsDiv.append("<p>#" + tag + "</p>");
@@ -60,7 +79,7 @@ $(document).ready(function () {
 
       // Create a div element with class 'button' and append button element
       var $buttonDiv = $('<div class="button"></div>');
-      $buttonDiv.append('<button class="click-name">></button>');
+      $buttonDiv.append('<button class="click '+ subject.code +'">></button>');
       $newSubject.append($buttonDiv);
 
       // Append the new subject to the div with class 'subjects'
@@ -68,4 +87,33 @@ $(document).ready(function () {
     });
   }
   displaySubjects(subjectsData);
+//? Subject Link
+  $('.click').click(function() {
+    // Get the class names of the clicked button
+    var classNames = $(this).attr('class').split(' ');
+    console.log(classNames);
+    var redirectURL = `./public/?code=${classNames[1]}`;
+
+    // Loop through class names to construct the redirect URL
+    // classNames.forEach(function(className) {
+    //   if (className !== 'click') { // Exclude 'click' class
+    //     // redirectURL += 'subject?code=' + className;
+    //   }
+    // });
+
+    // Redirect to the constructed URL
+    window.location.href = redirectURL;
+  });
+//? Styling
+  $('.click-year').click(change);
+  $('.click-sem').click(change);
+  $('.click-tag').click(change);
+
+  function change(){
+    if ($(this).hasClass('inActive')) {
+      $(this).removeClass('inActive').addClass('active');
+    } else if ($(this).hasClass('active')) {
+      $(this).removeClass('active').addClass('inActive');
+    }
+  }
 });
