@@ -1,43 +1,43 @@
 $(document).ready(function () {
   // Assume your JSON data is stored in a variable called 'subjectsData'
-  var subjectsData = [
-    {
-      name: "Matrices and Calculus",
-      code: "M1",
-      year: 1,
-      sem: 1,
-      credits: 4,
-      tags: ["Math"],
-      info: [
-        "Matrices",
-        " Eigen values and Eigen vectors",
-        " Calculus",
-        " Multivariable Calculus",
-        " Multivariable Calculus",
-      ],
-    },
-    {
-      name: "Applied Physics",
-      code: "AP",
-      year: 1,
-      sem: 1,
-      credits: 4,
-      tags: ["Theory"],
-      info: [
-        "Quantum Physics and Solids",
-        " Semiconductors and Devices",
-        " Dielectric, Magnetic and Energy Materials",
-        " Nanotechnology",
-        " Laser and Fiber Optics",
-      ],
-    },
-    {
-      name: "Python",
-      code: "PY",
-      tags: ["Technical"],
-      info: ["Subject 2 info"],
-    },
-  ];
+  // var subjectsData = [
+  //   {
+  //     name: "Matrices and Calculus",
+  //     code: "M1",
+  //     year: 1,
+  //     sem: 1,
+  //     credits: 4,
+  //     tags: ["Math"],
+  //     info: [
+  //       "Matrices",
+  //       " Eigen values and Eigen vectors",
+  //       " Calculus",
+  //       " Multivariable Calculus",
+  //       " Multivariable Calculus",
+  //     ],
+  //   },
+  //   {
+  //     name: "Applied Physics",
+  //     code: "AP",
+  //     year: 1,
+  //     sem: 1,
+  //     credits: 4,
+  //     tags: ["Theory"],
+  //     info: [
+  //       "Quantum Physics and Solids",
+  //       " Semiconductors and Devices",
+  //       " Dielectric, Magnetic and Energy Materials",
+  //       " Nanotechnology",
+  //       " Laser and Fiber Optics",
+  //     ],
+  //   },
+  //   {
+  //     name: "Python",
+  //     code: "PY",
+  //     tags: ["Technical"],
+  //     info: ["Subject 2 info"],
+  //   },
+  // ];
 
   // Loop through each subject in the JSON data
 
@@ -75,45 +75,50 @@ $(document).ready(function () {
       $newSubject.append($tagsDiv);
 
       // Append paragraph element with subject info
-      $newSubject.append("<p>" + subject.info + "</p>");
+      var array = "";
+      $.each(subject.info, function (i, tag) {
+        array += i == 0 ? tag : `, ${tag}`;
+      });
+      $newSubject.append("<p class='info'>" + array + ".</p>");
 
       // Create a div element with class 'button' and append button element
       var $buttonDiv = $('<div class="button"></div>');
-      $buttonDiv.append('<button class="click '+ subject.code +'">></button>');
+      $buttonDiv.append(
+        '<button class="click ' + subject.code + '">></button>'
+      );
       $newSubject.append($buttonDiv);
 
       // Append the new subject to the div with class 'subjects'
       $(".subjects").append($newSubject);
+
+          //! redirect links
+      $(".click").click( function() {
+        // Get the class names of the clicked button
+        var classNames = $(this).attr("class").split(" ");
+        console.log(classNames);
+        var redirectURL = `./public/?code=${classNames[1]}`;
+        window.location.href = redirectURL;
+      });
     });
   }
-  displaySubjects(subjectsData);
-//? Subject Link
-  $('.click').click(function() {
-    // Get the class names of the clicked button
-    var classNames = $(this).attr('class').split(' ');
-    console.log(classNames);
-    var redirectURL = `./public/?code=${classNames[1]}`;
-
-    // Loop through class names to construct the redirect URL
-    // classNames.forEach(function(className) {
-    //   if (className !== 'click') { // Exclude 'click' class
-    //     // redirectURL += 'subject?code=' + className;
-    //   }
-    // });
-
-    // Redirect to the constructed URL
-    window.location.href = redirectURL;
+  const filePath = "subjects.json";
+  $.getJSON(filePath, function (subjectsData) {
+    displaySubjects(subjectsData);
   });
-//? Styling
-  $('.click-year').click(change);
-  $('.click-sem').click(change);
-  $('.click-tag').click(change);
 
-  function change(){
-    if ($(this).hasClass('inActive')) {
-      $(this).removeClass('inActive').addClass('active');
-    } else if ($(this).hasClass('active')) {
-      $(this).removeClass('active').addClass('inActive');
+
+  //? Styling
+  $(".click-year").click(change);
+  $(".click-sem").click(change);
+  $(".click-tag").click(change);
+
+  function change() {
+    if ($(this).hasClass("inActive")) {
+      $(this).removeClass("inActive").addClass("active");
+    } else if ($(this).hasClass("active")) {
+      $(this).removeClass("active").addClass("inActive");
     }
   }
+
 });
+

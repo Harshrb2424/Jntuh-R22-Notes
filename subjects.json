@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Matrices and Calculus",
+        "code": "M1",
+        "year": 1,
+        "sem": 1,
+        "credits": 4,
+        "tags": [
+            "Math","Test"
+        ],
+        "info": [
+            "Matrices",
+            "Eigen values and Eigen vectors",
+            "Calculus",
+            "Multivariable Calculus",
+            "Multivariable Calculus"
+        ]
+    },
+    {
+        "name": "Applied Physics",
+        "code": "AP",
+        "year": 1,
+        "sem": 1,
+        "credits": 4,
+        "tags": [
+            "Theory"
+        ],
+        "info": [
+            "Quantum Physics and Solids",
+            "Semiconductors and Devices",
+            "Dielectric, Magnetic and Energy Materials",
+            "Nanotechnology",
+            "Laser and Fiber Optics"
+        ]
+    },
+    {
+        "name": "Python",
+        "code": "PY",
+        "tags": [
+            "Technical"
+        ],
+        "info": [
+            "Subject 2 info"
+        ]
+    }
+]
