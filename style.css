@@ -30,25 +30,7 @@ header img{
 body > div{
     display: flex;
 }
-@media screen and (max-width: 900px) {
-    body > div {
-      flex-direction: column; /* Applied when viewport width is less than 900px */
-    }
-    .subjects{
-        justify-content: space-around;
-        padding: 0 25px;
-    }
-    .inActive{
-        transform: scale(0.9);
-    }
-  }
-  @media screen and (min-width: 900px) {
-    .inActive{
-        transform: scale(0.3);
-        color: #ffffff00;
-    }
 
-  }
 .filters{
     padding: 0 25px;
 }
@@ -129,3 +111,41 @@ p.info{
     padding: 5px 15px;
     transition: all ease 500ms;
 }
+@media screen and (max-width: 900px) and (min-width: 450px){
+    .filters{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h2{
+        width: 100%;
+    }
+    h4{
+        width: 30%;
+    }
+    .filter{
+        width: 70%;
+        justify-content: flex-start;
+    }
+}
+@media screen and (max-width: 900px) {
+    body > div {
+      flex-direction: column; /* Applied when viewport width is less than 900px */
+    }
+    .subjects{
+        justify-content: space-around;
+        padding: 0 25px;
+    }
+    .inActive{
+        transform: scale(0.9);
+    }
+    p.info{
+        text-align: left;
+    }
+  }
+  @media screen and (min-width: 900px) {
+    .inActive{
+        transform: scale(0.3);
+        color: #ffffff00;
+    }
+
+  }

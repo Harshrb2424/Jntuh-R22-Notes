@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="title"></title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title"></h1>
+    <hr />
+    </header>
+    <div class="resources">
+      <h2>Resouces:</h2>
+    </div>
+    <div class="table">
+      <h2>Overview:</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Syllabus</th>
+          </tr>
+        </thead>
+        <tbody id="unitTableBody"></tbody>
+      </table>
+    </div>
+
+    <div class="info">
+      <div id="unitInfo"></div>
+    </div>
+    <footer>
+      <hr>
+      <a href="../">Go to Home</a>
+      <a href="https://github.com/Harshrb2424/Jntuh-R22-Notes">Github</a>
+      <a href="https://harshrb2424.github.io/profile/">About Me</a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".table").fadeIn();
+
+        // Get the current URL
+        // Get the URL parameters
+        function getUrlParameter(name) {
+          name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+          var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
+          var results = regex.exec(location.search);
+          return results === null
+            ? ""
+            : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+
+        // Get the value of the 'code' parameter from the URL
+        var codeValue = getUrlParameter("code");
+
+        // Output the value of the 'code' parameter
+        console.log(codeValue);
+
+        // Update the heading with the Code value
+        $(".title").text(codeValue);
+
+        // var code = "M1"; // Assuming code is a string
+        var filePath = "files/" + codeValue + ".json";
+        console.log(filePath);
+        // Fetch JSON data
+        $.getJSON(filePath, function (data) {
+          // Assuming your JSON file has a "name" property
+          var fileName = casing(data[0].name);
+
+          function casing(string) {
+            return string.toLowerCase().replace(/(?:^|\s)\S/g, function (a) {
+              return a.toUpperCase();
+            });
+          }
+          console.log(data);
+          console.log(data);
+          console.log(fileName);
+          // Add the file name to the H1 element
+          $(".title").text(data[0].code + ": " + fileName);
+
+          var unitTableBody = $("#unitTableBody");
+          $.each(data[0].units, function (index, unit) {
+            var row = $("<tr></tr>");
+            row.append("<td>" + casing(unit.name) + "</td>");
+            if (data[0].syllabus == true) {
+              $('th:contains("Syllabus")').remove();
+            }
+            !data[0].syllabus &&
+              row.append(
+                '<td><a class="unitLink" data-index="' +
+                  index +
+                  '">' +
+                  "View Syllabus</a></td>"
+              );
+            unitTableBody.append(row);
+          });
+          // Populate unit information
+          $(".unitLink").click(function () {
+            var index = $(this).data("index");
+            var unit = data[0].units[index];
+            var unitInfo = $("#unitInfo");
+            unitInfo.empty();
+            unitInfo.append("<h3>" + unit.name + "</h3>");
+            var topicsList = $("<ul></ul>");
+            $.each(unit.topics, function (index, topic) {
+              var topicItem = $("<li>" + topic.topic + "</li>");
+              var subTopicsList = $("<ul></ul>");
+              $.each(topic.subTopics, function (index, subTopic) {
+                subTopicsList.append("<li>" + subTopic + "</li>");
+              });
+              topicItem.append(subTopicsList);
+              topicsList.append(topicItem);
+            });
+            unitInfo.append(topicsList);
+            $(".info").fadeIn();
+            var infoElement = $(".info");
+
+            // Scroll to the .info element
+            $("html, body").animate(
+              {
+                scrollTop: infoElement.offset().top,
+              },
+              200
+            );
+          });
+
+          if (data[0].links) {
+            $.each(data[0].links, function (index, linkObj) {
+              $(".resources").slideDown();
+              // Create link element
+              var link = $(
+                "<p>" +
+                  linkObj["name"] +
+                  ': <a href="' +
+                  linkObj.link +
+                  '" target="_blank">view</a></p>'
+              );
+              // Append link to resources div
+              $(".resources").append(link);
+            });
+          } else {
+          }
+        }).fail(function() {
+                // Show error message if there's an issue fetching data
+                $('h2').text('Error fetching details');
+                $('table').hide();
+            });
+      });
+    </script>
+  </body>
+</html>

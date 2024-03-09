@@ -77,7 +77,7 @@ $(document).ready(function () {
       // Append paragraph element with subject info
       var array = "";
       $.each(subject.info, function (i, tag) {
-        array += i == 0 ? tag : `, ${tag}`;
+        array += i == 0 ? tag : `; ${tag}`;
       });
       $newSubject.append("<p class='info'>" + array + ".</p>");
 
@@ -92,13 +92,20 @@ $(document).ready(function () {
       $(".subjects").append($newSubject);
 
           //! redirect links
-      $(".click").click( function() {
-        // Get the class names of the clicked button
-        var classNames = $(this).attr("class").split(" ");
-        console.log(classNames);
-        var redirectURL = `./public/?code=${classNames[1]}`;
-        window.location.href = redirectURL;
-      });
+          $(".click").click(function(event) {
+            // Prevent the default action of the click event
+            event.preventDefault();
+        
+            // Get the class names of the clicked button
+            var classNames = $(this).attr("class").split(" ");
+            console.log(classNames);
+            
+            // Construct the redirect URL
+            var redirectURL = `./public/?code=${classNames[1]}`;
+        
+            // Open the redirect URL in a new tab/window
+            window.open(redirectURL, '_blank');
+        });
     });
   }
   const filePath = "subjects.json";

@@ -6,14 +6,14 @@
         "sem": 1,
         "credits": 4,
         "tags": [
-            "Math","Test"
+            "Core"
         ],
         "info": [
             "Matrices",
             "Eigen values and Eigen vectors",
             "Calculus",
-            "Multivariable Calculus",
-            "Multivariable Calculus"
+            "Multivariable Calculus (Partial Differentiation and applications)",
+            "Multivariable Calculus (Integration)"
         ]
     },
     {
@@ -23,7 +23,7 @@
         "sem": 1,
         "credits": 4,
         "tags": [
-            "Theory"
+            "Core"
         ],
         "info": [
             "Quantum Physics and Solids",
@@ -32,6 +32,104 @@
             "Nanotechnology",
             "Laser and Fiber Optics"
         ]
+    },
+    {
+        "name": "Programming for Problem Solving",
+        "code": "PPS",
+        "year": 1,
+        "sem": 1,
+        "credits": 3,
+        "tags": ["Core"],
+        "info": ["Introduction to Programming", 
+    "Arrays, Strings, Structures and Pointers",
+    "Preprocessor and File Handling in C",
+    "Function and Dynamic Memory Allocation",
+    "Searching and Sorting"
+]
+    },
+    {
+        "name": "Engineering Workshop",
+        "code": "EW",
+        "year": 1,
+        "sem": 1,
+        "credits": 2.5,
+        "tags": ["Applied"],
+        "info": [
+            "Carpentry", 
+            "Fitting",
+            "Tin-Smithy",
+            "Foundry",
+            "Welding Practice",
+            "House-wiring",
+            "Black Smithy"
+            
+        ]
+    },
+    {
+        "name": "English for Skill Enhancement",
+        "code": "ESE",
+        "year": 1,
+        "sem": 1,
+        "credits": 2,
+        "tags": ["General"],
+        "info": [
+"Toasted English", "Appro JRD", "Lessons from Online Learning",
+"Art and Literature", "Go, Kiss the World"
+        ]
+    },
+    {
+        "name": "Elements of Computer Science & Engineering",
+        "code": "ECSE",
+        "year": 1,
+        "sem": 1,
+        "credits": 4,
+        "tags": ["Applied "],
+        "info": [
+            "Basics of a Computer",
+            "Software Development and Program Development",
+            " Operating Systems and Database Management Systems",
+            "Computer Networks, World Wide Web, Security"
+, "Autonomous Systems, Cloud Basics"       ]
+    },
+    {
+        "name": "Applied Physics Laboratory",
+        "code": "APL",
+        "year": 1,
+        "sem": 1,
+        "credits": 1.5,
+        "tags": ["Technical"],
+        "info": [
+]
+    },
+    {
+        "name": "Programming for Problem Solving Laboratory ",
+        "code": "PPSL",
+        "year": 1,
+        "sem": 1,
+        "credits": 1,
+        "tags": ["Technical"],
+        "info": [
+]
+    },
+    {
+        "name": "English Language and Communication Skills Laboratory",
+        "code": "ELCSL",
+        "year": 1,
+        "sem": 1,
+        "credits": 1,
+        "tags": ["Technical"],
+        "info": [
+]
+    },
+    {
+        "name": "Environmental Science",
+        "code": "ES",
+        "year": 1,
+        "sem": 1,
+        "credits": 0,
+        "tags": ["General"],
+        "info": [
+]
     },
     {
         "name": "Python",

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&family=Rubik&display=swap');
+
+:root {
+    --bg-color: #200518;
+    --text-color: #fefefd;
+    --div-color: #8ad10c;
+    --secondary-color: #689800;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, var(--secondary-color), var(--div-color), var(--secondary-color));
+    margin-top: 20px;
+}
+
+.table {
+  margin: 10px;
+  margin-top: 30px;
+  padding: 15px;
+    border-radius: 8px;
+    background-color: rgba(138, 209, 12, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--div-color);
+    font-family: 'Rubik', sans-serif;
+}
+
+thead th {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+#unitTableBody tr:nth-child(even) {
+    background-color: rgba(104, 152, 0, 0.2);
+}
+
+.resources, .info {
+  display: none;
+  margin: 10px;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgba(138, 209, 12, 0.2);
+}
+
+/* .info {
+  margin: 10px;
+  margin-top: 30px;
+  padding: 15px;
+    border-radius: 8px;
+    background-color: rgba(138, 209, 12, 0.2);
+} */
+
+#unitInfo {
+    font-family: 'Rubik', sans-serif;
+}
+hr{
+  margin: 0 15px;
+}
+@media screen and (min-width: 900px) {
+  .resources, .info, .table {
+    margin: 10px 25%;
+      margin-top: 30px;
+  }
+
+}
