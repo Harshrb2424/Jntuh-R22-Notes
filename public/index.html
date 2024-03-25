@@ -62,7 +62,7 @@
         $(".title").text(codeValue);
 
         // var code = "M1"; // Assuming code is a string
-        var filePath = "files/" + codeValue + ".json";
+        var filePath = "info/" + codeValue + ".json";
         console.log(filePath);
         // Fetch JSON data
         $.getJSON(filePath, function (data) {

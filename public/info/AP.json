@@ -1,0 +1,197 @@
+[
+    {
+        "name": "Applied Physics",
+        "code": "AP",
+        "units": [
+            {
+                "name": "UNIT 1: QUANTUM PHYSICS AND SOLIDS",
+                "topics": [
+                    {
+                        "topic": "Quantum Mechanics",
+                        "subTopics": [
+                            "Introduction to quantum physics",
+                            "blackbody radiation – Stefan-Boltzmann’s law",
+                            "Wein’s and Rayleigh-Jean’s law",
+                            "Planck’s radiation law - photoelectric effect",
+                            "Davisson and Germer experiment",
+                            "Heisenberg uncertainty principle",
+                            "Born interpretation of the wave function",
+                            "time independent Schrodinger wave equation",
+                            "particle in one dimensional potential box"
+                        ]
+                    },
+                    {
+                        "topic": "Solids",
+                        "subTopics": [
+                            "Symmetry in solids",
+                            "free electron theory (Drude & Lorentz, Sommerfeld)",
+                            "Fermi-Dirac distribution",
+                            "Bloch’s theorem",
+                            "Kronig-Penney model",
+                            "E-K diagram- effective mass of electron-origin of energy bands",
+                            "classification of solids"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT 2: SEMICONDUCTORS AND DEVICES",
+                "topics": [
+                    {
+                        "topic": "Semiconductors",
+                        "subTopics": [
+                            "Intrinsic and extrinsic semiconductors",
+                            "Hall effect",
+                            "direct and indirect band gap semiconductors"
+                        ]
+                    },
+                    {
+                        "topic": "Devices",
+                        "subTopics": [
+                            "construction, principle of operation and characteristics of P-N Junction diode",
+                            "Zener diode and bipolar junction transistor (BJT)",
+                            "LED",
+                            "PIN diode",
+                            "avalanche photo diode (APD) and solar cells",
+                            "their structure",
+                            "materials",
+                            "working principle and characteristics"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT 3: DIELECTRIC, MAGNETIC AND ENERGY MATERIALS",
+                "topics": [
+                    {
+                        "topic": "Dielectric Materials",
+                        "subTopics": [
+                            "Basic definitions",
+                            "types of polarizations (qualitative)",
+                            "ferroelectric",
+                            "piezoelectric",
+                            "and pyroelectric materials",
+                            "applications",
+                            "liquid crystal displays (LCD) and crystal oscillators"
+                        ]
+                    },
+                    {
+                        "topic": "Magnetic Materials",
+                        "subTopics": [
+                            "Hysteresis",
+                            "soft and hard magnetic materials",
+                            "magnetostriction",
+                            "magnetoresistance",
+                            "applications",
+                            "bubble memory devices",
+                            "magnetic field sensors and multiferroics"
+                        ]
+                    },
+                    {
+                        "topic": "Energy Materials",
+                        "subTopics": [
+                            "Conductivity of liquid and solid electrolytes",
+                            "superionic conductors",
+                            "materials and electrolytes for super capacitors",
+                            "rechargeable ion batteries",
+                            "solid fuel cells"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT 4: NANOTECHNOLOGY",
+                "topics": [
+                    {
+                        "topic": "Nanoscale",
+                        "subTopics": [
+                            "quantum confinement",
+                            "surface to volume ratio"
+                        ]
+                    },
+                    {
+                        "topic": "Fabrication Techniques",
+                        "subTopics": [
+                            "bottom-up fabrication: sol-gel",
+                            "precipitation",
+                            "combustion methods",
+                            "top-down fabrication: ball milling",
+                            "physical vapor deposition (PVD)",
+                            "chemical vapor deposition (CVD)"
+                        ]
+                    },
+                    {
+                        "topic": "Characterization Techniques",
+                        "subTopics": [
+                            "XRD",
+                            "SEM & TEM"
+                        ]
+                    },
+                    {
+                        "topic": "Applications of Nanomaterials",
+                        "subTopics": []
+                    }
+                ]
+            },
+            {
+                "name": "UNIT 5: LASER AND FIBER OPTICS",
+                "topics": [
+                    {
+                        "topic": "Lasers",
+                        "subTopics": [
+                            "Laser beam characteristics",
+                            "three quantum processes",
+                            "Einstein coefficients and their relationslasing action",
+                            "pumping methods",
+                            "ruby laser",
+                            "He-Ne laser",
+                            "CO2 laser",
+                            "Argon ion Laser",
+                            "Nd:YAG laser",
+                            "semiconductor laser",
+                            "applications of laser"
+                        ]
+                    },
+                    {
+                        "topic": "Fiber Optics",
+                        "subTopics": [
+                            "Introduction to optical fiber",
+                            "advantages of optical Fibers",
+                            "total internal reflection",
+                            "construction of optical fiber",
+                            "acceptance angle",
+                            "numerical aperture",
+                            "classification of optical fibers",
+                            "losses in optical fiber",
+                            "optical fiber for communication system",
+                            "applications"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "links": [
+            {
+                "name": "AP unit 2 long answers",
+                "link": "./resources/1st Year/PH102-Unit2.pdf"
+            },
+            {
+                "name": "AP unit 4 long answers",
+                "link": "./resources/1st Year/PH102-Unit4.pdf"
+            },
+            {
+                "name": "AP unit 5 long answers",
+                "link": "./resources/1st Year/PH102-Unit5.pdf"
+            },
+            {
+                "name": "AP Sem 1 Bit Questions",
+                "link": "./resources/1st Year/PH102-Sem1-bits.pdf"
+            },
+            {
+                "name": "AP Sem 1 Important Questions",
+                "link": "./resources/1st Year/PH102-Sem1-imp-questions.pdf"
+            }
+        ]
+    }
+    
+]
