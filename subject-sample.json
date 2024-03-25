@@ -1,64 +1,25 @@
 [
   {
       "name": "Subject name",
-      "code": "subject code",
+      "code": "DBMSL",
       "units": [
           {
-              "name": "UNIT 1: unit name",
+              "name": "List of Experiments",
               "topics": [
                   {
-                      "topic": "unit topic 1 name",
-                      "subTopics": [
-                          "subTopics",
-                          "subTopics"
-                          // and so on
-                      ]
+                      "topic": "1. Concept design with E-R Model ",
+                      "subTopics": []
                   },
                   {
-                      "topic": "unit topic 2 name",
-                      "subTopics": [
-                        "subTopics",
-                        "subTopics"
-                        // and so on
-                      ]
+                      "topic": "2. Relational Model",
+                      "subTopics": []
                   }
                   // and so on
               ]
-          },
-          {
-            "name": "UNIT 2: unit name",
-            "topics": [
-                {
-                    "topic": "unit topic 1 name ",
-                    "subTopics": [
-                        "subTopics",
-                        "subTopics",
-                        // and so on
-                    ]
-                },
-                {
-                    "topic": "unit topic 2 name",
-                    "subTopics": [
-                      "subTopics",
-                      "subTopics",
-                      // and so on
-                    ]
-                }
-                // and so on
-            ]
-        } // till unit 5
+          }
           
       ],
-      "links": [
-          {
-              "name": "AP unit 1",
-              "link": "./resources/1st Year/PH102-Unit1.pdf"
-          },
-          {
-              "name": "AP unit 2",
-              "link": "./resources/1st Year/AP-Unit2.pdf"
-          } // and so on
-      ]
+      "links": []
   }
   
 ]

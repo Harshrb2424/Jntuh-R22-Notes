@@ -1,0 +1,204 @@
+[
+    {
+      "name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+      "code": "OOPS",
+      "units": [
+        {
+          "name": "UNIT - 1: Object oriented thinking and Java Basics",
+          "topics": [
+            {
+              "topic": "Object oriented thinking and Java Basics",
+              "subTopics": [
+                "Need for oop paradigm",
+                "Summary of oop concepts",
+                "Coping with complexity",
+                "Abstraction mechanisms",
+                "Agents, responsibility, messages, methods",
+                "History of Java",
+                "Java buzzwords",
+                "Data types",
+                "Variables",
+                "Scope and lifetime of variables",
+                "Arrays",
+                "Operators",
+                "Expressions",
+                "Control statements",
+                "Type conversion and casting",
+                "Simple java program",
+                "Concepts of classes, objects",
+                "Constructors",
+                "Methods",
+                "Access control",
+                "This keyword",
+                "Garbage collection",
+                "Overloading methods and constructors",
+                "Method binding",
+                "Inheritance",
+                "Overriding and exceptions",
+                "Parameter passing",
+                "Recursion",
+                "Nested and inner classes",
+                "Exploring string class"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 2: Inheritance, Packages and Interfaces",
+          "topics": [
+            {
+              "topic": "Inheritance, Packages and Interfaces",
+              "subTopics": [
+                "Hierarchical abstractions",
+                "Base class object",
+                "Subclass",
+                "Subtype",
+                "Substitutability",
+                "Forms of inheritance",
+                "Specialization",
+                "Specification",
+                "Construction",
+                "Extension",
+                "Limitation",
+                "Combination",
+                "Benefits of inheritance",
+                "Costs of inheritance",
+                "Member access rules",
+                "Super uses",
+                "Using final with inheritance",
+                "Polymorphism",
+                "Method overriding",
+                "Abstract classes",
+                "The Object class",
+                "Defining, creating and accessing a package",
+                "Understanding CLASSPATH",
+                "Importing packages",
+                "Differences between classes and interfaces",
+                "Defining an interface",
+                "Implementing interface",
+                "Applying interfaces",
+                "Variables in interface",
+                "Extending interfaces",
+                "Exploring java.io"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 3: Exception Handling and Multithreading",
+          "topics": [
+            {
+              "topic": "Exception handling and Multithreading",
+              "subTopics": [
+                "Concepts of exception handling",
+                "Benefits of exception handling",
+                "Termination or resumptive models",
+                "Exception hierarchy",
+                "Usage of try, catch, throw, throws and finally",
+                "Built-in exceptions",
+                "Creating own exception subclasses",
+                "String handling",
+                "Exploring java.util",
+                "Differences between multithreading and multitasking",
+                "Thread life cycle",
+                "Creating threads",
+                "Thread priorities",
+                "Synchronizing threads",
+                "Inter thread communication",
+                "Thread groups",
+                "Daemon threads",
+                "Enumerations",
+                "Autoboxing",
+                "Annotations",
+                "Generics"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 4: Event Handling and AWT",
+          "topics": [
+            {
+              "topic": "Event Handling",
+              "subTopics": [
+                "Events",
+                "Event sources",
+                "Event classes",
+                "Event Listeners",
+                "Delegation event model",
+                "Handling mouse and keyboard events",
+                "Adapter classes"
+              ]
+            },
+            {
+              "topic": "AWT",
+              "subTopics": [
+                "The AWT class hierarchy",
+                "User interface components",
+                "Labels",
+                "Button",
+                "Canvas",
+                "Scrollbars",
+                "Text components",
+                "Check box",
+                "Checkbox groups",
+                "Choices",
+                "Lists panels",
+                "Scrollpane",
+                "Dialogs",
+                "Menubar",
+                "Graphics",
+                "Layout manager",
+                "Border",
+                "Grid",
+                "Flow",
+                "Card",
+                "Grid bag"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 5: Applets and Swing",
+          "topics": [
+            {
+              "topic": "Applets",
+              "subTopics": [
+                "Concepts of Applets",
+                "Differences between applets and applications",
+                "Life cycle of an applet",
+                "Types of applets",
+                "Creating applets",
+                "Passing parameters to applets"
+              ]
+            },
+            {
+              "topic": "Swing",
+              "subTopics": [
+                "Introduction",
+                "Limitations of AWT",
+                "MVC architecture",
+                "Components and containers",
+                "Exploring swing",
+                "JApplet",
+                "JFrame",
+                "JComponent",
+                "Icons and Labels",
+                "Text fields",
+                "Buttons",
+                "Check boxes",
+                "Radio buttons",
+                "Combo boxes",
+                "Tabbed Panes",
+                "Scroll Panes",
+                "Trees",
+                "Tables"
+              ]
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+  

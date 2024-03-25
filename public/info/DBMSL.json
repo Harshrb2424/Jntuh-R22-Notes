@@ -1,0 +1,57 @@
+[
+    {
+        "name": "DATABASE MANAGEMENT SYSTEMS LAB",
+        "code": "DBMS",
+        "units": [
+            {
+                "name": "List of Experiments",
+                "topics": [
+                    {
+                        "topic": "1. Concept design with E-R Model",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "2. Relational Model",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "3. Normalization",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "4. Practicing DDL commands",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "5. Practicing DML commands",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "6.",
+                        "subTopics": [
+                            "A. Querying (using ANY, ALL, UNION, INTERSECT, JOIN, Constraints etc.)",
+                            "B. Nested, Correlated subqueries"
+                        ]
+                    },
+                    {
+                        "topic": "7. Queries using Aggregate functions, GROUP BY, HAVING and Creation and dropping of Views.",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "8. Triggers (Creation of insert trigger, delete trigger, update trigger)",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "9. Procedures",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "10. Usage of Cursors",
+                        "subTopics": []
+                    }
+                ]
+            }
+        ],
+        "links": []
+    }
+]

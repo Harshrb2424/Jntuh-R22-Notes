@@ -1,0 +1,74 @@
+[
+    {
+      "name": "ENGINEERING CHEMISTRY LABORATORY",
+      "code": "ECL",
+      "units": [
+        {
+          "name": "List of Experiments",
+          "topics": [
+            {
+              "topic": "I. Volumetric Analysis: Estimation of Hardness of water by EDTA Complexometry method.",
+              "subTopics": []
+            },
+            {
+              "topic": "II. Conductometry: Estimation of the concentration of an acid by Conductometry.",
+              "subTopics": []
+            },
+            {
+              "topic": "III. Potentiometry: Estimation of the amount of Fe+2 by Potentiomentry.",
+              "subTopics": []
+            },
+            {
+              "topic": "IV. pH Metry: Determination of an acid concentration using pH meter.",
+              "subTopics": []
+            },
+            {
+              "topic": "V. Preparations:",
+              "subTopics": [
+                {
+                  "subTopic": "1. Preparation of Bakelite."
+                },
+                {
+                  "subTopic": "2. Preparation Nylon – 6."
+                }
+              ]
+            },
+            {
+              "topic": "VI. Lubricants:",
+              "subTopics": [
+                {
+                  "subTopic": "1. Estimation of acid value of given lubricant oil."
+                },
+                {
+                  "subTopic": "2. Estimation of Viscosity of lubricant oil using Ostwald’s Viscometer."
+                }
+              ]
+            },
+            {
+              "topic": "VII. Corrosion: Determination of rate of corrosion of mild steel in the presence and absence of inhibitor.",
+              "subTopics": []
+            },
+            {
+              "topic": "VIII. Virtual lab experiments",
+              "subTopics": [
+                {
+                  "subTopic": "1. Construction of Fuel cell and its working."
+                },
+                {
+                  "subTopic": "2. Smart materials for Biomedical applications"
+                },
+                {
+                  "subTopic": "3. Batteries for electrical vehicles."
+                },
+                {
+                  "subTopic": "4. Functioning of solar cell and its applications."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+  

@@ -1,0 +1,120 @@
+[
+    {
+      "name": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE",
+      "code": "IAI",
+      "units": [
+        {
+          "name": "UNIT - 1: Introduction to AI and Problem-Solving Agents",
+          "topics": [
+            {
+              "topic": "Introduction to AI - Intelligent Agents",
+              "subTopics": [
+                "Problem-Solving Agents"
+              ]
+            },
+            {
+              "topic": "Searching for Solutions",
+              "subTopics": [
+                "Breadth-first search",
+                "Depth-first search",
+                "Hill-climbing search",
+                "Simulated annealing search",
+                "Local Search in Continuous Spaces"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 2: Games and Knowledge-Based Agents",
+          "topics": [
+            {
+              "topic": "Games",
+              "subTopics": [
+                "Optimal Decisions in Games",
+                "Alpha–Beta Pruning"
+              ]
+            },
+            {
+              "topic": "Constraint Satisfaction Problems (CSPs)",
+              "subTopics": [
+                "Defining Constraint Satisfaction Problems",
+                "Constraint Propagation",
+                "Backtracking Search for CSPs"
+              ]
+            },
+            {
+              "topic": "Knowledge-Based Agents",
+              "subTopics": [
+                "Logic",
+                "Propositional Logic",
+                "Propositional Theorem Proving: Inference and proofs",
+                "Proof by resolution",
+                "Horn clauses and definite clauses"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 3: First-Order Logic and Knowledge Representation",
+          "topics": [
+            {
+              "topic": "First-Order Logic",
+              "subTopics": [
+                "Syntax and Semantics of First-Order Logic",
+                "Using First Order Logic",
+                "Inference in First-Order Logic: Propositional vs. First-Order Inference",
+                "Unification",
+                "Forward Chaining",
+                "Backward Chaining",
+                "Resolution"
+              ]
+            },
+            {
+              "topic": "Knowledge Representation",
+              "subTopics": [
+                "Ontological Engineering",
+                "Categories and Objects",
+                "Events"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 4: Planning",
+          "topics": [
+            {
+              "topic": "Planning",
+              "subTopics": [
+                "Definition of Classical Planning",
+                "Algorithms for Planning with State Space Search",
+                "Planning Graphs",
+                "Other Classical Planning Approaches",
+                "Analysis of Planning approaches",
+                "Hierarchical Planning"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 5: Probabilistic Reasoning",
+          "topics": [
+            {
+              "topic": "Probabilistic Reasoning",
+              "subTopics": [
+                "Acting under Uncertainty",
+                "Basic Probability Notation",
+                "Bayes’ Rule and Its Use",
+                "Representing Knowledge in an Uncertain Domain",
+                "The Semantics of Bayesian Networks",
+                "Efficient Representation of Conditional Distributions",
+                "Approximate Inference in Bayesian Networks",
+                "Relational and First-Order Probability"
+              ]
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+  

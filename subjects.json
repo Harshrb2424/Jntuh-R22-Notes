@@ -112,7 +112,15 @@
     "tags": [
       "Technical"
     ],
-    "info": []
+    "info": [
+      "Planck’s constant ", "Hall co-efficient and carrier concentration",
+      "series and parallel LCR circuits",
+      "Diodes",
+      "Resistivity of Semiconductor",
+      "Magnetic Material",
+      "LASER beam",
+      "Torsional Pendulum"
+    ]
   },
   {
     "name": "Programming for Problem Solving Laboratory ",
@@ -237,6 +245,28 @@
       "Junction Field Effect Transistor",
       "Special Purpose Devices"
     ]
+  },
+  {
+    "name": " PYTHON PROGRAMMING LABORATORY",
+    "code": "PPL",
+    "year": 1,
+    "sem": 2,
+    "credits": 2,
+    "tags": [
+      "Technical"
+    ],
+    "info": []
+  },
+  {
+    "name": " ENGINEERING CHEMISTRY LABORATORY",
+    "code": "ECL",
+    "year": 1,
+    "sem": 2,
+    "credits": 1,
+    "tags": [
+      "Technical"
+    ],
+    "info": []
   },
   {
     "name": "MATHEMATICAL AND STATISTICAL FOUNDATIONS",
@@ -378,6 +408,24 @@
       "Data on External Storagee"
     ]
   },
+
+  {
+    "name": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE",
+    "code": "IAI",
+    "year": 2,
+    "sem": 2,
+    "credits": 3,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "Introduction to AI, Searching for Solutions",
+      "Games",
+      "First-Order Logic, Knowledge Representation",
+      "Planning",
+      "Probabilistic Reasoning"
+    ]
+  },
   {
     "name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
     "code": "OOPS",
@@ -396,20 +444,55 @@
     ]
   },
   {
-    "name": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE",
-    "code": "IAI",
+    "name": "DATABASE MANAGEMENT SYSTEMS LAB",
+    "code": "DBMSL",
     "year": 2,
     "sem": 2,
-    "credits": 3,
+    "credits": 1,
     "tags": [
-      "Core"
+      "Technical"
     ],
     "info": [
-      "Introduction to AI, Searching for Solutions",
-      "Games",
-      "First-Order Logic, Knowledge Representation",
-      "Planning",
-      "Probabilistic Reasoning"
+      "Model",
+      "Normalization",
+      "Commands",
+      "Queries using Aggregate functions",
+      "Procedures",
+      "Usage of Cursors"
+    ]
+  },
+  {
+    "name": "JAVA PROGRAMMING LAB",
+    "code": "JAVAL",
+    "year": 2,
+    "sem": 2,
+    "credits": 1,
+    "tags": [
+      "Technical"
+    ],
+    "info": [
+      "Encapsulation, Inheritance,Polymorphism and Abstraction",
+      "Random Access File",
+      "Package Structure",
+      "CRUD operations",
+      "Adapter classes"
+    ]
+  },
+  {
+    "name": "PROLOG/ LISP/ PYSWIP",
+    "code": "PLP",
+    "year": 2,
+    "sem": 2,
+    "credits": 1,
+    "tags": [
+      "Technical"
+    ],
+    "info": [
+      "Basics",
+      "Monkey Banana problem",
+      "predicate ",
+      "countLists",
+      "accumulator"
     ]
   },
   {

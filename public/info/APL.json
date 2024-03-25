@@ -1,0 +1,64 @@
+[
+    {
+        "name": "APPLIED PHYSICS LABORATORY",
+        "code": "APL",
+        "units": [
+            {
+                "name": "LIST OF EXPERIMENTS",
+                "topics": [
+                    {
+                        "topic": "1. Determination of work function and Planck’s constant using photoelectric effect.",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "2. Determination of Hall co-efficient and carrier concentration of a given semiconductor.",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "3. Characteristics of series and parallel LCR circuits.",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "4. V-I characteristics of a p-n junction diode and Zener diode.",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "5. Input and output characteristics of BJT (CE, CB & CC configurations).",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "6. a) V-I and L-I characteristics of light emitting diode (LED). b) V-I Characteristics of solar cell.",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "7. Determination of Energy gap of a semiconductor.",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "8. Determination of the resistivity of semiconductor by two probe method.",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "9. Study B-H curve of a magnetic material.",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "10. Determination of dielectric constant of a given material.",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "11. a) Determination of the beam divergence of the given LASER beam. b) Determination of Acceptance Angle and Numerical Aperture of an optical fiber.",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "12. Understanding the method of least squares – torsional pendulum as an example.",
+                        "subTopics": []
+                    }
+                ]
+            }
+            
+        ],
+        "links": []
+    }
+  ]
+  
