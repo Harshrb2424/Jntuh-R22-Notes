@@ -1,144 +1,460 @@
 [
-    {
-        "name": "Matrices and Calculus",
-        "code": "M1",
-        "year": 1,
-        "sem": 1,
-        "credits": 4,
-        "tags": [
-            "Core"
-        ],
-        "info": [
-            "Matrices",
-            "Eigen values and Eigen vectors",
-            "Calculus",
-            "Multivariable Calculus (Partial Differentiation and applications)",
-            "Multivariable Calculus (Integration)"
-        ]
-    },
-    {
-        "name": "Applied Physics",
-        "code": "AP",
-        "year": 1,
-        "sem": 1,
-        "credits": 4,
-        "tags": [
-            "Core"
-        ],
-        "info": [
-            "Quantum Physics and Solids",
-            "Semiconductors and Devices",
-            "Dielectric, Magnetic and Energy Materials",
-            "Nanotechnology",
-            "Laser and Fiber Optics"
-        ]
-    },
-    {
-        "name": "Programming for Problem Solving",
-        "code": "PPS",
-        "year": 1,
-        "sem": 1,
-        "credits": 3,
-        "tags": ["Core"],
-        "info": ["Introduction to Programming", 
-    "Arrays, Strings, Structures and Pointers",
-    "Preprocessor and File Handling in C",
-    "Function and Dynamic Memory Allocation",
-    "Searching and Sorting"
-]
-    },
-    {
-        "name": "Engineering Workshop",
-        "code": "EW",
-        "year": 1,
-        "sem": 1,
-        "credits": 2.5,
-        "tags": ["Applied"],
-        "info": [
-            "Carpentry", 
-            "Fitting",
-            "Tin-Smithy",
-            "Foundry",
-            "Welding Practice",
-            "House-wiring",
-            "Black Smithy"
-            
-        ]
-    },
-    {
-        "name": "English for Skill Enhancement",
-        "code": "ESE",
-        "year": 1,
-        "sem": 1,
-        "credits": 2,
-        "tags": ["General"],
-        "info": [
-"Toasted English", "Appro JRD", "Lessons from Online Learning",
-"Art and Literature", "Go, Kiss the World"
-        ]
-    },
-    {
-        "name": "Elements of Computer Science & Engineering",
-        "code": "ECSE",
-        "year": 1,
-        "sem": 1,
-        "credits": 4,
-        "tags": ["Applied "],
-        "info": [
-            "Basics of a Computer",
-            "Software Development and Program Development",
-            " Operating Systems and Database Management Systems",
-            "Computer Networks, World Wide Web, Security"
-, "Autonomous Systems, Cloud Basics"       ]
-    },
-    {
-        "name": "Applied Physics Laboratory",
-        "code": "APL",
-        "year": 1,
-        "sem": 1,
-        "credits": 1.5,
-        "tags": ["Technical"],
-        "info": [
-]
-    },
-    {
-        "name": "Programming for Problem Solving Laboratory ",
-        "code": "PPSL",
-        "year": 1,
-        "sem": 1,
-        "credits": 1,
-        "tags": ["Technical"],
-        "info": [
-]
-    },
-    {
-        "name": "English Language and Communication Skills Laboratory",
-        "code": "ELCSL",
-        "year": 1,
-        "sem": 1,
-        "credits": 1,
-        "tags": ["Technical"],
-        "info": [
-]
-    },
-    {
-        "name": "Environmental Science",
-        "code": "ES",
-        "year": 1,
-        "sem": 1,
-        "credits": 0,
-        "tags": ["General"],
-        "info": [
-]
-    },
-    {
-        "name": "Python",
-        "code": "PY",
-        "tags": [
-            "Technical"
-        ],
-        "info": [
-            "Subject 2 info"
-        ]
-    }
+  {
+    "name": "Matrices and Calculus",
+    "code": "M1",
+    "year": 1,
+    "sem": 1,
+    "credits": 4,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "Matrices",
+      "Eigen values and Eigen vectors",
+      "Calculus",
+      "Multivariable Calculus (Partial Differentiation and applications)",
+      "Multivariable Calculus (Integration)"
+    ]
+  },
+  {
+    "name": "Applied Physics",
+    "code": "AP",
+    "year": 1,
+    "sem": 1,
+    "credits": 4,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "Quantum Physics and Solids",
+      "Semiconductors and Devices",
+      "Dielectric, Magnetic and Energy Materials",
+      "Nanotechnology",
+      "Laser and Fiber Optics"
+    ]
+  },
+  {
+    "name": "Programming for Problem Solving",
+    "code": "PPS",
+    "year": 1,
+    "sem": 1,
+    "credits": 3,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "Introduction to Programming",
+      "Arrays, Strings, Structures and Pointers",
+      "Preprocessor and File Handling in C",
+      "Function and Dynamic Memory Allocation",
+      "Searching and Sorting"
+    ]
+  },
+  {
+    "name": "Engineering Workshop",
+    "code": "EW",
+    "year": 1,
+    "sem": 1,
+    "credits": 2.5,
+    "tags": [
+      "Applied"
+    ],
+    "info": [
+      "Carpentry",
+      "Fitting",
+      "Tin-Smithy",
+      "Foundry",
+      "Welding Practice",
+      "House-wiring",
+      "Black Smithy"
+    ]
+  },
+  {
+    "name": "English for Skill Enhancement",
+    "code": "ESE",
+    "year": 1,
+    "sem": 1,
+    "credits": 2,
+    "tags": [
+      "General"
+    ],
+    "info": [
+      "Toasted English",
+      "Appro JRD",
+      "Lessons from Online Learning",
+      "Art and Literature",
+      "Go, Kiss the World"
+    ]
+  },
+  {
+    "name": "Elements of Computer Science & Engineering",
+    "code": "ECSE",
+    "year": 1,
+    "sem": 1,
+    "credits": 4,
+    "tags": [
+      "Applied "
+    ],
+    "info": [
+      "Basics of a Computer",
+      "Software Development and Program Development",
+      " Operating Systems and Database Management Systems",
+      "Computer Networks, World Wide Web, Security",
+      "Autonomous Systems, Cloud Basics"
+    ]
+  },
+  {
+    "name": "Applied Physics Laboratory",
+    "code": "APL",
+    "year": 1,
+    "sem": 1,
+    "credits": 1.5,
+    "tags": [
+      "Technical"
+    ],
+    "info": []
+  },
+  {
+    "name": "Programming for Problem Solving Laboratory ",
+    "code": "PPSL",
+    "year": 1,
+    "sem": 1,
+    "credits": 1,
+    "tags": [
+      "Technical"
+    ],
+    "info": []
+  },
+  {
+    "name": "English Language and Communication Skills Laboratory",
+    "code": "ELCSL",
+    "year": 1,
+    "sem": 1,
+    "credits": 1,
+    "tags": [
+      "Technical"
+    ],
+    "info": []
+  },
+  {
+    "name": "Environmental Science",
+    "code": "ES",
+    "year": 1,
+    "sem": 1,
+    "credits": 0,
+    "tags": [
+      "General"
+    ],
+    "info": [
+      "Ecosystems",
+      "Natural Resources",
+      "Biodiversity and Biotic Resources",
+      "Environmental Pollution and Control Technologies",
+      "Environmental Policy, Legislation & EIA"
+    ]
+  },
+  {
+    "name": "ORDINARY DIFFERENTIAL EQUATIONS AND VECTOR CALCULUS",
+    "code": "M2",
+    "year": 1,
+    "sem": 2,
+    "credits": 4,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "First Order ODE",
+      "Ordinary Differential Equations of Higher Order",
+      "Laplace transforms",
+      "Vector Differentiation",
+      " Vector Integration"
+    ]
+  },
+  {
+    "name": "ENGINEERING CHEMISTRY ",
+    "code": "EC",
+    "year": 1,
+    "sem": 2,
+    "credits": 4,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "Water and its treatment",
+      "Battery Chemistry & Corrosion",
+      "Polymeric materials",
+      "Energy Sources",
+      "Energy Sources"
+    ]
+  },
+  {
+    "name": "COMPUTER AIDED ENGINEERING GRAPHICS ",
+    "code": "EG",
+    "year": 1,
+    "sem": 2,
+    "credits": 3,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "Introduction to Engineering Graphics",
+      "Orthographic Projections",
+      "Projections of Regular Solids",
+      "Development of Surfaces of Right Regular Solids",
+      "Isometric Projections"
+    ]
+  },
+  {
+    "name": "BASIC ELECTRICAL ENGINEERING ",
+    "code": "BEE",
+    "year": 1,
+    "sem": 2,
+    "credits": 2,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "DC Circuits",
+      "AC Circuits",
+      "Transformers",
+      "Electrical Machines",
+      "Electrical Installations"
+    ]
+  },
+  {
+    "name": "ELECTRONIC DEVICES AND CIRCUITS",
+    "code": "EDC",
+    "year": 1,
+    "sem": 2,
+    "credits": 2,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "Diodes",
+      "Diode Applications",
+      "Bipolar Junction Transistor",
+      "Junction Field Effect Transistor",
+      "Special Purpose Devices"
+    ]
+  },
+  {
+    "name": "MATHEMATICAL AND STATISTICAL FOUNDATIONS",
+    "code": "MSF",
+    "year": 2,
+    "sem": 1,
+    "credits": 4,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "Greatest Common Divisors and Prime Factorization",
+      "Congruences",
+      "Simple Linear Regression and Correlation",
+      "Random Variables and Probability Distributions",
+      "Discrete Probability Distributions",
+      "Continuous Probability Distributions",
+      "Fundamental Sampling Distributions",
+      "Estimation & Tests of Hypotheses",
+      "Stochastic Processes and Markov Chains"
+    ]
+  },
+  {
+    "name": "DATA STRUCTURES",
+    "code": "DS",
+    "year": 2,
+    "sem": 1,
+    "credits": 3,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "Introduction to Data Structures",
+      "Dictionaries",
+      "Search Trees",
+      "Graphs ans Sorting",
+      "Pattern Matching and Tries"
+    ]
+  },
+  {
+    "name": "COMPUTER ORGANIZATION AND ARCHITECTURE",
+    "code": "COA",
+    "year": 2,
+    "sem": 1,
+    "credits": 3,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "Digital Computers",
+      "Microprogrammed Control and CPU",
+      "Data Representation and Computer Arithmetic",
+      "Organization",
+      "Reduced Instruction Set Computer, Pipeline and Multi Processors"
+    ]
+  },
+  {
+    "name": "SOFTWARE ENGINEERING",
+    "code": "SE",
+    "year": 2,
+    "sem": 1,
+    "credits": 3,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "Introduction to Software Engineering",
+      "Software Requirements",
+      "Design Engineering",
+      "Testing Strategies",
+      "Risk management"
+    ]
+  },
+  {
+    "name": "OPERATING SYSTEMS",
+    "code": "OS",
+    "year": 2,
+    "sem": 1,
+    "credits": 3,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "Operating System - Introduction and Process",
+      "CPU Scheduling and Deadlock",
+      "Process Management and Synchronization and Interprocess Communication Mechanisms:",
+      "Memory Management and Virtual Memory",
+      "File System Interface and Operations"
+    ]
+  },
+  {
+    "name": "DISCRETE MATHEMATICS",
+    "code": "DM",
+    "year": 2,
+    "sem": 2,
+    "credits": 3,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "Mathematical logic",
+      "Set theory",
+      "Algebraic Structures",
+      "Elementary Combinatorics",
+      "Graph Theorym"
+    ]
+  },
+  {
+    "name": "AUTOMATA THEORY AND COMPILER DESIGN",
+    "code": "ATCD",
+    "year": 2,
+    "sem": 2,
+    "credits": 3,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "Introduction to Finite Automata",
+      "Regular Expressions",
+      "Push Down Automata",
+      "Introduction",
+      "Syntax-Directed Translationt"
+    ]
+  },
+  {
+    "name": "DATABASE MANAGEMENT SYSTEMS",
+    "code": "DBMS",
+    "year": 2,
+    "sem": 2,
+    "credits": 3,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "Database System Applications",
+      "Introduction to the Relational Model",
+      "SQL: QUERIES, CONSTRAINTS, TRIGGERS",
+      "Transaction Concept",
+      "Data on External Storagee"
+    ]
+  },
+  {
+    "name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+    "code": "OOPS",
+    "year": 2,
+    "sem": 2,
+    "credits": 3,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "Object oriented thinking and Java Basics",
+      "Inheritance, Packages and Interfaces",
+      "Exception handling and Multithreading",
+      "Event Handling",
+      "Applets"
+    ]
+  },
+  {
+    "name": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE",
+    "code": "IAI",
+    "year": 2,
+    "sem": 2,
+    "credits": 3,
+    "tags": [
+      "Core"
+    ],
+    "info": [
+      "Introduction to AI, Searching for Solutions",
+      "Games",
+      "First-Order Logic, Knowledge Representation",
+      "Planning",
+      "Probabilistic Reasoning"
+    ]
+  },
+  {
+    "name": "GENDER SENSITIZATION LAB",
+    "code": "GSL",
+    "year": 2,
+    "sem": 2,
+    "credits": 0,
+    "tags": [
+      "General"
+    ],
+    "info": [
+      "UNDERSTANDING GENDER",
+      "GENDER ROLES AND RELATIONS",
+      "GENDER AND LABOUR",
+      "GENDER - BASED VIOLENCE",
+      "GENDER AND CULTURE"
+    ]
+  },
+  {
+    "name": "DESIGN AND ANALYSIS OF ALGORITHMS",
+    "code": "DAA",
+    "year": 3,
+    "sem": 1,
+    "credits": 4,
+    "info": [
+      "Introduction, Divide and conquer",
+      "Disjoint Sets, Backtracking",
+      "Dynamic Programming",
+      "Greedy method, Basic Traversal and Search Techniques",
+      "Branch and Bound, NP-Hard and NP-Complete problemss"
+    ]
+  },
+  {
+    "name": "MACHINE LEARNING",
+    "code": "ML",
+    "year": 3,
+    "sem": 1,
+    "credits": 3,
+    "info": [
+      "Learning",
+      "Multi-layer Perceptron",
+      "Learning with Trees",
+      "Dimensionality Reduction",
+      "Reinforcement Learnings"
+    ]
+  }
 ]
