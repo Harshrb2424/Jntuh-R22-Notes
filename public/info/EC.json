@@ -1,0 +1,142 @@
+[
+    {
+      "name": "ENGINEERING CHEMISTRY",
+      "code": "EC",
+      "units": [
+        {
+          "name": "UNIT - 1: Water and its treatment",
+          "topics": [
+            {
+              "topic": "Introduction to hardness of water",
+              "subTopics": [
+                "Estimation of hardness of water by complexometric method and related numerical problems"
+              ]
+            },
+            {
+              "topic": "Potable water and its specifications",
+              "subTopics": [
+                "Steps involved in the treatment of potable water",
+                "Disinfection of potable water by chlorination and break-point chlorination",
+                "Defluoridation - Determination of F- ion by ion-selective electrode method"
+              ]
+            },
+            {
+              "topic": "Boiler troubles",
+              "subTopics": [
+                "Sludges, Scales and Caustic embrittlement",
+                "Internal treatment of Boiler feed water - Calgon conditioning, Phosphate conditioning, Colloidal conditioning",
+                "External treatment methods - Softening of water by ion-exchange processes",
+                "Desalination of water – Reverse osmosis"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT – 2 Battery Chemistry & Corrosion",
+          "topics": [
+            {
+              "topic": "Introduction to Batteries",
+              "subTopics": [
+                "Classification of batteries: primary, secondary and reserve batteries with examples",
+                "Basic requirements for commercial batteries",
+                "Construction, working and applications of: Zn-air and Lithium ion battery",
+                "Applications of Li-ion battery to electrical vehicles",
+                "Fuel Cells - Differences between battery and a fuel cell",
+                "Construction and applications of Methanol Oxygen fuel cell and Solid oxide fuel cell",
+                "Solar cells - Introduction and applications of Solar cells"
+              ]
+            },
+            {
+              "topic": "Corrosion",
+              "subTopics": [
+                "Causes and effects of corrosion",
+                "Theories of chemical and electrochemical corrosion",
+                "Mechanism of electrochemical corrosion",
+                "Types of corrosion: Galvanic, water-line and pitting corrosion",
+                "Factors affecting rate of corrosion",
+                "Corrosion control methods - Cathodic protection: Sacrificial anode and impressed current methods"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 3: Polymeric materials",
+          "topics": [
+            {
+              "topic": "Definition and Classification of polymers",
+              "subTopics": [
+                "Types of polymerization: addition (free radical addition) and condensation polymerization with examples",
+                "Nylon 6:6, Terylene",
+                "Plastics: Definition and characteristics, thermoplastic and thermosetting plastics",
+                "Preparation, Properties and engineering applications of PVC and Bakelite, Teflon, Fiber reinforced plastics (FRP)",
+                "Rubbers: Natural rubber and its vulcanization",
+                "Elastomers: Characteristics, preparation, properties and applications of Buna-S, Butyl and Thiokol rubber",
+                "Conducting polymers: Characteristics and Classification with examples",
+                "Biodegradable polymers: Concept and advantages - Polylactic acid and poly vinyl alcohol and their applications"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 4: Energy Sources",
+          "topics": [
+            {
+              "topic": "Introduction and Classification of energy sources",
+              "subTopics": [
+                "Calorific value of fuel – HCV, LCV- Dulongs formula",
+                "Solid fuels: coal – analysis of coal – proximate and ultimate analysis and their significance",
+                "Liquid fuels – petroleum and its refining, cracking types – moving bed catalytic cracking",
+                "Knocking – octane and cetane rating, synthetic petrol - Fischer-Tropsch’s process",
+                "Gaseous fuels – composition and uses of natural gas, LPG and CNG",
+                "Biodiesel – Transesterification, advantages"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 5: Engineering Materials",
+          "topics": [
+            {
+              "topic": "Cement and Smart materials",
+              "subTopics": [
+                "Portland cement, its composition, setting and hardening",
+                "Smart materials and their engineering applications: Shape memory materials - Poly L- Lactic acid, Thermoresponse materials - Polyacryl amides, Poly vinyl amides"
+              ]
+            },
+            {
+              "topic": "Lubricants",
+              "subTopics": [
+                "Classification of lubricants with examples",
+                "Characteristics of a good lubricants",
+                "Mechanism of lubrication (thick film, thin film and extreme pressure)",
+                "Properties of lubricants: viscosity, cloud point, pour point, flash point and fire point"
+              ]
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+            "name": "EC Unit 1 Water And Its Treatment",
+            "link": "./resources/1st Year/CH202-Unit1.pdf"
+        },
+        {
+            "name": "EC Unit 2 Battery Chemistry & Corrosion",
+            "link": "./resources/1st Year/CH202-Unit2.pdf"
+        },
+        {
+            "name": "EC Unit 3  Polymeric Materials",
+            "link": "./resources/1st Year/CH202-Unit3.pdf"
+        },
+        {
+            "name": "EC Unit 4 Energy Sources",
+            "link": "./resources/1st Year/CH202-Unit4.pdf"
+        },
+        {
+            "name": "EC Unit 5 Engineering Materials",
+            "link": "./resources/1st Year/CH202-Unit5.pdf"
+        }
+      ]
+    }
+  ]
+  

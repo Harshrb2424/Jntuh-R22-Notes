@@ -1,0 +1,153 @@
+[
+    {
+      "name": "MATHEMATICAL AND STATISTICAL FOUNDATIONS",
+      "code": "MSF",
+      "units": [
+        {
+          "name": "UNIT - 1 Greatest Common Divisors and Prime Factorization and Congruences",
+          "topics": [
+            {
+              "topic": "Greatest Common Divisors and Prime Factorization",
+              "subTopics": [
+                "Greatest common divisors",
+                "The Euclidean algorithm",
+                "The fundamental theorem of arithmetic",
+                "Factorization of integers and the Fermat numbers"
+              ]
+            },
+            {
+              "topic": "Congruences",
+              "subTopics": [
+                "Introduction to congruences",
+                "Linear congruences",
+                "The Chinese remainder theorem",
+                "Systems of linear congruences"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 2 Simple Linear Regression and Correlation",
+          "topics": [
+            {
+              "topic": "Simple Linear Regression and Correlation",
+              "subTopics": [
+                "Introduction to Linear Regression",
+                "The Simple Linear Regression Model",
+                "Least Squares and the Fitted Model",
+                "Properties of the Least Squares Estimators",
+                "Inferences Concerning the Regression Coefficients",
+                "Prediction",
+                "Simple Linear Regression Case Study"
+              ]
+            },
+            {
+              "topic": "Random Variables and Probability Distributions",
+              "subTopics": [
+                "Concept of a Random Variable",
+                "Discrete Probability Distributions",
+                "Continuous Probability Distributions",
+                "Statistical Independence",
+                "Discrete Probability Distributions: Binomial Distribution, Poisson distribution"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 3 Continuous Probability Distributions",
+          "topics": [
+            {
+              "topic": "Continuous Probability Distributions",
+              "subTopics": [
+                "Normal Distribution",
+                "Areas under the Normal Curve",
+                "Applications of the Normal Distribution",
+                "Normal Approximation to the Binomial"
+              ]
+            },
+            {
+              "topic": "Fundamental Sampling Distributions",
+              "subTopics": [
+                "Random Sampling",
+                "Sampling Distributions",
+                "Sampling Distribution of Means and the Central Limit Theorem",
+                "Sampling Distribution of S^2",
+                "t-Distribution",
+                "F-Distribution"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 4 Estimation & Tests of Hypotheses",
+          "topics": [
+            {
+              "topic": "Estimation & Tests of Hypotheses",
+              "subTopics": [
+                "Introduction, Statistical Inference",
+                "Classical Methods of Estimation",
+                "Estimating the Mean",
+                "Standard Error of a Point Estimate",
+                "Prediction Intervals",
+                "Tolerance Limits",
+                "Estimating the Variance",
+                "Estimating a Proportion for single mean",
+                "Difference between Two Means",
+                "Between Two Proportions for Two Samples",
+                "Maximum Likelihood Estimation"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 5 Stochastic Processes and Markov Chains",
+          "topics": [
+            {
+              "topic": "Stochastic Processes and Markov Chains",
+              "subTopics": [
+                "Introduction to Stochastic processes- Markov process",
+                "Transition Probability",
+                "Transition Probability Matrix",
+                "First order and Higher order Markov process",
+                "N-step transition probabilities",
+                "Markov chain",
+                "Steady state condition",
+                "Markov analysis"
+              ]
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+            "name": "MSF Unit  1 Greatest Common Divisors And Prime Factorization And Congruences",
+            "link": "./resources/2nd Year/MSF-Unit1.pdf"
+        },
+        {
+            "name": "MSF Unit 2 Simple Linear Regression And Correlation",
+            "link": "./resources/2nd Year/MSF-Unit2.pdf"
+        },
+        {
+            "name": "MSF Unit 3 Continuous Probability Distributions",
+            "link": "./resources/2nd Year/MSF-Unit3.pdf"
+        },
+        {
+            "name": "MSF Unit 4 Estimation & Tests Of Hypotheses",
+            "link": "./resources/2nd Year/MSF-Unit4.pdf"
+        },
+        {
+            "name": "MSF Unit 5 Stochastic Processes And Markov Chains",
+            "link": "./resources/2nd Year/MSF-Unit5.pdf"
+        },
+        {
+            "name": "MSF Mid 1 Quesetion and Answers",
+            "link": "./resources/2nd Year/MSF-Mid-1-QnA.pdf"
+        },
+        {
+            "name": "MSF Mid 2 Quesetion and Answers",
+            "link": "./resources/2nd Year/MSF-Mid-2-QnA.pdf"
+        }
+      ]
+    }
+  ]
+  

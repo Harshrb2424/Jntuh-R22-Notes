@@ -1,0 +1,106 @@
+[
+    {
+      "name": "BASIC ELECTRICAL ENGINEERING",
+      "code": "BEE",
+      "units": [
+        {
+          "name": "UNIT 1 D C Circuits",
+          "topics": [
+            {
+              "topic": "D.C. Circuits",
+              "subTopics": [
+                "Electrical circuit elements (R, L and C), voltage and current sources",
+                "KVL&KCL, analysis of simple circuits with dc excitation",
+                "Superposition, Thevenin and Norton Theorems",
+                "Time-domain analysis of first-order RL and RC circuits"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT 2 A C Circuits",
+          "topics": [
+            {
+              "topic": "A.C. Circuits",
+              "subTopics": [
+                "Representation of sinusoidal waveforms, peak and rms values, phasor representation",
+                "Real power, reactive power, apparent power, power factor",
+                "Analysis of single-phase ac circuits consisting of R, L, C, RL, RC, RLC combinations (series and parallel)",
+                "Resonance in series R-L-C circuit",
+                "Three-phase balanced circuits, voltage and current relations in star and delta connections"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT 3 Transformers",
+          "topics": [
+            {
+              "topic": "Transformers",
+              "subTopics": [
+                "Ideal and practical transformer, equivalent circuit",
+                "Losses in transformers, regulation and efficiency",
+                "Auto-transformer and three-phase transformer connections"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT 4 Electrical Machines",
+          "topics": [
+            {
+              "topic": "Electrical Machines",
+              "subTopics": [
+                "Construction and working principle of dc machine, performance characteristics of dc shunt machine",
+                "Generation of rotating magnetic field",
+                "Construction and working of a three-phase induction motor, Significance of torque-slip characteristics",
+                "Single-phase induction motor, Construction and working",
+                "Construction and working of synchronous generator"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT 5 Electrical Installations",
+          "topics": [
+            {
+              "topic": "Electrical Installations",
+              "subTopics": [
+                "Components of LT Switchgear: Switch Fuse Unit (SFU), MCB, ELCB, MCCB",
+                "Types of Wires and Cables, Earthing",
+                "Types of Batteries, Important Characteristics for Batteries",
+                "Elementary calculations for energy consumption, power factor improvement and battery backup"
+              ]
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+            "name": "BEE All Units Notes",
+            "link": "./resources/1st Year/BEE-All-Units.pdf"
+        },
+        {
+            "name": "BEE Unit 1 DC Circuits",
+            "link": "./resources/1st Year/BEE-Unit1.pdf"
+        },
+        {
+            "name": "BEE Unit 2 AC Circuits",
+            "link": "./resources/1st Year/BEE-Unit2.pdf"
+        },
+        {
+            "name": "BEE Unit 3 Transformers",
+            "link": "./resources/1st Year/BEE-Unit3.pdf"
+        },
+        {
+            "name": "BEE Unit 4 Electrical Machines",
+            "link": "./resources/1st Year/BEE-Unit4.pdf"
+        },
+        {
+            "name": "BEE Unit 5 Electrical Installations",
+            "link": "./resources/1st Year/BEE-Unit5.pdf"
+        }
+      ]
+    }
+  ]
+  
