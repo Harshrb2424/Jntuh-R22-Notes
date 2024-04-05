@@ -74,14 +74,6 @@ a {
 a:checked{
   color: var(--secondary-color);
 }
-/* .info {
-  margin: 10px;
-  margin-top: 30px;
-  padding: 15px;
-    border-radius: 8px;
-    background-color: rgba(138, 209, 12, 0.2);
-} */
-
 #unitInfo {
     font-family: 'Rubik', sans-serif;
 }
