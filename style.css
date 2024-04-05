@@ -141,6 +141,7 @@ footer div{
     .filters{
         display: flex;
         flex-wrap: wrap;
+        padding-bottom: 50px;
     }
     h2{
         width: 100%;
