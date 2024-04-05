@@ -125,6 +125,18 @@ p.info{
     padding: 5px 15px;
     transition: all ease 500ms;
 }
+
+footer div{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    align-items: center;
+  }
+  a{
+    text-decoration: none;
+    color: var(--div-color);
+  }
 @media screen and (max-width: 900px) and (min-width: 450px){
     .filters{
         display: flex;
