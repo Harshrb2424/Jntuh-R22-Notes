@@ -47,13 +47,14 @@ $(document).ready(function () {
   // window.history.pushState({}, '', '/?year=' + yearClicked + (semParam ? '&sem='+semParam : '') + (tagParam ? '&tag='+tagParam : ''));
   // Function to display subjects
   function displaySubjects(subjects) {
+    console.log(subjects);
     // Clear existing subjects
     $(".subjects").empty();
 
     // Loop through each subject in the filtered data
     $.each(subjects, function (index, subject) {
       // Create a new div element with class 'subject'
-      var $newSubject = $('<div class="subject"></div>');
+      var $newSubject = $('<div class="click ' + subject.code + ' subject "></div>');
 
       // Append h1 element with the subject name
       $newSubject.append("<h1>" + subject.name + "</h1>");
@@ -91,21 +92,21 @@ $(document).ready(function () {
       // Append the new subject to the div with class 'subjects'
       $(".subjects").append($newSubject);
 
-          //! redirect links
-          $(".click").click(function(event) {
-            // Prevent the default action of the click event
-            event.preventDefault();
-        
-            // Get the class names of the clicked button
-            var classNames = $(this).attr("class").split(" ");
-            console.log(classNames);
-            
-            // Construct the redirect URL
-            var redirectURL = `./public/?code=${classNames[1]}`;
-        
-            // Open the redirect URL in a new tab/window
-            window.open(redirectURL, '_blank');
-        });
+      //! redirect links
+      $(".click").click(function (event) {
+        // Prevent the default action of the click event
+        event.preventDefault();
+
+        // Get the class names of the clicked button
+        var classNames = $(this).attr("class").split(" ");
+        console.log(classNames);
+
+        // Construct the redirect URL
+        var redirectURL = `./public/?code=${classNames[1]}`;
+
+        // Open the redirect URL in a new tab/window
+        window.open(redirectURL, "_blank");
+      });
     });
   }
   const filePath = "subjects.json";
@@ -113,19 +114,66 @@ $(document).ready(function () {
     displaySubjects(subjectsData);
   });
 
-
   //? Styling
   $(".click-year").click(change);
   $(".click-sem").click(change);
   $(".click-tag").click(change);
 
+  var sort = {
+    year: [1, 2, 3, 4],
+    sem: [1, 2],
+    tags: ["Mathematics and Physics", "Engineering Fundamentals"],
+  };
+  var first = 0;
   function change() {
     if ($(this).hasClass("inActive")) {
       $(this).removeClass("inActive").addClass("active");
     } else if ($(this).hasClass("active")) {
       $(this).removeClass("active").addClass("inActive");
     }
+    sort['year'] = [];
+    sort['sem'] = [];
+    sort['tags'] = [];
+    $('.click-year.active').each(function(){
+      var content = $(this).text();
+      sort['year'].push(parseInt(content));
+      console.log(sort);
+
+      if (first == 0) $('.click-sem').removeClass("inActive").addClass('active');
+    });
+    $('.click-sem.active').each(function(){
+      var content = $(this).text();
+      sort['sem'].push(parseInt(content));
+      console.log(sort);
+      
+      if (first == 0) $('.click-tag').removeClass("inActive").addClass('active');
+      first++;
+  });
+  $('.click-tag.active').each(function(){
+    var content = $(this).text();
+    sort['tags'].push(content);
+    console.log(sort);
+  });
+    function filterCourses(courses, filters) {
+      return courses.filter((course) => {
+        return Object.keys(filters).every((key) => {
+          if (Array.isArray(filters[key])) {
+            // Check if any tag matches
+            if (key === "tags") {
+              return filters[key].some((tag) => course[key].includes(tag));
+            } else {
+              return filters[key].includes(course[key]);
+            }
+          } else {
+            return course[key] === filters[key];
+          }
+        });
+      });
+    }
+
+    $.getJSON(filePath, function (subjectsData) {
+      const filteredCourses = filterCourses(subjectsData,sort);
+      displaySubjects(filteredCourses);
+    });
   }
-
 });
-

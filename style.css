@@ -8,7 +8,6 @@
 body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    /* font-weight: <weight>; */
     font-style: normal;
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -84,7 +83,7 @@ p.info{
     transition: all ease 500ms;
 }
 .inActive:hover{
-    opacity: 1;
+    opacity: .6;
 }
 .subjects{
 
@@ -144,7 +143,7 @@ p.info{
 }
 @media screen and (max-width: 900px) {
     body > div {
-      flex-direction: column; /* Applied when viewport width is less than 900px */
+      flex-direction: column;
     }
     .subjects{
         justify-content: space-around;

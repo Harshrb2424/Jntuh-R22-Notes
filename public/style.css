@@ -80,6 +80,9 @@ thead th {
 #unitInfo {
     font-family: 'Rubik', sans-serif;
 }
+#unitInfo > ul > li{
+  padding: 10px 0;
+}
 hr{
   margin: 0 15px;
 }
