@@ -97,6 +97,21 @@ p.info{
     justify-content: center;
     gap: 10px;
 }
+.filter-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+    text-align: center;
+}
+.filter-column > .click-tag{
+    margin: 5px;
+}
+.filter-column:hover .inActive{
+    color: #ffffff;
+    padding: 5px 15px;
+    transform: scale(1);
+}
 .filter:hover .inActive{
     color: #ffffff;
     padding: 5px 15px;

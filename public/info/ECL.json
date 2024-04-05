@@ -25,23 +25,19 @@
             {
               "topic": "V. Preparations:",
               "subTopics": [
-                {
-                  "subTopic": "1. Preparation of Bakelite."
-                },
-                {
-                  "subTopic": "2. Preparation Nylon – 6."
-                }
+                
+                  "1. Preparation of Bakelite."
+                ,
+                
+                  "2. Preparation Nylon – 6."
+                
               ]
             },
             {
               "topic": "VI. Lubricants:",
-              "subTopics": [
-                {
-                  "subTopic": "1. Estimation of acid value of given lubricant oil."
-                },
-                {
-                  "subTopic": "2. Estimation of Viscosity of lubricant oil using Ostwald’s Viscometer."
-                }
+              "subTopics": ["1. Estimation of acid value of given lubricant oil."
+                ,"2. Estimation of Viscosity of lubricant oil using Ostwald’s Viscometer."
+                
               ]
             },
             {
@@ -51,18 +47,14 @@
             {
               "topic": "VIII. Virtual lab experiments",
               "subTopics": [
-                {
-                  "subTopic": "1. Construction of Fuel cell and its working."
-                },
-                {
-                  "subTopic": "2. Smart materials for Biomedical applications"
-                },
-                {
-                  "subTopic": "3. Batteries for electrical vehicles."
-                },
-                {
-                  "subTopic": "4. Functioning of solar cell and its applications."
-                }
+          "1. Construction of Fuel cell and its working."
+                ,
+          "2. Smart materials for Biomedical applications"
+                ,
+          "3. Batteries for electrical vehicles."
+                ,
+          "4. Functioning of solar cell and its applications."
+                
               ]
             }
           ]

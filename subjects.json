@@ -6,7 +6,7 @@
     "sem": 1,
     "credits": 4,
     "tags": [
-      "Core"
+      "Mathematics and Physics"
     ],
     "info": [
       "Matrices",
@@ -23,7 +23,7 @@
     "sem": 1,
     "credits": 4,
     "tags": [
-      "Core"
+      "Mathematics and Physics"
     ],
     "info": [
       "Quantum Physics and Solids",
@@ -40,7 +40,7 @@
     "sem": 1,
     "credits": 3,
     "tags": [
-      "Core"
+      "Engineering Fundamentals"
     ],
     "info": [
       "Introduction to Programming",
@@ -57,7 +57,7 @@
     "sem": 1,
     "credits": 2.5,
     "tags": [
-      "Applied"
+      "Engineering Fundamentals"
     ],
     "info": [
       "Carpentry",
@@ -76,7 +76,7 @@
     "sem": 1,
     "credits": 2,
     "tags": [
-      "General"
+      "General Education"
     ],
     "info": [
       "Toasted English",
@@ -93,7 +93,7 @@
     "sem": 1,
     "credits": 4,
     "tags": [
-      "Applied "
+      "Engineering Fundamentals "
     ],
     "info": [
       "Basics of a Computer",
@@ -110,10 +110,11 @@
     "sem": 1,
     "credits": 1.5,
     "tags": [
-      "Technical"
+      "Engineering Fundamentals"
     ],
     "info": [
-      "Planck’s constant ", "Hall co-efficient and carrier concentration",
+      "Planck’s constant ",
+      "Hall co-efficient and carrier concentration",
       "series and parallel LCR circuits",
       "Diodes",
       "Resistivity of Semiconductor",
@@ -129,7 +130,7 @@
     "sem": 1,
     "credits": 1,
     "tags": [
-      "Technical"
+      "Programming"
     ],
     "info": []
   },
@@ -140,7 +141,7 @@
     "sem": 1,
     "credits": 1,
     "tags": [
-      "Technical"
+      "Engineering Fundamentals"
     ],
     "info": []
   },
@@ -151,7 +152,7 @@
     "sem": 1,
     "credits": 0,
     "tags": [
-      "General"
+      "General Education"
     ],
     "info": [
       "Ecosystems",
@@ -162,13 +163,13 @@
     ]
   },
   {
-    "name": "ORDINARY DIFFERENTIAL EQUATIONS AND VECTOR CALCULUS",
+    "name": "Ordinary Differential Equations and Vector Calculus",
     "code": "M2",
     "year": 1,
     "sem": 2,
     "credits": 4,
     "tags": [
-      "Core"
+      "Mathematics and Physics"
     ],
     "info": [
       "First Order ODE",
@@ -179,8 +180,8 @@
     ]
   },
   {
-    "name": "ENGINEERING CHEMISTRY ",
-    "code": "EC",
+    "name": "Engineering Chemistry ",
+    "code": "Mathematics and Physics",
     "year": 1,
     "sem": 2,
     "credits": 4,
@@ -196,13 +197,13 @@
     ]
   },
   {
-    "name": "COMPUTER AIDED ENGINEERING GRAPHICS ",
+    "name": "Computer Aided Engineering Graphics ",
     "code": "EG",
     "year": 1,
     "sem": 2,
     "credits": 3,
     "tags": [
-      "Core"
+      "Engineering Fundamentals"
     ],
     "info": [
       "Introduction to Engineering Graphics",
@@ -213,13 +214,13 @@
     ]
   },
   {
-    "name": "BASIC ELECTRICAL ENGINEERING ",
+    "name": "Basic Electrical Engineering ",
     "code": "BEE",
     "year": 1,
     "sem": 2,
     "credits": 2,
     "tags": [
-      "Core"
+      "Engineering Fundamentals"
     ],
     "info": [
       "DC Circuits",
@@ -230,13 +231,13 @@
     ]
   },
   {
-    "name": "ELECTRONIC DEVICES AND CIRCUITS",
+    "name": "ELECTElectronic Devices and Circuits",
     "code": "EDC",
     "year": 1,
     "sem": 2,
     "credits": 2,
     "tags": [
-      "Core"
+      "Engineering Fundamentals"
     ],
     "info": [
       "Diodes",
@@ -247,35 +248,57 @@
     ]
   },
   {
-    "name": " PYTHON PROGRAMMING LABORATORY",
+    "name": " Python Programming Laboratory",
     "code": "PPL",
     "year": 1,
     "sem": 2,
     "credits": 2,
     "tags": [
-      "Technical"
+      "Programming"
     ],
     "info": []
   },
   {
-    "name": " ENGINEERING CHEMISTRY LABORATORY",
+    "name": " Engineering Chemistry Laboratory",
     "code": "ECL",
     "year": 1,
     "sem": 2,
     "credits": 1,
     "tags": [
-      "Technical"
+      "Engineering Fundamentals"
     ],
     "info": []
   },
   {
-    "name": "MATHEMATICAL AND STATISTICAL FOUNDATIONS",
+    "name": " Basic Electrical Engineering Laboratory",
+    "code": "BEEL",
+    "year": 1,
+    "sem": 2,
+    "credits": 1,
+    "tags": [
+      "Engineering Fundamentals"
+    ],
+    "info": []
+  },
+  {
+    "name": "IT Workshop",
+    "code": "ITW",
+    "year": 1,
+    "sem": 2,
+    "credits": 1,
+    "tags": [
+      "Programming"
+    ],
+    "info": []
+  },
+  {
+    "name": "Mathematical and Statistical Foundations",
     "code": "MSF",
     "year": 2,
     "sem": 1,
     "credits": 4,
     "tags": [
-      "Core"
+      "Mathematics and Physics"
     ],
     "info": [
       "Greatest Common Divisors and Prime Factorization",
@@ -290,13 +313,13 @@
     ]
   },
   {
-    "name": "DATA STRUCTURES",
+    "name": "Data Structures",
     "code": "DS",
     "year": 2,
     "sem": 1,
     "credits": 3,
     "tags": [
-      "Core"
+      "Specialized Computer Science"
     ],
     "info": [
       "Introduction to Data Structures",
@@ -307,13 +330,13 @@
     ]
   },
   {
-    "name": "COMPUTER ORGANIZATION AND ARCHITECTURE",
+    "name": "Computer Organization and Architecture",
     "code": "COA",
     "year": 2,
     "sem": 1,
     "credits": 3,
     "tags": [
-      "Core"
+      "Engineering Fundamentals"
     ],
     "info": [
       "Digital Computers",
@@ -324,13 +347,13 @@
     ]
   },
   {
-    "name": "SOFTWARE ENGINEERING",
+    "name": "Software Engineering",
     "code": "SE",
     "year": 2,
     "sem": 1,
     "credits": 3,
     "tags": [
-      "Core"
+      "Programming"
     ],
     "info": [
       "Introduction to Software Engineering",
@@ -341,13 +364,13 @@
     ]
   },
   {
-    "name": "OPERATING SYSTEMS",
+    "name": "Operating Systems",
     "code": "OS",
     "year": 2,
     "sem": 1,
     "credits": 3,
     "tags": [
-      "Core"
+      "Specialized Computer Science"
     ],
     "info": [
       "Operating System - Introduction and Process",
@@ -358,13 +381,68 @@
     ]
   },
   {
-    "name": "DISCRETE MATHEMATICS",
+    "name": "Data Structures Lab",
+    "code": "DSL",
+    "year": 2,
+    "sem": 1,
+    "credits": 1,
+    "tags": [
+      "Specialized Computer Science"
+    ],
+    "info": []
+  },
+  {
+    "name": "Operating Systems Lab",
+    "code": "OSL",
+    "year": 2,
+    "sem": 1,
+    "credits": 1,
+    "tags": [
+      "Specialized Computer Science"
+    ],
+    "info": []
+  },
+  {
+    "name": "Software Engineering Lab",
+    "code": "SEL",
+    "year": 2,
+    "sem": 1,
+    "credits": 1,
+    "tags": [
+      "Programming"
+    ],
+    "info": []
+  },
+  {
+    "name": "Node JS/ React JS/ Django",
+    "code": "NRDJ",
+    "year": 2,
+    "sem": 1,
+    "credits": 1,
+    "tags": [
+      "Specialized Computer Science"
+    ],
+    "info": []
+  },
+  {
+    "name": "Constitution of India",
+    "code": "COI",
+    "year": 2,
+    "sem": 1,
+    "credits": 0,
+    "tags": [
+      "General Education"
+    ],
+    "info": []
+  },
+  {
+    "name": "Discrete Mathematics",
     "code": "DM",
     "year": 2,
     "sem": 2,
     "credits": 3,
     "tags": [
-      "Core"
+      "Mathematics and Physics"
     ],
     "info": [
       "Mathematical logic",
@@ -375,13 +453,13 @@
     ]
   },
   {
-    "name": "AUTOMATA THEORY AND COMPILER DESIGN",
+    "name": "Automata Theory and Compiler Design",
     "code": "ATCD",
     "year": 2,
     "sem": 2,
     "credits": 3,
     "tags": [
-      "Core"
+      "Specialized Computer Science"
     ],
     "info": [
       "Introduction to Finite Automata",
@@ -392,13 +470,13 @@
     ]
   },
   {
-    "name": "DATABASE MANAGEMENT SYSTEMS",
+    "name": "Database Management Systems",
     "code": "DBMS",
     "year": 2,
     "sem": 2,
     "credits": 3,
     "tags": [
-      "Core"
+      "Specialized Computer Science"
     ],
     "info": [
       "Database System Applications",
@@ -408,15 +486,14 @@
       "Data on External Storagee"
     ]
   },
-
   {
-    "name": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE",
+    "name": "Introduction to Artificial Intelligence",
     "code": "IAI",
     "year": 2,
     "sem": 2,
     "credits": 3,
     "tags": [
-      "Core"
+      "Specialized Computer Science"
     ],
     "info": [
       "Introduction to AI, Searching for Solutions",
@@ -427,13 +504,13 @@
     ]
   },
   {
-    "name": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+    "name": "Object Oriented Programming through Java",
     "code": "OOPS",
     "year": 2,
     "sem": 2,
     "credits": 3,
     "tags": [
-      "Core"
+      "Specialized Computer Science"
     ],
     "info": [
       "Object oriented thinking and Java Basics",
@@ -444,13 +521,13 @@
     ]
   },
   {
-    "name": "DATABASE MANAGEMENT SYSTEMS LAB",
+    "name": "Database Management Systems Lab",
     "code": "DBMSL",
     "year": 2,
     "sem": 2,
     "credits": 1,
     "tags": [
-      "Technical"
+      "Specialized Computer Science"
     ],
     "info": [
       "Model",
@@ -462,13 +539,13 @@
     ]
   },
   {
-    "name": "JAVA PROGRAMMING LAB",
+    "name": "Java Programming Lab",
     "code": "JAVAL",
     "year": 2,
     "sem": 2,
     "credits": 1,
     "tags": [
-      "Technical"
+      "Specialized Computer Science"
     ],
     "info": [
       "Encapsulation, Inheritance,Polymorphism and Abstraction",
@@ -485,7 +562,7 @@
     "sem": 2,
     "credits": 1,
     "tags": [
-      "Technical"
+      "Specialized Computer Science"
     ],
     "info": [
       "Basics",
@@ -496,13 +573,13 @@
     ]
   },
   {
-    "name": "GENDER SENSITIZATION LAB",
+    "name": "Gender Sensitization Lab",
     "code": "GSL",
     "year": 2,
     "sem": 2,
     "credits": 0,
     "tags": [
-      "General"
+      "General Education"
     ],
     "info": [
       "UNDERSTANDING GENDER",
@@ -518,6 +595,9 @@
     "year": 3,
     "sem": 1,
     "credits": 4,
+    "tags": [
+      "Specialized Computer Science"
+    ],
     "info": [
       "Introduction, Divide and conquer",
       "Disjoint Sets, Backtracking",
@@ -532,6 +612,9 @@
     "year": 3,
     "sem": 1,
     "credits": 3,
+    "tags": [
+      "Specialized Computer Science"
+    ],
     "info": [
       "Learning",
       "Multi-layer Perceptron",
