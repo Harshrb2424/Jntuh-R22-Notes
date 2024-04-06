@@ -1,0 +1,82 @@
+[
+    {
+        "name": "ENGLISH LANGUAGE AND COMMUNICATION SKILLS LABORATORY",
+        "code": "ELCSL",
+        "units": [
+            {
+                "name": "Syllabus",
+                "topics": [
+                    {
+                        "topic": "a. Computer Assisted Language Learning (CALL) Lab"
+                    },
+                    {
+                        "topic": "b. Interactive Communication Skills (ICS) Lab"
+                    }
+                ]
+            },
+            {
+                "name": "Listening Skills",
+                "topics": [
+                    {
+                        "topic": "Objectives",
+                        "subTopics": [
+                            "1. To enable students develop their listening skills so that they may appreciate the role in the LSRW skills approach to language and improve their pronunciation",
+                            "2. To equip students with necessary training in listening, so that they can comprehend the speech of people of different backgrounds and regions"
+                        ]
+                    },
+                    {
+                        "topic": "Students should be given practice in:",
+                        "subTopics": [
+                            "• Listening for general content",
+                            "• Listening to fill up information",
+                            "• Intensive listening",
+                            "• Listening for specific information"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Speaking Skills",
+                "topics": [
+                    {
+                        "topic": "Objectives",
+                        "subTopics": [
+                            "1. To involve students in speaking activities in various contexts",
+                            "2. To enable students express themselves fluently and appropriately in social and professional contexts"
+                        ]
+                    },
+                    {
+                        "topic": "Activities include:",
+                        "subTopics": [
+                            "• Oral practice",
+                            "• Describing objects/situations/people",
+                            "• Role play – Individual/Group activities",
+                            "• Just A Minute (JAM) Sessions"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Exercise – I",
+                "topics": [
+                    {
+                        "topic": "CALL Lab:",
+                        "subTopics": [
+                            "Understand: Listening Skill- Its importance – Purpose- Process- Types- Barriers- Effective Listening.",
+                            "Practice: Introduction to Phonetics – Speech Sounds – Vowels and Consonants – Minimal Pairs-Consonant Clusters- Past Tense Marker and Plural Marker- Testing Exercises"
+                        ]
+                    },
+                    {
+                        "topic": "ICS Lab:",
+                        "subTopics": [
+                            "Understand: Spoken vs. Written language- Formal and Informal English.",
+                            "Practice: Ice-Breaking Activity and JAM Session- Situational Dialogues – Greetings – Taking Leave – Introducing Oneself and Others."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "links": []
+    }
+  ]
+  

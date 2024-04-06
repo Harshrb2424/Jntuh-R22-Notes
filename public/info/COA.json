@@ -1,0 +1,187 @@
+[
+    {
+      "name": "COMPUTER ORGANIZATION AND ARCHITECTURE",
+      "code": "COA",
+      "units": [
+        {
+          "name": "UNIT - 1 Digital Computers, Register Transfer Language and Micro operations",
+          "topics": [
+            {
+              "topic": "Digital Computers",
+              "subTopics": [
+                "Introduction",
+                "Block diagram of Digital Computer",
+                "Definition of Computer Organization, Computer Design and Computer Architecture"
+              ]
+            },
+            {
+              "topic": "Register Transfer Language and Micro operations",
+              "subTopics": [
+                "Register Transfer language",
+                "Register Transfer, Bus and memory transfers",
+                "Arithmetic Micro operations",
+                "Logic micro operations",
+                "Shift micro operations",
+                "Arithmetic logic shift unit"
+              ]
+            },
+            {
+              "topic": "Basic Computer Organization and Design",
+              "subTopics": [
+                "Instruction codes",
+                "Computer Registers",
+                "Computer instructions",
+                "Timing and Control",
+                "Instruction cycle",
+                "Memory Reference Instructions",
+                "Input – Output and Interrupt"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 2 Microprogrammed Control and CPU",
+          "topics": [
+            {
+              "topic": "Microprogrammed Control",
+              "subTopics": [
+                "Control memory",
+                "Address sequencing",
+                "Micro program example",
+                "Design of control unit"
+              ]
+            },
+            {
+              "topic": "Central Processing Unit",
+              "subTopics": [
+                "General Register Organization",
+                "Instruction Formats",
+                "Addressing modes",
+                "Data Transfer and Manipulation",
+                "Program Control"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 3 Data Representation and Computer Arithmetic",
+          "topics": [
+            {
+              "topic": "Data Representation",
+              "subTopics": [
+                "Data types",
+                "Complements",
+                "Fixed Point Representation",
+                "Floating Point Representation"
+              ]
+            },
+            {
+              "topic": "Computer Arithmetic",
+              "subTopics": [
+                "Addition and subtraction",
+                "Multiplication Algorithms",
+                "Division Algorithms",
+                "Floating-point Arithmetic operations",
+                "Decimal Arithmetic unit",
+                "Decimal Arithmetic operations"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 4 Input-Output Organization and Memory Organization",
+          "topics": [
+            {
+              "topic": "Input-Output Organization",
+              "subTopics": [
+                "Input-Output Interface",
+                "Asynchronous data transfer",
+                "Modes of Transfer",
+                "Priority Interrupt",
+                "Direct memory Access"
+              ]
+            },
+            {
+              "topic": "Memory Organization",
+              "subTopics": [
+                "Memory Hierarchy",
+                "Main Memory",
+                "Auxiliary memory",
+                "Associate Memory",
+                "Cache Memory"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 5 Reduced Instruction Set Computer, Pipeline, Vector Processing and Multi Processors",
+          "topics": [
+            {
+              "topic": "Reduced Instruction Set Computer",
+              "subTopics": [
+                "CISC Characteristics",
+                "RISC Characteristics"
+              ]
+            },
+            {
+              "topic": "Pipeline and Vector Processing",
+              "subTopics": [
+                "Parallel Processing",
+                "Pipelining",
+                "Arithmetic Pipeline",
+                "Instruction Pipeline",
+                "RISC Pipeline",
+                "Vector Processing",
+                "Array Processor"
+              ]
+            },
+            {
+              "topic": "Multi Processors",
+              "subTopics": [
+                "Characteristics of Multiprocessors",
+                "Interconnection Structures",
+                "Interprocessor arbitration",
+                "Interprocessor communication and synchronization",
+                "Cache Coherence"
+              ]
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+            "name": "COA Unit 1 Digital Computers",
+            "link": "./resources/2nd Year/COA-Unit1.pdf"
+        },
+        {
+            "name": "COA Unit 2 Microprogrammed Control And CPU",
+            "link": "./resources/2nd Year/COA-Unit2.pdf"
+        },
+        {
+            "name": "COA Unit 3 Data Representation And Computer Arithmetic",
+            "link": "./resources/2nd Year/COA-Unit3.pdf"
+        },
+        {
+            "name": "COA Unit 4 Input-Output Organization And Memory Organization",
+            "link": "./resources/2nd Year/COA-Unit4.pdf"
+        },
+        {
+            "name": "COA Unit 5 Reduced Instruction Set Computer, Pipeline, Vector Processing And Multi Processors",
+            "link": "./resources/2nd Year/COA-Unit5.pdf"
+        },
+        {
+            "name": "COA Mid 1 Question and Answers",
+            "link": "./resources/2nd Year/COA-Mid-1-QnA.pdf"
+        },
+        {
+            "name": "COA Mid 2 Question and Answers",
+            "link": "./resources/2nd Year/COA-Mid-2-QnA.pdf"
+        },
+        {
+            "name": "COA Mid 2 Bits",
+            "link": "./resources/2nd Year/COA-Mid-2-Bits.pdf"
+        }
+      ]
+    }
+  ]
+  

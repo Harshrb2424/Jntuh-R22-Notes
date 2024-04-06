@@ -1,0 +1,96 @@
+[
+    {
+      "name": "ENVIRONMENTAL SCIENCE",
+      "code": "ES",
+      "units": [
+        {
+          "name": "UNIT - 1",
+          "topics": [
+            {
+              "topic": "Ecosystems",
+              "subTopics": [
+                "Definition, Scope, and Importance of ecosystem",
+                "Classification, structure, and function of an ecosystem",
+                "Food chains, food webs, and ecological pyramids",
+                "Flow of energy",
+                "Biogeochemical cycles",
+                "Bioaccumulation, Biomagnification",
+                "Ecosystem value, services, and carrying capacity",
+                "Field visits"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 2",
+          "topics": [
+            {
+              "topic": "Natural Resources",
+              "subTopics": [
+                "Classification of Resources: Living and Non-Living resources",
+                "Water resources: use and overutilization of surface and ground water",
+                "Floods and droughts",
+                "Dams: benefits and problems",
+                "Mineral resources: use and exploitation, environmental effects",
+                "Land resources: Forest resources",
+                "Energy resources: renewable and non-renewable energy sources",
+                "Use of alternate energy source, case studies"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 3",
+          "topics": [
+            {
+              "topic": "Biodiversity and Biotic Resources",
+              "subTopics": [
+                "Introduction, Definition, genetic, species and ecosystem diversity",
+                "Value of biodiversity; consumptive use, productive use, social, ethical, aesthetic and optional values",
+                "India as a mega diversity nation, Hot spots of biodiversity",
+                "Threats to biodiversity: habitat loss, poaching of wildlife, man-wildlife conflicts",
+                "Conservation of biodiversity: In-Situ and Ex-situ conservation",
+                "National Biodiversity act",
+                "Field visit"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 4",
+          "topics": [
+            {
+              "topic": "Environmental Pollution and Control Technologies",
+              "subTopics": [
+                "Environmental Pollution: Classification of pollution",
+                "Air Pollution: Primary and secondary pollutants, Automobile and Industrial pollution",
+                "Ambient air quality standards",
+                "Water pollution: Sources and types of pollution, drinking water quality standards",
+                "Soil Pollution: Sources and types, Impacts of modern agriculture, degradation of soil",
+                "Noise Pollution: Sources and Health hazards, standards",
+                "Solid waste: Municipal Solid Waste management, composition and characteristics of e-Waste and its management",
+                "Pollution control technologies: Wastewater Treatment methods, Overview of air pollution control technologies, Concepts of bioremediation",
+                "Global Environmental Issues and Global Efforts: Climate change and impacts on human environment, Ozone depletion and Ozone depleting substances (ODS), Deforestation and desertification, International conventions / Protocols, NAPCC-GoI Initiatives"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 5",
+          "topics": [
+            {
+              "topic": "Environmental Policy, Legislation & EIA",
+              "subTopics": [
+                "Environmental Protection act, Legal aspects Air Act- 1981, Water Act, Forest Act, Wild life Act, Municipal solid waste management and handling rules, biomedical waste management and handling rules, hazardous waste management and handling rules",
+                "EIA: EIA structure, methods of baseline data acquisition, Overview on Impacts of air, water, biological and Socio-economical aspects",
+                "Strategies for risk assessment, Concepts of Environmental Management Plan (EMP)",
+                "Towards Sustainable Future: Concept of Sustainable Development Goals, Population and its explosion, Crazy Consumerism, Environmental Education, Urban Sprawl, Human health, Environmental Ethics, Concept of Green Building, Ecological Foot Print, Life Cycle assessment (LCA), Low carbon life style"
+              ]
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+  

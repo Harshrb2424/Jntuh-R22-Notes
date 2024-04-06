@@ -1,0 +1,63 @@
+[
+    {
+      "name": "ENGINEERING WORKSHOP",
+      "code": "EW",
+      "units": [
+        {
+          "name": "TRADES FOR EXERCISES",
+          "topics": [
+            {
+              "topic": "I. Carpentry – (T-Lap Joint, Dovetail Joint, Mortise & Tenon Joint)",
+              "subTopics": ["T-Lap Joint", "Dovetail Joint", "Mortise & Tenon Joint"]
+            },
+            {
+              "topic": "II. Fitting – (V-Fit, Dovetail Fit & Semi-circular fit)",
+              "subTopics": ["V-Fit", "Dovetail Fit", "Semi-circular fit"]
+            },
+            {
+              "topic": "III. Tin-Smithy – (Square Tin, Rectangular Tray & Conical Funnel)",
+              "subTopics": ["Square Tin", "Rectangular Tray", "Conical Funnel"]
+            },
+            {
+              "topic": "IV. Foundry – (Preparation of Green Sand Mould using Single Piece and Split Pattern)",
+              "subTopics": ["Preparation of Green Sand Mould using Single Piece", "Preparation of Green Sand Mould using Split Pattern"]
+            },
+            {
+              "topic": "V. Welding Practice – (Arc Welding & Gas Welding)",
+              "subTopics": ["Arc Welding", "Gas Welding"]
+            },
+            {
+              "topic": "VI. House-wiring – (Parallel & Series, Two-way Switch and Tube Light)",
+              "subTopics": ["Parallel & Series", "Two-way Switch", "Tube Light"]
+            },
+            {
+              "topic": "VII. Black Smithy – (Round to Square, Fan Hook and S-Hook)",
+              "subTopics": ["Round to Square", "Fan Hook", "S-Hook"]
+            }
+          ]
+        },
+        {
+          "name": "TRADES FOR DEMONSTRATION & EXPOSURE",
+          "topics": [
+            {
+              "topic": "Plumbing"
+            },
+            {
+              "topic": "Machine Shop"
+            },
+            {
+              "topic": "Metal Cutting (Water Plasma)"
+            },
+            {
+              "topic": "Power tools in construction"
+            },
+            {
+              "topic": "Wood Working"
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+  

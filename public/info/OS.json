@@ -1,0 +1,195 @@
+[
+    {
+      "name": "OPERATING SYSTEMS",
+      "code": "OS",
+      "units": [
+        {
+          "name": "UNIT - 1 Operating System and Process",
+          "topics": [
+            {
+              "topic": "Operating System Introduction",
+              "subTopics": [
+                "Structures",
+                "Simple Batch",
+                "Multiprogrammed",
+                "Time-shared",
+                "Personal Computer",
+                "Parallel",
+                "Distributed Systems",
+                "Real-Time Systems",
+                "System components",
+                "Operating System services",
+                "System Calls"
+              ]
+            },
+            {
+              "topic": "Process",
+              "subTopics": [
+                "Process concepts and scheduling",
+                "Operations on processes",
+                "Cooperating Processes",
+                "Threads"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 2 CPU Scheduling and Deadlock",
+          "topics": [
+            {
+              "topic": "CPU Scheduling",
+              "subTopics": [
+                "Scheduling Criteria",
+                "Scheduling Algorithms",
+                "Multiple -Processor Scheduling"
+              ]
+            },
+            {
+              "topic": "System call interface for process management",
+              "subTopics": [
+                "Fork",
+                "Exit",
+                "Wait",
+                "Waitpid",
+                "Exec"
+              ]
+            },
+            {
+              "topic": "Deadlocks",
+              "subTopics": [
+                "System Model",
+                "Deadlocks Characterization",
+                "Methods for Handling Deadlocks",
+                "Deadlock Prevention",
+                "Deadlock Avoidance",
+                "Deadlock Detection",
+                "Recovery from Deadlock"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 3 Process Management and Synchronization",
+          "topics": [
+            {
+              "topic": "Process Management and Synchronization",
+              "subTopics": [
+                "The Critical Section Problem",
+                "Synchronization Hardware",
+                "Semaphores and Classical Problems of Synchronization",
+                "Critical Regions",
+                "Monitors"
+              ]
+            },
+            {
+              "topic": "Interprocess Communication Mechanisms",
+              "subTopics": [
+                "IPC between processes on a single computer system",
+                "IPC between processes on different systems",
+                "Using pipes, FIFOs, message queues, shared memory"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 4 Memory Management and Virtual Memory",
+          "topics": [
+            {
+              "topic": "Memory Management and Virtual Memory",
+              "subTopics": [
+                "Logical versus Physical Address Space",
+                "Swapping",
+                "Contiguous Allocation",
+                "Paging",
+                "Segmentation",
+                "Segmentation with Paging",
+                "Demand Paging",
+                "Page Replacement",
+                "Page Replacement Algorithms"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 5 File System Interface and Operations",
+          "topics": [
+            {
+              "topic": "File System Interface and Operations",
+              "subTopics": [
+                "Access methods",
+                "Directory Structure",
+                "Protection",
+                "File System Structure",
+                "Allocation methods",
+                "Free-space Management",
+                "Usage of open, create, read, write, close, lseek, stat, ioctl system calls"
+              ]
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+            "name": "OS Mid 1 Quesetion and Answers",
+            "link": "./resources/2nd Year/OS-Mid-1-QnA.pdf"
+        },
+        {
+            "name": "OS Mid 2 Quesetion and Answers",
+            "link": "./resources/2nd Year/OS-Mid-2-QnA.pdf"
+        },
+        {
+            "name": "OS Unit 1 Operating System And Process",
+            "link": "./resources/2nd Year/OS-Unit1.pdf"
+        },
+        {
+            "name": "OS Unit 1 (alt) Operating System And Process",
+            "link": "./resources/2nd Year/OS-Unit1-alt.pdf"
+        },
+        {
+            "name": "OS Unit 2 CPU Scheduling And Deadlock",
+            "link": "./resources/2nd Year/OS-Unit2.pdf"
+        },
+        {
+            "name": "OS Unit 2 (alt) CPU Scheduling And Deadlock",
+            "link": "./resources/2nd Year/OS-Unit2-alt.pdf"
+        },
+        {
+            "name": "OS Unit 3 Process Management And Synchronization",
+            "link": "./resources/2nd Year/OS-Unit3.pdf"
+        },
+        {
+            "name": "OS Unit 3 (alt) Process Management And Synchronization",
+            "link": "./resources/2nd Year/OS-Unit3-alt.pdf"
+        },
+        {
+            "name": "OS Unit 3 (easy) Process Management And Synchronization",
+            "link": "./resources/2nd Year/OBS-OS-Unit3.pdf"
+        },
+        {
+            "name": "OS Unit 4 Memory Management And Virtual Memory",
+            "link": "./resources/2nd Year/OS-Unit4.pdf"
+        },
+        {
+            "name": "OS Unit 4 (alt) Memory Management And Virtual Memory",
+            "link": "./resources/2nd Year/OS-Unit4-alt.pdf"
+        },
+        {
+            "name": "OS Unit 4 (easy) Memory Management And Virtual Memory",
+            "link": "./resources/2nd Year/OBS-OS-Unit4.pdf"
+        },
+        {
+            "name": "OS Unit 5 File System Interface And Operations",
+            "link": "./resources/2nd Year/OS-Unit5.pdf"
+        },
+        {
+            "name": "OS Unit 5 (alt) File System Interface And Operations",
+            "link": "./resources/2nd Year/OS-Unit5-alt.pdf"
+        },
+        {
+            "name": "OS Unit 5 (easy) File System Interface And Operations",
+            "link": "./resources/2nd Year/OBS-OS-Unit5.pdf"
+        }
+      ]
+    }
+  ]
+  

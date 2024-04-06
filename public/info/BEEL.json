@@ -1,0 +1,38 @@
+[
+    {
+        "name": "BASIC ELECTRICAL ENGINEERING LABORATORY",
+        "code": "BEEL",
+        "units": [
+            {
+                "name": "List of experiments/demonstrations",
+                "topics": [
+                    {
+                        "topic": "PART- A (compulsory)",
+                        "subTopics": [
+                            "1. Verification of KVL and KCL",
+                            "2. Verification of Thevenin’s and Norton’s theorem",
+                            "3. Transient Response of Series RL and RC circuits for DC excitation",
+                            "4. Resonance in series RLC circuit",
+                            "5. Calculations and Verification of Impedance and Current of RL, RC and RLC series circuits",
+                            "6. Measurement of Voltage, Current and Real Power in primary and Secondary Circuits of a Single-Phase Transformer",
+                            "7. Performance Characteristics of a DC Shunt Motor",
+                            "8. Torque-Speed Characteristics of a Three-phase Induction Motor"
+                        ]
+                    },
+                    {
+                        "topic": "PART-B (any two experiments from the given list)",
+                        "subTopics": [
+                            "1. Verification of Superposition theorem.",
+                            "2. Three Phase Transformer: Verification of Relationship between Voltages and Currents (Star-Delta, Delta-Delta, Delta-star, Star-Star)",
+                            "3. Load Test on Single Phase Transformer (Calculate Efficiency and Regulation)",
+                            "4. Measurement of Active and Reactive Power in a balanced Three-phase circuit",
+                            "5. No-Load Characteristics of a Three-phase Alternator"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "links": []
+    }
+  ]
+  

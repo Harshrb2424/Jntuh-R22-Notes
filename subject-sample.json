@@ -1,0 +1,25 @@
+[
+  {
+      "name": "Subject name",
+      "code": "DBMSL",
+      "units": [
+          {
+              "name": "List of Experiments",
+              "topics": [
+                  {
+                      "topic": "1. Concept design with E-R Model ",
+                      "subTopics": []
+                  },
+                  {
+                      "topic": "2. Relational Model",
+                      "subTopics": []
+                  }
+                  // and so on
+              ]
+          }
+          
+      ],
+      "links": []
+  }
+  
+]

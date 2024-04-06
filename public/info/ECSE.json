@@ -1,0 +1,148 @@
+[
+    {
+      "name": "ELEMENTS OF COMPUTER SCIENCE AND ENGINEERING",
+      "code": "ECSE",
+      "units": [
+        {
+          "name": "UNIT - 1",
+          "topics": [
+            {
+              "topic": "Basics of a Computer",
+              "subTopics": [
+                "Hardware",
+                "Software",
+                "Generations of computers"
+              ]
+            },
+            {
+              "topic": "Hardware",
+              "subTopics": [
+                "Functional units",
+                "Components of CPU",
+                "Memory – hierarchy, types of memory",
+                "Input and output devices"
+              ]
+            },
+            {
+              "topic": "Software",
+              "subTopics": [
+                "Systems software",
+                "Application software",
+                "Packages",
+                "Frameworks",
+                "IDEs"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 2",
+          "topics": [
+            {
+              "topic": "Software development",
+              "subTopics": [
+                "Waterfall model",
+                "Agile",
+                "Types of computer languages – Programming, markup, scripting"
+              ]
+            },
+            {
+              "topic": "Program Development",
+              "subTopics": [
+                "Steps in program development",
+                "Flowcharts",
+                "Algorithms",
+                "Data structures – definition, types of data structures"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 3",
+          "topics": [
+            {
+              "topic": "Operating systems",
+              "subTopics": [
+                "Functions of operating systems",
+                "Types of operating systems",
+                "Device & Resource management"
+              ]
+            },
+            {
+              "topic": "Database Management Systems",
+              "subTopics": [
+                "Data models",
+                "RDBMS",
+                "SQL",
+                "Database Transactions",
+                "Data centers",
+                "Cloud services"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 4",
+          "topics": [
+            {
+              "topic": "Computer Networks",
+              "subTopics": [
+                "Advantages of computer networks",
+                "LAN",
+                "WAN",
+                "MAN",
+                "Internet",
+                "WiFi",
+                "Sensor networks",
+                "Vehicular networks",
+                "5G communication"
+              ]
+            },
+            {
+              "topic": "World Wide Web",
+              "subTopics": [
+                "Basics",
+                "Role of HTML",
+                "CSS",
+                "XML",
+                "Tools for web designing",
+                "Social media",
+                "Online social networks"
+              ]
+            },
+            {
+              "topic": "Security",
+              "subTopics": [
+                "Information security",
+                "Cyber security",
+                "Cyber laws"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 5",
+          "topics": [
+            {
+              "topic": "Autonomous Systems",
+              "subTopics": [
+                "IoT",
+                "Robotics",
+                "Drones",
+                "Artificial Intelligence – Learning",
+                "Game Development",
+                "Natural language processing",
+                "Image and video processing"
+              ]
+            },
+            {
+              "topic": "Cloud Basics",
+              "subTopics": []
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+  

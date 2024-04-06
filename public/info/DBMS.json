@@ -1,0 +1,131 @@
+[
+    {
+      "name": "DATABASE MANAGEMENT SYSTEMS",
+      "code": "DBMS",
+      "units": [
+        {
+          "name": "UNIT - I: Database System Applications and Introduction to Database Design",
+          "topics": [
+            {
+              "topic": "Database System Applications",
+              "subTopics": [
+                "A Historical Perspective",
+                "File Systems versus a DBMS",
+                "The Data Model",
+                "Levels of Abstraction in a DBMS",
+                "Data Independence",
+                "Structure of a DBMS"
+              ]
+            },
+            {
+              "topic": "Introduction to Database Design",
+              "subTopics": [
+                "Database Design and ER Diagrams",
+                "Entities, Attributes, and Entity Sets",
+                "Relationships and Relationship Sets",
+                "Additional Features of the ER Model",
+                "Conceptual Design With the ER Model"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - II: Introduction to the Relational Model and Relational Algebra",
+          "topics": [
+            {
+              "topic": "Introduction to the Relational Model",
+              "subTopics": [
+                "Integrity constraint over relations",
+                "Enforcing integrity constraints",
+                "Querying relational data",
+                "Logical database design",
+                "Introduction to views",
+                "Destroying/altering tables and views"
+              ]
+            },
+            {
+              "topic": "Relational Algebra, Tuple Relational Calculus, Domain Relational Calculus"
+            }
+          ]
+        },
+        {
+          "name": "UNIT - III: SQL: Queries, Constraints, Triggers and Schema Refinement",
+          "topics": [
+            {
+              "topic": "SQL: Queries, Constraints, Triggers",
+              "subTopics": [
+                "Form of basic SQL query",
+                "UNION, INTERSECT, and EXCEPT",
+                "Nested Queries",
+                "Aggregation operators",
+                "NULL values",
+                "Complex integrity constraints in SQL",
+                "Triggers and active databases"
+              ]
+            },
+            {
+              "topic": "Schema Refinement",
+              "subTopics": [
+                "Problems caused by redundancy",
+                "Decompositions",
+                "Problems related to decomposition",
+                "Reasoning about functional dependencies",
+                "First, Second, Third normal forms",
+                "BCNF",
+                "Lossless join decomposition",
+                "Multivalued dependencies",
+                "Fourth normal form",
+                "Fifth normal form"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - IV: Transaction Management",
+          "topics": [
+            {
+              "topic": "Transaction Concept and Transaction State",
+              "subTopics": [
+                "Implementation of Atomicity and Durability",
+                "Concurrent Executions",
+                "Serializability",
+                "Recoverability",
+                "Implementation of Isolation",
+                "Testing for serializability"
+              ]
+            },
+            {
+              "topic": "Lock Based Protocols, Timestamp Based Protocols, Validation- Based Protocols",
+              "subTopics": [
+                "Multiple Granularity",
+                "Recovery and Atomicity",
+                "Log–Based Recovery",
+                "Recovery with Concurrent Transactions"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - V: Data on External Storage and File Organization",
+          "topics": [
+            {
+              "topic": "File Organization and Indexing",
+              "subTopics": [
+                "Cluster Indexes",
+                "Primary and Secondary Indexes",
+                "Index data Structures",
+                "Hash Based Indexing",
+                "Tree based Indexing",
+                "Comparison of File Organizations",
+                "Indexes- Intuitions for tree Indexes",
+                "Indexed Sequential Access Methods (ISAM)",
+                "B+ Trees: A Dynamic Index Structure"
+              ]
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]
+  

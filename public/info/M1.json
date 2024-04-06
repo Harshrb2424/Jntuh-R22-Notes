@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Matrices",
+        "code": "M1",
+        "units": [
+            {
+                "name": "Unit 1: Matrices",
+                "topics": [
+                    {
+                        "topic": "Rank of a matrix by Echelon form and Normal form",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "Inverse of Non-singular matrices by Gauss-Jordan method",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "System of linear equations",
+                        "subTopics": ["Solving system of Homogeneous and Non-Homogeneous equations by Gauss elimination method"]
+                    },
+                    {
+                        "topic": "Gauss Seidel Iteration Method",
+                        "subTopics": []
+                    }
+                ]
+            },
+            {
+                "name": "Unit 2: Eigen values and Eigen vectors",
+                "topics": [
+                    {
+                        "topic": "Linear Transformation and Orthogonal Transformation",
+                        "subTopics": ["Eigenvalues, Eigenvectors and their properties"]
+                    },
+                    {
+                        "topic": "Diagonalization of a matrix",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "Cayley-Hamilton Theorem",
+                        "subTopics": ["Finding inverse and power of a matrix by Cayley-Hamilton Theorem"]
+                    },
+                    {
+                        "topic": "Quadratic forms and Nature of the Quadratic Forms",
+                        "subTopics": ["Reduction of Quadratic form to canonical forms by Orthogonal Transformation"]
+                    }
+                ]
+            },
+            {
+                "name": "Unit 3: Calculus",
+                "topics": [
+                    {
+                        "topic": "Mean value theorems",
+                        "subTopics": ["Rolle’s theorem", "Lagrange’s Mean value theorem with their Geometrical Interpretation and applications", "Cauchy’s Mean value Theorem", "Taylor’s Series"]
+                    },
+                    {
+                        "topic": "Applications of definite integrals to evaluate surface areas and volumes of revolutions of curves (Only in Cartesian coordinates)",
+                        "subTopics": ["Definition of Improper Integral: Beta and Gamma functions and their applications"]
+                    }
+                ]
+            },
+            {
+                "name": "Unit 4: Multivariable Calculus (Partial Differentiation and applications)",
+                "topics": [
+                    {
+                        "topic": "Definitions of Limit and continuity",
+                        "subTopics": []
+                    },
+                    {
+                        "topic": "Partial Differentiation",
+                        "subTopics": ["Euler’s Theorem", "Total derivative", "Jacobian", "Functional dependence & independence"]
+                    },
+                    {
+                        "topic": "Applications",
+                        "subTopics": ["Maxima and minima of functions of two variables and three variables using method of Lagrange multipliers"]
+                    }
+                ]
+            },
+            {
+                "name": "Unit 5: Multivariable Calculus (Integration)",
+                "topics": [
+                    {
+                        "topic": "Evaluation of Double Integrals",
+                        "subTopics": ["Cartesian and polar coordinates", "change of order of integration (only Cartesian form)"]
+                    },
+                    {
+                        "topic": "Evaluation of Triple Integrals",
+                        "subTopics": ["Change of variables (Cartesian to polar) for double and (Cartesian to Spherical and Cylindrical polar coordinates) for triple integrals"]
+                    },
+                    {
+                        "topic": "Applications",
+                        "subTopics": ["Areas (by double integrals) and volumes (by double integrals and triple integrals)"]
+                    }
+                ]
+            }
+        ]
+        ,
+        "links": [
+            {
+                "name": "M1 Unit 1 ",
+                "link": "./resources/1st Year/MA101-Unit1.pdf"
+            },
+            {
+                "name": "M1 Unit 2 ",
+                "link": "./resources/1st Year/MA101-Unit2.pdf"
+            },
+            {
+                "name": "M1 Unit 3 ",
+                "link": "./resources/1st Year/MA101-Unit3.pdf"
+            },
+            {
+                "name": "M1 Unit 4 ",
+                "link": "./resources/1st Year/MA101-Unit4.pdf"
+            },
+            {
+                "name": "M1 Unit 5 ",
+                "link": "./resources/1st Year/MA101-Unit5.pdf"
+            },
+            {
+                "name": "M1 Mid 1 Bites",
+                "link": "./resources/1st Year/MA101-mid1-bits.pdf"
+            },
+            {
+                "name": "M1 Mid 2 Bites",
+                "link": "./resources/1st Year/MA101-mid2-bits.pdf"
+            },
+            {
+                "name": "M1 Sem 1 Importent Answers",
+                "link": "./resources/1st Year/MA101-sem1-imp-questions.pdf"
+            }
+        ]
+    }
+]
