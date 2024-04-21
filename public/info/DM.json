@@ -91,7 +91,10 @@
           ]
         }
       ],
-      "links": []
+      "links": [{
+        "name": "DM Unit 1: Mathematical logic",
+        "link": "./resources/2nd Year/DM-Unit1.pdf"
+      }]
     }
   ]
   

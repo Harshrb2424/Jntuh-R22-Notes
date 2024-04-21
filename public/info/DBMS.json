@@ -125,7 +125,19 @@
           ]
         }
       ],
-      "links": []
+      "links": [
+        {
+        "name": "DBMS Unit 1: Database System Applications",
+        "link": "./resources/2nd Year/DBMS-Unit1.pdf"
+      },
+      {
+        "name": "DBMS Unit 1 (alt): Database System Applications",
+        "link": "./resources/2nd Year/DBMS-Unit1-alt.pdf"
+      },
+        {
+        "name": "DBMS Unit 2: Relational Model And Relational Algebra",
+        "link": "./resources/2nd Year/DBMS-Unit2.pdf"
+      }]
     }
   ]
   
