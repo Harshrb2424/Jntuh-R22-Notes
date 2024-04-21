@@ -1,162 +1,166 @@
 [
-    {
-      "name": "AUTOMATA THEORY AND COMPILER DESIGN",
-      "code": "ATCD",
-      "units": [
-        {
-          "name": "UNIT - 1: Introduction to Finite Automata",
-          "topics": [
-            {
-              "topic": "Structural Representations",
-              "subTopics": [
-                "Automata and Complexity",
-                "Central Concepts of Automata Theory – Alphabets, Strings, Languages, Problems"
-              ]
-            },
-            {
-              "topic": "Nondeterministic Finite Automata",
-              "subTopics": [
-                "Formal Definition",
-                "Application",
-                "Text Search",
-                "Finite Automata with Epsilon-Transitions"
-              ]
-            },
-            {
-              "topic": "Deterministic Finite Automata",
-              "subTopics": [
-                "Definition of DFA",
-                "How A DFA Process Strings",
-                "The Language of DFA",
-                "Conversion of NFA with €-transitions to NFA without €-transitions",
-                "Conversion of NFA to DFA"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 2: Regular Expressions and Context-Free Grammars",
-          "topics": [
-            {
-              "topic": "Regular Expressions",
-              "subTopics": [
-                "Finite Automata and Regular Expressions",
-                "Applications of Regular Expressions",
-                "Algebraic Laws for Regular Expressions",
-                "Conversion of Finite Automata to Regular Expressions"
-              ]
-            },
-            {
-              "topic": "Pumping Lemma for Regular Languages",
-              "subTopics": [
-                "Statement of the pumping lemma",
-                "Applications of the Pumping Lemma"
-              ]
-            },
-            {
-              "topic": "Context-Free Grammars",
-              "subTopics": [
-                "Definition of Context-Free Grammars",
-                "Derivations Using a Grammar",
-                "Leftmost and Rightmost Derivations",
-                "The Language of a Grammar",
-                "Parse Trees",
-                "Ambiguity in Grammars and Languages"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 3: Push Down Automata and Turing Machines",
-          "topics": [
-            {
-              "topic": "Push Down Automata",
-              "subTopics": [
-                "Definition of the Pushdown Automaton",
-                "The Languages of a PDA",
-                "Equivalence of PDA and CFG’s",
-                "Acceptance by final state"
-              ]
-            },
-            {
-              "topic": "Turing Machines",
-              "subTopics": [
-                "Introduction to Turing Machine",
-                "Formal Description",
-                "Instantaneous description",
-                "The language of a Turing machine"
-              ]
-            },
-            {
-              "topic": "Undecidability",
-              "subTopics": [
-                "Undecidability",
-                "A Language that is Not Recursively Enumerable",
-                "An Undecidable Problem That is RE",
-                "Undecidable Problems about Turing Machines"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 4: Introduction to Compiler Design",
-          "topics": [
-            {
-              "topic": "The structure of a compiler"
-            },
-            {
-              "topic": "Lexical Analysis",
-              "subTopics": [
-                "The Role of the Lexical Analyzer",
-                "Input Buffering",
-                "Recognition of Tokens",
-                "The Lexical- Analyzer Generator Lex"
-              ]
-            },
-            {
-              "topic": "Syntax Analysis",
-              "subTopics": [
-                "Introduction",
-                "Context-Free Grammars",
-                "Writing a Grammar",
-                "Top-Down Parsing",
-                "Bottom- Up Parsing",
-                "Introduction to LR Parsing: Simple LR, More Powerful LR Parsers"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 5: Advanced Compiler Design",
-          "topics": [
-            {
-              "topic": "Syntax-Directed Translation",
-              "subTopics": [
-                "Syntax-Directed Definitions",
-                "Evaluation Orders for SDD's",
-                "Syntax-Directed Translation Schemes",
-                "Implementing L-Attributed SDD's"
-              ]
-            },
-            {
-              "topic": "Intermediate-Code Generation",
-              "subTopics": [
-                "Variants of Syntax Trees",
-                "Three-Address Code"
-              ]
-            },
-            {
-              "topic": "Run-Time Environments",
-              "subTopics": [
-                "Stack Allocation of Space",
-                "Access to Nonlocal Data on the Stack",
-                "Heap Management"
-              ]
-            }
-          ]
-        }
-      ],
-      "links": []
-    }
-  ]
-  
+  {
+    "name": "AUTOMATA THEORY AND COMPILER DESIGN",
+    "code": "ATCD",
+    "units": [
+      {
+        "name": "UNIT - 1: Introduction to Finite Automata",
+        "topics": [
+          {
+            "topic": "Structural Representations",
+            "subTopics": [
+              "Automata and Complexity",
+              "Central Concepts of Automata Theory – Alphabets, Strings, Languages, Problems"
+            ]
+          },
+          {
+            "topic": "Nondeterministic Finite Automata",
+            "subTopics": [
+              "Formal Definition",
+              "Application",
+              "Text Search",
+              "Finite Automata with Epsilon-Transitions"
+            ]
+          },
+          {
+            "topic": "Deterministic Finite Automata",
+            "subTopics": [
+              "Definition of DFA",
+              "How A DFA Process Strings",
+              "The Language of DFA",
+              "Conversion of NFA with €-transitions to NFA without €-transitions",
+              "Conversion of NFA to DFA"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 2: Regular Expressions and Context-Free Grammars",
+        "topics": [
+          {
+            "topic": "Regular Expressions",
+            "subTopics": [
+              "Finite Automata and Regular Expressions",
+              "Applications of Regular Expressions",
+              "Algebraic Laws for Regular Expressions",
+              "Conversion of Finite Automata to Regular Expressions"
+            ]
+          },
+          {
+            "topic": "Pumping Lemma for Regular Languages",
+            "subTopics": [
+              "Statement of the pumping lemma",
+              "Applications of the Pumping Lemma"
+            ]
+          },
+          {
+            "topic": "Context-Free Grammars",
+            "subTopics": [
+              "Definition of Context-Free Grammars",
+              "Derivations Using a Grammar",
+              "Leftmost and Rightmost Derivations",
+              "The Language of a Grammar",
+              "Parse Trees",
+              "Ambiguity in Grammars and Languages"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 3: Push Down Automata and Turing Machines",
+        "topics": [
+          {
+            "topic": "Push Down Automata",
+            "subTopics": [
+              "Definition of the Pushdown Automaton",
+              "The Languages of a PDA",
+              "Equivalence of PDA and CFG’s",
+              "Acceptance by final state"
+            ]
+          },
+          {
+            "topic": "Turing Machines",
+            "subTopics": [
+              "Introduction to Turing Machine",
+              "Formal Description",
+              "Instantaneous description",
+              "The language of a Turing machine"
+            ]
+          },
+          {
+            "topic": "Undecidability",
+            "subTopics": [
+              "Undecidability",
+              "A Language that is Not Recursively Enumerable",
+              "An Undecidable Problem That is RE",
+              "Undecidable Problems about Turing Machines"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 4: Introduction to Compiler Design",
+        "topics": [
+          {
+            "topic": "The structure of a compiler"
+          },
+          {
+            "topic": "Lexical Analysis",
+            "subTopics": [
+              "The Role of the Lexical Analyzer",
+              "Input Buffering",
+              "Recognition of Tokens",
+              "The Lexical- Analyzer Generator Lex"
+            ]
+          },
+          {
+            "topic": "Syntax Analysis",
+            "subTopics": [
+              "Introduction",
+              "Context-Free Grammars",
+              "Writing a Grammar",
+              "Top-Down Parsing",
+              "Bottom- Up Parsing",
+              "Introduction to LR Parsing: Simple LR, More Powerful LR Parsers"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 5: Advanced Compiler Design",
+        "topics": [
+          {
+            "topic": "Syntax-Directed Translation",
+            "subTopics": [
+              "Syntax-Directed Definitions",
+              "Evaluation Orders for SDD's",
+              "Syntax-Directed Translation Schemes",
+              "Implementing L-Attributed SDD's"
+            ]
+          },
+          {
+            "topic": "Intermediate-Code Generation",
+            "subTopics": [
+              "Variants of Syntax Trees",
+              "Three-Address Code"
+            ]
+          },
+          {
+            "topic": "Run-Time Environments",
+            "subTopics": [
+              "Stack Allocation of Space",
+              "Access to Nonlocal Data on the Stack",
+              "Heap Management"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "name": "ATCD Unit 1: Introduction To Finite Automata",
+        "link": "./resources/2nd Year/ATCD-Unit1.pdf"
+      }
+    ]
+  }
+]

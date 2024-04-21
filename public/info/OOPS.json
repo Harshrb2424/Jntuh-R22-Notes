@@ -198,7 +198,10 @@
           ]
         }
       ],
-      "links": []
+      "links": [{
+        "name": "OOPS Unit 1: Object oriented thinking and Java Basics",
+        "link": "./resources/2nd Year/OOPS-Unit1.pdf"
+      }]
     }
   ]
   
