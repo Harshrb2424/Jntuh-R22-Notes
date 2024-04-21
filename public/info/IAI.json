@@ -114,7 +114,13 @@
           ]
         }
       ],
-      "links": []
+      "links": [{
+        "name": "ATCD Unit 1: AI and Agents",
+        "link": "./resources/2nd Year/IAI-Unit1.pdf"
+      },{
+        "name": "ATCD Unit 1 (alt): AI and Agents",
+        "link": "./resources/2nd Year/IAI-Unit1-alt.pdf"
+      }]
     }
   ]
   
