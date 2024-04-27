@@ -160,6 +160,10 @@
       {
         "name": "ATCD Unit 1: Introduction To Finite Automata",
         "link": "./resources/2nd Year/ATCD-Unit1.pdf"
+      },
+      {
+        "name": "ATCD Unit 2: Regular Expressions and Context-Free Grammars",
+        "link": "./resources/2nd Year/ATCD-Unit2.pdf"
       }
     ]
   }
