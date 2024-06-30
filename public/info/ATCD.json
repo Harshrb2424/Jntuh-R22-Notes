@@ -164,6 +164,14 @@
       {
         "name": "ATCD Unit 2: Regular Expressions and Context-Free Grammars",
         "link": "./resources/2nd Year/ATCD-Unit2.pdf"
+      },
+      {
+        "name": "ATCD Unit 3: Push Down Automata And Turing Machines",
+        "link": "./resources/2nd Year/ATCD-Unit3.pdf"
+      },
+      {
+        "name": "ATCD Unit 4: Introduction To Compiler Design",
+        "link": "./resources/2nd Year/ATCD-Unit4.pdf"
       }
     ]
   }

@@ -204,8 +204,20 @@
         "link": "./resources/2nd Year/OOPS-Unit1.pdf"
       },
       {
+        "name": "OOPS Unit 1 alt: Object oriented thinking and Java Basics",
+        "link": "./resources/2nd Year/OOPS-Unit1-alt.pdf"
+      },
+      {
         "name": "OOPS Unit 2: Inheritance, Packages, and Interfaces",
         "link": "./resources/2nd Year/OOPS-Unit2.pdf"
+      },
+      {
+        "name": "OOPS Unit 2 alt: Inheritance, Packages, and Interfaces",
+        "link": "./resources/2nd Year/OOPS-Unit2-alt.pdf"
+      },
+      {
+        "name": "OOPS Unit 3: Exception Handling And Multithreading",
+        "link": "./resources/2nd Year/OOPS-Unit3.pdf"
       }
     ]
   }
