@@ -1,100 +1,117 @@
 [
-    {
-      "name": "DISCRETE MATHEMATICS",
-      "code": "DM",
-      "units": [
-        {
-          "name": "UNIT - 1 Mathematical logic",
-          "topics": [
-            {
-              "topic": "Mathematical logic",
-              "subTopics": [
-                "Introduction",
-                "Statements and Notation",
-                "Connectives",
-                "Normal Forms",
-                "Theory of Inference for the Statement Calculus",
-                "The Predicate Calculus",
-                "Inference Theory of the Predicate Calculus"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 2 Set theory",
-          "topics": [
-            {
-              "topic": "Set theory",
-              "subTopics": [
-                "Introduction",
-                "Basic Concepts of Set Theory",
-                "Representation of Discrete Structures",
-                "Relations and Ordering",
-                "Functions"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 3 Algebraic Structures",
-          "topics": [
-            {
-              "topic": "Algebraic Structures",
-              "subTopics": [
-                "Introduction",
-                "Algebraic Systems",
-                "Semigroups and Monoids",
-                "Lattices as Partially Ordered Sets",
-                "Boolean Algebra"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 4 Elementary Combinatorics",
-          "topics": [
-            {
-              "topic": "Elementary Combinatorics",
-              "subTopics": [
-                "Basics of Counting",
-                "Combinations and Permutations",
-                "Enumeration of Combinations and Permutations",
-                "Enumerating Combinations and Permutations with Repetitions",
-                "Enumerating Permutation with Constrained Repetitions",
-                "Binomial Coefficient",
-                "The Binomial and Multinomial Theorems",
-                "The Principle of Exclusion"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 5 Graph Theory",
-          "topics": [
-            {
-              "topic": "Graph Theory",
-              "subTopics": [
-                "Basic Concepts",
-                "Isomorphism and Subgraphs",
-                "Trees and their Properties",
-                "Spanning Trees",
-                "Directed Trees",
-                "Binary Trees",
-                "Planar Graphs",
-                "Euler’s Formula",
-                "Multi-graphs and Euler Circuits",
-                "Hamiltonian Graphs",
-                "Chromatic Numbers",
-                "The Four-Color Problem"
-              ]
-            }
-          ]
-        }
-      ],
-      "links": [{
+  {
+    "name": "DISCRETE MATHEMATICS",
+    "code": "DM",
+    "units": [
+      {
+        "name": "UNIT - 1 Mathematical logic",
+        "topics": [
+          {
+            "topic": "Mathematical logic",
+            "subTopics": [
+              "Introduction",
+              "Statements and Notation",
+              "Connectives",
+              "Normal Forms",
+              "Theory of Inference for the Statement Calculus",
+              "The Predicate Calculus",
+              "Inference Theory of the Predicate Calculus"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 2 Set theory",
+        "topics": [
+          {
+            "topic": "Set theory",
+            "subTopics": [
+              "Introduction",
+              "Basic Concepts of Set Theory",
+              "Representation of Discrete Structures",
+              "Relations and Ordering",
+              "Functions"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 3 Algebraic Structures",
+        "topics": [
+          {
+            "topic": "Algebraic Structures",
+            "subTopics": [
+              "Introduction",
+              "Algebraic Systems",
+              "Semigroups and Monoids",
+              "Lattices as Partially Ordered Sets",
+              "Boolean Algebra"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 4 Elementary Combinatorics",
+        "topics": [
+          {
+            "topic": "Elementary Combinatorics",
+            "subTopics": [
+              "Basics of Counting",
+              "Combinations and Permutations",
+              "Enumeration of Combinations and Permutations",
+              "Enumerating Combinations and Permutations with Repetitions",
+              "Enumerating Permutation with Constrained Repetitions",
+              "Binomial Coefficient",
+              "The Binomial and Multinomial Theorems",
+              "The Principle of Exclusion"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 5 Graph Theory",
+        "topics": [
+          {
+            "topic": "Graph Theory",
+            "subTopics": [
+              "Basic Concepts",
+              "Isomorphism and Subgraphs",
+              "Trees and their Properties",
+              "Spanning Trees",
+              "Directed Trees",
+              "Binary Trees",
+              "Planar Graphs",
+              "Euler’s Formula",
+              "Multi-graphs and Euler Circuits",
+              "Hamiltonian Graphs",
+              "Chromatic Numbers",
+              "The Four-Color Problem"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
         "name": "DM Unit 1: Mathematical logic",
         "link": "./resources/2nd Year/DM-Unit1.pdf"
-      }]
-    }
-  ]
-  
+      },
+      {
+        "name": "DM Unit 2: Set Theory",
+        "link": "./resources/2nd Year/DM-Unit1.pdf"
+      },
+      {
+        "name": "DM Unit 3: Algebraic Structures",
+        "link": "./resources/2nd Year/DM-Unit1.pdf"
+      },
+      {
+        "name": "DM Unit 4: Elementary Combinatorics",
+        "link": "./resources/2nd Year/DM-Unit1.pdf"
+      },
+      {
+        "name": "DM Unit 5: Graph Theory",
+        "link": "./resources/2nd Year/DM-Unit1.pdf"
+      }
+    ]
+  }
+]

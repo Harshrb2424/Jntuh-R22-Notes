@@ -172,6 +172,10 @@
       {
         "name": "ATCD Unit 4: Introduction To Compiler Design",
         "link": "./resources/2nd Year/ATCD-Unit4.pdf"
+      },
+      {
+        "name": "ATCD Unit 5: Advanced Compiler Design",
+        "link": "./resources/2nd Year/ATCD-Unit5.pdf"
       }
     ]
   }

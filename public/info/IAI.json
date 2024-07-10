@@ -126,6 +126,14 @@
       {
         "name": "ATCD Unit 2: Games And Knowledge-based Agents",
         "link": "./resources/2nd Year/IAI-Unit2.pdf"
+      },
+      {
+        "name": "ATCD Unit 4 (alt): Planning",
+        "link": "./resources/2nd Year/IAI-Unit4-alt.pdf"
+      },
+      {
+        "name": "ATCD Unit 5 (alt): Probabilistic Reasoning",
+        "link": "./resources/2nd Year/IAI-Unit5-alt.pdf"
       }
     ]
   }

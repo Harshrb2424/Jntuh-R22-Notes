@@ -141,6 +141,14 @@
       {
         "name": "DBMS Unit 3: SQL",
         "link": "./resources/2nd Year/DBMS-Unit3.pdf"
+      },
+      {
+        "name": "DBMS Unit 4: Transaction Management",
+        "link": "./resources/2nd Year/DBMS-Unit4.pdf"
+      },
+      {
+        "name": "DBMS Unit 5: Data On External Storage And File Organization",
+        "link": "./resources/2nd Year/DBMS-Unit5.pdf"
       }
     ]
   }
