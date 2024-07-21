@@ -128,8 +128,16 @@
         "link": "./resources/2nd Year/IAI-Unit2.pdf"
       },
       {
+        "name": "ATCD Unit 3: First-order Logic And Knowledge Representation",
+        "link": "./resources/2nd Year/IAI-Unit3.pdf"
+      },
+      {
         "name": "ATCD Unit 4 (alt): Planning",
         "link": "./resources/2nd Year/IAI-Unit4-alt.pdf"
+      },
+      {
+        "name": "ATCD Unit 5: Probabilistic Reasoning",
+        "link": "./resources/2nd Year/IAI-Unit5.pdf"
       },
       {
         "name": "ATCD Unit 5 (alt): Probabilistic Reasoning",

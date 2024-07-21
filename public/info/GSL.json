@@ -105,7 +105,12 @@
           ]
         }
       ],
-      "links": []
+      "links": [
+      {
+        "name": "GS Question Answers",
+        "link": "./resources/2nd Year/GS-QnA.pdf"
+      }
+      ]
     }
   ]
   
