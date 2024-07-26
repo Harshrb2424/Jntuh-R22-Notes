@@ -116,31 +116,31 @@
     ],
     "links": [
       {
-        "name": "ATCD Unit 1: AI and Agents",
+        "name": "IAI Unit 1: AI and Agents",
         "link": "./resources/2nd Year/IAI-Unit1.pdf"
       },
       {
-        "name": "ATCD Unit 1 (alt): AI and Agents",
-        "link": "./resources/2nd Year/IAI-Unit1-alt.pdf"
-      },
-      {
-        "name": "ATCD Unit 2: Games And Knowledge-based Agents",
+        "name": "IAI Unit 2: Games And Knowledge-based Agents",
         "link": "./resources/2nd Year/IAI-Unit2.pdf"
       },
       {
-        "name": "ATCD Unit 3: First-order Logic And Knowledge Representation",
+        "name": "IAI Unit 3: First-order Logic And Knowledge Representation",
         "link": "./resources/2nd Year/IAI-Unit3.pdf"
       },
       {
-        "name": "ATCD Unit 4 (alt): Planning",
-        "link": "./resources/2nd Year/IAI-Unit4-alt.pdf"
-      },
-      {
-        "name": "ATCD Unit 5: Probabilistic Reasoning",
+        "name": "IAI Unit 5: Probabilistic Reasoning",
         "link": "./resources/2nd Year/IAI-Unit5.pdf"
       },
       {
-        "name": "ATCD Unit 5 (alt): Probabilistic Reasoning",
+        "name": "IAI Unit 1 (alt): AI and Agents",
+        "link": "./resources/2nd Year/IAI-Unit1-alt.pdf"
+      },
+      {
+        "name": "IAI Unit 4 (alt): Planning",
+        "link": "./resources/2nd Year/IAI-Unit4-alt.pdf"
+      },
+      {
+        "name": "IAI Unit 5 (alt): Probabilistic Reasoning",
         "link": "./resources/2nd Year/IAI-Unit5-alt.pdf"
       }
     ]

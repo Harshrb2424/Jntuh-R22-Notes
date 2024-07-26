@@ -1,2 +1,0 @@
-Evaluate predictions
-print(predictions)
