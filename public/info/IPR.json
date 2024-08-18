@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Intellectual Property Rights",
+    "code": "MC510",
+    "units": [
+      {
+        "name": "Introduction to Intellectual Property",
+        "topics": [
+          {
+            "topic": "Introduction to Intellectual Property",
+            "subTopics": []
+          },
+          {
+            "topic": "Types of Intellectual Property",
+            "subTopics": []
+          },
+          {
+            "topic": "International Organizations, Agencies, and Treaties",
+            "subTopics": []
+          },
+          {
+            "topic": "Importance of Intellectual Property Rights",
+            "subTopics": []
+          }
+        ]
+      },
+      {
+        "name": "Trade Marks",
+        "topics": [
+          {
+            "topic": "Purpose and Function of Trademarks",
+            "subTopics": []
+          },
+          {
+            "topic": "Acquisition of Trademark Rights",
+            "subTopics": []
+          },
+          {
+            "topic": "Protectable Matter",
+            "subTopics": []
+          },
+          {
+            "topic": "Selecting and Evaluating a Trademark",
+            "subTopics": []
+          },
+          {
+            "topic": "Trademark Registration Processes",
+            "subTopics": []
+          }
+        ]
+      },
+      {
+        "name": "Law of Copyrights and Patents",
+        "topics": [
+          {
+            "topic": "Law of Copyrights",
+            "subTopics": [
+              "Fundamentals of Copyright Law",
+              "Originality of Material",
+              "Rights of Reproduction",
+              "Rights to Perform the Work Publicly",
+              "Copyright Ownership Issues",
+              "Copyright Registration",
+              "Notice of Copyright",
+              "International Copyright Law"
+            ]
+          },
+          {
+            "topic": "Law of Patents",
+            "subTopics": [
+              "Foundation of Patent Law",
+              "Patent Searching Process",
+              "Ownership Rights and Transfer"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Trade Secrets and Unfair Competition",
+        "topics": [
+          {
+            "topic": "Trade Secrets",
+            "subTopics": [
+              "Trade Secret Law",
+              "Determination of Trade Secret Status",
+              "Liability for Misappropriations of Trade Secrets",
+              "Protection for Submission",
+              "Trade Secret Litigation"
+            ]
+          },
+          {
+            "topic": "Unfair Competition",
+            "subTopics": [
+              "Misappropriation",
+              "Right of Publicity",
+              "False Advertising"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "New Developments in Intellectual Property",
+        "topics": [
+          {
+            "topic": "New Developments in",
+            "subTopics": [
+              "Trademark Law",
+              "Copyright Law",
+              "Patent Law",
+              "Intellectual Property Audits"
+            ]
+          },
+          {
+            "topic": "International Overview on Intellectual Property",
+            "subTopics": [
+              "International Trademark Law",
+              "International Copyright Law",
+              "International Patent Law",
+              "International Developments in Trade Secrets Law"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+]

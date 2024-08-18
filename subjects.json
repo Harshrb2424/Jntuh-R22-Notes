@@ -603,7 +603,7 @@
       "Disjoint Sets, Backtracking",
       "Dynamic Programming",
       "Greedy method, Basic Traversal and Search Techniques",
-      "Branch and Bound, NP-Hard and NP-Complete problemss"
+      "Branch and Bound, NP-Hard and NP-Complete problems"
     ]
   },
   {
@@ -620,7 +620,370 @@
       "Multi-layer Perceptron",
       "Learning with Trees",
       "Dimensionality Reduction",
-      "Reinforcement Learnings"
+      "Reinforcement Learning"
     ]
+  },
+  {
+    "name": "COMPUTER NETWORKS",
+    "code": "CN",
+    "year": 3,
+    "sem": 1,
+    "credits": 3,
+    "tags": [
+      "Specialized Computer Science"
+    ],
+    "info": []
+  },
+  {
+    "name": "BUSINESS ECONOMICS & FINANCIAL ANALYSIS",
+    "code": "BEFA",
+    "year": 3,
+    "sem": 1,
+    "credits": 3,
+    "tags": [
+      "General Education"
+    ],
+    "info": []
+  },
+  {
+    "name": "PROFESSIONAL ELECTIVE-I: Graph Theory",
+    "code": "PE-I-I",
+    "year": 3,
+    "sem": 1,
+    "credits": 3,
+    "tags": [
+      "Elective"
+    ],
+    "info": []
+  },
+  {
+    "name": "PROFESSIONAL ELECTIVE-I: Introduction to Data Science",
+    "code": "PE-I-II",
+    "year": 3,
+    "sem": 1,
+    "credits": 3,
+    "tags": [
+      "Elective"
+    ],
+    "info": []
+  },
+  {
+    "name": "PROFESSIONAL ELECTIVE-I: Web Programming",
+    "code": "PE-I-III",
+    "year": 3,
+    "sem": 1,
+    "credits": 3,
+    "tags": [
+      "Elective"
+    ],
+    "info": []
+  },
+  {
+    "name": "PROFESSIONAL ELECTIVE-I: Image Processing",
+    "code": "PE-I-IV",
+    "year": 3,
+    "sem": 1,
+    "credits": 3,
+    "tags": [
+      "Elective"
+    ],
+    "info": []
+  },
+  {
+    "name": "PROFESSIONAL ELECTIVE-I: Computer Graphics",
+    "code": "PE-I-V",
+    "year": 3,
+    "sem": 1,
+    "credits": 3,
+    "tags": [
+      "Elective"
+    ],
+    "info": []
+  },
+  {
+    "name": "MACHINE LEARNING LAB",
+    "code": "MLL",
+    "year": 3,
+    "sem": 1,
+    "credits": 1,
+    "tags": [
+      "Specialized Computer Science"
+    ],
+    "info": []
+  },
+  {
+    "name": "COMPUTER NETWORKS LAB",
+    "code": "CNL",
+    "year": 3,
+    "sem": 1,
+    "credits": 1,
+    "tags": [
+      "Specialized Computer Science"
+    ],
+    "info": []
+  },
+  {
+    "name": "ADVANCED ENGLISH COMMUNICATION SKILLS LAB",
+    "code": "AECS",
+    "year": 3,
+    "sem": 1,
+    "credits": 1,
+    "tags": [
+      "General Education"
+    ],
+    "info": []
+  },
+  {
+    "name": "UI DESIGN - FLUTTER",
+    "code": "UI",
+    "year": 3,
+    "sem": 1,
+    "credits": 1,
+    "tags": [
+      "Specialized Computer Science"
+    ],
+    "info": []
+  },
+  {
+    "name": "INTELLECTUAL PROPERTY RIGHTS",
+    "code": "IPR",
+    "year": 3,
+    "sem": 1,
+    "credits": 0,
+    "tags": [
+      "General Education"
+    ],
+    "info": []
+  },
+  {
+    "name": "Knowledge Representation and Reasoning",
+    "code": "AM601PC",
+    "year": 3,
+    "sem": 2,
+    "credits": 3,
+    "tags": [
+      "Specialized Computer Science"
+    ],
+    "info": []
+  },
+  {
+    "name": "Data Analytics",
+    "code": "AM602PC",
+    "year": 3,
+    "sem": 2,
+    "credits": 3,
+    "tags": [
+      "Specialized Computer Science"
+    ],
+    "info": []
+  },
+  {
+    "name": "Natural Language Processing",
+    "code": "AM603PC",
+    "year": 3,
+    "sem": 2,
+    "credits": 3,
+    "tags": [
+      "Specialized Computer Science"
+    ],
+    "info": []
+  },
+  {
+    "name": "Professional Elective – II",
+    "code": "PE-II",
+    "year": 3,
+    "sem": 2,
+    "credits": 3,
+    "tags": [
+      "Elective"
+    ],
+    "info": []
+  },
+  {
+    "name": "Open Elective-I",
+    "code": "OE-I",
+    "year": 3,
+    "sem": 2,
+    "credits": 3,
+    "tags": [
+      "Elective"
+    ],
+    "info": []
+  },
+  {
+    "name": "Natural Language Processing Lab",
+    "code": "AM604PC",
+    "year": 3,
+    "sem": 2,
+    "credits": 1.5,
+    "tags": [
+      "Laboratory"
+    ],
+    "info": []
+  },
+  {
+    "name": "Data Analytics Lab",
+    "code": "AM605PC",
+    "year": 3,
+    "sem": 2,
+    "credits": 1.5,
+    "tags": [
+      "Laboratory"
+    ],
+    "info": []
+  },
+  {
+    "name": "Industrial Oriented Mini Project/ Internship/Skill Development Course (DevOps)",
+    "code": "AM606PC",
+    "year": 3,
+    "sem": 2,
+    "credits": 2,
+    "tags": [
+      "Project"
+    ],
+    "info": []
+  },
+  {
+    "name": "Environmental Science",
+    "code": "MC609",
+    "year": 3,
+    "sem": 2,
+    "credits": 0,
+    "tags": [
+      "Management"
+    ],
+    "info": []
+  },
+  {
+    "name": "Deep Learning",
+    "code": "AM701PC",
+    "year": 4,
+    "sem": 1,
+    "credits": 3,
+    "tags": [
+      "Specialized Computer Science"
+    ],
+    "info": []
+  },
+  {
+    "name": "Nature Inspired Computing",
+    "code": "AM702PC",
+    "year": 4,
+    "sem": 1,
+    "credits": 2,
+    "tags": [
+      "Specialized Computer Science"
+    ],
+    "info": []
+  },
+  {
+    "name": "Professional Elective - III",
+    "code": "PE-III",
+    "year": 4,
+    "sem": 1,
+    "credits": 3,
+    "tags": [
+      "Elective"
+    ],
+    "info": []
+  },
+  {
+    "name": "Professional Elective - IV",
+    "code": "PE-IV",
+    "year": 4,
+    "sem": 1,
+    "credits": 3,
+    "tags": [
+      "Elective"
+    ],
+    "info": []
+  },
+  {
+    "name": "Open Elective - II",
+    "code": "OE-II",
+    "year": 4,
+    "sem": 1,
+    "credits": 3,
+    "tags": [
+      "Elective"
+    ],
+    "info": []
+  },
+  {
+    "name": "Professional Practice, Law & Ethics",
+    "code": "AM703PC",
+    "year": 4,
+    "sem": 1,
+    "credits": 2,
+    "tags": [
+      "Management"
+    ],
+    "info": []
+  },
+  {
+    "name": "Professional Elective - III Lab",
+    "code": "PE-III Lab",
+    "year": 4,
+    "sem": 1,
+    "credits": 1,
+    "tags": [
+      "Laboratory"
+    ],
+    "info": []
+  },
+  {
+    "name": "Project Stage - I",
+    "code": "Project-I",
+    "year": 4,
+    "sem": 1,
+    "credits": 3,
+    "tags": [
+      "Project"
+    ],
+    "info": []
+  },
+  {
+    "name": "Professional Elective - V",
+    "code": "PE-V",
+    "year": 4,
+    "sem": 2,
+    "credits": 3,
+    "tags": [
+      "Elective"
+    ],
+    "info": []
+  },
+  {
+    "name": "Professional Elective - VI",
+    "code": "PE-VI",
+    "year": 4,
+    "sem": 2,
+    "credits": 3,
+    "tags": [
+      "Elective"
+    ],
+    "info": []
+  },
+  {
+    "name": "Open Elective - III",
+    "code": "OE-III",
+    "year": 4,
+    "sem": 2,
+    "credits": 3,
+    "tags": [
+      "Elective"
+    ],
+    "info": []
+  },
+  {
+    "name": "Project Stage – II including Seminar",
+    "code": "AM801PC",
+    "year": 4,
+    "sem": 2,
+    "credits": 11,
+    "tags": [
+      "Project"
+    ],
+    "info": []
   }
 ]

@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Machine Learning Lab",
+    "code": "AM505PC",
+    "units": [
+      {
+        "name": "List of Experiments",
+        "topics": [
+          {
+            "topic": "1. Compute Central Tendency Measures",
+            "subTopics": [
+              "Mean",
+              "Median",
+              "Mode",
+              "Measure of Dispersion",
+              "Variance",
+              "Standard Deviation"
+            ]
+          },
+          {
+            "topic": "2. Study of Python Basic Libraries",
+            "subTopics": [
+              "Statistics",
+              "Math",
+              "Numpy",
+              "Scipy"
+            ]
+          },
+          {
+            "topic": "3. Study of Python Libraries for ML Applications",
+            "subTopics": [
+              "Pandas",
+              "Matplotlib"
+            ]
+          },
+          {
+            "topic": "4. Implement Simple Linear Regression in Python",
+            "subTopics": []
+          },
+          {
+            "topic": "5. Implement Multiple Linear Regression for House Price Prediction using sklearn",
+            "subTopics": []
+          },
+          {
+            "topic": "6. Implement Decision Tree using sklearn and perform parameter tuning",
+            "subTopics": []
+          },
+          {
+            "topic": "7. Implement K-Nearest Neighbors (KNN) using sklearn",
+            "subTopics": []
+          },
+          {
+            "topic": "8. Implement Logistic Regression using sklearn",
+            "subTopics": []
+          },
+          {
+            "topic": "9. Implement K-Means Clustering",
+            "subTopics": []
+          },
+          {
+            "topic": "10. Performance Analysis of Classification Algorithms on a Specific Dataset (Mini Project)",
+            "subTopics": []
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+]

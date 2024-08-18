@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Computer Networks",
+    "code": "AM503PC",
+    "units": [
+      {
+        "name": "UNIT - I",
+        "topics": [
+          {
+            "topic": "Network Hardware and Software",
+            "subTopics": [
+              "OSI Model",
+              "TCP/IP Reference Model",
+              "Example Networks: ARPANET, Internet"
+            ]
+          },
+          {
+            "topic": "Physical Layer",
+            "subTopics": [
+              "Guided Transmission Media: Twisted Pairs, Coaxial Cable, Fiber Optics",
+              "Wireless Transmission"
+            ]
+          },
+          {
+            "topic": "Data Link Layer",
+            "subTopics": [
+              "Design Issues",
+              "Framing",
+              "Error Detection and Correction"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - II",
+        "topics": [
+          {
+            "topic": "Elementary Data Link Protocols",
+            "subTopics": [
+              "Simplex Protocol",
+              "Simplex Stop and Wait Protocol for an Error-Free Channel",
+              "Simplex Stop and Wait Protocol for a Noisy Channel"
+            ]
+          },
+          {
+            "topic": "Sliding Window Protocols",
+            "subTopics": [
+              "One-Bit Sliding Window Protocol",
+              "Protocol Using Go-Back-N",
+              "Protocol Using Selective Repeat",
+              "Example Data Link Protocols"
+            ]
+          },
+          {
+            "topic": "Medium Access Sublayer",
+            "subTopics": [
+              "Channel Allocation Problem",
+              "Multiple Access Protocols: ALOHA, Carrier Sense Multiple Access Protocols, Collision-Free Protocols",
+              "Wireless LANs",
+              "Data Link Layer Switching"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - III",
+        "topics": [
+          {
+            "topic": "Network Layer",
+            "subTopics": [
+              "Design Issues",
+              "Routing Algorithms: Shortest Path Routing, Flooding, Hierarchical Routing, Broadcast, Multicast, Distance Vector Routing",
+              "Congestion Control Algorithms",
+              "Quality of Service",
+              "Internetworking",
+              "The Network Layer in the Internet"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - IV",
+        "topics": [
+          {
+            "topic": "Transport Layer",
+            "subTopics": [
+              "Transport Services",
+              "Elements of Transport Protocols",
+              "Connection Management",
+              "TCP and UDP Protocols"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - V",
+        "topics": [
+          {
+            "topic": "Application Layer",
+            "subTopics": [
+              "Domain Name System (DNS)",
+              "Simple Network Management Protocol (SNMP)",
+              "Electronic Mail",
+              "The World Wide Web (WWW)",
+              "Hypertext Transfer Protocol (HTTP)",
+              "Streaming Audio and Video"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+]

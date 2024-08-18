@@ -1,117 +1,107 @@
 [
-    {
-      "name": "DESIGN AND ANALYSIS OF ALGORITHMS",
-      "code": "DAA",
-      "units": [
-        {
-          "name": "UNIT - 1 Introduction, Divide and conquer",
-          "topics": [
-            {
-              "topic": "Introduction: Algorithm, Performance Analysis-Space complexity, Time complexity, Asymptotic Notations- Big oh notation, Omega notation, Theta notation and Little oh notation.",
-              "subTopics": []
-            },
-            {
-              "topic": "Divide and conquer",
-              "subTopics": [
-                "General method",
-                "Applications-Binary search",
-                "Quick sort",
-                "Merge sort",
-                "Strassen’s matrix multiplication"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 2 Disjoint Sets and Backtracking",
-          "topics": [
-            {
-              "topic": "Disjoint Sets",
-              "subTopics": [
-                "Disjoint set operations",
-                "Union and find algorithms",
-                "Priority Queue- Heaps",
-                "Heapsort"
-              ]
-            },
-            {
-              "topic": "Backtracking",
-              "subTopics": [
-                "General method",
-                "Applications",
-                "N-queen’s problem",
-                "Sum of subsets problem",
-                "Graph Coloring",
-                "Hamiltonian cycles"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 3 Dynamic Programming",
-          "topics": [
-            {
-              "topic": "Dynamic Programming",
-              "subTopics": [
-                "General method",
-                "Applications- Optimal binary search tree",
-                "0/1 knapsack problem",
-                "All pairs shortest path problem",
-                "Traveling salesperson problem",
-                "Reliability design"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 4 Greedy method, Basic Traversal and Search Techniques ",
-          "topics": [
-            {
-              "topic": "Greedy method",
-              "subTopics": [
-                "General method",
-                "Applications-Job sequencing with deadlines",
-                "Knapsack problem",
-                "Minimum cost spanning trees",
-                "Single source shortest path problem"
-              ]
-            },
-            {
-              "topic": "Basic Traversal and Search Techniques",
-              "subTopics": [
-                "Techniques for Binary Trees",
-                "Techniques for Graphs",
-                "Connected components",
-                "Biconnected components"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 5 Branch and Bound",
-          "topics": [
-            {
-              "topic": "Branch and Bound",
-              "subTopics": [
-                "General method",
-                "Applications - Traveling salesperson problem",
-                "0/1 knapsack problem - LC Branch and Bound solution",
-                "FIFO Branch and Bound solution"
-              ]
-            },
-            {
-              "topic": "NP-Hard and NP-Complete problems",
-              "subTopics": [
-                "Basic concepts",
-                "Non-deterministic algorithms",
-                "NP-Hard and NP-Complete classes",
-                "Cook’s theorem"
-              ]
-            }
-          ]
-        }
-      ],
-      "links": []
-    }
-  ]
-  
+  {
+    "name": "Design and Analysis of Algorithms",
+    "code": "AM501PC",
+    "units": [
+      {
+        "name": "UNIT - I",
+        "topics": [
+          {
+            "topic": "Introduction",
+            "subTopics": [
+              "Algorithm",
+              "Performance Analysis: Space complexity, Time complexity",
+              "Asymptotic Notations: Big Oh notation, Omega notation, Theta notation, Little Oh notation"
+            ]
+          },
+          {
+            "topic": "Divide and Conquer",
+            "subTopics": [
+              "General method",
+              "Applications: Binary search, Quick sort, Merge sort, Strassen’s matrix multiplication"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - II",
+        "topics": [
+          {
+            "topic": "Disjoint Sets",
+            "subTopics": [
+              "Disjoint set operations",
+              "Union and find algorithms"
+            ]
+          },
+          {
+            "topic": "Priority Queue",
+            "subTopics": [
+              "Heaps",
+              "Heapsort"
+            ]
+          },
+          {
+            "topic": "Backtracking",
+            "subTopics": [
+              "General method",
+              "Applications: n-queen’s problem, Sum of subsets problem, Graph coloring, Hamiltonian cycles"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - III",
+        "topics": [
+          {
+            "topic": "Dynamic Programming",
+            "subTopics": [
+              "General method",
+              "Applications: Optimal binary search tree, 0/1 knapsack problem, All pairs shortest path problem, Traveling salesperson problem, Reliability design"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - IV",
+        "topics": [
+          {
+            "topic": "Greedy Method",
+            "subTopics": [
+              "General method",
+              "Applications: Job sequencing with deadlines, Knapsack problem, Minimum cost spanning trees, Single source shortest path problem"
+            ]
+          },
+          {
+            "topic": "Basic Traversal and Search Techniques",
+            "subTopics": [
+              "Techniques for Binary Trees",
+              "Techniques for Graphs: Connected components, Biconnected components"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - V",
+        "topics": [
+          {
+            "topic": "Branch and Bound",
+            "subTopics": [
+              "General method",
+              "Applications: Traveling salesperson problem, 0/1 knapsack problem: LC Branch and Bound solution, FIFO Branch and Bound solution"
+            ]
+          },
+          {
+            "topic": "NP-Hard and NP-Complete Problems",
+            "subTopics": [
+              "Basic concepts",
+              "Non-deterministic algorithms",
+              "NP-Hard and NP-Complete classes",
+              "Cook’s theorem"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+]

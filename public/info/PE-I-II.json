@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Introduction to Data Science",
+    "code": "AM512PE",
+    "units": [
+      {
+        "name": "UNIT - I: Introduction",
+        "topics": [
+          {
+            "topic": "Definition of Data Science",
+            "subTopics": [
+              "Big Data and Data Science Hype",
+              "Datafication and Current Landscape"
+            ]
+          },
+          {
+            "topic": "Statistical Inference",
+            "subTopics": [
+              "Populations and Samples",
+              "Statistical Modeling and Probability Distributions",
+              "Model Fitting and Overfitting"
+            ]
+          },
+          {
+            "topic": "Basics of R",
+            "subTopics": [
+              "Introduction to R",
+              "R-Environment Setup",
+              "Programming with R",
+              "Basic Data Types"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - II: Data Types & Statistical Description",
+        "topics": [
+          {
+            "topic": "Types of Data",
+            "subTopics": [
+              "Attributes and Measurement",
+              "Different Types of Attributes: Asymmetric, Binary, Nominal, Ordinal, Numeric",
+              "Discrete vs. Continuous Attributes"
+            ]
+          },
+          {
+            "topic": "Basic Statistical Descriptions",
+            "subTopics": [
+              "Central Tendency: Mean, Median, Mode",
+              "Dispersion: Range, Quartiles, Variance, Standard Deviation, Interquartile Range",
+              "Graphic Displays of Statistical Descriptions"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - III: R Data Structures",
+        "topics": [
+          {
+            "topic": "Vectors",
+            "subTopics": [
+              "Creating and Naming Vectors",
+              "Vector Arithmetic and Subsetting"
+            ]
+          },
+          {
+            "topic": "Matrices",
+            "subTopics": [
+              "Creating and Naming Matrices",
+              "Matrix Subsetting and Arrays"
+            ]
+          },
+          {
+            "topic": "Factors and Data Frames",
+            "subTopics": [
+              "Introduction to Factors: Factor Levels, Ordered Factors",
+              "Introduction to Data Frames: Subsetting, Extending, Sorting"
+            ]
+          },
+          {
+            "topic": "Lists",
+            "subTopics": [
+              "Creating and Accessing Lists",
+              "Manipulating, Merging Lists, and Converting to Vectors"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - IV: Control Flow and Functions",
+        "topics": [
+          {
+            "topic": "Conditionals and Control Flow",
+            "subTopics": [
+              "Relational Operators and Vectors",
+              "Logical Operators and Conditional Statements"
+            ]
+          },
+          {
+            "topic": "Iterative Programming in R",
+            "subTopics": ["While Loop, For Loop, Looping Over Lists"]
+          },
+          {
+            "topic": "Functions in R",
+            "subTopics": [
+              "Writing Functions: Nested Functions, Scoping, Recursion",
+              "Loading R Packages",
+              "Mathematical Functions in R"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - V: Data Visualization and Regression",
+        "topics": [
+          {
+            "topic": "Charts and Graphs",
+            "subTopics": [
+              "Pie Chart, Bar Chart, Box Plot, Histogram, Line Graph, Scatter Plot"
+            ]
+          },
+          {
+            "topic": "Regression",
+            "subTopics": [
+              "Linear Regression Analysis",
+              "Multiple Linear Regression"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

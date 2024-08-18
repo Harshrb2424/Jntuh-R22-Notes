@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Graph Theory",
+    "code": "AM511PE",
+    "units": [
+      {
+        "name": "UNIT - I: Introduction to Graphs",
+        "topics": [
+          {
+            "topic": "Discovery of Graphs",
+            "subTopics": [
+              "Historical context and basic definitions"
+            ]
+          },
+          {
+            "topic": "Subgraphs and Isomorphic Graphs",
+            "subTopics": [
+              "Concept and identification"
+            ]
+          },
+          {
+            "topic": "Matrix Representations",
+            "subTopics": [
+              "Adjacency matrix",
+              "Incidence matrix"
+            ]
+          },
+          {
+            "topic": "Vertex Degree",
+            "subTopics": [
+              "Definition and properties"
+            ]
+          },
+          {
+            "topic": "Walks, Paths, and Cycles",
+            "subTopics": [
+              "Directed walks",
+              "Paths",
+              "Cycles"
+            ]
+          },
+          {
+            "topic": "Connectivity",
+            "subTopics": [
+              "In digraphs",
+              "Eulerian and Hamiltonian digraphs"
+            ]
+          },
+          {
+            "topic": "Special Graphs",
+            "subTopics": [
+              "Complements",
+              "Larger graphs from smaller ones"
+            ]
+          },
+          {
+            "topic": "Operations",
+            "subTopics": [
+              "Union",
+              "Sum",
+              "Cartesian Product",
+              "Composition"
+            ]
+          },
+          {
+            "topic": "Graphic Sequences",
+            "subTopics": [
+              "Havel-Hakimi criterion",
+              "Realization of a graphic sequence"
+            ]
+          },
+          {
+            "topic": "Graph Theoretic Model",
+            "subTopics": [
+              "Application to LAN problems"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - II: Connected Graphs and Shortest Paths",
+        "topics": [
+          {
+            "topic": "Walks, Trails, Paths, and Cycles",
+            "subTopics": [
+              "Basic concepts and definitions"
+            ]
+          },
+          {
+            "topic": "Connected Graphs",
+            "subTopics": [
+              "Definition and properties"
+            ]
+          },
+          {
+            "topic": "Distance",
+            "subTopics": [
+              "Concept of distance in graphs"
+            ]
+          },
+          {
+            "topic": "Cut-Vertices and Cut-Edges",
+            "subTopics": [
+              "Definitions and applications"
+            ]
+          },
+          {
+            "topic": "Blocks and Connectivity",
+            "subTopics": [
+              "Basic concepts"
+            ]
+          },
+          {
+            "topic": "Weighted Graphs",
+            "subTopics": [
+              "Concepts and algorithms"
+            ]
+          },
+          {
+            "topic": "Shortest Path Algorithms",
+            "subTopics": [
+              "Dijkstra’s Algorithm: Procedure and application",
+              "Floyd-Warshall Algorithm: Procedure and application"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - III: Trees",
+        "topics": [
+          {
+            "topic": "Definitions and Characterizations",
+            "subTopics": [
+              "Basic properties of trees"
+            ]
+          },
+          {
+            "topic": "Number of Trees",
+            "subTopics": [
+              "Cayley’s formula"
+            ]
+          },
+          {
+            "topic": "Kirchhoff’s Matrix-Tree Theorem",
+            "subTopics": [
+              "Introduction and application"
+            ]
+          },
+          {
+            "topic": "Minimum Spanning Trees",
+            "subTopics": [
+              "Kruskal’s Algorithm: Steps and application",
+              "Prim’s Algorithm: Steps and application"
+            ]
+          },
+          {
+            "topic": "Special Classes of Graphs",
+            "subTopics": [
+              "Bipartite Graphs: Definitions and properties",
+              "Line Graphs: Definitions and properties",
+              "Chordal Graphs: Definitions and properties",
+              "Eulerian Graphs: Fleury’s algorithm, Chinese Postman Problem",
+              "Hamilton Graphs: Introduction, necessary and sufficient conditions"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - IV: Independent Sets, Coverings, and Matchings",
+        "topics": [
+          {
+            "topic": "Independent Sets and Coverings",
+            "subTopics": [
+              "Basic equations and concepts"
+            ]
+          },
+          {
+            "topic": "Matchings in Bipartite Graphs",
+            "subTopics": [
+              "Definitions and properties"
+            ]
+          },
+          {
+            "topic": "Hall’s Theorem",
+            "subTopics": [
+              "Statement and proof"
+            ]
+          },
+          {
+            "topic": "König’s Theorem",
+            "subTopics": [
+              "Statement and proof"
+            ]
+          },
+          {
+            "topic": "Perfect Matchings",
+            "subTopics": [
+              "Definitions and properties"
+            ]
+          },
+          {
+            "topic": "Greedy and Approximation Algorithms",
+            "subTopics": [
+              "Application and examples"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - V: Vertex and Edge Colorings",
+        "topics": [
+          {
+            "topic": "Vertex Colorings",
+            "subTopics": [
+              "Basic Definitions: Chromatic number, cliques",
+              "Mycielski’s Theorem: Statement and proof",
+              "Greedy Coloring Algorithm: Procedure and application",
+              "Coloring of Chordal Graphs: Properties and algorithms",
+              "Brooks’ Theorem: Statement and proof"
+            ]
+          },
+          {
+            "topic": "Edge Colorings",
+            "subTopics": [
+              "Basics: Definitions and concepts",
+              "Gupta-Vizing Theorem: Statement and proof",
+              "Class-1 and Class-2 Graphs: Definitions and properties",
+              "Edge-Coloring of Bipartite Graphs: Definitions and properties",
+              "Class-2 Graphs: Hajos union and equitable edge-coloring"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

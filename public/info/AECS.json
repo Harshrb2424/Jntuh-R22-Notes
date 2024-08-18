@@ -1,0 +1,195 @@
+[
+  {
+    "name": "Advanced English Communication Skills Lab",
+    "code": "EN508HS",
+    "units": [
+      {
+        "name": "Activities on Listening and Reading Comprehension",
+        "topics": [
+          {
+            "topic": "Active Listening",
+            "subTopics": [
+              "Development of listening skills through audio clips"
+            ]
+          },
+          {
+            "topic": "Benefits of Reading",
+            "subTopics": [
+              "Understanding the importance and advantages of reading"
+            ]
+          },
+          {
+            "topic": "Methods and Techniques of Reading",
+            "subTopics": [
+              "Basic steps to effective reading",
+              "Common obstacles to reading",
+              "Discourse markers or linkers"
+            ]
+          },
+          {
+            "topic": "Subskills of Reading",
+            "subTopics": [
+              "Reading for facts, negative facts, and specific details",
+              "Guessing meanings from context",
+              "Inferring meaning",
+              "Critical reading"
+            ]
+          },
+          {
+            "topic": "Reading Comprehension",
+            "subTopics": [
+              "Exercises for practice"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Activities on Writing Skills",
+        "topics": [
+          {
+            "topic": "Vocabulary for Competitive Examinations",
+            "subTopics": [
+              "Expanding vocabulary for exams"
+            ]
+          },
+          {
+            "topic": "Planning for Writing",
+            "subTopics": [
+              "Planning and improving writing skills"
+            ]
+          },
+          {
+            "topic": "Structure and Presentation",
+            "subTopics": [
+              "Structure and presentation of different types of writing",
+              "Free writing vs. structured writing"
+            ]
+          },
+          {
+            "topic": "Letter Writing",
+            "subTopics": [
+              "Writing a letter of application",
+              "Resume vs. curriculum vitae",
+              "Writing a résumé",
+              "Styles of résumé"
+            ]
+          },
+          {
+            "topic": "e-Correspondence",
+            "subTopics": [
+              "Emails",
+              "Blog writing",
+              "(N)etiquette"
+            ]
+          },
+          {
+            "topic": "Report Writing",
+            "subTopics": [
+              "Importance of reports",
+              "Types and formats of reports",
+              "Technical report writing"
+            ]
+          },
+          {
+            "topic": "Exercises for Practice",
+            "subTopics": []
+          }
+        ]
+      },
+      {
+        "name": "Activities on Presentation Skills",
+        "topics": [
+          {
+            "topic": "Conversation Skills",
+            "subTopics": [
+              "Starting a conversation",
+              "Responding appropriately and relevantly",
+              "Using the right language and body language"
+            ]
+          },
+          {
+            "topic": "Role Play",
+            "subTopics": [
+              "Different situations including seeking clarification, making a request, asking for and refusing permission, participating in small talk"
+            ]
+          },
+          {
+            "topic": "Oral Presentations",
+            "subTopics": [
+              "Individual and group presentations",
+              "JAM sessions",
+              "Use of PPTs",
+              "Importance of presentation skills",
+              "Planning, preparing, rehearsing, and making a presentation",
+              "Dealing with glossophobia or stage fear",
+              "Understanding nuances of delivery",
+              "Presentations through posters/projects/reports"
+            ]
+          },
+          {
+            "topic": "Checklist for Making a Presentation",
+            "subTopics": [
+              "Rubrics of evaluation"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Activities on Group Discussion (GD)",
+        "topics": [
+          {
+            "topic": "Types of GD",
+            "subTopics": [
+              "GD as a part of a selection procedure"
+            ]
+          },
+          {
+            "topic": "Dynamics of Group Discussion",
+            "subTopics": [
+              "Myths of GD",
+              "Intervention and summarizing",
+              "Modulation of voice",
+              "Body language, relevance, fluency, and organization of ideas"
+            ]
+          },
+          {
+            "topic": "Do’s and Don’ts",
+            "subTopics": [
+              "GD strategies"
+            ]
+          },
+          {
+            "topic": "Exercises for Practice",
+            "subTopics": []
+          }
+        ]
+      },
+      {
+        "name": "Interview Skills",
+        "topics": [
+          {
+            "topic": "Concept and Process",
+            "subTopics": [
+              "Interview preparation techniques",
+              "Types of interview questions",
+              "Pre-interview planning",
+              "Opening strategies",
+              "Answering strategies"
+            ]
+          },
+          {
+            "topic": "Interview Formats",
+            "subTopics": [
+              "Interview through tele-conference and video-conference"
+            ]
+          },
+          {
+            "topic": "Mock Interviews",
+            "subTopics": []
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+]

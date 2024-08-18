@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Computer Graphics",
+    "code": "AM515PE",
+    "units": [
+      {
+        "name": "UNIT – I: Introduction and Output Primitives",
+        "topics": [
+          {
+            "topic": "Introduction",
+            "subTopics": [
+              "Application areas of Computer Graphics",
+              "Overview of graphics systems: video-display devices, raster-scan systems, random-scan systems, graphics monitors and workstations, and input devices"
+            ]
+          },
+          {
+            "topic": "Output Primitives",
+            "subTopics": [
+              "Points and lines",
+              "Line drawing algorithms: DDA (Digital Differential Analyzer) and Bresenham’s Algorithm",
+              "Circle-generating algorithms and ellipse-generating algorithms"
+            ]
+          },
+          {
+            "topic": "Polygon Filling",
+            "subTopics": [
+              "Scan-line algorithm",
+              "Boundary-fill and flood-fill algorithms"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT – II: 2D Geometric Transformations and Viewing",
+        "topics": [
+          {
+            "topic": "2-D Geometric Transformations",
+            "subTopics": [
+              "Translation, scaling, rotation, reflection, and shear transformations",
+              "Matrix representations and homogeneous coordinates",
+              "Composite transforms, transformations between coordinate systems"
+            ]
+          },
+          {
+            "topic": "2-D Viewing",
+            "subTopics": [
+              "The viewing pipeline, viewing coordinate reference frame",
+              "Window to view-port coordinate transformation",
+              "Viewing functions, clipping operations: point clipping, line clipping (Cohen-Sutherland algorithms), polygon clipping (Sutherland-Hodgeman polygon clipping algorithm)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT – III: 3D Object Representation and Rendering",
+        "topics": [
+          {
+            "topic": "3-D Object Representation",
+            "subTopics": [
+              "Polygon surfaces, quadric surfaces, spline representation",
+              "Hermite curve, Bezier curve, and B-Spline curves",
+              "Bezier and B-Spline surfaces"
+            ]
+          },
+          {
+            "topic": "Polygon Rendering Methods",
+            "subTopics": [
+              "Color models and color applications"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT – IV: 3D Geometric Transformations and Viewing",
+        "topics": [
+          {
+            "topic": "3-D Geometric Transformations",
+            "subTopics": [
+              "Translation, rotation, scaling, reflection, and shear transformations",
+              "Composite transformations"
+            ]
+          },
+          {
+            "topic": "3-D Viewing",
+            "subTopics": [
+              "Viewing pipeline, viewing coordinates",
+              "Projections, view volume, general projection transforms, and clipping"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT – V: Computer Animation and Visible Surface Detection",
+        "topics": [
+          {
+            "topic": "Computer Animation",
+            "subTopics": [
+              "Design of animation sequences",
+              "General computer animation functions: raster animations, computer animation languages, keyframe systems, motion specifications"
+            ]
+          },
+          {
+            "topic": "Visible Surface Detection Methods",
+            "subTopics": [
+              "Classification",
+              "Methods: back-face detection, depth-buffer method, BSP-tree method, area sub-division method, octree method"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

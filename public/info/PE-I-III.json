@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Web Programming",
+    "code": "AM513PE",
+    "units": [
+      {
+        "name": "UNIT – I: Client-Side Programming",
+        "topics": [
+          {
+            "topic": "HTML",
+            "subTopics": [
+              "Basic Tags: Lists, Tables, Images, Forms, Frames",
+              "CSS: Styling with CSS",
+              "HTML5: Canvas and advanced features"
+            ]
+          },
+          {
+            "topic": "JavaScript",
+            "subTopics": [
+              "Web Page Designing with HTML and JavaScript",
+              "Scripting Basics: Client-side and server-side scripting",
+              "JavaScript Object: Names, literals, operators, expressions",
+              "Statements and Features: Events, windows, documents, frames",
+              "Data Types, Built-in Functions, Browser Object Model",
+              "Form Verification",
+              "Web Site Creation using Tools"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT – II: Java",
+        "topics": [
+          {
+            "topic": "Object-Oriented Programming",
+            "subTopics": [
+              "Features of Java: Data types, variables, arrays",
+              "Operators, Control Statements, Classes, Methods",
+              "Inheritance, Packages, Interfaces",
+              "Exception Handling, Multithreaded Programming",
+              "Input/Output, Files, Utility Classes, String Handling"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT – III: JDBC",
+        "topics": [
+          {
+            "topic": "JDBC Overview and Implementation",
+            "subTopics": [
+              "Connection Class, Statements",
+              "Handling Database Results, Database Queries"
+            ]
+          },
+          {
+            "topic": "Networking",
+            "subTopics": [
+              "InetAddress Class, URL Class",
+              "TCP Sockets, UDP Sockets"
+            ]
+          },
+          {
+            "topic": "Java Beans and RMI",
+            "subTopics": [
+              "Introduction to Java Beans",
+              "Remote Method Invocation (RMI)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT – IV: Applets and Servlets",
+        "topics": [
+          {
+            "topic": "Java Applets",
+            "subTopics": [
+              "Life Cycle of an Applet, Adding Images and Sound",
+              "Passing Parameters to an Applet, Event Handling"
+            ]
+          },
+          {
+            "topic": "AWT (Abstract Window Toolkit)",
+            "subTopics": [
+              "Working with Windows Graphics and Text",
+              "Using AWT Controls, Layout Managers, Menus"
+            ]
+          },
+          {
+            "topic": "Servlets",
+            "subTopics": [
+              "Life Cycle of a Servlet, Servlet API",
+              "Handling HTTP Request and Response, Using Cookies",
+              "Session Tracking"
+            ]
+          },
+          {
+            "topic": "JSP (JavaServer Pages)",
+            "subTopics": [
+              "Introduction to JSP"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT – V: XML and Web Services",
+        "topics": [
+          {
+            "topic": "XML",
+            "subTopics": [
+              "Introduction, Form Navigation",
+              "XML Documents, XSL, XSLT"
+            ]
+          },
+          {
+            "topic": "Web Services",
+            "subTopics": [
+              "UDDI (Universal Description, Discovery, and Integration)",
+              "WSDL (Web Services Description Language)",
+              "Java Web Services, Web Resources"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

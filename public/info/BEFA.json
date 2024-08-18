@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Business Economics and Financial Analysis",
+    "code": "SM504MS",
+    "units": [
+      {
+        "name": "UNIT - I: Introduction to Business and Economics",
+        "topics": [
+          {
+            "topic": "Business",
+            "subTopics": [
+              "Structure of Business Firm",
+              "Theory of Firm",
+              "Types of Business Entities",
+              "Limited Liability Companies",
+              "Sources of Capital for a Company",
+              "Non-Conventional Sources of Finance"
+            ]
+          },
+          {
+            "topic": "Economics",
+            "subTopics": [
+              "Significance of Economics",
+              "Micro and Macro Economic Concepts",
+              "Concepts and Importance of National Income",
+              "Inflation",
+              "Money Supply in Inflation",
+              "Business Cycle: Features and Phases",
+              "Nature and Scope of Business Economics",
+              "Role of Business Economist",
+              "Multidisciplinary Nature of Business Economics"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - II: Demand and Supply Analysis",
+        "topics": [
+          {
+            "topic": "Elasticity of Demand",
+            "subTopics": [
+              "Elasticity: Types and Significance",
+              "Law of Demand",
+              "Measurement and Factors Affecting Elasticity of Demand",
+              "Elasticity of Demand in Decision Making",
+              "Demand Forecasting: Characteristics of Good Demand Forecasting, Steps and Methods of Demand Forecasting"
+            ]
+          },
+          {
+            "topic": "Supply Analysis",
+            "subTopics": [
+              "Determinants of Supply",
+              "Supply Function & Law of Supply"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - III: Production, Cost, Market Structures & Pricing",
+        "topics": [
+          {
+            "topic": "Production Analysis",
+            "subTopics": [
+              "Factors of Production",
+              "Production Function: With One Variable Input, With Two Variable Inputs, Returns to Scale, Different Types of Production Functions"
+            ]
+          },
+          {
+            "topic": "Cost Analysis",
+            "subTopics": [
+              "Types of Costs",
+              "Short-Run and Long-Run Cost Functions"
+            ]
+          },
+          {
+            "topic": "Market Structures",
+            "subTopics": [
+              "Nature of Competition",
+              "Features of: Perfect Competition, Monopoly, Oligopoly, Monopolistic Competition"
+            ]
+          },
+          {
+            "topic": "Pricing",
+            "subTopics": [
+              "Types of Pricing",
+              "Product Life Cycle Based Pricing",
+              "Break-Even Analysis",
+              "Cost-Volume-Profit Analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - IV: Financial Accounting",
+        "topics": [
+          {
+            "topic": "Accounting Concepts and Conventions",
+            "subTopics": [
+              "Accounting Equation",
+              "Double-Entry System of Accounting",
+              "Rules for Maintaining Books of Accounts",
+              "Journal",
+              "Posting to Ledger",
+              "Preparation of Trial Balance",
+              "Elements of Financial Statements",
+              "Preparation of Final Accounts"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - V: Financial Analysis through Ratios",
+        "topics": [
+          {
+            "topic": "Concept of Ratio Analysis",
+            "subTopics": [
+              "Liquidity Ratios",
+              "Turnover Ratios",
+              "Profitability Ratios",
+              "Proprietary Ratios",
+              "Solvency Ratios (Simple Problems)",
+              "Leverage Ratios (Simple Problems)"
+            ]
+          },
+          {
+            "topic": "Introduction to Fund Flow and Cash Flow Analysis",
+            "subTopics": [
+              "Fund Flow Analysis (Simple Problems)",
+              "Cash Flow Analysis (Simple Problems)"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Image Processing",
+    "code": "AM514PE",
+    "units": [
+      {
+        "name": "UNIT – I: Digital Image Fundamentals",
+        "topics": [
+          {
+            "topic": "Image Acquisition",
+            "subTopics": [
+              "Digital Image through Scanner, Digital Camera",
+              "Concept of Gray Levels, Gray Level to Binary Image Conversion"
+            ]
+          },
+          {
+            "topic": "Sampling and Quantization",
+            "subTopics": [
+              "Relationship between Pixels, Imaging Geometry"
+            ]
+          },
+          {
+            "topic": "2D Transformations",
+            "subTopics": [
+              "Discrete Fourier Transform (DFT)",
+              "Discrete Cosine Transform (DCT)",
+              "Karhunen-Loeve Transform (KLT)",
+              "Singular Value Decomposition (SVD)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT – II: Image Enhancement in Spatial Domain",
+        "topics": [
+          {
+            "topic": "Point Processing",
+            "subTopics": [
+              "Histogram Processing"
+            ]
+          },
+          {
+            "topic": "Spatial Filtering",
+            "subTopics": [
+              "Image Smoothing",
+              "Image Sharpening"
+            ]
+          },
+          {
+            "topic": "Enhancement in Frequency Domain",
+            "subTopics": [
+              "Techniques and applications"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT – III: Image Restoration",
+        "topics": [
+          {
+            "topic": "Degradation Model",
+            "subTopics": [
+              "Algebraic Approach to Restoration"
+            ]
+          },
+          {
+            "topic": "Filtering Techniques",
+            "subTopics": [
+              "Inverse Filtering",
+              "Least Mean Square Filters",
+              "Constrained Least Squares Restoration"
+            ]
+          },
+          {
+            "topic": "Interactive Restoration",
+            "subTopics": [
+              "Methods and practices"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT – IV: Image Segmentation",
+        "topics": [
+          {
+            "topic": "Detection of Discontinuities",
+            "subTopics": [
+              "Edge Linking and Boundary Detection"
+            ]
+          },
+          {
+            "topic": "Thresholding and Region Oriented Segmentation",
+            "subTopics": [
+              "Techniques and applications"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT – V: Image Compression",
+        "topics": [
+          {
+            "topic": "Redundancies and Removal Methods",
+            "subTopics": [
+              "Fidelity Criteria"
+            ]
+          },
+          {
+            "topic": "Compression Models",
+            "subTopics": [
+              "Source Encoder and Decoder"
+            ]
+          },
+          {
+            "topic": "Compression Types",
+            "subTopics": [
+              "Error Free Compression",
+              "Lossy Compression"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

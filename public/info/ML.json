@@ -1,132 +1,122 @@
 [
-    {
-        "name": "MACHINE LEARNING",
-        "code": "ML",
-        "units": [
-            {
-                "name": "UNIT - I",
-                "topics": [
-                    {
-                        "topic": "Learning",
-                        "subTopics": [
-                            "Types of Machine Learning",
-                            "Supervised Learning",
-                            "The Brain and the Neuron",
-                            "Design a Learning System",
-                            "Perspectives and Issues in Machine Learning",
-                            "Concept Learning Task",
-                            "Concept Learning as Search",
-                            "Finding a Maximally Specific Hypothesis",
-                            "Version Spaces and the Candidate Elimination Algorithm",
-                            "Linear Discriminants",
-                            "Perceptron",
-                            "Linear Separability",
-                            "Linear Regression"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "UNIT - II",
-                "topics": [
-                    {
-                        "topic": "Multi-layer Perceptron",
-                        "subTopics": [
-                            "Going Forwards",
-                            "Going Backwards: Back Propagation Error",
-                            "Multi-layer Perceptron in Practice",
-                            "Examples of using the MLP"
-                        ]
-                    },
-                    {
-                        "topic": "Radial Basis Functions and Splines",
-                        "subTopics": [
-                            "Concepts",
-                            "RBF Network",
-                            "Curse of Dimensionality",
-                            "Interpolations and Basis Functions",
-                            "Support Vector Machines"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "UNIT - III",
-                "topics": [
-                    {
-                        "topic": "Learning with Trees",
-                        "subTopics": [
-                            "Decision Trees",
-                            "Constructing Decision Trees",
-                            "Classification and Regression Trees",
-                            "Ensemble Learning",
-                            "Boosting",
-                            "Bagging",
-                            "Different ways to Combine Classifiers",
-                            "Basic Statistics",
-                            "Gaussian Mixture Models",
-                            "Nearest Neighbor Methods",
-                            "Unsupervised Learning",
-                            "K means Algorithms"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "UNIT - IV",
-                "topics": [
-                    {
-                        "topic": "Dimensionality Reduction",
-                        "subTopics": [
-                            "Linear Discriminant Analysis",
-                            "Principal Component Analysis",
-                            "Factor Analysis",
-                            "Independent Component Analysis",
-                            "Locally Linear Embedding",
-                            "Isomap",
-                            "Least Squares Optimization"
-                        ]
-                    },
-                    {
-                        "topic": "Evolutionary Learning",
-                        "subTopics": [
-                            "Genetic algorithms",
-                            "Genetic Offspring",
-                            "Genetic Operators",
-                            "Using Genetic Algorithms"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "UNIT - V",
-                "topics": [
-                    {
-                        "topic": "Reinforcement Learning",
-                        "subTopics": [
-                            "Overview",
-                            "Getting Lost Example"
-                        ]
-                    },
-                    {
-                        "topic": "Markov Chain Monte Carlo Methods",
-                        "subTopics": [
-                            "Sampling",
-                            "Proposal Distribution",
-                            "Markov Chain Monte Carlo"
-                        ]
-                    },
-                    {
-                        "topic": "Graphical Models",
-                        "subTopics": [
-                            "Bayesian Networks",
-                            "Markov Random Fields",
-                            "Hidden Markov Models",
-                            "Tracking Methods"
-                        ]
-                    }
-                ]
-            }
+  {
+    "name": "Machine Learning",
+    "code": "AM502PC",
+    "units": [
+      {
+        "name": "UNIT - I",
+        "topics": [
+          {
+            "topic": "Learning",
+            "subTopics": [
+              "Types of Machine Learning",
+              "Supervised Learning",
+              "The Brain and the Neuron",
+              "Design a Learning System",
+              "Perspectives and Issues in Machine Learning",
+              "Concept Learning Task",
+              "Concept Learning as Search",
+              "Finding a Maximally Specific Hypothesis",
+              "Version Spaces and the Candidate Elimination Algorithm",
+              "Linear Discriminants: Perceptron, Linear Separability, Linear Regression"
+            ]
+          }
         ]
-    }
+      },
+      {
+        "name": "UNIT - II",
+        "topics": [
+          {
+            "topic": "Multi-layer Perceptron",
+            "subTopics": [
+              "Going Forwards",
+              "Going Backwards: Back Propagation Error",
+              "Multi-layer Perceptron in Practice",
+              "Examples of using the MLP",
+              "Overview",
+              "Deriving Back-Propagation",
+              "Radial Basis Functions and Splines: Concepts, RBF Network, Curse of Dimensionality, Interpolations and Basis Functions",
+              "Support Vector Machines"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - III",
+        "topics": [
+          {
+            "topic": "Learning with Trees",
+            "subTopics": [
+              "Decision Trees",
+              "Constructing Decision Trees",
+              "Classification and Regression Trees"
+            ]
+          },
+          {
+            "topic": "Ensemble Learning",
+            "subTopics": [
+              "Boosting",
+              "Bagging",
+              "Different ways to Combine Classifiers"
+            ]
+          },
+          {
+            "topic": "Basic Statistics",
+            "subTopics": [
+              "Gaussian Mixture Models",
+              "Nearest Neighbor Methods",
+              "Unsupervised Learning",
+              "K-means Algorithms"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - IV",
+        "topics": [
+          {
+            "topic": "Dimensionality Reduction",
+            "subTopics": [
+              "Linear Discriminant Analysis",
+              "Principal Component Analysis",
+              "Factor Analysis",
+              "Independent Component Analysis",
+              "Locally Linear Embedding",
+              "Isomap",
+              "Least Squares Optimization"
+            ]
+          },
+          {
+            "topic": "Evolutionary Learning",
+            "subTopics": [
+              "Genetic Algorithms",
+              "Genetic Offspring: Genetic Operators, Using Genetic Algorithms"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - V",
+        "topics": [
+          {
+            "topic": "Reinforcement Learning",
+            "subTopics": [
+              "Overview",
+              "Getting Lost Example"
+            ]
+          },
+          {
+            "topic": "Markov Chain Monte Carlo Methods",
+            "subTopics": [
+              "Sampling",
+              "Proposal Distribution",
+              "Markov Chain Monte Carlo",
+              "Graphical Models: Bayesian Networks, Markov Random Fields, Hidden Markov Models, Tracking Methods"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
 ]

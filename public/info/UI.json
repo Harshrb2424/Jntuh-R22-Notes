@@ -1,0 +1,172 @@
+[
+  {
+    "name": "UI Design - Flutter",
+    "code": "AM507PC",
+    "units": [
+      {
+        "name": "Installation and Basic Dart Programming",
+        "topics": [
+          {
+            "topic": "Install Flutter and Dart SDK",
+            "subTopics": []
+          },
+          {
+            "topic": "Write a simple Dart program",
+            "subTopics": [
+              "Understand the language basics"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Flutter Widgets and Layouts",
+        "topics": [
+          {
+            "topic": "Explore various Flutter widgets",
+            "subTopics": [
+              "Text",
+              "Image",
+              "Container",
+              "Others"
+            ]
+          },
+          {
+            "topic": "Implement different layout structures",
+            "subTopics": [
+              "Row",
+              "Column",
+              "Stack"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Responsive UI Design",
+        "topics": [
+          {
+            "topic": "Design a responsive UI",
+            "subTopics": [
+              "Adapt to different screen sizes"
+            ]
+          },
+          {
+            "topic": "Implement media queries and breakpoints",
+            "subTopics": []
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "topics": [
+          {
+            "topic": "Set up navigation between different screens",
+            "subTopics": [
+              "Using Navigator"
+            ]
+          },
+          {
+            "topic": "Implement navigation with named routes",
+            "subTopics": []
+          }
+        ]
+      },
+      {
+        "name": "State Management",
+        "topics": [
+          {
+            "topic": "Learn about stateful and stateless widgets",
+            "subTopics": []
+          },
+          {
+            "topic": "Implement state management",
+            "subTopics": [
+              "Using `setState`",
+              "Using Provider"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Custom Widgets and Styling",
+        "topics": [
+          {
+            "topic": "Create custom widgets",
+            "subTopics": [
+              "For specific UI elements"
+            ]
+          },
+          {
+            "topic": "Apply styling",
+            "subTopics": [
+              "Using themes",
+              "Custom styles"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Form Design and Validation",
+        "topics": [
+          {
+            "topic": "Design a form",
+            "subTopics": [
+              "With various input fields"
+            ]
+          },
+          {
+            "topic": "Implement form validation and error handling",
+            "subTopics": []
+          }
+        ]
+      },
+      {
+        "name": "Animations",
+        "topics": [
+          {
+            "topic": "Add animations to UI elements",
+            "subTopics": [
+              "Using Flutter's animation framework"
+            ]
+          },
+          {
+            "topic": "Experiment with different types of animations",
+            "subTopics": [
+              "Fade",
+              "Slide",
+              "Others"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Data Fetching",
+        "topics": [
+          {
+            "topic": "Fetch data from a REST API",
+            "subTopics": []
+          },
+          {
+            "topic": "Display the fetched data meaningfully",
+            "subTopics": []
+          }
+        ]
+      },
+      {
+        "name": "Unit Testing and Debugging",
+        "topics": [
+          {
+            "topic": "Write unit tests for UI components",
+            "subTopics": []
+          },
+          {
+            "topic": "Use Flutter's debugging tools",
+            "subTopics": [
+              "Identify and fix issues"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+]
