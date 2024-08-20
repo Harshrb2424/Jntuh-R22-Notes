@@ -1,5 +1,18 @@
 [
   {
+    "name": "Academic Calender",
+    "code": "AC",
+    "year": 0,
+    "sem": 0,
+    "credits": 0,
+    "tags": [
+      "Academic Calender"
+    ],
+    "info": [
+      "B.Tech 3rd Year 2024-25 Calender"
+    ]
+  },
+  {
     "name": "Matrices and Calculus",
     "code": "M1",
     "year": 1,
@@ -632,7 +645,15 @@
     "tags": [
       "Specialized Computer Science"
     ],
-    "info": []
+    "info": [
+      "Network Hardware and Software",
+      "Physical Layer and Data Link Layer",
+      "Protocols",
+      "Medium Access Sublayer",
+      "Network Layer",
+      "Transport Layer",
+      "Application Layer"
+    ]
   },
   {
     "name": "BUSINESS ECONOMICS & FINANCIAL ANALYSIS",
@@ -643,7 +664,13 @@
     "tags": [
       "General Education"
     ],
-    "info": []
+    "info": [
+      "Business and Economics",
+      "Demand and Supply Analysis",
+      "Production, Cost, Market Structures & Pricing",
+      "Financial Accounting",
+      "Financial Analysis through Ratios"
+    ]
   },
   {
     "name": "PROFESSIONAL ELECTIVE-I: Graph Theory",
@@ -654,7 +681,13 @@
     "tags": [
       "Elective"
     ],
-    "info": []
+    "info": [
+      "Introduction to Graphs",
+      "Connected Graphs and Shortest Paths",
+      "Trees",
+      "Independent Sets, Coverings, and Matchings",
+      "Vertex and Edge Colorings"
+    ]
   },
   {
     "name": "PROFESSIONAL ELECTIVE-I: Introduction to Data Science",
@@ -665,7 +698,13 @@
     "tags": [
       "Elective"
     ],
-    "info": []
+    "info": [
+      "Introduction",
+      "Data Types & Statistical Description",
+      "Data Structures",
+      "Control Flow and Functions",
+      "Data Visualization and Regression"
+    ]
   },
   {
     "name": "PROFESSIONAL ELECTIVE-I: Web Programming",
@@ -676,7 +715,13 @@
     "tags": [
       "Elective"
     ],
-    "info": []
+    "info": [
+      "Client-Side Programming",
+      "Java",
+      "JDBC",
+      "Applets and Servlets",
+      "XML and Web Services"
+    ]
   },
   {
     "name": "PROFESSIONAL ELECTIVE-I: Image Processing",
@@ -687,7 +732,13 @@
     "tags": [
       "Elective"
     ],
-    "info": []
+    "info": [
+      "Digital Image Fundamentals",
+      "Image Enhancement in Spatial Domain",
+      "Image Restoration",
+      "Image Segmentation",
+      "Image Compression"
+    ]
   },
   {
     "name": "PROFESSIONAL ELECTIVE-I: Computer Graphics",
@@ -698,7 +749,13 @@
     "tags": [
       "Elective"
     ],
-    "info": []
+    "info": [
+      "Introduction and Output Primitives",
+      "2D Geometric Transformations and Viewing",
+      "3D Object Representation and Rendering",
+      "3D Geometric Transformations and Viewing",
+      "Computer Animation and Visible Surface Detection"
+    ]
   },
   {
     "name": "MACHINE LEARNING LAB",
@@ -709,7 +766,16 @@
     "tags": [
       "Specialized Computer Science"
     ],
-    "info": []
+    "info": [
+      "Compute Central Tendency Measures",
+      "Python Libraries",
+      "Regression",
+      "Decision Tree using sklearn",
+      "K-Nearest Neighbors",
+      "Logistic Regression",
+      "K-Means Clustering",
+      "Algorithms"
+    ]
   },
   {
     "name": "COMPUTER NETWORKS LAB",
@@ -753,7 +819,13 @@
     "tags": [
       "General Education"
     ],
-    "info": []
+    "info": [
+      "Introduction to Intellectual Property",
+      "Trade Marks",
+      "Law of Copyrights and Patents",
+      "Trade Secrets and Unfair Competition",
+      "New Developments in Intellectual Property"
+    ]
   },
   {
     "name": "Knowledge Representation and Reasoning",
