@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&family=Rubik&display=swap');
 :root {
-    --bg-color: #200518;
+    --bg-color: #d82b84d0;
     --text-color: #fefefd;
-    --div-color: #8ad10c;
-    --secondary-color: #689800;
+    --div-color: #6158ad;
+    --secondary-color: #4c4587da;
   }
 body {
     font-family: "Montserrat", sans-serif;
@@ -123,7 +123,7 @@ p.info{
     transform: scale(1);
 }
 .active {
-    opacity: 0.8;
+    opacity: 1;
     background-color: var(--div-color);
     color: #ffffff;
     border-radius: 20px;
@@ -145,7 +145,7 @@ footer div{
   }
 @media screen and (max-width: 900px) and (min-width: 450px){
     .filters{
-        
+        align-items: center;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -170,7 +170,6 @@ footer div{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        padding-bottom: 50px;
     }
     .subjects{
         justify-content: space-around;
@@ -182,11 +181,4 @@ footer div{
     p.info{
         text-align: left;
     }
-  }
-  @media screen and (min-width: 900px) {
-    .inActive{
-        transform: scale(0.3);
-        color: #ffffff00;
-    }
-
   }
