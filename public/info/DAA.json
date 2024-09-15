@@ -4,7 +4,7 @@
     "code": "AM501PC",
     "units": [
       {
-        "name": "UNIT - I",
+        "name": "UNIT - 1: Introduction and Divide and Conquer",
         "topics": [
           {
             "topic": "Introduction",
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "name": "UNIT - II",
+        "name": "UNIT - 2: Disjoint Sets and Priority Queue",
         "topics": [
           {
             "topic": "Disjoint Sets",
@@ -50,7 +50,7 @@
         ]
       },
       {
-        "name": "UNIT - III",
+        "name": "UNIT - 3: Dynamic Programming",
         "topics": [
           {
             "topic": "Dynamic Programming",
@@ -62,7 +62,7 @@
         ]
       },
       {
-        "name": "UNIT - IV",
+        "name": "UNIT - 4: Greedy Method, Basic Traversal and Search Techniques",
         "topics": [
           {
             "topic": "Greedy Method",
@@ -81,7 +81,7 @@
         ]
       },
       {
-        "name": "UNIT - V",
+        "name": "UNIT - 5: Branch and Bound, NP-Hard and NP-Complete Problems",
         "topics": [
           {
             "topic": "Branch and Bound",
@@ -102,6 +102,9 @@
         ]
       }
     ],
-    "links": []
+    "links": [{
+      "name": "DAA Unit 1: Introduction and Divide and Conquer",
+      "link": "./resources/3rd Year/DAA Unit 1.pdf"
+    }]
   }
 ]

@@ -4,7 +4,7 @@
     "code": "AM502PC",
     "units": [
       {
-        "name": "UNIT - I",
+        "name": "UNIT - 1: Learning",
         "topics": [
           {
             "topic": "Learning",
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "name": "UNIT - II",
+        "name": "UNIT - 2: Multi-layer Perceptron",
         "topics": [
           {
             "topic": "Multi-layer Perceptron",
@@ -42,7 +42,7 @@
         ]
       },
       {
-        "name": "UNIT - III",
+        "name": "UNIT - 3: Learning with Trees, Ensemble Learning and Basic Statistics",
         "topics": [
           {
             "topic": "Learning with Trees",
@@ -72,7 +72,7 @@
         ]
       },
       {
-        "name": "UNIT - IV",
+        "name": "UNIT - 4: Dimensionality Reduction and Evolutionary Learning",
         "topics": [
           {
             "topic": "Dimensionality Reduction",
@@ -96,7 +96,7 @@
         ]
       },
       {
-        "name": "UNIT - V",
+        "name": "UNIT - 5: Reinforcement Learning and Markov Chain Monte Carlo Methods",
         "topics": [
           {
             "topic": "Reinforcement Learning",
@@ -117,6 +117,9 @@
         ]
       }
     ],
-    "links": []
+    "links": [{
+      "name": "ML Unit 1: Learning",
+      "link": "./resources/3rd Year/ML Unit 1.pdf"
+    }]
   }
 ]

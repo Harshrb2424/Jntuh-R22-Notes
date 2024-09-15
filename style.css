@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&family=Rubik&display=swap');
 :root {
-    --bg-color: #d82b84d0;
+    --bg-color: #200518;
     --text-color: #fefefd;
-    --div-color: #6158ad;
-    --secondary-color: #4c4587da;
+    --div-color: #8ad10c;
+    --secondary-color: #689800;
   }
 body {
     font-family: "Montserrat", sans-serif;
