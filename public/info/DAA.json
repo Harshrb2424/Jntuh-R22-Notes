@@ -105,6 +105,10 @@
     "links": [{
       "name": "DAA Unit 1: Introduction and Divide and Conquer",
       "link": "./resources/3rd Year/DAA Unit 1.pdf"
+    },
+    {
+      "name": "DAA Unit 1: Assignment",
+      "link": "./resources/3rd Year/DAA Assignment 1.pdf"
     }]
   }
 ]

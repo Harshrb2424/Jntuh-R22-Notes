@@ -109,6 +109,15 @@
         ]
       }
     ],
-    "links": []
+    "links": [
+      {
+        "name": "CN Unit 1: Network Hardware and Software and Layers",
+        "link": "./resources/3rd Year/CN Unit 1.pdf"
+      },
+      {
+        "name": "CN Unit 1: Assignment",
+        "link": "./resources/3rd Year/CN Assignment 1.pdf"
+      }
+    ]
   }
 ]

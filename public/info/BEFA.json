@@ -132,6 +132,19 @@
         ]
       }
     ],
-    "links": []
+    "links": [
+      {
+        "name": "BEFA Unit 1: Introduction To Business And Economics",
+        "link": "./resources/3rd Year/BEFA Unit 1.pdf"
+      },
+      {
+        "name": "BEFA Unit 2: Demand And Supply Analysis",
+        "link": "./resources/3rd Year/BEFA Unit 2 QnA.pdf"
+      },
+      {
+        "name": "BEFA Unit 2: Assignment",
+        "link": "./resources/3rd Year/BEFA Assignment 2.pdf"
+      }
+    ]
   }
 ]

@@ -120,6 +120,18 @@
     "links": [{
       "name": "ML Unit 1: Learning",
       "link": "./resources/3rd Year/ML Unit 1.pdf"
+    },
+    {
+      "name": "ML Unit 1: Learning (alt)",
+      "link": "./resources/3rd Year/ML Unit 1 ppt.pdf"
+    },
+    {
+      "name": "ML Unit 2: Multi-layer Perceptron",
+      "link": "./resources/3rd Year/ML Unit 2 ppt.pdf"
+    },
+    {
+      "name": "ML Unit 1: Assignment",
+      "link": "./resources/3rd Year/ML Assignment 1.pdf"
     }]
   }
 ]

@@ -128,6 +128,14 @@
           }
         ]
       }
-    ]
+    ],
+    "links": [{
+      "name": "IDS Unit 1: Introduction",
+      "link": "./resources/3rd Year/IDS Unit 1.pdf"
+    },
+    {
+      "name": "IDS Unit 2: Data Types & Statistical Description",
+      "link": "./resources/3rd Year/IDS Unit 2.pdf"
+    }]
   }
 ]
