@@ -98,7 +98,9 @@
           },
           {
             "topic": "Iterative Programming in R",
-            "subTopics": ["While Loop, For Loop, Looping Over Lists"]
+            "subTopics": [
+              "While Loop, For Loop, Looping Over Lists"
+            ]
           },
           {
             "topic": "Functions in R",
@@ -129,13 +131,19 @@
         ]
       }
     ],
-    "links": [{
-      "name": "IDS Unit 1: Introduction",
-      "link": "./resources/3rd Year/IDS Unit 1.pdf"
-    },
-    {
-      "name": "IDS Unit 2: Data Types & Statistical Description",
-      "link": "./resources/3rd Year/IDS Unit 2.pdf"
-    }]
+    "links": [
+      {
+        "name": "IDS Unit 1: Introduction",
+        "link": "./resources/3rd Year/IDS Unit 1.pdf"
+      },
+      {
+        "name": "IDS Unit 2: Data Types & Statistical Description",
+        "link": "./resources/3rd Year/IDS Unit 2.pdf"
+      },
+      {
+        "name": "IDS Unit 3: R Data Structures",
+        "link": "./resources/3rd Year/IDS Unit 3.pdf"
+      }
+    ]
   }
 ]

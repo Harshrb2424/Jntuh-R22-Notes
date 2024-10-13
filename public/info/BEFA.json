@@ -139,11 +139,27 @@
       },
       {
         "name": "BEFA Unit 2: Demand And Supply Analysis",
+        "link": "./resources/3rd Year/BEFA Unit 2.pdf"
+      },
+      {
+        "name": "BEFA Unit 2 QnA: Demand And Supply Analysis",
         "link": "./resources/3rd Year/BEFA Unit 2 QnA.pdf"
+      },
+      {
+        "name": "BEFA Unit 3: Production, Cost, Market Structures & Pricing",
+        "link": "./resources/3rd Year/BEFA Unit 3.pdf"
       },
       {
         "name": "BEFA Unit 2: Assignment",
         "link": "./resources/3rd Year/BEFA Assignment 2.pdf"
+      },
+      {
+        "name": "BEFA Mid 1",
+        "link": "./resources/3rd Year/BEFA Mid 1.pdf"
+      },
+      {
+        "name": "BEFA Mid 1 (alt)",
+        "link": "./resources/3rd Year/BEFA Mid 1 alt.pdf"
       }
     ]
   }
