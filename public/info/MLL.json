@@ -64,6 +64,11 @@
         ]
       }
     ],
-    "links": []
+    "links": [
+      {
+        "name": "ML Lab Experiment 1 to 5",
+        "link": "./resources/3rd Year/ML Lab Exp 1 to 5.pdf"
+      }
+    ]
   }
 ]

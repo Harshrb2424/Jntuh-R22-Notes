@@ -95,6 +95,11 @@
         ]
       }
     ],
-    "links": []
+    "links": [
+      {
+        "name": "CN Lab Experiment 1 to 6",
+        "link": "./resources/3rd Year/CN Lab Exp 1 to 6.pdf"
+      }
+    ]
   }
 ]

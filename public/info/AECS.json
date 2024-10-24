@@ -190,6 +190,9 @@
         ]
       }
     ],
-    "links": []
+    "links": [{
+      "name": "ACS Lab Manual",
+      "link": "./resources/3rd Year/ACS Lab Manual.pdf"
+    }]
   }
 ]
