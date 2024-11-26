@@ -143,6 +143,14 @@
       {
         "name": "IDS Unit 3: R Data Structures",
         "link": "./resources/3rd Year/IDS Unit 3.pdf"
+      },
+      {
+        "name": "IDS Unit 4: Control Flow and Functions",
+        "link": "./resources/3rd Year/IDS Unit 4.pdf"
+      },
+      {
+        "name": "IDS Unit 5: Data Visualization and Regression",
+        "link": "./resources/3rd Year/IDS Unit 5.pdf"
       }
     ]
   }
