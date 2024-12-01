@@ -167,6 +167,11 @@
         ]
       }
     ],
-    "links": []
+    "links": [
+      {
+        "name": "FLUTTER LAB MANUAL",
+        "link": "./resources/3rd Year/FLUTTER LAB MANUAL.pdf"
+      }
+    ]
   }
 ]
