@@ -117,17 +117,27 @@
         ]
       }
     ],
-    "links": [{
+    "links": [
+      {
       "name": "ML Unit 1: Learning",
       "link": "./resources/3rd Year/ML Unit 1.pdf"
+    },
+
+    {
+      "name": "ML Unit 2: Multi-layer Perceptron",
+      "link": "./resources/3rd Year/ML Unit 2 ppt.pdf"
+    },
+    {
+      "name": "ML Unit 4: Dimensionality Reduction and Evolutionary Learning",
+      "link": "./resources/3rd Year/ML Unit 4.pdf"
+    },
+    {
+      "name": "ML Unit 5: Reinforcement Learning and Markov Chain Monte Carlo Methods",
+      "link": "./resources/3rd Year/ML Unit 5.pdf"
     },
     {
       "name": "ML Unit 1: Learning (alt)",
       "link": "./resources/3rd Year/ML Unit 1 ppt.pdf"
-    },
-    {
-      "name": "ML Unit 2: Multi-layer Perceptron",
-      "link": "./resources/3rd Year/ML Unit 2 ppt.pdf"
     },
     {
       "name": "ML Unit 1: Assignment",
