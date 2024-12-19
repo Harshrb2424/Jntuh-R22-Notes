@@ -105,12 +105,8 @@
         "link": "./resources/3rd Year/DAA Unit 1.pdf"
       },
       {
-        "name": "DAA Unit 1 (alt): Introduction and Divide and Conquer",
-        "link": "./resources/3rd Year/DAA Unit 1 OBS.pdf"
-      },
-      {
-        "name": "DAA Unit 2 (alt): Disjoint Sets And Priority Queue",
-        "link": "./resources/3rd Year/DAA Unit 2 OBS.pdf"
+        "name": "DAA Unit 2: Disjoint Sets And Priority Queue",
+        "link": "./resources/3rd Year/DAA Unit 2.pdf"
       },
       {
         "name": "DAA Unit 3: Dynamic Programming",
@@ -120,6 +116,28 @@
         "name": "DAA Unit 4: Greedy Method, Basic Traversal and Search Techniques",
         "link": "./resources/3rd Year/DAA Unit 4.pdf"
       },
+      {
+        "name": "DAA Unit 5: Branch And Bound, Np-hard And Np-complete Problems",
+        "link": "./resources/3rd Year/DAA Unit 5.pdf"
+      },
+      {
+        "name": "DAA Unit 1 (alt): Introduction and Divide and Conquer",
+        "link": "./resources/3rd Year/DAA Unit 1 alt.pdf"
+      },
+      {
+        "name": "DAA Unit 1 (alt OBS): Introduction and Divide and Conquer",
+        "link": "./resources/3rd Year/DAA Unit 1 OBS.pdf"
+      },
+    
+      {
+        "name": "DAA Unit 2 (alt): Disjoint Sets And Priority Queue",
+        "link": "./resources/3rd Year/DAA Unit 2 OBS.pdf"
+      },
+      {
+        "name": "DAA Unit 3 (alt): Dynamic Programming",
+        "link": "./resources/3rd Year/DAA Unit 3 alt.pdf"
+      },
+     
       {
         "name": "DAA Unit 1: Assignment",
         "link": "./resources/3rd Year/DAA Assignment 1.pdf"

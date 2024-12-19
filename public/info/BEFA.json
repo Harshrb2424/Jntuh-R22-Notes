@@ -4,7 +4,7 @@
     "code": "SM504MS",
     "units": [
       {
-        "name": "UNIT - I: Introduction to Business and Economics",
+        "name": "UNIT - 1: Introduction to Business and Economics",
         "topics": [
           {
             "topic": "Business",
@@ -34,7 +34,7 @@
         ]
       },
       {
-        "name": "UNIT - II: Demand and Supply Analysis",
+        "name": "UNIT - 2: Demand and Supply Analysis",
         "topics": [
           {
             "topic": "Elasticity of Demand",
@@ -56,7 +56,7 @@
         ]
       },
       {
-        "name": "UNIT - III: Production, Cost, Market Structures & Pricing",
+        "name": "UNIT - 3: Production, Cost, Market Structures & Pricing",
         "topics": [
           {
             "topic": "Production Analysis",
@@ -91,7 +91,7 @@
         ]
       },
       {
-        "name": "UNIT - IV: Financial Accounting",
+        "name": "UNIT - 4: Financial Accounting",
         "topics": [
           {
             "topic": "Accounting Concepts and Conventions",
@@ -109,7 +109,7 @@
         ]
       },
       {
-        "name": "UNIT - V: Financial Analysis through Ratios",
+        "name": "UNIT - 5: Financial Analysis through Ratios",
         "topics": [
           {
             "topic": "Concept of Ratio Analysis",
@@ -142,12 +142,24 @@
         "link": "./resources/3rd Year/BEFA Unit 2.pdf"
       },
       {
+        "name": "BEFA Unit 3: Production, Cost, Market Structures & Pricing",
+        "link": "./resources/3rd Year/BEFA Unit 3.pdf"
+      },
+      {
+        "name": "BEFA Unit 4: Financial Accounting",
+        "link": "./resources/3rd Year/BEFA Unit 4.pdf"
+      },
+      {
+        "name": "BEFA Unit 5: Financial Analysis Through Ratios",
+        "link": "./resources/3rd Year/BEFA Unit 5.pdf"
+      },
+      {
         "name": "BEFA Unit 2 QnA: Demand And Supply Analysis",
         "link": "./resources/3rd Year/BEFA Unit 2 QnA.pdf"
       },
       {
-        "name": "BEFA Unit 3: Production, Cost, Market Structures & Pricing",
-        "link": "./resources/3rd Year/BEFA Unit 3.pdf"
+        "name": "BEFA Unit 3 alt: Production, Cost, Market Structures & Pricing",
+        "link": "./resources/3rd Year/BEFA Unit 3 alt.pdf"
       },
       {
         "name": "BEFA Unit 2: Assignment",
