@@ -141,8 +141,12 @@
         "link": "./resources/3rd Year/IDS Unit 2.pdf"
       },
       {
-        "name": "IDS Unit 3: R Data Structures",
-        "link": "./resources/3rd Year/IDS Unit 3.pdf"
+        "name": "IDS Unit 3.1: R Data Structures",
+        "link": "./resources/3rd Year/IDS Unit 3.1.pdf"
+      },
+      {
+        "name": "IDS Unit 3.2: R Data Structures",
+        "link": "./resources/3rd Year/IDS Unit 3.2.pdf"
       },
       {
         "name": "IDS Unit 4: Control Flow and Functions",
