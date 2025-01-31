@@ -829,36 +829,55 @@
   },
   {
     "name": "Knowledge Representation and Reasoning",
-    "code": "AM601PC",
+    "code": "KRR",
     "year": 3,
     "sem": 2,
     "credits": 3,
     "tags": [
       "Specialized Computer Science"
     ],
-    "info": []
+    "info": [
+      "The Key Concepts",
+      "Logic",
+      "Ontology",
+      "Knowledge Representations",
+      "Processes",
+      "Knowledge Soup"
+    ]
   },
   {
     "name": "Data Analytics",
-    "code": "AM602PC",
+    "code": "DA",
     "year": 3,
     "sem": 2,
     "credits": 3,
     "tags": [
       "Specialized Computer Science"
     ],
-    "info": []
+    "info": [
+      "Data Management View Syllabus",
+      "Data Analytics View Syllabus",
+      "Regression And Logistic Regression View Syllabus",
+      "Object Segmentation And Time Series Methods View Syllabus",
+      "Data Visualization"
+    ]
   },
   {
     "name": "Natural Language Processing",
-    "code": "AM603PC",
+    "code": "NLP",
     "year": 3,
     "sem": 2,
     "credits": 3,
     "tags": [
       "Specialized Computer Science"
     ],
-    "info": []
+    "info": [
+      "Finding The Structure Of Words And Documents View Syllabus",
+      "Syntax I View Syllabus",
+      "Syntax Ii And Semantic Parsing I View Syllabus",
+      "Semantic Parsing Ii View Syllabus",
+      "Unit - V: Language Modeling"
+    ]
   },
   {
     "name": "Professional Elective – II",
@@ -884,7 +903,7 @@
   },
   {
     "name": "Natural Language Processing Lab",
-    "code": "AM604PC",
+    "code": "NLPL",
     "year": 3,
     "sem": 2,
     "credits": 1.5,
@@ -895,7 +914,7 @@
   },
   {
     "name": "Data Analytics Lab",
-    "code": "AM605PC",
+    "code": "DAL",
     "year": 3,
     "sem": 2,
     "credits": 1.5,
@@ -917,7 +936,7 @@
   },
   {
     "name": "Environmental Science",
-    "code": "MC609",
+    "code": "ES",
     "year": 3,
     "sem": 2,
     "credits": 0,

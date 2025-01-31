@@ -1,0 +1,88 @@
+[
+    {
+      "name": "Data Analytics Lab",
+      "code": "AM605PC",
+      "units": [
+        {
+          "name": "List of Experiments",
+          "topics": [
+            {
+              "topic": "Experiment 1: Data Preprocessing",
+              "subTopics": [
+                "a. Handling missing values",
+                "b. Noise detection and removal",
+                "c. Identifying data redundancy and elimination"
+              ]
+            },
+            {
+              "topic": "Experiment 2: Imputation Model",
+              "subTopics": [
+                "Implement any one imputation model"
+              ]
+            },
+            {
+              "topic": "Experiment 3: Linear Regression",
+              "subTopics": [
+                "Implement Linear Regression"
+              ]
+            },
+            {
+              "topic": "Experiment 4: Logistic Regression",
+              "subTopics": [
+                "Implement Logistic Regression"
+              ]
+            },
+            {
+              "topic": "Experiment 5: Decision Tree Induction",
+              "subTopics": [
+                "Implement Decision Tree Induction for classification"
+              ]
+            },
+            {
+              "topic": "Experiment 6: Random Forest Classifier",
+              "subTopics": [
+                "Implement Random Forest Classifier"
+              ]
+            },
+            {
+              "topic": "Experiment 7: ARIMA on Time Series Data",
+              "subTopics": [
+                "Implement ARIMA on Time Series data"
+              ]
+            },
+            {
+              "topic": "Experiment 8: Object Segmentation",
+              "subTopics": [
+                "Object segmentation using hierarchical based methods"
+              ]
+            },
+            {
+              "topic": "Experiment 9: Visualization Techniques",
+              "subTopics": [
+                "Perform Visualization techniques (types of maps - Bar, Column, Line, Scatter, 3D Cubes etc)"
+              ]
+            },
+            {
+              "topic": "Experiment 10: Descriptive Analytics",
+              "subTopics": [
+                "Perform Descriptive analytics on healthcare data"
+              ]
+            },
+            {
+              "topic": "Experiment 11: Predictive Analytics on Product Sales",
+              "subTopics": [
+                "Perform Predictive analytics on Product Sales data"
+              ]
+            },
+            {
+              "topic": "Experiment 12: Predictive Analytics for Weather Forecasting",
+              "subTopics": [
+                "Apply Predictive analytics for Weather forecasting"
+              ]
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]

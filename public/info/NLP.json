@@ -1,0 +1,96 @@
+[
+    {
+      "name": "Natural Language Processing",
+      "code": "AM603PC",
+      "units": [
+        {
+          "name": "UNIT - 1: Finding the Structure of Words and Documents",
+          "topics": [
+            {
+              "topic": "Finding the Structure of Words",
+              "subTopics": [
+                "Words and Their Components",
+                "Issues and Challenges",
+                "Morphological Models"
+              ]
+            },
+            {
+              "topic": "Finding the Structure of Documents",
+              "subTopics": [
+                "Introduction",
+                "Methods",
+                "Complexity of the Approaches",
+                "Performances of the Approaches",
+                "Features"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 2: Syntax I",
+          "topics": [
+            {
+              "topic": "Syntax I",
+              "subTopics": [
+                "Parsing Natural Language",
+                "Treebanks: A Data-Driven Approach to Syntax",
+                "Representation of Syntactic Structure",
+                "Parsing Algorithms"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 3: Syntax II and Semantic Parsing I",
+          "topics": [
+            {
+              "topic": "Syntax II",
+              "subTopics": [
+                "Models for Ambiguity Resolution in Parsing",
+                "Multilingual Issues"
+              ]
+            },
+            {
+              "topic": "Semantic Parsing I",
+              "subTopics": [
+                "Introduction",
+                "Semantic Interpretation",
+                "System Paradigms",
+                "Word Sense"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 4: Semantic Parsing II",
+          "topics": [
+            {
+              "topic": "Semantic Parsing II",
+              "subTopics": [
+                "Predicate-Argument Structure",
+                "Meaning Representation Systems"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 5: Language Modeling",
+          "topics": [
+            {
+              "topic": "Language Modeling",
+              "subTopics": [
+                "Introduction",
+                "N-Gram Models",
+                "Language Model Evaluation",
+                "Bayesian parameter estimation",
+                "Language Model Adaptation",
+                "Language Models - class based, variable length, Bayesian topic based",
+                "Multilingual and Cross Lingual Language Modeling"
+              ]
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]

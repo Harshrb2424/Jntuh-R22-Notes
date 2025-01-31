@@ -1,0 +1,88 @@
+[
+    {
+      "name": "DevOps",
+      "code": "AM606PC",
+      "units": [
+        {
+          "name": "List of Experiments",
+          "topics": [
+            {
+              "topic": "Experiment 1: User Registration Form",
+              "subTopics": [
+                "Write code for a simple user registration form for an event"
+              ]
+            },
+            {
+              "topic": "Experiment 2: Git and GitHub Commands",
+              "subTopics": [
+                "Explore Git and GitHub commands"
+              ]
+            },
+            {
+              "topic": "Experiment 3: Source Code Management",
+              "subTopics": [
+                "Practice Source code management on GitHub",
+                "Experiment with the source code in exercise 1"
+              ]
+            },
+            {
+              "topic": "Experiment 4: Jenkins Installation",
+              "subTopics": [
+                "Jenkins installation and setup",
+                "Explore the environment"
+              ]
+            },
+            {
+              "topic": "Experiment 5: Continuous Integration and Development",
+              "subTopics": [
+                "Demonstrate continuous integration and development using Jenkins"
+              ]
+            },
+            {
+              "topic": "Experiment 6: Docker Commands",
+              "subTopics": [
+                "Explore Docker commands for content management"
+              ]
+            },
+            {
+              "topic": "Experiment 7: Containerized Application",
+              "subTopics": [
+                "Develop a simple containerized application using Docker"
+              ]
+            },
+            {
+              "topic": "Experiment 8: Kubernetes and Docker Integration",
+              "subTopics": [
+                "Integrate Kubernetes and Docker"
+              ]
+            },
+            {
+              "topic": "Experiment 9: Automating Containerized Applications",
+              "subTopics": [
+                "Automate the process of running containerized application for exercise 7 using Kubernetes"
+              ]
+            },
+            {
+              "topic": "Experiment 10: Selenium Installation",
+              "subTopics": [
+                "Install and Explore Selenium for automated testing"
+              ]
+            },
+            {
+              "topic": "Experiment 11: JavaScript Testing with Selenium",
+              "subTopics": [
+                "Write a simple program in JavaScript and perform testing using Selenium"
+              ]
+            },
+            {
+              "topic": "Experiment 12: Test Cases for Containerized Application",
+              "subTopics": [
+                "Develop test cases for the above containerized application using Selenium"
+              ]
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]

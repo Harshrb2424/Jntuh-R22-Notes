@@ -1,0 +1,102 @@
+[
+    {
+      "name": "Data Analytics",
+      "code": "AM602PC",
+      "units": [
+        {
+          "name": "UNIT - 1: Data Management",
+          "topics": [
+            {
+              "topic": "Data Management",
+              "subTopics": [
+                "Design Data Architecture and manage the data for analysis",
+                "Understand various sources of Data like Sensors/Signals/GPS etc.",
+                "Data Quality (noise, outliers, missing values, duplicate data)",
+                "Data Processing & Processing"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 2: Data Analytics",
+          "topics": [
+            {
+              "topic": "Introduction to Analytics",
+              "subTopics": [
+                "Introduction to Tools and Environment",
+                "Application of Modeling in Business",
+                "Databases & Types of Data and Variables",
+                "Data Modeling Techniques",
+                "Missing Imputations",
+                "Need for Business Modeling"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 3: Regression and Logistic Regression",
+          "topics": [
+            {
+              "topic": "Regression",
+              "subTopics": [
+                "Concepts",
+                "Blue property assumptions",
+                "Least Square Estimation",
+                "Variable Rationalization",
+                "Model Building"
+              ]
+            },
+            {
+              "topic": "Logistic Regression",
+              "subTopics": [
+                "Model Theory",
+                "Model fit Statistics",
+                "Model Construction",
+                "Analytics applications to various Business Domains"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 4: Object Segmentation and Time Series Methods",
+          "topics": [
+            {
+              "topic": "Object Segmentation",
+              "subTopics": [
+                "Regression Vs Segmentation – Supervised and Unsupervised Learning",
+                "Tree Building – Regression, Classification",
+                "Overfitting, Pruning and Complexity",
+                "Multiple Decision Trees"
+              ]
+            },
+            {
+              "topic": "Time Series Methods",
+              "subTopics": [
+                "Arima",
+                "Measures of Forecast Accuracy",
+                "STL approach",
+                "Extract features from generated model as Height, Average Energy etc.",
+                "Analyze for prediction"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UNIT - 5: Data Visualization",
+          "topics": [
+            {
+              "topic": "Data Visualization",
+              "subTopics": [
+                "Pixel-Oriented Visualization Techniques",
+                "Geometric Projection Visualization Techniques",
+                "Icon-Based Visualization Techniques",
+                "Hierarchical Visualization Techniques",
+                "Visualizing Complex Data and Relations"
+              ]
+            }
+          ]
+        }
+      ],
+      "links": []
+    }
+  ]

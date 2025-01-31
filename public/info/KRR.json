@@ -1,0 +1,109 @@
+[
+    {
+        "name": "Knowledge Representation and Reasoning",
+        "code": "AM601PC",
+        "units": [
+            {
+                "name": "UNIT - 1: The Key Concepts",
+                "topics": [
+                    {
+                        "topic": "The Key Concepts",
+                        "subTopics": [
+                            "Knowledge",
+                            "Representation",
+                            "Reasoning",
+                            "Why knowledge representation and reasoning",
+                            "Role of logic"
+                        ]
+                    },
+                    {
+                        "topic": "Logic",
+                        "subTopics": [
+                            "Historical background",
+                            "Representing knowledge in logic",
+                            "Varieties of logic",
+                            "Name, Type, Measures",
+                            "Unity Amidst diversity"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT - 2: Ontology",
+                "topics": [
+                    {
+                        "topic": "Ontology",
+                        "subTopics": [
+                            "Ontological categories",
+                            "Philosophical background",
+                            "Top-level categories",
+                            "Describing physical entities",
+                            "Defining abstractions",
+                            "Sets, Collections, Types and Categories",
+                            "Space and Time"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT - 3: Knowledge Representations",
+                "topics": [
+                    {
+                        "topic": "Knowledge Representations",
+                        "subTopics": [
+                            "Knowledge Engineering",
+                            "Representing structure in frames",
+                            "Rules and data",
+                            "Object-oriented systems",
+                            "Natural language Semantics",
+                            "Levels of representation"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT - 4: Processes",
+                "topics": [
+                    {
+                        "topic": "Processes",
+                        "subTopics": [
+                            "Times, Events and Situations",
+                            "Classification of processes",
+                            "Procedures, Processes and Histories",
+                            "Concurrent processes",
+                            "Computation",
+                            "Constraint satisfaction",
+                            "Change Contexts: Syntax of contexts, Semantics of contexts",
+                            "First-order reasoning in contexts",
+                            "Modal reasoning in contexts",
+                            "Encapsulating objects in contexts"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT - 5: Knowledge Soup",
+                "topics": [
+                    {
+                        "topic": "Knowledge Soup",
+                        "subTopics": [
+                            "Vagueness, Uncertainty, Randomness and Ignorance",
+                            "Limitations of logic",
+                            "Fuzzy logic",
+                            "Nonmonotonic Logic",
+                            "Theories, Models and the world",
+                            "Semiotics Knowledge Acquisition and Sharing",
+                            "Sharing Ontologies",
+                            "Conceptual schema",
+                            "Accommodating multiple paradigms",
+                            "Relating different knowledge representations",
+                            "Language patterns",
+                            "Tools for knowledge acquisition"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "links": []
+    }
+]
