@@ -122,6 +122,11 @@
         ]
       }
     ],
-    "links": []
+    "links": [
+      {
+        "name": "Intellectual Property Rights Notes",
+        "link": "./resources/3rd Year/IPR.pdf"
+      }
+    ]
   }
 ]
