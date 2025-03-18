@@ -1,0 +1,130 @@
+[
+    {
+        "name": "SOFTWARE TESTING METHODOLOGIES ( Professional Elective - 2)",
+        "code": "PE-II",
+        "units": [
+            {
+                "name": "UNIT - I: Introduction and Flow Graphs and Path Testing",
+                "topics": [
+                    {
+                        "topic": "Introduction",
+                        "subTopics": [
+                            "Purpose of testing",
+                            "Dichotomies",
+                            "Model for testing",
+                            "Consequences of bugs",
+                            "Taxonomy of bugs"
+                        ]
+                    },
+                    {
+                        "topic": "Flow Graphs and Path Testing",
+                        "subTopics": [
+                            "Basics concepts of path testing",
+                            "Predicates",
+                            "Path predicates and achievable paths",
+                            "Path sensitizing",
+                            "Path instrumentation",
+                            "Application of path testing"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT - II: Transaction Flow Testing, Data Flow Testing, and Domain Testing",
+                "topics": [
+                    {
+                        "topic": "Transaction Flow Testing",
+                        "subTopics": [
+                            "Transaction flows",
+                            "Transaction flow testing techniques"
+                        ]
+                    },
+                    {
+                        "topic": "Data Flow Testing",
+                        "subTopics": [
+                            "Basics of data flow testing",
+                            "Strategies in data flow testing",
+                            "Application of data flow testing"
+                        ]
+                    },
+                    {
+                        "topic": "Domain Testing",
+                        "subTopics": [
+                            "Domains and paths",
+                            "Nice & ugly domains",
+                            "Domain testing",
+                            "Domains and interfaces testing",
+                            "Domain and interface testing",
+                            "Domains and testability"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT - III: Paths, Path Products, Regular Expressions, and Logic-Based Testing",
+                "topics": [
+                    {
+                        "topic": "Paths, Path Products, and Regular Expressions",
+                        "subTopics": [
+                            "Path products & path expression",
+                            "Reduction procedure",
+                            "Applications",
+                            "Regular expressions & flow anomaly detection"
+                        ]
+                    },
+                    {
+                        "topic": "Logic-Based Testing",
+                        "subTopics": [
+                            "Overview",
+                            "Decision tables",
+                            "Path expressions",
+                            "KV charts",
+                            "Specifications"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT - IV: State, State Graphs, and Transition Testing",
+                "topics": [
+                    {
+                        "topic": "State, State Graphs, and Transition Testing",
+                        "subTopics": [
+                            "State graphs",
+                            "Good & bad state graphs",
+                            "State testing",
+                            "Testability tips"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT - V: Graph Matrices and Applications",
+                "topics": [
+                    {
+                        "topic": "Graph Matrices and Application",
+                        "subTopics": [
+                            "Motivational overview",
+                            "Matrix of graph",
+                            "Relations",
+                            "Power of a matrix",
+                            "Node reduction algorithm",
+                            "Building tools",
+                            "Exposure to tools like Jmeter/Selenium/SoapUI/Catalon"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "links": [
+            {
+                "name": "STM Unit 1: Introduction and Flow Graphs and Path Testing",
+                "link": "./resources/3rd Year/STM Unit 1.pdf"
+            },
+            {
+                "name": "STM Unit 2: Transaction Flow Testing, Data Flow Testing, and Domain Testing",
+                "link": "./resources/3rd Year/STM Unit 2.pdf"
+            }
+        ]
+    }
+]

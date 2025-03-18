@@ -104,6 +104,19 @@
                 ]
             }
         ],
-        "links": []
+        "links": [
+            {
+                "name": "KRR Book by John F Sowa",
+                "link": "./resources/3rd Year/KRR Book John F Sowa.pdf"
+            },
+            {
+                "name": "KRR Unit 1: The Key Concepts",
+                "link": "./resources/3rd Year/KRR Unit 1.pdf"
+            },
+            {
+                "name": "KRR Imp QnA Unit 1,2,3",
+                "link": "./resources/3rd Year/KRR Imp QnA Unit 1,2,3.pdf"
+            }
+        ]
     }
 ]

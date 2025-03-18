@@ -64,6 +64,11 @@
           ]
         }
       ],
-      "links": []
+      "links": [
+        {
+          "name": "NLP Lab Manual",
+          "link": "./resources/3rd Year/NLP Lab Manual.pdf"
+        }
+      ]
     }
   ]

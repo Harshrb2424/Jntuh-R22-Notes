@@ -91,6 +91,27 @@
           ]
         }
       ],
-      "links": []
+      "links": [
+        {
+          "name": "NLP Handbook Second Edition Chapman & Hall CRC",
+          "link": "./resources/3rd Year/NLP Handbook Second Edition Chapman & Hall CRC.pdf"
+        },
+        {
+          "name": "NLP Unit 1: Finding the Structure of Words and Documents",
+          "link": "./resources/3rd Year/NLP Unit 1.pdf"
+        },
+        {
+          "name": "NLP Unit 1 (Part 2): Finding the Structure of Words and Documents",
+          "link": "./resources/3rd Year/NLP Unit 1.2.pdf"
+        },
+        {
+          "name": "NLP Unit 2: Syntax I",
+          "link": "./resources/3rd Year/NLP Unit 2.pdf"
+        },
+        {
+          "name": "NLP Imp QnA Unit 1,2,3",
+          "link": "./resources/3rd Year/NLP Imp QnA Unit 1,2,3.pdf"
+        }
+      ]
     }
   ]

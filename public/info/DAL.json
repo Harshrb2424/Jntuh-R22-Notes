@@ -83,6 +83,9 @@
           ]
         }
       ],
-      "links": []
+      "links": [ {
+        "name": "DA Lab Manual",
+        "link": "./resources/3rd Year/DA Lab Manual.pdf"
+      }]
     }
   ]

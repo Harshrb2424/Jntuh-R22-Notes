@@ -1,0 +1,113 @@
+[
+    {
+        "name": "DIGITAL ELECTRONICS FOR ENGINEERING ( Open Elective - 1)",
+        "code": "OE-I",
+        "units": [
+            {
+                "name": "UNIT - I: Number Systems and Boolean Algebra",
+                "topics": [
+                    {
+                        "topic": "Number Systems",
+                        "subTopics": [
+                            "Number systems",
+                            "Complements of Numbers",
+                            "Codes - Weighted and Non-weighted codes",
+                            "Properties of codes"
+                        ]
+                    },
+                    {
+                        "topic": "Boolean Algebra",
+                        "subTopics": [
+                            "Basic Theorems and Properties",
+                            "Switching Functions - Canonical and Standard Form",
+                            "Algebraic Simplification",
+                            "Digital Logic Gates",
+                            "EX-OR gates",
+                            "Universal Gates",
+                            "Multilevel NAND/NOR realizations"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT - II: Minimization of Boolean Functions and Combinational Logic Circuits",
+                "topics": [
+                    {
+                        "topic": "Minimization of Boolean Functions",
+                        "subTopics": [
+                            "Karnaugh Map Method (up to four variables)",
+                            "Don’t Care Map Entries",
+                            "Tabular Method"
+                        ]
+                    },
+                    {
+                        "topic": "Combinational Logic Circuits",
+                        "subTopics": [
+                            "Adders, Subtractors, Comparators",
+                            "Multiplexers, Demultiplexers",
+                            "Encoders, Decoders, Code converters",
+                            "Hazards and Hazard-Free Relations"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT - III: Sequential Circuits Fundamentals",
+                "topics": [
+                    {
+                        "topic": "Sequential Circuits",
+                        "subTopics": [
+                            "Basic Architectural Distinctions (Combinational vs Sequential)",
+                            "SR Latch",
+                            "Flip-Flops: SR, JK, JK Master-Slave, D, T",
+                            "Excitation Tables of Flip-Flops",
+                            "Shift Registers",
+                            "Ripple and Decade Counters"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT - IV: Realization of Logic Gates and Logic Families",
+                "topics": [
+                    {
+                        "topic": "Logic Gates Using Diodes & Transistors",
+                        "subTopics": [
+                            "AND, OR, NOT Gates using Diodes/Transistors"
+                        ]
+                    },
+                    {
+                        "topic": "Logic Families",
+                        "subTopics": [
+                            "DCTL, RTL, DTL, TTL, CML, CMOS",
+                            "Comparison of Logic Families",
+                            "Standard TTL NAND Gate Analysis & Characteristics",
+                            "TTL Open Collector Outputs",
+                            "Tristate TTL",
+                            "MOS & CMOS Open Drain/Tristate Outputs",
+                            "CMOS Transmission Gate"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT - V: Integrated Circuits",
+                "topics": [
+                    {
+                        "topic": "Integrated Circuits",
+                        "subTopics": [
+                            "Classification",
+                            "Chip Size and Circuit Complexity",
+                            "Op-amp Basics: Ideal vs Practical",
+                            "Internal Circuitry of Op-amp",
+                            "DC and AC Characteristics",
+                            "741 Op-amp Features",
+                            "Modes of Operation: Inverting, Non-inverting, Differential"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "links": []
+    }
+]
