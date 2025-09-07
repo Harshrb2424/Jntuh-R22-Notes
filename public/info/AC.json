@@ -5,10 +5,21 @@
         "units": [],
         "links": [
             {
+                "name": "B.Tech 4th Year 2025-26 Calender",
+                "link": "https://jntuh.ac.in/uploads/calendars/B._Tech_IV_YEAR_I_II_SEMESTERS_1.pdf"
+            },
+            {
+                "name": "B.Tech 3rd Year 2025-26 Calender",
+                "link": "https://jntuh.ac.in/uploads/calendars/B._Tech_III_YEAR_I_II_SEMESTERS_.pdf"
+            },
+            {
+                "name": "B.Tech 2nd Year 2025-26 Calender",
+                "link": "https://jntuh.ac.in/uploads/calendars/B._Tech_II_YEAR_I_II_SEMESTERS_.pdf"
+            },
+            {
                 "name": "B.Tech 3rd Year 2024-25 Calender",
                 "link": "./resources/3rd Year/B.Tech 3rd Year 2024-25 Calender.pdf"
-              }
+            }
         ]
     }
-  ]
-  
+]
