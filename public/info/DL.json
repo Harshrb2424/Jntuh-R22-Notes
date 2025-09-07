@@ -1,0 +1,145 @@
+[
+  {
+    "name": "DEEP LEARNING",
+    "code": "DL",
+    "units": [
+      {
+        "name": "UNIT - I Machine Learning Basics and Deep Feedforward Networks",
+        "topics": [
+          {
+            "topic": "Foundations of Machine Learning",
+            "subTopics": [
+              "Learning Algorithms",
+              "Model Capacity",
+              "Overfitting and Underfitting",
+              "Hyperparameters and Validation Sets",
+              "Estimators, Bias and Variance Trade-off",
+              "Maximum Likelihood Estimation",
+              "Bayesian Statistics Overview",
+              "Supervised Learning Algorithms",
+              "Unsupervised Learning Algorithms",
+              "Stochastic Gradient Descent (SGD)",
+              "Building a Machine Learning Algorithm",
+              "Challenges Motivating Deep Learning"
+            ]
+          },
+          {
+            "topic": "Deep Feedforward Networks",
+            "subTopics": [
+              "Learning XOR Problem",
+              "Gradient-Based Learning",
+              "Activation Functions and Hidden Units",
+              "Neural Network Architecture Design",
+              "Backpropagation Algorithm",
+              "Other Differentiation Algorithms (e.g., Forward-mode, Automatic Differentiation)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - II Regularization and Optimization for Deep Learning",
+        "topics": [
+          {
+            "topic": "Regularization Techniques",
+            "subTopics": [
+              "Parameter Norm Penalties (L1, L2)",
+              "Norm Penalties as Constrained Optimization",
+              "Regularization in Under-Constrained Problems",
+              "Dataset Augmentation",
+              "Noise Robustness",
+              "Semi-Supervised Learning",
+              "Multi-Task Learning",
+              "Early Stopping",
+              "Parameter Tying and Sharing",
+              "Sparse Representations",
+              "Bagging and Ensemble Methods",
+              "Dropout",
+              "Adversarial Training",
+              "Tangent Distance, Tangent Prop, Manifold Tangent Classifier"
+            ]
+          },
+          {
+            "topic": "Optimization for Deep Models",
+            "subTopics": [
+              "Learning vs Pure Optimization",
+              "Challenges in Neural Network Optimization",
+              "Basic Optimization Algorithms (SGD, Momentum, Nesterov)",
+              "Parameter Initialization Strategies",
+              "Algorithms with Adaptive Learning Rates (AdaGrad, RMSProp, Adam)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - III Convolutional Neural Networks",
+        "topics": [
+          {
+            "topic": "Convolutional Networks (CNNs)",
+            "subTopics": [
+              "The Convolution Operation",
+              "Motivation for CNNs (Translation Invariance, Parameter Sharing)",
+              "Pooling Layers (Max, Average)",
+              "Convolution and Pooling as Infinitely Strong Priors",
+              "Variants of Convolution (Dilated, Depthwise, Separable)",
+              "Structured Outputs with CNNs",
+              "Handling Different Data Types (Images, Volumes, Sequences)",
+              "Efficient Convolution Algorithms (FFT, Winograd)",
+              "Random or Unsupervised Feature Learning"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - IV Recurrent and Recursive Networks",
+        "topics": [
+          {
+            "topic": "Recurrent Neural Networks (RNNs)",
+            "subTopics": [
+              "Unfolding Computational Graphs",
+              "Basic RNN Architecture",
+              "Bidirectional RNNs",
+              "Encoder-Decoder Sequence-to-Sequence Models",
+              "Deep Recurrent Networks",
+              "Recursive Neural Networks (Tree-structured)",
+              "Challenge of Long-Term Dependencies",
+              "Echo State Networks",
+              "Leaky Units and Multi-Time Scale Strategies",
+              "Long Short-Term Memory (LSTM)",
+              "Gated Recurrent Units (GRUs)",
+              "Optimization Techniques for Long-Term Dependencies",
+              "Explicit Memory Architectures (e.g., Neural Turing Machines)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - V Practical Methodology and Applications",
+        "topics": [
+          {
+            "topic": "Practical Deep Learning Methodology",
+            "subTopics": [
+              "Performance Metrics (Accuracy, Precision, Recall, F1, AUC, BLEU, etc.)",
+              "Default Baseline Models",
+              "Determining Whether to Gather More Data",
+              "Hyperparameter Selection and Tuning",
+              "Debugging Strategies (Gradient Checks, Visualization, Ablation)",
+              "Case Study: Multi-Digit Number Recognition"
+            ]
+          },
+          {
+            "topic": "Applications of Deep Learning",
+            "subTopics": [
+              "Large-Scale Deep Learning Systems",
+              "Computer Vision (Image Classification, Object Detection, Segmentation)",
+              "Speech Recognition and Synthesis",
+              "Natural Language Processing (Machine Translation, Text Generation, Sentiment Analysis)",
+              "Other Applications (Healthcare, Robotics, Recommender Systems, Game AI)"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+    ]
+  }
+]

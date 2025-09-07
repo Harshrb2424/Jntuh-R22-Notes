@@ -1,0 +1,112 @@
+[
+  {
+    "name": "SEMANTIC WEB (Professional Elective – IV)",
+    "code": "SW",
+    "units": [
+      {
+        "name": "UNIT - I Introduction to Semantic Web",
+        "topics": [
+          {
+            "topic": "Foundations of Semantic Web",
+            "subTopics": [
+              "Introduction to Semantic Web",
+              "The Business Case for the Semantic Web",
+              "XML and Its Impact on the Enterprise"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - II Web Services",
+        "topics": [
+          {
+            "topic": "Web Services Fundamentals",
+            "subTopics": [
+              "Uses of Web Services",
+              "Basics of Web Services",
+              "SOAP (Simple Object Access Protocol)",
+              "UDDI (Universal Description, Discovery, and Integration)",
+              "Orchestrating Web Services",
+              "Securing Web Services",
+              "Grid Enabled Web Services",
+              "Semantic Web of Web Services"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - III Resource Description Framework & XML Technologies",
+        "topics": [
+          {
+            "topic": "Resource Description Framework (RDF)",
+            "subTopics": [
+              "Features of RDF",
+              "Capturing Knowledge with RDF"
+            ]
+          },
+          {
+            "topic": "XML Technologies",
+            "subTopics": [
+              "XPath",
+              "The Style Sheet Family: XSL, XSLT, XSL-FO",
+              "XQuery",
+              "XLink and XPointer",
+              "XInclude",
+              "XMLBase",
+              "XHTML",
+              "XForms",
+              "SVG (Scalable Vector Graphics)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - IV Taxonomies and Ontologies",
+        "topics": [
+          {
+            "topic": "Taxonomies and Ontologies",
+            "subTopics": [
+              "Overview of Taxonomies",
+              "Defining the Ontology Spectrum",
+              "Topic Maps",
+              "Overview of Ontologies",
+              "Syntax, Structure, Semantics, and Pragmatics of Ontologies",
+              "Expressing Ontologies Logically",
+              "Knowledge Representation"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - V Semantic Web Applications and Search Technologies",
+        "topics": [
+          {
+            "topic": "Semantic Web Applications",
+            "subTopics": [
+              "Semantic Web Services",
+              "e-Learning Applications",
+              "Semantic Bioinformatics",
+              "Enterprise Application Integration",
+              "Knowledge Base Systems"
+            ]
+          },
+          {
+            "topic": "Semantic Search Technology",
+            "subTopics": [
+              "Traditional Search Engines",
+              "Introduction to Semantic Search",
+              "Semantic Search Technology",
+              "Web Search Agents",
+              "Semantic Methods in Search",
+              "Latent Semantic Indexing (LSI)",
+              "TAP (The Application Protocol)",
+              "Swoogle (Semantic Web Search Engine)"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+    ]
+  }
+]

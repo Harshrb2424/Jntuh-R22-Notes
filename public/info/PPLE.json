@@ -1,0 +1,150 @@
+[
+  {
+    "name": "PROFESSIONAL PRACTICE, LAW & ETHICS",
+    "code": "PPLE",
+    "units": [
+      {
+        "name": "UNIT - I Professional Practice and Ethics",
+        "topics": [
+          {
+            "topic": "Foundations of Ethics and Professionalism",
+            "subTopics": [
+              "Definition of Ethics",
+              "Professional Ethics",
+              "Engineering Ethics",
+              "Personal Ethics",
+              "Code of Ethics",
+              "Profession and Professionalism",
+              "Professional Responsibility",
+              "Conflict of Interest",
+              "Gift vs Bribery",
+              "Environmental Breaches",
+              "Negligence",
+              "Deficiencies in State-of-the-Art",
+              "Vigil Mechanism",
+              "Whistle Blowing and Protected Disclosures"
+            ]
+          },
+          {
+            "topic": "Introduction to GST and Stakeholder Roles",
+            "subTopics": [
+              "Overview of GST (Goods and Services Tax)",
+              "Roles of Various Stakeholders in GST Ecosystem"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - II Law of Contract",
+        "topics": [
+          {
+            "topic": "Fundamentals of Contract Law",
+            "subTopics": [
+              "Nature of Contract",
+              "Essential Elements of a Valid Contract",
+              "Offer and Acceptance",
+              "Consideration",
+              "Capacity to Contract",
+              "Free Consent",
+              "Legality of Object",
+              "Unlawful and Illegal Agreements",
+              "Contingent Contracts",
+              "Performance and Discharge of Contracts",
+              "Remedies for Breach of Contract"
+            ]
+          },
+          {
+            "topic": "Advanced Contract Concepts",
+            "subTopics": [
+              "Contract of Indemnity and Guarantee",
+              "Contract of Agency",
+              "Sale of Goods Act, 1930: General Principles",
+              "Conditions and Warranties",
+              "Performance of Contract of Sale"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - III Arbitration, Conciliation and ADR",
+        "topics": [
+          {
+            "topic": "Alternative Dispute Resolution Systems",
+            "subTopics": [
+              "Arbitration: Meaning, Scope and Types",
+              "Distinction between Arbitration Act 1940 and 1996",
+              "UNCITRAL Model Law",
+              "Arbitration vs Expert Determination",
+              "Extent of Judicial Intervention",
+              "International Commercial Arbitration"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - IV Arbitration Agreements and Tribunal Procedures",
+        "topics": [
+          {
+            "topic": "Arbitration Agreements and Tribunal",
+            "subTopics": [
+              "Essentials and Kinds of Arbitration Agreements",
+              "Validity of Arbitration Agreements",
+              "Reference and Interim Measures by Court",
+              "Appointment of Arbitral Tribunal",
+              "Challenge and Jurisdiction of Arbitral Tribunal",
+              "Powers of Arbitral Tribunal",
+              "Grounds of Challenge",
+              "Procedure and Court Assistance"
+            ]
+          },
+          {
+            "topic": "Conciliation, Mediation and Other ADR Methods",
+            "subTopics": [
+              "Distinction: Conciliation, Negotiation, Mediation, Arbitration",
+              "Confidentiality in ADR",
+              "Resort to Judicial Proceedings",
+              "Costs in ADR",
+              "Dispute Resolution Boards",
+              "Lok Adalats"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - V Intellectual Property Law",
+        "topics": [
+          {
+            "topic": "Introduction to Intellectual Property",
+            "subTopics": [
+              "Meaning of Intellectual Property",
+              "Main Forms of IP: Copyright, Trademarks, Patents, Designs, Trade Secrets"
+            ]
+          },
+          {
+            "topic": "Copyright Law in India",
+            "subTopics": [
+              "Historical Evolution of Copyright Act, 1957",
+              "Meaning of Copyright (including Computer Programs)",
+              "Ownership and Assignment of Copyrights",
+              "Criteria of Copyright Infringement",
+              "Piracy on the Internet",
+              "Remedies and Legal Procedures in India"
+            ]
+          },
+          {
+            "topic": "Patent Law in India",
+            "subTopics": [
+              "Patents Act, 1970: Overview",
+              "Patentability Criteria",
+              "Application and Grant Process",
+              "Rights and Limitations of Patent Holders",
+              "Infringement and Enforcement"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+    ]
+  }
+]

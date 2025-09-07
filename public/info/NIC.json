@@ -1,0 +1,93 @@
+[
+  {
+    "name": "NATURE INSPIRED COMPUTING",
+    "code": "NIC",
+    "units": [
+      {
+        "name": "UNIT - I Evolutionary Computing",
+        "topics": [
+          {
+            "topic": "Foundations of Evolutionary Computing",
+            "subTopics": [
+              "Problem Solving as a Search Task",
+              "Hill Climbing Algorithm",
+              "Simulated Annealing",
+              "Introduction to Evolutionary Biology",
+              "Evolutionary Computing Concepts",
+              "Other Main Evolutionary Algorithms (Genetic Algorithms, Genetic Programming, Evolution Strategies, Differential Evolution)",
+              "From Evolutionary Biology to Computing",
+              "Scope and Applications of Evolutionary Computing"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - II Neurocomputing",
+        "topics": [
+          {
+            "topic": "Artificial Neural Networks and Neurocomputing",
+            "subTopics": [
+              "The Human Nervous System (Biological Inspiration)",
+              "Artificial Neural Networks (ANNs): Structure and Function",
+              "Typical ANN Architectures (Perceptron, MLP, RBF, etc.)",
+              "Learning Algorithms (Supervised, Unsupervised, Reinforcement)",
+              "Backpropagation, Hebbian Learning, Competitive Learning",
+              "From Natural to Artificial Neural Networks",
+              "Scope and Applications of Neurocomputing"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - III Swarm Intelligence",
+        "topics": [
+          {
+            "topic": "Swarm Intelligence Systems",
+            "subTopics": [
+              "Ant Colony Optimization (ACO)",
+              "Foraging Behavior and Pheromone Models",
+              "Swarm Robotics: Coordination and Collective Behavior",
+              "Social Adaptation of Knowledge in Swarms",
+              "Particle Swarm Optimization (PSO)",
+              "Applications in Optimization, Robotics, and Scheduling"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - IV Immunocomputing",
+        "topics": [
+          {
+            "topic": "Artificial Immune Systems",
+            "subTopics": [
+              "The Human Immune System (Biological Foundation)",
+              "Artificial Immune Systems (AIS): Principles and Models",
+              "Bone Marrow Models",
+              "Negative Selection Algorithms",
+              "Clonal Selection and Affinity Maturation",
+              "Artificial Immune Networks",
+              "From Natural Immune System to Artificial Immune Systems",
+              "Scope and Applications of AIS (Anomaly Detection, Optimization, Pattern Recognition)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - V Case Studies and Applications",
+        "topics": [
+          {
+            "topic": "Real-World Applications of Nature-Inspired Computing",
+            "subTopics": [
+              "Case Study: Bioinformatics (Gene Prediction, Protein Folding, Sequence Alignment)",
+              "Case Study: Information Display and Visualization (Swarm-based UI, Immune-inspired Data Clustering)",
+              "Hybrid Nature-Inspired Models",
+              "Emerging Trends and Future Directions"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+    ]
+  }
+]

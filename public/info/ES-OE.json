@@ -1,0 +1,138 @@
+[
+  {
+    "name": "ELECTRONIC SENSORS (OE - II)",
+    "code": "ES-OE",
+    "units": [
+      {
+        "name": "UNIT - I Sensors / Transducers: Principles, Classification, Parameters, Characteristics",
+        "topics": [
+          {
+            "topic": "Fundamentals of Sensors and Transducers",
+            "subTopics": [
+              "Principles of Sensor Operation",
+              "Classification of Sensors",
+              "Sensor Parameters and Characteristics",
+              "Environmental Parameters (EP)",
+              "Characterization of Sensors"
+            ]
+          },
+          {
+            "topic": "Electromechanical Sensors",
+            "subTopics": [
+              "Introduction to Electromechanical Sensors",
+              "Resistive Potentiometer",
+              "Strain Gauge: Resistance and Semiconductor Types",
+              "Inductive Sensors: Sensitivity and Linearity, Types",
+              "Capacitive Sensors: Electrostatic Transducer",
+              "Force/Stress Sensors Using Quartz Resonators",
+              "Ultrasonic Sensors"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - II Thermal Sensors",
+        "topics": [
+          {
+            "topic": "Thermal Sensors and Thermometry",
+            "subTopics": [
+              "Introduction to Thermal Sensors",
+              "Gas Thermometric Sensors",
+              "Thermal Expansion Type Sensors",
+              "Acoustic Temperature Sensor",
+              "Dielectric Constant and Refractive Index Thermo Sensors",
+              "Helium Low Temperature Thermometer",
+              "Nuclear Thermometer",
+              "Magnetic Thermometer",
+              "Resistance Change Type Thermometric Sensors",
+              "Thermo emf Sensors",
+              "Junction Semiconductor Types",
+              "Thermal Radiation Sensors",
+              "Quartz Crystal Thermoelectric Sensors",
+              "NQR Thermometry",
+              "Spectroscopic Thermometry",
+              "Noise Thermometry",
+              "Heat Flux Sensors"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - III Magnetic Sensors",
+        "topics": [
+          {
+            "topic": "Magnetic Sensors and Principles",
+            "subTopics": [
+              "Introduction to Magnetic Sensors",
+              "Magneto-resistive Sensors",
+              "Anisotropic Magneto-resistive Sensing",
+              "Semiconductor Magneto-resistors",
+              "Hall Effect and Hall Sensors",
+              "Inductance and Eddy Current Sensors",
+              "Angular/Rotary Movement Transducers",
+              "Synchros"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - IV Radiation and Electroanalytical Sensors",
+        "topics": [
+          {
+            "topic": "Radiation Sensors",
+            "subTopics": [
+              "Introduction and Basic Characteristics",
+              "Types of Photoresistors / Photodetectors",
+              "X-ray and Nuclear Radiation Sensors",
+              "Fibre Optic Sensors"
+            ]
+          },
+          {
+            "topic": "Electroanalytical Sensors",
+            "subTopics": [
+              "The Electrochemical Cell",
+              "Cell Potential and Standard Hydrogen Electrode (SHE)",
+              "Liquid Junction and Other Potentials",
+              "Polarization: Concentration Polarization",
+              "Reference Electrodes",
+              "Sensor Electrodes",
+              "Electroceramics in Gas Media"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - V Smart Sensors and Applications",
+        "topics": [
+          {
+            "topic": "Smart Sensors",
+            "subTopics": [
+              "Introduction to Smart Sensors",
+              "Primary Sensors",
+              "Excitation Circuits",
+              "Amplification and Filtering",
+              "Analog-to-Digital Converters",
+              "Compensation Techniques",
+              "Information Coding and Processing",
+              "Data Communication Protocols",
+              "Standards for Smart Sensor Interface",
+              "Automation Sensors"
+            ]
+          },
+          {
+            "topic": "Applications of Sensors",
+            "subTopics": [
+              "On-board Automobile Sensors (Automotive Sensors)",
+              "Home Appliance Sensors",
+              "Aerospace Sensors",
+              "Sensors for Manufacturing",
+              "Sensors for Environmental Monitoring"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+    ]
+  }
+]

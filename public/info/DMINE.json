@@ -1,0 +1,133 @@
+[
+  {
+    "name": "DATA MINING",
+    "code": "DM",
+    "units": [
+      {
+        "name": "UNIT - I Introduction to Data Mining",
+        "topics": [
+          {
+            "topic": "Foundations of Data Mining",
+            "subTopics": [
+              "What is Data Mining?",
+              "Kinds of Data",
+              "Knowledge Discovery Process (KDD)",
+              "Data Mining Functionalities",
+              "Kinds of Patterns",
+              "Major Issues in Data Mining"
+            ]
+          },
+          {
+            "topic": "Data Understanding and Preprocessing",
+            "subTopics": [
+              "Data Objects and Attribute Types",
+              "Basic Statistical Descriptions of Data",
+              "Data Visualization Techniques",
+              "Measuring Data Similarity and Dissimilarity",
+              "Major Tasks in Data Preprocessing",
+              "Data Cleaning",
+              "Data Integration",
+              "Data Reduction",
+              "Data Transformation",
+              "Data Discretization"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - II Association Analysis",
+        "topics": [
+          {
+            "topic": "Association Rule Mining",
+            "subTopics": [
+              "Basic Concepts of Association Analysis",
+              "Market Basket Analysis",
+              "Apriori Algorithm",
+              "FP-Growth Algorithm",
+              "From Association to Correlation Analysis",
+              "Pattern Mining in Multilevel Associations",
+              "Pattern Mining in Multidimensional Associations"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - III Classification",
+        "topics": [
+          {
+            "topic": "Classification Techniques",
+            "subTopics": [
+              "Basic Concepts of Classification",
+              "Decision Tree Induction",
+              "Bayes Classification Methods (Naive Bayes)",
+              "Rule-Based Classification",
+              "Metrics for Evaluating Classifier Performance (Accuracy, Precision, Recall, F1-Score, ROC)",
+              "Ensemble Methods (Bagging, Boosting, Random Forest)",
+              "Multilayer Feed-Forward Neural Networks",
+              "Support Vector Machines (SVM)",
+              "k-Nearest Neighbor (k-NN) Classifiers"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - IV Cluster Analysis and Outlier Detection",
+        "topics": [
+          {
+            "topic": "Cluster Analysis",
+            "subTopics": [
+              "Requirements for Cluster Analysis",
+              "Overview of Basic Clustering Methods",
+              "Partitioning Methods: k-Means, k-Medoids",
+              "Hierarchical Methods: AGNES, DIANA, BIRCH",
+              "Density-Based Method: DBSCAN"
+            ]
+          },
+          {
+            "topic": "Outlier Analysis",
+            "subTopics": [
+              "Types of Outliers",
+              "Challenges in Outlier Detection",
+              "Overview of Outlier Detection Methods"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - V Advanced Data Mining Concepts",
+        "topics": [
+          {
+            "topic": "Web Mining",
+            "subTopics": [
+              "Web Content Mining",
+              "Web Structure Mining",
+              "Web Usage Mining"
+            ]
+          },
+          {
+            "topic": "Spatial Mining",
+            "subTopics": [
+              "Spatial Data Overview",
+              "Spatial Data Mining Primitives",
+              "Spatial Association Rules",
+              "Spatial Classification Algorithms",
+              "Spatial Clustering Algorithms"
+            ]
+          },
+          {
+            "topic": "Temporal Mining",
+            "subTopics": [
+              "Modeling Temporal Events",
+              "Time Series Analysis",
+              "Temporal Pattern Detection",
+              "Sequence Mining",
+              "Temporal Association Rules"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+    ]
+  }
+]

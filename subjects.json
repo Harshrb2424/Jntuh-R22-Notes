@@ -947,7 +947,7 @@
   },
   {
     "name": "Deep Learning",
-    "code": "AM701PC",
+    "code": "DL",
     "year": 4,
     "sem": 1,
     "credits": 3,
@@ -958,7 +958,7 @@
   },
   {
     "name": "Nature Inspired Computing",
-    "code": "AM702PC",
+    "code": "NIC",
     "year": 4,
     "sem": 1,
     "credits": 2,
@@ -968,8 +968,8 @@
     "info": []
   },
   {
-    "name": "Professional Elective - III",
-    "code": "PE-III",
+    "name": "Data Mining: Professional Elective - III",
+    "code": "DMINE",
     "year": 4,
     "sem": 1,
     "credits": 3,
@@ -979,8 +979,8 @@
     "info": []
   },
   {
-    "name": "Professional Elective - IV",
-    "code": "PE-IV",
+    "name": "SEMANTIC WEB: Professional Elective - IV",
+    "code": "SW",
     "year": 4,
     "sem": 1,
     "credits": 3,
@@ -990,8 +990,8 @@
     "info": []
   },
   {
-    "name": "Open Elective - II",
-    "code": "OE-II",
+    "name": "Electronic Sensors: Open Elective - II",
+    "code": "ES-OE",
     "year": 4,
     "sem": 1,
     "credits": 3,
@@ -1002,7 +1002,7 @@
   },
   {
     "name": "Professional Practice, Law & Ethics",
-    "code": "AM703PC",
+    "code": "PPLE",
     "year": 4,
     "sem": 1,
     "credits": 2,
@@ -1012,8 +1012,8 @@
     "info": []
   },
   {
-    "name": "Professional Elective - III Lab",
-    "code": "PE-III Lab",
+    "name": "Data Mining Lab: Professional Elective - III Lab",
+    "code": "DML",
     "year": 4,
     "sem": 1,
     "credits": 1,

@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Data Mining Lab",
+    "code": "AM605PC",
+    "units": [
+      {
+        "name": "List of Experiments",
+        "topics": [
+          {
+            "topic": "Experiment 1: Data Processing Techniques",
+            "subTopics": [
+              "a) Data Cleaning",
+              "b) Data Transformation – Normalization",
+              "c) Data Integration"
+            ]
+          },
+          {
+            "topic": "Experiment 2: Data Partitioning Techniques",
+            "subTopics": [
+              "Implement Horizontal Partitioning",
+              "Implement Vertical Partitioning",
+              "Implement Round Robin Partitioning",
+              "Implement Hash-based Partitioning"
+            ]
+          },
+          {
+            "topic": "Experiment 3: Data Warehouse Schemas",
+            "subTopics": [
+              "Design Star Schema",
+              "Design Snowflake Schema",
+              "Design Fact Constellation Schema"
+            ]
+          },
+          {
+            "topic": "Experiment 4: Data Cube and OLAP Operations",
+            "subTopics": [
+              "Construct Data Cube",
+              "Perform OLAP Operations: Roll-up, Drill-down, Slice, Dice, Pivot"
+            ]
+          },
+          {
+            "topic": "Experiment 5: ETL Operations",
+            "subTopics": [
+              "Perform Data Extraction",
+              "Apply Transformations",
+              "Load Processed Data into Target Warehouse (using Pentaho/Python)"
+            ]
+          },
+          {
+            "topic": "Experiment 6: Attribute-Oriented Induction",
+            "subTopics": [
+              "Implement Attribute-Oriented Induction Algorithm for Concept Description"
+            ]
+          },
+          {
+            "topic": "Experiment 7: Apriori Algorithm",
+            "subTopics": [
+              "Implement Apriori Algorithm for Frequent Itemset Mining",
+              "Generate Association Rules from Frequent Itemsets"
+            ]
+          },
+          {
+            "topic": "Experiment 8: FP-Growth Algorithm",
+            "subTopics": [
+              "Construct FP-Tree",
+              "Mine Frequent Patterns using FP-Growth Algorithm"
+            ]
+          },
+          {
+            "topic": "Experiment 9: Decision Tree Induction",
+            "subTopics": [
+              "Implement Decision Tree Algorithm (e.g., ID3 or C4.5)",
+              "Visualize the Generated Tree"
+            ]
+          },
+          {
+            "topic": "Experiment 10: Information Gain Calculation",
+            "subTopics": [
+              "Calculate Entropy and Information Gain for Attributes",
+              "Use Gain to Select Root Node in Decision Tree"
+            ]
+          },
+          {
+            "topic": "Experiment 11: Naive Bayes Classification",
+            "subTopics": [
+              "Implement Naive Bayes Classifier",
+              "Classify Test Instances using Probability Estimation"
+            ]
+          },
+          {
+            "topic": "Experiment 12: K-Nearest Neighbour (K-NN)",
+            "subTopics": [
+              "Implement K-NN Algorithm for Classification",
+              "Experiment with Different Distance Metrics (Euclidean, Manhattan)"
+            ]
+          },
+          {
+            "topic": "Experiment 13: K-Means Clustering",
+            "subTopics": [
+              "Implement K-Means Algorithm",
+              "Visualize Clusters and Analyze Convergence"
+            ]
+          },
+          {
+            "topic": "Experiment 14: BIRCH Clustering",
+            "subTopics": [
+              "Implement BIRCH Algorithm for Large Dataset Clustering",
+              "Understand CF Tree Construction"
+            ]
+          },
+          {
+            "topic": "Experiment 15: PAM (Partitioning Around Medoids)",
+            "subTopics": [
+              "Implement PAM Algorithm (K-Medoids)",
+              "Compare with K-Means in Terms of Robustness to Outliers"
+            ]
+          },
+          {
+            "topic": "Experiment 16: DBSCAN Clustering",
+            "subTopics": [
+              "Implement DBSCAN Algorithm",
+              "Identify Core, Border, and Noise Points",
+              "Analyze Clustering with Different Epsilon and MinPts Values"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+    ]
+  }
+]

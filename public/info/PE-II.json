@@ -124,6 +124,18 @@
             {
                 "name": "STM Unit 2: Transaction Flow Testing, Data Flow Testing, and Domain Testing",
                 "link": "./resources/3rd Year/STM Unit 2.pdf"
+            },
+            {
+                "name": "STM Unit 3",
+                "link": "./resources/3rd Year/STM Unit 3.pdf"
+            },
+            {
+                "name": "STM Unit 4",
+                "link": "./resources/3rd Year/STM Unit 4.pdf"
+            },
+            {
+                "name": "STM Unit 5",
+                "link": "./resources/3rd Year/STM Unit 5.pdf"
             }
         ]
     }
