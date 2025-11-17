@@ -88,6 +88,26 @@
       }
     ],
     "links": [
+      {
+        "name": "NIC Unit 1: EVOLUTIONARY COMPUTING",
+        "link": "./resources/4th Year/NIC Unit 1 EVOLUTIONARY COMPUTING.pdf"
+      },
+      {
+        "name": "NIC Unit 2: NEUROCOMPUTING",
+        "link": "./resources/4th Year/NIC Unit 2 NEUROCOMPUTING.pdf"
+      },
+      {
+        "name": "NIC Unit 3: SWARM INTELLIGENCE",
+        "link": "./resources/4th Year/NIC Unit 3 SWARM INTELLIGENCE.pdf"
+      },
+      {
+        "name": "NIC Unit 4: IMMUNOCOMPUTING",
+        "link": "./resources/4th Year/NIC Unit 4 IMMUNOCOMPUTING.pdf"
+      },
+      {
+        "name": "NIC Unit 5: Case Studies",
+        "link": "./resources/4th Year/NIC Unit 5 Case Studies.pdf"
+      }
     ]
   }
 ]

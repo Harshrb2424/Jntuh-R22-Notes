@@ -133,6 +133,30 @@
       }
     ],
     "links": [
+      {
+        "name": "ES All Units",
+        "link": "./resources/4th Year/ES All Units.pdf"
+      },
+      {
+        "name": "ES Unit 1: Sensors & Transducers: Principles, Classification, Parameters, Characteristics",
+        "link": "./resources/4th Year/ES Unit 1.pdf"
+      },
+      {
+        "name": "ES Unit 2: Thermal Sensors",
+        "link": "./resources/4th Year/ES Unit 2.pdf"
+      },
+      {
+        "name": "ES Unit 3: Magnetic Sensors",
+        "link": "./resources/4th Year/ES Unit 3.pdf"
+      },
+      {
+        "name": "ES Unit 4: Radiation and Electroanalytical Sensors",
+        "link": "./resources/4th Year/ES Unit 4.pdf"
+      },
+      {
+        "name": "ES Unit 5: Smart Sensors and Applications",
+        "link": "./resources/4th Year/ES Unit 5.pdf"
+      }
     ]
   }
 ]

@@ -145,6 +145,18 @@
       }
     ],
     "links": [
+      {
+        "name": "PPLE Unit 1, 2 and 3",
+        "link": "./resources/4th Year/PPLE U123.pdf"
+      },
+      {
+        "name": "PPLE Unit 4",
+        "link": "./resources/4th Year/PPLE Unit 4.pdf"
+      },
+      {
+        "name": "PPLE Unit 5",
+        "link": "./resources/4th Year/PPLE Unit 5.pdf"
+      }
     ]
   }
 ]

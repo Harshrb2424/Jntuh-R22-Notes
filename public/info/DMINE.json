@@ -128,6 +128,26 @@
       }
     ],
     "links": [
+      {
+        "name": "DM Unit 1: Introduction to Data Mining",
+        "link": "./resources/4th Year/DM Unit 1.pdf"
+      },
+      {
+        "name": "DM Unit 2: Association Analysis",
+        "link": "./resources/4th Year/DM Unit 2.pdf"
+      },
+      {
+        "name": "DM Unit 3: Classification",
+        "link": "./resources/4th Year/DM Unit 3.pdf"
+      },
+      {
+        "name": "DM Unit 4: Cluster Analysis and Outlier Detection",
+        "link": "./resources/4th Year/DM Unit 4.pdf"
+      },
+      {
+        "name": "DM Unit 5: Advanced Data Mining Concepts",
+        "link": "./resources/4th Year/DM Unit 5.pdf"
+      }
     ]
   }
 ]

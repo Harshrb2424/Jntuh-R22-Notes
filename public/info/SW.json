@@ -107,6 +107,26 @@
       }
     ],
     "links": [
+      {
+        "name": "SW Unit 1: Introduction to Semantic Web",
+        "link": "./resources/4th Year/SW Unit 1.pdf"
+      },
+      {
+        "name": "SW Unit 2: Web Services",
+        "link": "./resources/4th Year/SW Unit 2.pdf"
+      },
+      {
+        "name": "SW Unit 3: Resource Description Framework & XML Technologies",
+        "link": "./resources/4th Year/SW Unit 3.pdf"
+      },
+      {
+        "name": "SW Unit 4: Taxonomies and Ontologies",
+        "link": "./resources/4th Year/SW Unit 4.pdf"
+      },
+      {
+        "name": "SW Unit 5: Semantic Web Applications and Search Technologies",
+        "link": "./resources/4th Year/SW Unit 5.pdf"
+      }
     ]
   }
 ]

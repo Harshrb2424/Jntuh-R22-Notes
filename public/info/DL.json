@@ -140,6 +140,26 @@
       }
     ],
     "links": [
+      {
+        "name": "DL Unit 1: Machine Learning Basics and Deep Feedforward Networks",
+        "link": "./resources/4th Year/DL Unit 1.pdf"
+      },
+      {
+        "name": "DL Unit 2: Regularization and Optimization for Deep Learning",
+        "link": "./resources/4th Year/DL Unit 2.pdf"
+      },
+      {
+        "name": "DL Unit 3: Convolutional Neural Networks",
+        "link": "./resources/4th Year/DL Unit 3.pdf"
+      },
+      {
+        "name": "DL Unit 4: Recurrent and Recursive Networks",
+        "link": "./resources/4th Year/DL Unit 4.pdf"
+      },
+      {
+        "name": "DL Unit 5: Practical Methodology and Applications",
+        "link": "./resources/4th Year/DL Unit 5.pdf"
+      }
     ]
   }
 ]
