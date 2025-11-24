@@ -1,0 +1,105 @@
+[
+  {
+    "name": "WEB PROGRAMMING (From Sayera S Khan)",
+    "code": "AM513PE",
+    "units": [
+      {
+        "name": "UNIT 1 Client side Programming",
+        "topics": [
+          {
+            "topic": "Client side Programming",
+            "subTopics": [
+              "HTML: Basic Tags, List, Tables, Images, Forms, Frames, CSS",
+              "Web page Designing using HTML, Scripting basics: Client side and server side scripting",
+              "JavaScript: Objects, names, literals, operators and expressions, statements and features",
+              "Events, windows, documents, frames, data types, built-in functions",
+              "Browser object model, Verifying forms",
+              "HTML5, CSS3, HTML 5 canvas, Web site creation using tools"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT 2 JAVA",
+        "topics": [
+          {
+            "topic": "JAVA",
+            "subTopics": [
+              "Introduction to object-oriented programming, Features of Java",
+              "Data types, variables and arrays, Operators, Control statements",
+              "Classes and Methods, Inheritance, Packages and Interfaces",
+              "Exception Handling, Multithreaded Programming",
+              "Input/Output, Files, Utility Classes, String Handling"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT 3 JDBC",
+        "topics": [
+          {
+            "topic": "JDBC and Networking",
+            "subTopics": [
+              "JDBC Overview, JDBC implementation, Connection class, Statements",
+              "Catching Database Results, handling database Queries",
+              "Networking: InetAddress class, URL class, TCP sockets, UDP sockets",
+              "Java Beans, RMI"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT 4 APPLETS",
+        "topics": [
+          {
+            "topic": "Applets, AWT, and Servlets",
+            "subTopics": [
+              "Java applets: Life cycle of an applet, Adding images and sound, Passing parameters",
+              "Event Handling, Introducing AWT: Working with Windows Graphics and Text",
+              "Using AWT Controls, Layout Managers and Menus",
+              "Servlet: Life cycle of a servlet, The Servlet API",
+              "Handling HTTP Request and Response, using Cookies, Session Tracking",
+              "Introduction to JSP"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT 5 XML AND WEB SERVICES",
+        "topics": [
+          {
+            "topic": "XML and Web Services",
+            "subTopics": [
+              "XML: Introduction, Form Navigation, XML Documents",
+              "XSL, XSLT",
+              "Web services, UDDI, WSDL",
+              "Java web services, Web resources"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "name": "WP QnA",
+        "link": "./resources/3rd Year/WP QnA.pdf"
+      },
+      {
+        "name": "WP Unit 2 JAVA",
+        "link": "./resources/3rd Year/WP Unit 2.pdf"
+      },
+      {
+        "name": "WP Unit 3 JDBC",
+        "link": "./resources/3rd Year/WP Unit 3.pdf"
+      },
+      {
+        "name": "WP Unit 4 APPLETS",
+        "link": "./resources/3rd Year/WP Unit 4.pdf"
+      },
+      {
+        "name": "WP Unit 5 XML",
+        "link": "./resources/3rd Year/WP Unit 5.pdf"
+      }
+    ]
+  }
+]

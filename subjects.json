@@ -673,6 +673,23 @@
     ]
   },
   {
+    "name": "PROFESSIONAL ELECTIVE-I: Web Programming",
+    "code": "WP",
+    "year": 3,
+    "sem": 1,
+    "credits": 3,
+    "tags": [
+      "Elective"
+    ],
+    "info": [
+      "Introduction to Graphs",
+      "Connected Graphs and Shortest Paths",
+      "Trees",
+      "Independent Sets, Coverings, and Matchings",
+      "Vertex and Edge Colorings"
+    ]
+  },
+  {
     "name": "PROFESSIONAL ELECTIVE-I: Graph Theory",
     "code": "PE-I-I",
     "year": 3,
