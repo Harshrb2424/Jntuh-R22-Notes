@@ -897,7 +897,7 @@
     ]
   },
   {
-    "name": "Professional Elective – II",
+    "name": "Professional Elective - II",
     "code": "PE-II",
     "year": 3,
     "sem": 2,
@@ -1040,19 +1040,8 @@
     "info": []
   },
   {
-    "name": "Project Stage - I",
-    "code": "Project-I",
-    "year": 4,
-    "sem": 1,
-    "credits": 3,
-    "tags": [
-      "Project"
-    ],
-    "info": []
-  },
-  {
-    "name": "Professional Elective - V",
-    "code": "PE-V",
+    "name": "Social Netowrk Analysis: Professional Elective - V",
+    "code": "SNA",
     "year": 4,
     "sem": 2,
     "credits": 3,
@@ -1062,8 +1051,8 @@
     "info": []
   },
   {
-    "name": "Professional Elective - VI",
-    "code": "PE-VI",
+    "name": "Conversational AI: Professional Elective - VI",
+    "code": "CAI",
     "year": 4,
     "sem": 2,
     "credits": 3,
@@ -1073,8 +1062,8 @@
     "info": []
   },
   {
-    "name": "Open Elective - III",
-    "code": "OE-III",
+    "name": "Communication Technologoes: Open Elective - III",
+    "code": "COT",
     "year": 4,
     "sem": 2,
     "credits": 3,
@@ -1084,7 +1073,7 @@
     "info": []
   },
   {
-    "name": "Project Stage – II including Seminar",
+    "name": "Project Stage - II including Seminar",
     "code": "AM801PC",
     "year": 4,
     "sem": 2,

@@ -1,78 +1,113 @@
 $(document).ready(function () {
-  function displaySubjects(subjects) {
-    console.log(subjects);
-    $(".subjects").empty();
-    $.each(subjects, function (index, subject) {
-      var $newSubject = $(
-        '<div class="click ' + subject.code + ' subject "></div>'
-      );
-      $newSubject.append("<h1>" + subject.name + "</h1>");
-      var $tagsDiv = $('<div class="tags"></div>');
-
-      subject.year &&
-        subject.sem &&
-        $newSubject.append(
-          "<p>Year " + subject.year + " Sem " + subject.sem + "</p>"
-        );
-      subject.credits &&
-        $newSubject.append("<p>Credits: " + subject.credits + "</p>");
-
-      $.each(subject.tags, function (i, tag) {
-        $tagsDiv.append("<p>#" + tag + "</p>");
-      });
-      $newSubject.append($tagsDiv);
-      var array = "";
-      $.each(subject.info, function (i, tag) {
-        array += i == 0 ? tag : `; ${tag}`;
-      });
-      $newSubject.append("<p class='info'>" + array + ".</p>");
-      var $buttonDiv = $('<div class="button"></div>');
-      $buttonDiv.append(
-        `<button class="click ' + ${subject.code} + '"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93934 5.93934C6.52513 5.35355 7.47487 5.35355 8.06066 5.93934L13.0607 10.9393C13.342 11.2206 13.5 11.6022 13.5 12C13.5 12.3978 13.342 12.7794 13.0607 13.0607L8.06066 18.0607C7.47487 18.6464 6.52513 18.6464 5.93934 18.0607C5.35355 17.4749 5.35355 16.5251 5.93934 15.9393L9.87868 12L5.93934 8.06066C5.35355 7.47487 5.35355 6.52513 5.93934 5.93934ZM11.9393 5.93934C12.5251 5.35355 13.4749 5.35355 14.0607 5.93934L19.0607 10.9393C19.342 11.2206 19.5 11.6022 19.5 12C19.5 12.3978 19.342 12.7794 19.0607 13.0607L14.0607 18.0607C13.4749 18.6464 12.5251 18.6464 11.9393 18.0607C11.3536 17.4749 11.3536 16.5251 11.9393 15.9393L15.8787 12L11.9393 8.06066C11.3536 7.47487 11.3536 6.52513 11.9393 5.93934Z" fill="#09244B"/>
-</svg>
-</button>`
-      );
-      $newSubject.append($buttonDiv);
-      $(".subjects").append($newSubject);
-      $(".click").click(function (event) {
-        event.preventDefault();
-        var classNames = $(this).attr("class").split(" ");
-        console.log(classNames);
-        var redirectURL = `./public/?code=${classNames[1]}`;
-        window.open(redirectURL, "_blank");
-      });
-    });
-  }
   const filePath = "subjects.json";
   let subjectsData = [];
-  $.getJSON(filePath, function (subjectsDataJSON) {
-    let subjectsData = subjectsDataJSON;
-    
-    // Handle click event on year/semester filters
-    $(".click-year").click(function () {
-      // Remove 'active' class from all year filters and add 'inActive'
-      $(".click-year").removeClass("active").addClass("inActive");
-  
-      // Add 'active' class to the clicked year and remove 'inActive'
-      $(this).removeClass("inActive").addClass("active");
-  
-      // Get the clicked year and sem
-      var yearSem = $(this).text(); // Example: "3.1"
-      var year = parseInt(yearSem.split('.')[0]);
-      var sem = parseInt(yearSem.split('.')[1]);
-  
-      // Filter the subjects based on the selected year and sem
-      var filteredSubjects = subjectsData.filter(function (subject) {
-        return subject.year === year && subject.sem === sem;
-      });
-  
-      // Display the filtered subjects
-      displaySubjects(filteredSubjects);
+  const $grid = $(".subjects-grid");
+
+  // Function to render subject cards
+  function displaySubjects(subjects) {
+    $grid.empty(); // Clear current content
+
+    if (subjects.length === 0) {
+      $grid.append(
+        '<div class="loading-state"><p>No subjects found for this selection.</p></div>'
+      );
+      return;
+    }
+
+    $.each(subjects, function (index, subject) {
+      // 1. Build Tags HTML
+      let tagsHtml = "";
+      if (subject.tags) {
+        $.each(subject.tags, function (i, tag) {
+          tagsHtml += `<span class="tag">#${tag}</span>`;
+        });
+      }
+
+      // 2. Build Info String
+      let infoText = "";
+      if (subject.info) {
+        infoText = Object.values(subject.info).join("; ");
+      }
+
+      // 3. Create Card HTML
+      const cardHtml = `
+        <div class="subject-card ${subject.code}" role="button" tabindex="0">
+            <div class="card-header">
+                <h2>${subject.name}</h2>
+                <div class="badges">
+                    ${
+                      subject.year && subject.sem
+                        ? `<span class="badge badge-year">${subject.year}.${subject.sem}</span>`
+                        : ""
+                    }
+                    ${
+                      subject.credits
+                        ? `<span class="badge badge-credits">${subject.credits} Credits</span>`
+                        : ""
+                    }
+                </div>
+            </div>
+            
+            <div class="tags-container">
+                ${tagsHtml}
+            </div>
+
+            <p class="card-info">${infoText}.</p>
+
+            <div class="card-footer">
+                <button class="open-btn" aria-label="Open Resources">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.172 11L10.808 5.63605L12.222 4.22205L20 12L12.222 19.778L10.808 18.364L16.172 13H4V11H16.172Z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+      `;
+
+      $grid.append(cardHtml);
     });
-    
-    // Display all subjects by default when the page loads
-    displaySubjects(subjectsData);
-    
+
+    // Handle Card Click (Delegated event)
+    $(".subject-card").off("click").on("click", function () {
+        // Extract code from class list (assuming logic: class="subject-card CS3101")
+        // NOTE: Ensure your JSON codes don't have spaces or match other class names
+        const classes = $(this).attr("class").split(/\s+/);
+        // Find the class that isn't 'subject-card' (Simple logic, can be improved based on JSON data structure)
+        const code = classes.find(c => c !== "subject-card");
+        
+        if(code) {
+             const redirectURL = `./public/?code=${code}`;
+             window.open(redirectURL, "_blank");
+        }
+    });
+  }
+
+  // Fetch JSON
+  $.getJSON(filePath, function (data) {
+    subjectsData = data;
+    displaySubjects(subjectsData); // Show all initially
+  }).fail(function() {
+      $grid.html('<div class="loading-state"><p>Error loading data.</p></div>');
   });
+
+  // Filter Logic
+  $(".filter-pill").click(function () {
+    // UI Updates
+    $(".filter-pill").removeClass("active");
+    $(this).addClass("active");
+
+    const filterValue = $(this).data("filter");
+
+    if (filterValue === "all") {
+      displaySubjects(subjectsData);
+    } else {
+      // Logic: filterValue is string "3.1", split into numbers
+      const [year, sem] = filterValue.toString().split(".").map(Number);
+      
+      const filtered = subjectsData.filter(
+        (s) => s.year === year && s.sem === sem
+      );
+      displaySubjects(filtered);
+    }
   });
+});

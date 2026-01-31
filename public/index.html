@@ -4,46 +4,70 @@
     <meta charset="UTF-8" />
     <meta name="theme-color" content="#200518" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title class="title"></title>
+    <title class="page-title">Loading...</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="shortcut icon"
       href="https://jntuh.ac.in/img/favicon.png"
       type="image/x-icon"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Poppins:wght@300;500&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <h1 class="title"></h1>
-    <hr />
-    </header>
-    <div class="resources">
-      <h2>Resouces:</h2>
-    </div>
-    <div class="table">
-      <h2>Overview:</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Syllabus</th>
-          </tr>
-        </thead>
-        <tbody id="unitTableBody"></tbody>
-      </table>
-    </div>
+    
+    <nav class="navbar">
+        <a href="../" class="back-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z" fill="currentColor"/>
+            </svg>
+            Back
+        </a>
+        <h1 class="page-title">Subject Details</h1>
+    </nav>
 
-    <div class="info">
-      <div id="unitInfo"></div>
-    </div>
+    <main>
+        <section class="glass-panel resources-section" style="display: none;">
+            <div class="section-header">
+                <h2><span class="accent-text">External</span> Resources</h2>
+            </div>
+            <div class="resources-grid">
+                </div>
+        </section>
+
+        <section class="glass-panel table-section">
+            <div class="section-header">
+                <h2>Course <span class="accent-text">Overview</span></h2>
+            </div>
+            <div class="table-container">
+                <table class="styled-table">
+                    <thead>
+                    <tr>
+                        <th>Unit Name</th>
+                        <th class="action-col">Action</th>
+                    </tr>
+                    </thead>
+                    <tbody id="unitTableBody">
+                        </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="glass-panel info-section" style="display: none;">
+            <div id="unitInfo">
+                </div>
+        </section>
+    </main>
+
     <footer>
-      <hr>
-      <div>
-        <a href="../">Go to Home</a>
-      <a href="https://github.com/Harshrb2424/Jntuh-R22-Notes">Github</a>
-      <a href="https://harshrb2424.github.io/profile/">About Me</a>
+      <div class="footer-links">
+        <a href="https://github.com/Harshrb2424/Jntuh-R22-Notes" target="_blank">GitHub</a>
+        <span class="divider">•</span>
+        <a href="https://harshrb2424.github.io/profile/" target="_blank">About Dev</a>
       </div>
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./index.js"></script>
   </body>

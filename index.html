@@ -3,55 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#75b798" />
-    <title>R22 Resources</title>
+    <meta name="theme-color" content="#200518" />
+    <title>R22 Resources | CSE (AI ML)</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="shortcut icon"
       href="https://jntuh.ac.in/img/favicon.png"
       type="image/x-icon"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <img
-        src="https://i0.wp.com/jntuwing.in/wp-content/uploads/2022/02/71B14E20-F721-4482-B367-C06C9CF82633-e1645463061154.png?fit=1468%2C1191&ssl=1"
-        alt=""
-      />
-      <h1>CSE (AI ML) Notes</h1>
-    </header>
-    <hr />
-    <div>
-      <section class="filters">
-        <h2>Fliters:</h2>
-        <h4>Year</h4>
-        <div class="filter">
-          <p class="click-year inActive">1.1</p>
-          <p class="click-year inActive">1.2</p>
-          <p class="click-year inActive">2.1</p>
-          <p class="click-year inActive">2.2</p>
-          <p class="click-year inActive">3.1</p>
-          <p class="click-year inActive">3.2</p>
-          <p class="click-year inActive">4.1</p>
-          <p class="click-year inActive">4.2</p>
-        </div>
-      </section>
-      <section class="subjects">
-        <div class="subject">
-          <p>Please Wait...</p>
-        </div>
-      </section>
-    </div>
-    <footer>
-      <hr />
-      <div>
-        <p>
-          Created by
-          <a href="https://harshrb2424.github.io/profile/">Harsh RB</a>
-        </p>
-        <a href="https://github.com/Harshrb2424/Jntuh-R22-Notes">Github</a>
+    
+    <nav class="navbar">
+      <div class="logo-container">
+        <img
+          src="https://i0.wp.com/jntuwing.in/wp-content/uploads/2022/02/71B14E20-F721-4482-B367-C06C9CF82633-e1645463061154.png?fit=1468%2C1191&ssl=1"
+          alt="JNTUH Logo"
+        />
+        <h1>CSE (AI ML) <span class="accent-text">Notes</span></h1>
       </div>
+      <div class="nav-links">
+        <a href="https://github.com/Harshrb2424/Jntuh-R22-Notes" target="_blank" class="github-btn">
+             GitHub
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="filter-container">
+        <div class="filter-scroll">
+            <button class="filter-pill active" data-filter="all">All</button>
+          <button class="filter-pill" data-filter="1.1">1.1</button>
+          <button class="filter-pill" data-filter="1.2">1.2</button>
+          <button class="filter-pill" data-filter="2.1">2.1</button>
+          <button class="filter-pill" data-filter="2.2">2.2</button>
+          <button class="filter-pill" data-filter="3.1">3.1</button>
+          <button class="filter-pill" data-filter="3.2">3.2</button>
+          <button class="filter-pill" data-filter="4.1">4.1</button>
+          <button class="filter-pill" data-filter="4.2">4.2</button>
+        </div>
+      </section>
+
+      <section class="subjects-grid">
+        <div class="loading-state">
+          <div class="spinner"></div>
+          <p>Loading Resources...</p>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+      <p>
+        Designed & Developed by <a href="https://harshrb2424.github.io/profile/">Harsh RB</a>
+      </p>
     </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="index.js"></script>
   </body>

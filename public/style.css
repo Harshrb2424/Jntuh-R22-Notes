@@ -1,102 +1,246 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&family=Rubik&display=swap');
-
 :root {
     --bg-color: #200518;
-    --text-color: #fefefd;
-    --div-color: #8ad10c;
-    --secondary-color: #689800;
+    --glass-bg: rgba(255, 255, 255, 0.03);
+    --glass-border: rgba(138, 209, 12, 0.2);
+    --text-primary: #ffffff;
+    --text-secondary: #cccccc;
+    --accent-lime: #8ad10c;
+    --accent-dark: #689800;
+    --card-radius: 16px;
+    --transition: 0.3s ease;
 }
 
 body {
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
     background-color: var(--bg-color);
-    color: var(--text-color);
+    color: var(--text-primary);
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.title {
-    font-family: 'Poppins', sans-serif;
-    color: var(--text-color);
-    text-align: center;
-    margin-top: 30px;
+/* --- Navbar --- */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem 5%;
+    background: rgba(32, 5, 24, 0.9);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    gap: 20px;
 }
 
-.hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, var(--secondary-color), var(--div-color), var(--secondary-color));
-    margin-top: 20px;
+.back-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
 }
 
-.table {
-  margin: 10px;
-  margin-top: 30px;
-  padding: 15px;
-    border-radius: 8px;
-    background-color: rgba(138, 209, 12, 0.2);
+.back-btn:hover {
+    color: var(--accent-lime);
 }
 
-table {
+.navbar h1 {
+    font-size: 1.1rem;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* --- Main Layout --- */
+main {
+    flex: 1;
+    padding: 30px 5%;
+    max-width: 1000px;
+    margin: 0 auto;
     width: 100%;
-    border-collapse: collapse;
 }
 
-th, td {
-    padding: 12px 15px;
-    text-align: left;
-    border-bottom: 1px solid var(--div-color);
+.accent-text {
+    color: var(--accent-lime);
+}
+
+/* --- Glass Panels --- */
+.glass-panel {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--card-radius);
+    padding: 25px;
+    margin-bottom: 30px;
+    backdrop-filter: blur(5px);
+}
+
+.section-header h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+/* --- Resources Grid --- */
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.resource-card {
+    background: rgba(138, 209, 12, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--text-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: var(--transition);
+    border: 1px solid transparent;
+}
+
+.resource-card:hover {
+    background: rgba(138, 209, 12, 0.2);
+    border-color: var(--accent-lime);
+    transform: translateY(-3px);
+}
+
+.resource-card span {
     font-family: 'Rubik', sans-serif;
+    font-weight: 500;
 }
 
-thead th {
-    background-color: var(--secondary-color);
-    color: var(--text-color);
+/* --- Table Styles --- */
+.table-container {
+    overflow-x: auto;
 }
 
-#unitTableBody tr:nth-child(even) {
-    background-color: rgba(104, 152, 0, 0.2);
+.styled-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Gap between rows */
 }
 
-.resources, .info {
-  display: none;
-  margin: 10px;
-    margin-top: 30px;
+.styled-table th {
+    text-align: left;
+    padding: 0 15px 10px 15px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.styled-table tbody tr {
+    background: rgba(255, 255, 255, 0.05);
+    transition: var(--transition);
+}
+
+.styled-table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: scale(1.01);
+}
+
+.styled-table td {
+    padding: 20px 15px;
+    font-family: 'Rubik', sans-serif;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+/* Rounded corners for rows */
+.styled-table td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: 1px solid rgba(255,255,255,0.05);
+}
+
+.styled-table td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-right: 1px solid rgba(255,255,255,0.05);
+}
+
+.action-btn {
+    cursor: pointer;
+    color: var(--accent-lime);
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: transparent;
+    transition: var(--transition);
+}
+
+.action-btn:hover {
+    text-decoration-color: var(--accent-lime);
+}
+
+/* --- Syllabus Details --- */
+#unitInfo h3 {
+    color: var(--accent-lime);
+    margin-top: 0;
+}
+
+#unitInfo ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#unitInfo > ul > li {
+    margin-bottom: 15px;
+    background: rgba(0,0,0,0.2);
     padding: 15px;
     border-radius: 8px;
-    background-color: rgba(138, 209, 12, 0.2);
 }
-a {
-  color: var(--div-color);
-}
-a:checked{
-  color: var(--secondary-color);
-}
-#unitInfo {
-    font-family: 'Rubik', sans-serif;
-}
-#unitInfo > ul > li{
-  padding: 10px 0;
-}
-hr{
-  margin: 0 15px;
-}
-footer div a{
-   text-decoration: none;
-}
-footer div{
-  text-decoration: none;
-  display: flex;
-  justify-content: space-evenly;
-  height: 40px;
-  align-items: center;
-}
-@media screen and (min-width: 900px) {
-  .resources, .info, .table {
-    margin: 10px 25%;
-      margin-top: 30px;
-  }
 
+#unitInfo > ul > li > ul {
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style: disc;
+    color: var(--text-secondary);
+}
+
+#unitInfo li {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+/* --- Footer --- */
+footer {
+    margin-top: auto;
+    padding: 20px;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    text-align: center;
+}
+
+.footer-links a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.footer-links a:hover {
+    color: var(--accent-lime);
+}
+
+.divider {
+    margin: 0 10px;
+    color: var(--accent-dark);
+}
+
+@media screen and (max-width: 600px) {
+    .styled-table th:nth-child(2), 
+    .styled-table td:nth-child(2) {
+        text-align: right;
+    }
 }
