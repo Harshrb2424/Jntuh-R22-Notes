@@ -1,176 +1,175 @@
 [
-    {
-      "name": "SOFTWARE ENGINEERING",
-      "code": "SE",
-      "units": [
-        {
-          "name": "UNIT - 1 Introduction to Software Engineering",
-          "topics": [
-            {
-              "topic": "Introduction to Software Engineering",
-              "subTopics": [
-                "The evolving role of software",
-                "Changing nature of software",
-                "Software myths"
-              ]
-            },
-            {
-              "topic": "A Generic view of process",
-              "subTopics": [
-                "Software engineering - a layered technology",
-                "A process framework",
-                "The capability maturity model integration (CMMI)"
-              ]
-            },
-            {
-              "topic": "Process models",
-              "subTopics": [
-                "The waterfall model",
-                "Spiral model",
-                "Agile methodology"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 2 Software Requirements",
-          "topics": [
-            {
-              "topic": "Software Requirements",
-              "subTopics": [
-                "Functional and non-functional requirements",
-                "User requirements",
-                "System requirements",
-                "Interface specification",
-                "The software requirements document"
-              ]
-            },
-            {
-              "topic": "Requirements engineering process",
-              "subTopics": [
-                "Feasibility studies",
-                "Requirements elicitation and analysis",
-                "Requirements validation",
-                "Requirements management"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 3 Design Engineering, Architectural Design",
-          "topics": [
-            {
-              "topic": "Design Engineering",
-              "subTopics": [
-                "Design process and design quality",
-                "Design concepts",
-                "The design model"
-              ]
-            },
-            {
-              "topic": "Creating an architectural design",
-              "subTopics": [
-                "Software architecture",
-                "Data design",
-                "Architectural styles and patterns",
-                "Architectural design",
-                "Conceptual model of UML",
-                "Basic structural modeling",
-                "Class diagrams",
-                "Sequence diagrams",
-                "Collaboration diagrams",
-                "Use case diagrams",
-                "Component diagrams"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 4 Testing Strategies",
-          "topics": [
-            {
-              "topic": "Testing Strategies",
-              "subTopics": [
-                "A strategic approach to software testing",
-                "Test strategies for conventional software",
-                "Black-box and white-box testing",
-                "Validation testing",
-                "System testing",
-                "The art of debugging"
-              ]
-            },
-            {
-              "topic": "Metrics for Process and Products",
-              "subTopics": [
-                "Software measurement",
-                "Metrics for software quality"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 5 Risk management and Quality Management",
-          "topics": [
-            {
-              "topic": "Risk management",
-              "subTopics": [
-                "Reactive Vs proactive risk strategies",
-                "Software risks",
-                "Risk identification",
-                "Risk projection",
-                "Risk refinement",
-                "RMMM"
-              ]
-            },
-            {
-              "topic": "Quality Management",
-              "subTopics": [
-                "Quality concepts",
-                "Software quality assurance",
-                "Software reviews",
-                "Formal technical reviews",
-                "Statistical software quality assurance",
-                "Software reliability",
-                "The ISO 9000 quality standards"
-              ]
-            }
-          ]
-        }
-      ],
-      "links": [
-        {
-            "name": "SE All Units Notes",
-            "link": "./resources/2nd Year/SE-All-Units.pdf"
-        },
-        {
-            "name": "SE Mid 1 Question and Answers",
-            "link": "./resources/2nd Year/SE-Mid-1-QnA.pdf"
-        },
-        {
-            "name": "SE Unit 1 Introduction To Software Engineering",
-            "link": "./resources/2nd Year/SE-Unit1.pdf"
-        },
-        {
-            "name": "SE Unit 1 (alt) Introduction To Software Engineering",
-            "link": "./resources/2nd Year/SE-Unit1-alt.pdf"
-        },
-        {
-            "name": "SE Unit 2 Software Requirements",
-            "link": "./resources/2nd Year/SE-Unit2.pdf"
-        },
-        {
-            "name": "SE Unit 3 Design Engineering, Architectural Design",
-            "link": "./resources/2nd Year/SE-Unit3.pdf"
-        },
-        {
-            "name": "SE Unit 4 Testing Strategies",
-            "link": "./resources/2nd Year/SE-Unit4.pdf"
-        },
-        {
-            "name": "SE Unit 5 Risk Management And Quality Management",
-            "link": "./resources/2nd Year/SE-Unit5.pdf"
-        }
-      ]
-    }
-  ]
-  
+  {
+    "name": "SOFTWARE ENGINEERING",
+    "code": "SE",
+    "units": [
+      {
+        "name": "UNIT - 1 Introduction to Software Engineering",
+        "topics": [
+          {
+            "topic": "Introduction to Software Engineering",
+            "subTopics": [
+              "The evolving role of software",
+              "Changing nature of software",
+              "Software myths"
+            ]
+          },
+          {
+            "topic": "A Generic view of process",
+            "subTopics": [
+              "Software engineering - a layered technology",
+              "A process framework",
+              "The capability maturity model integration (CMMI)"
+            ]
+          },
+          {
+            "topic": "Process models",
+            "subTopics": [
+              "The waterfall model",
+              "Spiral model",
+              "Agile methodology"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 2 Software Requirements",
+        "topics": [
+          {
+            "topic": "Software Requirements",
+            "subTopics": [
+              "Functional and non-functional requirements",
+              "User requirements",
+              "System requirements",
+              "Interface specification",
+              "The software requirements document"
+            ]
+          },
+          {
+            "topic": "Requirements engineering process",
+            "subTopics": [
+              "Feasibility studies",
+              "Requirements elicitation and analysis",
+              "Requirements validation",
+              "Requirements management"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 3 Design Engineering, Architectural Design",
+        "topics": [
+          {
+            "topic": "Design Engineering",
+            "subTopics": [
+              "Design process and design quality",
+              "Design concepts",
+              "The design model"
+            ]
+          },
+          {
+            "topic": "Creating an architectural design",
+            "subTopics": [
+              "Software architecture",
+              "Data design",
+              "Architectural styles and patterns",
+              "Architectural design",
+              "Conceptual model of UML",
+              "Basic structural modeling",
+              "Class diagrams",
+              "Sequence diagrams",
+              "Collaboration diagrams",
+              "Use case diagrams",
+              "Component diagrams"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 4 Testing Strategies",
+        "topics": [
+          {
+            "topic": "Testing Strategies",
+            "subTopics": [
+              "A strategic approach to software testing",
+              "Test strategies for conventional software",
+              "Black-box and white-box testing",
+              "Validation testing",
+              "System testing",
+              "The art of debugging"
+            ]
+          },
+          {
+            "topic": "Metrics for Process and Products",
+            "subTopics": [
+              "Software measurement",
+              "Metrics for software quality"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 5 Risk management and Quality Management",
+        "topics": [
+          {
+            "topic": "Risk management",
+            "subTopics": [
+              "Reactive Vs proactive risk strategies",
+              "Software risks",
+              "Risk identification",
+              "Risk projection",
+              "Risk refinement",
+              "RMMM"
+            ]
+          },
+          {
+            "topic": "Quality Management",
+            "subTopics": [
+              "Quality concepts",
+              "Software quality assurance",
+              "Software reviews",
+              "Formal technical reviews",
+              "Statistical software quality assurance",
+              "Software reliability",
+              "The ISO 9000 quality standards"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "name": "SE All Units Notes",
+        "link": "./resources/2nd Year/SE-All-Units.pdf"
+      },
+      {
+        "name": "SE Mid 1 Question and Answers",
+        "link": "./resources/2nd Year/SE-Mid-1-QnA.pdf"
+      },
+      {
+        "name": "SE Unit 1 Introduction To Software Engineering",
+        "link": "./resources/2nd Year/SE-Unit1.pdf"
+      },
+      {
+        "name": "SE Unit 1 (alt) Introduction To Software Engineering",
+        "link": "./resources/2nd Year/SE-Unit1-alt.pdf"
+      },
+      {
+        "name": "SE Unit 2 Software Requirements",
+        "link": "./resources/2nd Year/SE-Unit2.pdf"
+      },
+      {
+        "name": "SE Unit 3 Design Engineering, Architectural Design",
+        "link": "./resources/2nd Year/SE-Unit3.pdf"
+      },
+      {
+        "name": "SE Unit 4 Testing Strategies",
+        "link": "./resources/2nd Year/SE-Unit4.pdf"
+      },
+      {
+        "name": "SE Unit 5 Risk Management And Quality Management",
+        "link": "./resources/2nd Year/SE-Unit5.pdf"
+      }
+    ]
+  }
+]

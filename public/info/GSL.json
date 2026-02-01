@@ -1,116 +1,115 @@
 [
-    {
-      "name": "GENDER SENSITIZATION LAB",
-      "code": "GSL",
-      "units": [
-        {
-          "name": "Unit - 1: UNDERSTANDING GENDER",
-          "topics": [
-            {
-              "topic": "Introduction",
-              "subTopics": [
-                "Definition of Gender",
-                "Basic Gender Concepts and Terminology",
-                "Exploring Attitudes towards Gender",
-                "Construction of Gender",
-                "Socialization: Making Women, Making Men",
-                "Preparing for Womanhood",
-                "Growing up Male",
-                "First lessons in Caste"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Unit – 2: GENDER ROLES AND RELATIONS",
-          "topics": [
-            {
-              "topic": "Gender Roles and Relations",
-              "subTopics": [
-                "Two or Many?",
-                "Struggles with Discrimination",
-                "Types of Gender Roles",
-                "Gender Roles and Relationships Matrix",
-                "Missing Women",
-                "Sex Selection and Its Consequences",
-                "Declining Sex Ratio",
-                "Demographic Consequences",
-                "Gender Spectrum: Beyond the Binary"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Unit – 3: GENDER AND LABOUR",
-          "topics": [
-            {
-              "topic": "Gender and Labour",
-              "subTopics": [
-                "Division and Valuation of Labour",
-                "Housework: The Invisible Labor",
-                "\"My Mother doesn’t Work.\" \"Share the Load.\"",
-                "Work: Its Politics and Economics",
-                "Fact and Fiction. Unrecognized and Unaccounted work",
-                "Gender Development Issues",
-                "Gender, Governance and Sustainable Development",
-                "Gender and Human Rights",
-                "Gender and Mainstreaming"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Unit – 4: GENDER - BASED VIOLENCE",
-          "topics": [
-            {
-              "topic": "Gender-based Violence",
-              "subTopics": [
-                "The Concept of Violence",
-                "Types of Gender-based Violence",
-                "Gender-based Violence from a Human Rights Perspective",
-                "Sexual Harassment: Say No!",
-                "Sexual Harassment, not Eve-teasing",
-                "Coping with Everyday Harassment",
-                "Further Reading: “Chupulu”",
-                "Domestic Violence: Speaking OutIs Home a Safe Place?",
-                "When Women Unite [Film]",
-                "Rebuilding Lives",
-                "Thinking about Sexual Violence Blaming the Victim",
-                "\"I Fought for my Life….”"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Unit – 5: GENDER AND CULTURE",
-          "topics": [
-            {
-              "topic": "Gender and Culture",
-              "subTopics": [
-                "Gender and Film",
-                "Gender and Electronic Media",
-                "Gender and Advertisement",
-                "Gender and Popular Literature",
-                "Gender Development Issues",
-                "Gender Issues",
-                "Gender Sensitive Language",
-                "Just Relationships: Being Together as Equals",
-                "Mary Kom and Onler",
-                "Love and Acid just do not Mix",
-                "Love Letters",
-                "Mothers and Fathers",
-                "Rosa Parks-The Brave Heart"
-              ]
-            }
-          ]
-        }
-      ],
-      "links": [
+  {
+    "name": "GENDER SENSITIZATION LAB",
+    "code": "GSL",
+    "units": [
+      {
+        "name": "Unit - 1: UNDERSTANDING GENDER",
+        "topics": [
+          {
+            "topic": "Introduction",
+            "subTopics": [
+              "Definition of Gender",
+              "Basic Gender Concepts and Terminology",
+              "Exploring Attitudes towards Gender",
+              "Construction of Gender",
+              "Socialization: Making Women, Making Men",
+              "Preparing for Womanhood",
+              "Growing up Male",
+              "First lessons in Caste"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Unit – 2: GENDER ROLES AND RELATIONS",
+        "topics": [
+          {
+            "topic": "Gender Roles and Relations",
+            "subTopics": [
+              "Two or Many?",
+              "Struggles with Discrimination",
+              "Types of Gender Roles",
+              "Gender Roles and Relationships Matrix",
+              "Missing Women",
+              "Sex Selection and Its Consequences",
+              "Declining Sex Ratio",
+              "Demographic Consequences",
+              "Gender Spectrum: Beyond the Binary"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Unit – 3: GENDER AND LABOUR",
+        "topics": [
+          {
+            "topic": "Gender and Labour",
+            "subTopics": [
+              "Division and Valuation of Labour",
+              "Housework: The Invisible Labor",
+              "\"My Mother doesn’t Work.\" \"Share the Load.\"",
+              "Work: Its Politics and Economics",
+              "Fact and Fiction. Unrecognized and Unaccounted work",
+              "Gender Development Issues",
+              "Gender, Governance and Sustainable Development",
+              "Gender and Human Rights",
+              "Gender and Mainstreaming"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Unit – 4: GENDER - BASED VIOLENCE",
+        "topics": [
+          {
+            "topic": "Gender-based Violence",
+            "subTopics": [
+              "The Concept of Violence",
+              "Types of Gender-based Violence",
+              "Gender-based Violence from a Human Rights Perspective",
+              "Sexual Harassment: Say No!",
+              "Sexual Harassment, not Eve-teasing",
+              "Coping with Everyday Harassment",
+              "Further Reading: “Chupulu”",
+              "Domestic Violence: Speaking OutIs Home a Safe Place?",
+              "When Women Unite [Film]",
+              "Rebuilding Lives",
+              "Thinking about Sexual Violence Blaming the Victim",
+              "\"I Fought for my Life….”"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Unit – 5: GENDER AND CULTURE",
+        "topics": [
+          {
+            "topic": "Gender and Culture",
+            "subTopics": [
+              "Gender and Film",
+              "Gender and Electronic Media",
+              "Gender and Advertisement",
+              "Gender and Popular Literature",
+              "Gender Development Issues",
+              "Gender Issues",
+              "Gender Sensitive Language",
+              "Just Relationships: Being Together as Equals",
+              "Mary Kom and Onler",
+              "Love and Acid just do not Mix",
+              "Love Letters",
+              "Mothers and Fathers",
+              "Rosa Parks-The Brave Heart"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
       {
         "name": "GS Question Answers",
         "link": "./resources/2nd Year/GS-QnA.pdf"
       }
-      ]
-    }
-  ]
-  
+    ]
+  }
+]

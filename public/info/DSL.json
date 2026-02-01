@@ -1,86 +1,85 @@
 [
-    {
-      "name": "Introduction To Data Structures Lab",
-      "code": "DSL",
-      "units": [
-        {
-          "name": "List of Experiments",
-          "topics": [
-            {
-              "topic": "1. Write a program that uses functions to perform the following operations on singly linked list.:",
-              "subTopics": [
-                "i) Creation",
-                "ii) Insertion",
-                "iii) Deletion",
-                "iv) Traversal"
-              ]
-            },
-            {
-              "topic": "2. Write a program that uses functions to perform the following operations on doubly linked list.:",
-              "subTopics": [
-                "i) Creation",
-                "ii) Insertion",
-                "iii) Deletion",
-                "iv) Traversal"
-              ]
-            },
-            {
-              "topic": "3. Write a program that uses functions to perform the following operations on circular linked list.:",
-              "subTopics": [
-                "i) Creation",
-                "ii) Insertion",
-                "iii) Deletion",
-                "iv) Traversal"
-              ]
-            },
-            {
-              "topic": "4. Write a program that implement stack (its operations) using",
-              "subTopics": [
-                "i) Arrays",
-                "ii) Pointers"
-              ]
-            },
-            {
-              "topic": "5. Write a program that implement Queue (its operations) using",
-              "subTopics": [
-                "i) Arrays",
-                "ii) Pointers"
-              ]
-            },
-            {
-              "topic": "6. Write a program that implements the following sorting methods to sort a given list of integers in ascending order",
-              "subTopics": [
-                "i) Quick sort",
-                "ii) Heap sort",
-                "iii) Merge sort"
-              ]
-            },
-            {
-              "topic": "7. Write a program to implement the tree traversal methods( Recursive and Non Recursive).",
-              "subTopics": []
-            },
-            {
-              "topic": "8. Write a program to implement",
-              "subTopics": [
-                "i) Binary Search tree",
-                "ii) B Trees",
-                "iii) B+ Trees",
-                "iv) AVL trees",
-                "v) Red - Black trees"
-              ]
-            },
-            {
-              "topic": "9. Write a program to implement the graph traversal methods.",
-              "subTopics": []
-            },
-            {
-              "topic": "10. Implement a Pattern matching algorithms using Boyer- Moore, Knuth-Morris-Pratt",
-              "subTopics": []
-            }
-          ]
-        }
-      ],
-      "links": []
-    }
-  ]
-  
+  {
+    "name": "Introduction To Data Structures Lab",
+    "code": "DSL",
+    "units": [
+      {
+        "name": "List of Experiments",
+        "topics": [
+          {
+            "topic": "1. Write a program that uses functions to perform the following operations on singly linked list.:",
+            "subTopics": [
+              "i) Creation",
+              "ii) Insertion",
+              "iii) Deletion",
+              "iv) Traversal"
+            ]
+          },
+          {
+            "topic": "2. Write a program that uses functions to perform the following operations on doubly linked list.:",
+            "subTopics": [
+              "i) Creation",
+              "ii) Insertion",
+              "iii) Deletion",
+              "iv) Traversal"
+            ]
+          },
+          {
+            "topic": "3. Write a program that uses functions to perform the following operations on circular linked list.:",
+            "subTopics": [
+              "i) Creation",
+              "ii) Insertion",
+              "iii) Deletion",
+              "iv) Traversal"
+            ]
+          },
+          {
+            "topic": "4. Write a program that implement stack (its operations) using",
+            "subTopics": [
+              "i) Arrays",
+              "ii) Pointers"
+            ]
+          },
+          {
+            "topic": "5. Write a program that implement Queue (its operations) using",
+            "subTopics": [
+              "i) Arrays",
+              "ii) Pointers"
+            ]
+          },
+          {
+            "topic": "6. Write a program that implements the following sorting methods to sort a given list of integers in ascending order",
+            "subTopics": [
+              "i) Quick sort",
+              "ii) Heap sort",
+              "iii) Merge sort"
+            ]
+          },
+          {
+            "topic": "7. Write a program to implement the tree traversal methods( Recursive and Non Recursive).",
+            "subTopics": []
+          },
+          {
+            "topic": "8. Write a program to implement",
+            "subTopics": [
+              "i) Binary Search tree",
+              "ii) B Trees",
+              "iii) B+ Trees",
+              "iv) AVL trees",
+              "v) Red - Black trees"
+            ]
+          },
+          {
+            "topic": "9. Write a program to implement the graph traversal methods.",
+            "subTopics": []
+          },
+          {
+            "topic": "10. Implement a Pattern matching algorithms using Boyer- Moore, Knuth-Morris-Pratt",
+            "subTopics": []
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+]

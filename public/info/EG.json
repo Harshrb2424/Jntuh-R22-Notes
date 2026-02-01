@@ -1,87 +1,86 @@
 [
-    {
-      "name": "COMPUTER AIDED ENGINEERING GRAPHICS",
-      "code": "EG",
-      "units": [
-        {
-          "name": "UNIT – 1 Introduction to Engineering Graphics",
-          "topics": [
-            {
-              "topic": "Introduction to Engineering Graphics",
-              "subTopics": [
-                "Principles of Engineering Graphics and their Significance",
-                "Scales – Plain & Diagonal",
-                "Conic Sections including the Rectangular Hyperbola – General method only",
-                "Cycloid, Epicycloid and Hypocycloid",
-                "Introduction to Computer-aided drafting – views, commands and conics"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 2 Orthographic Projections",
-          "topics": [
-            {
-              "topic": "Orthographic Projections",
-              "subTopics": [
-                "Principles of Orthographic Projections – Conventions",
-                "Projections of Points and Lines",
-                "Projections of Plane regular geometric figures",
-                "Auxiliary Planes",
-                "Computer-aided orthographic projections – points, lines and planes"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT – 3 Projections of Regular Solids",
-          "topics": [
-            {
-              "topic": "Projections of Regular Solids",
-              "subTopics": [
-                "Auxiliary Views",
-                "Sections or Sectional views of Right Regular Solids – Prism, Cylinder, Pyramid, Cone – Auxiliary views",
-                "Computer-aided projections of solids – sectional views"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT – 4 Development of Surfaces",
-          "topics": [
-            {
-              "topic": "Development of Surfaces of Right Regular Solids",
-              "subTopics": [
-                "Prism, Cylinder, Pyramid and Cone",
-                "Development of surfaces using computer-aided drafting"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT – 5 Isometric Projections",
-          "topics": [
-            {
-              "topic": "Isometric Projections",
-              "subTopics": [
-                "Principles of Isometric Projection – Isometric Scale",
-                "Isometric Views – Conventions",
-                "Isometric Views of Lines, Plane Figures, Simple and Compound Solids",
-                "Isometric Projection of objects having non-isometric lines",
-                "Isometric Projection of Spherical Parts",
-                "Conversion of Isometric Views to Orthographic Views and Vice-versa – Conventions",
-                "Conversion of orthographic projection into isometric view using computer-aided drafting"
-              ]
-            }
-          ]
-        }
-      ],
-      "links": [
-        {
-            "name": "EG All Units Notes",
-            "link": "./resources/1st Year/EG-All-Units.pdf"
-        }
-      ]
-    }
-  ]
-  
+  {
+    "name": "COMPUTER AIDED ENGINEERING GRAPHICS",
+    "code": "EG",
+    "units": [
+      {
+        "name": "UNIT – 1 Introduction to Engineering Graphics",
+        "topics": [
+          {
+            "topic": "Introduction to Engineering Graphics",
+            "subTopics": [
+              "Principles of Engineering Graphics and their Significance",
+              "Scales – Plain & Diagonal",
+              "Conic Sections including the Rectangular Hyperbola – General method only",
+              "Cycloid, Epicycloid and Hypocycloid",
+              "Introduction to Computer-aided drafting – views, commands and conics"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 2 Orthographic Projections",
+        "topics": [
+          {
+            "topic": "Orthographic Projections",
+            "subTopics": [
+              "Principles of Orthographic Projections – Conventions",
+              "Projections of Points and Lines",
+              "Projections of Plane regular geometric figures",
+              "Auxiliary Planes",
+              "Computer-aided orthographic projections – points, lines and planes"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT – 3 Projections of Regular Solids",
+        "topics": [
+          {
+            "topic": "Projections of Regular Solids",
+            "subTopics": [
+              "Auxiliary Views",
+              "Sections or Sectional views of Right Regular Solids – Prism, Cylinder, Pyramid, Cone – Auxiliary views",
+              "Computer-aided projections of solids – sectional views"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT – 4 Development of Surfaces",
+        "topics": [
+          {
+            "topic": "Development of Surfaces of Right Regular Solids",
+            "subTopics": [
+              "Prism, Cylinder, Pyramid and Cone",
+              "Development of surfaces using computer-aided drafting"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT – 5 Isometric Projections",
+        "topics": [
+          {
+            "topic": "Isometric Projections",
+            "subTopics": [
+              "Principles of Isometric Projection – Isometric Scale",
+              "Isometric Views – Conventions",
+              "Isometric Views of Lines, Plane Figures, Simple and Compound Solids",
+              "Isometric Projection of objects having non-isometric lines",
+              "Isometric Projection of Spherical Parts",
+              "Conversion of Isometric Views to Orthographic Views and Vice-versa – Conventions",
+              "Conversion of orthographic projection into isometric view using computer-aided drafting"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "name": "EG All Units Notes",
+        "link": "./resources/1st Year/EG-All-Units.pdf"
+      }
+    ]
+  }
+]

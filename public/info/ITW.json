@@ -1,92 +1,91 @@
 [
-    {
-      "name": "IT WORKSHOP",
-      "code": "ITW",
-      "units": [
-        {
-          "name": "PC Hardware",
-          "topics": [
-            {
-              "topic": "Task 1: Identify the peripherals of a computer, components in a CPU and its functions. Draw the block diagram of the CPU along with the configuration of each peripheral and submit to your instructor."
-            },
-            {
-              "topic": "Task 2: Every student should disassemble and assemble the PC back to working condition. Lab instructors should verify the work and follow it up with a Viva. Also students need to go through the video which shows the process of assembling a PC. A video would be given as part of the course content."
-            },
-            {
-              "topic": "Task 3: Every student should individually install MS windows on the personal computer. Lab instructor should verify the installation and follow it up with a Viva."
-            },
-            {
-              "topic": "Task 4: Every student should install Linux on the computer. This computer should have windows installed. The system should be configured as dual boot with both Windows and Linux. Lab instructors should verify the installation and follow it up with a Viva"
-            }
-          ]
-        },
-        {
-          "name": "Internet & World Wide Web",
-          "topics": [
-            {
-              "topic": "Task1: Orientation & Connectivity Boot Camp: Students should get connected to their Local Area Network and access the Internet. In the process they configure the TCP/IP setting. Finally students should demonstrate, to the instructor, how to access the websites and email. If there is no internet connectivity preparations need to be made by the instructors to simulate the WWW on the LAN."
-            },
-            {
-              "topic": "Task 2: Web Browsers, Surfing the Web: Students customize their web browsers with the LAN proxy settings, bookmarks, search toolbars and pop up blockers. Also, plug-ins like Macromedia Flash and JRE for applets should be configured."
-            },
-            {
-              "topic": "Task 3: Search Engines & Netiquette: Students should know what search engines are and how to use the search engines. A few topics would be given to the students for which they need to search on Google. This should be demonstrated to the instructors by the student."
-            },
-            {
-              "topic": "Task 4: Cyber Hygiene: Students would be exposed to the various threats on the internet and would be asked to configure their computer to be safe on the internet. They need to customize their browsers to block pop ups, block active x downloads to avoid viruses and/or worms."
-            }
-          ]
-        },
-        {
-          "name": "LaTeX and WORD",
-          "topics": [
-            {
-              "topic": "Task 1 – Word Orientation: The mentor needs to give an overview of LaTeX and Microsoft (MS) office or equivalent (FOSS) tool word: Importance of LaTeX and MS office or equivalent (FOSS) tool Word as word Processors, Details of the four tasks and features that would be covered in each, Using LaTeX and word – Accessing, overview of toolbars, saving files, Using help and resources, rulers, format painter in word."
-            },
-            {
-              "topic": "Task 2: Using LaTeX and Word to create a project certificate. Features to be covered:- Formatting Fonts in word, Drop Cap in word, Applying Text effects, Using Character Spacing, Borders and Colors, Inserting Header and Footer, Using Date and Time option in both LaTeX and Word."
-            },
-            {
-              "topic": "Task 3: Creating project abstract Features to be covered:-Formatting Styles, Inserting table, Bullets and Numbering, Changing Text Direction, Cell alignment, Footnote, Hyperlink, Symbols, Spell Check, Track Changes."
-            },
-            {
-              "topic": "Task 4: Creating a Newsletter: Features to be covered:- Table of Content, Newspaper columns, Images from files and clipart, Drawing toolbar and Word Art, Formatting Images, Textboxes, Paragraphs and Mail Merge in word."
-            }
-          ]
-        },
-        {
-          "name": "Excel",
-          "topics": [
-            {
-              "topic": "Excel Orientation: The mentor needs to tell the importance of MS office or equivalent (FOSS) tool Excel as a Spreadsheet tool, give the details of the four tasks and features that would be covered in each. Using Excel – Accessing, overview of toolbars, saving excel files, Using help and resources."
-            },
-            {
-              "topic": "Task 1: Creating a Scheduler - Features to be covered: Gridlines, Format Cells, Summation, auto fill, Formatting Text"
-            },
-            {
-              "topic": "Task 2 : Calculating GPA - .Features to be covered:- Cell Referencing, Formulae in excel – average, std. deviation, Charts, Renaming and Inserting worksheets, Hyper linking, Count function, LOOKUP/VLOOKUP"
-            },
-            {
-              "topic": "Task 3: Split cells, freeze panes, group and outline, Sorting, Boolean and logical operators, Conditional formatting"
-            }
-          ]
-        },
-        {
-          "name": "Powerpoint",
-          "topics": [
-            {
-              "topic": "Task 1: Students will be working on basic power point utilities and tools which help them create basic powerpoint presentations. PPT Orientation, Slide Layouts, Inserting Text, Word Art, Formatting Text, Bullets and Numbering, Auto Shapes, Lines and Arrows in PowerPoint."
-            },
-            {
-              "topic": "Task 2: Interactive presentations - Hyperlinks, Inserting –Images, Clip Art, Audio, Video, Objects, Tables and Charts."
-            },
-            {
-              "topic": "Task 3: Master Layouts (slide, template, and notes), Types of views (basic, presentation, slide slotter, notes etc), and Inserting – Background, textures, Design Templates, Hidden slides."
-            }
-          ]
-        }
-      ],
-      "links": []
-    }
-  ]
-  
+  {
+    "name": "IT WORKSHOP",
+    "code": "ITW",
+    "units": [
+      {
+        "name": "PC Hardware",
+        "topics": [
+          {
+            "topic": "Task 1: Identify the peripherals of a computer, components in a CPU and its functions. Draw the block diagram of the CPU along with the configuration of each peripheral and submit to your instructor."
+          },
+          {
+            "topic": "Task 2: Every student should disassemble and assemble the PC back to working condition. Lab instructors should verify the work and follow it up with a Viva. Also students need to go through the video which shows the process of assembling a PC. A video would be given as part of the course content."
+          },
+          {
+            "topic": "Task 3: Every student should individually install MS windows on the personal computer. Lab instructor should verify the installation and follow it up with a Viva."
+          },
+          {
+            "topic": "Task 4: Every student should install Linux on the computer. This computer should have windows installed. The system should be configured as dual boot with both Windows and Linux. Lab instructors should verify the installation and follow it up with a Viva"
+          }
+        ]
+      },
+      {
+        "name": "Internet & World Wide Web",
+        "topics": [
+          {
+            "topic": "Task1: Orientation & Connectivity Boot Camp: Students should get connected to their Local Area Network and access the Internet. In the process they configure the TCP/IP setting. Finally students should demonstrate, to the instructor, how to access the websites and email. If there is no internet connectivity preparations need to be made by the instructors to simulate the WWW on the LAN."
+          },
+          {
+            "topic": "Task 2: Web Browsers, Surfing the Web: Students customize their web browsers with the LAN proxy settings, bookmarks, search toolbars and pop up blockers. Also, plug-ins like Macromedia Flash and JRE for applets should be configured."
+          },
+          {
+            "topic": "Task 3: Search Engines & Netiquette: Students should know what search engines are and how to use the search engines. A few topics would be given to the students for which they need to search on Google. This should be demonstrated to the instructors by the student."
+          },
+          {
+            "topic": "Task 4: Cyber Hygiene: Students would be exposed to the various threats on the internet and would be asked to configure their computer to be safe on the internet. They need to customize their browsers to block pop ups, block active x downloads to avoid viruses and/or worms."
+          }
+        ]
+      },
+      {
+        "name": "LaTeX and WORD",
+        "topics": [
+          {
+            "topic": "Task 1 – Word Orientation: The mentor needs to give an overview of LaTeX and Microsoft (MS) office or equivalent (FOSS) tool word: Importance of LaTeX and MS office or equivalent (FOSS) tool Word as word Processors, Details of the four tasks and features that would be covered in each, Using LaTeX and word – Accessing, overview of toolbars, saving files, Using help and resources, rulers, format painter in word."
+          },
+          {
+            "topic": "Task 2: Using LaTeX and Word to create a project certificate. Features to be covered:- Formatting Fonts in word, Drop Cap in word, Applying Text effects, Using Character Spacing, Borders and Colors, Inserting Header and Footer, Using Date and Time option in both LaTeX and Word."
+          },
+          {
+            "topic": "Task 3: Creating project abstract Features to be covered:-Formatting Styles, Inserting table, Bullets and Numbering, Changing Text Direction, Cell alignment, Footnote, Hyperlink, Symbols, Spell Check, Track Changes."
+          },
+          {
+            "topic": "Task 4: Creating a Newsletter: Features to be covered:- Table of Content, Newspaper columns, Images from files and clipart, Drawing toolbar and Word Art, Formatting Images, Textboxes, Paragraphs and Mail Merge in word."
+          }
+        ]
+      },
+      {
+        "name": "Excel",
+        "topics": [
+          {
+            "topic": "Excel Orientation: The mentor needs to tell the importance of MS office or equivalent (FOSS) tool Excel as a Spreadsheet tool, give the details of the four tasks and features that would be covered in each. Using Excel – Accessing, overview of toolbars, saving excel files, Using help and resources."
+          },
+          {
+            "topic": "Task 1: Creating a Scheduler - Features to be covered: Gridlines, Format Cells, Summation, auto fill, Formatting Text"
+          },
+          {
+            "topic": "Task 2 : Calculating GPA - .Features to be covered:- Cell Referencing, Formulae in excel – average, std. deviation, Charts, Renaming and Inserting worksheets, Hyper linking, Count function, LOOKUP/VLOOKUP"
+          },
+          {
+            "topic": "Task 3: Split cells, freeze panes, group and outline, Sorting, Boolean and logical operators, Conditional formatting"
+          }
+        ]
+      },
+      {
+        "name": "Powerpoint",
+        "topics": [
+          {
+            "topic": "Task 1: Students will be working on basic power point utilities and tools which help them create basic powerpoint presentations. PPT Orientation, Slide Layouts, Inserting Text, Word Art, Formatting Text, Bullets and Numbering, Auto Shapes, Lines and Arrows in PowerPoint."
+          },
+          {
+            "topic": "Task 2: Interactive presentations - Hyperlinks, Inserting –Images, Clip Art, Audio, Video, Objects, Tables and Charts."
+          },
+          {
+            "topic": "Task 3: Master Layouts (slide, template, and notes), Types of views (basic, presentation, slide slotter, notes etc), and Inserting – Background, textures, Design Templates, Hidden slides."
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+]

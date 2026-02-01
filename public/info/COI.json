@@ -1,48 +1,47 @@
 [
-    {
-      "name": "CONSTITUTION OF INDIA",
-      "code": "COI",
-      "units": [
-        {
-          "name": "Syllabus",
-          "topics": [
-            {
-              "topic": "Unit - 1 History of Making of the Indian Constitution- History of Drafting Committee.",
-              "subTopics": []
-            },
-            {
-              "topic": "Unit - 2 Philosophy of the Indian Constitution- Preamble Salient Features",
-              "subTopics": []
-            },
-            {
-              "topic": "Unit - 3 Contours of Constitutional Rights & Duties - Fundamental Rights",
-              "subTopics": [
-                "Right to Equality",
-                "Right to Freedom",
-                "Right against Exploitation",
-                "Right to Freedom of Religion",
-                "Cultural and Educational Rights",
-                "Right to Constitutional Remedies",
-                "Directive Principles of State Policy",
-                "Fundamental Duties"
-              ]
-            },
-            {
-              "topic": "Unit - 4 Organs of Governance: Parliament, Composition, Qualifications and Disqualifications, Powers and Functions, Executive, President, Governor, Council of Ministers, Judiciary, Appointment and Transfer of Judges, Qualifications, Powers and Functions",
-              "subTopics": []
-            },
-            {
-              "topic": "Unit - 5 Local Administration: District’s Administration head: Role and Importance, Municipalities: Introduction, Mayor and role of Elected Representative, CEO of Municipal Corporation. Panchayat raj: Introduction, PRI: Zila Panchayat. Elected officials and their roles, CEO ZilaPanchayat: Position and role. Block level: Organizational Hierarchy (Different departments), Village level: Role of Elected and Appointed officials, Importance of grass root democracy",
-              "subTopics": []
-            },
-            {
-              "topic": "Unit - 6 Election Commission: Election Commission: Role and Functioning. Chief Election Commissioner and Election Commissioners. State Election Commission: Role and Functioning. Institute and Bodies for the welfare of SC/ST/OBC and women.",
-              "subTopics": []
-            }
-          ]
-        }
-      ],
-      "links": []
-    }
-  ]
-  
+  {
+    "name": "CONSTITUTION OF INDIA",
+    "code": "COI",
+    "units": [
+      {
+        "name": "Syllabus",
+        "topics": [
+          {
+            "topic": "Unit - 1 History of Making of the Indian Constitution- History of Drafting Committee.",
+            "subTopics": []
+          },
+          {
+            "topic": "Unit - 2 Philosophy of the Indian Constitution- Preamble Salient Features",
+            "subTopics": []
+          },
+          {
+            "topic": "Unit - 3 Contours of Constitutional Rights & Duties - Fundamental Rights",
+            "subTopics": [
+              "Right to Equality",
+              "Right to Freedom",
+              "Right against Exploitation",
+              "Right to Freedom of Religion",
+              "Cultural and Educational Rights",
+              "Right to Constitutional Remedies",
+              "Directive Principles of State Policy",
+              "Fundamental Duties"
+            ]
+          },
+          {
+            "topic": "Unit - 4 Organs of Governance: Parliament, Composition, Qualifications and Disqualifications, Powers and Functions, Executive, President, Governor, Council of Ministers, Judiciary, Appointment and Transfer of Judges, Qualifications, Powers and Functions",
+            "subTopics": []
+          },
+          {
+            "topic": "Unit - 5 Local Administration: District’s Administration head: Role and Importance, Municipalities: Introduction, Mayor and role of Elected Representative, CEO of Municipal Corporation. Panchayat raj: Introduction, PRI: Zila Panchayat. Elected officials and their roles, CEO ZilaPanchayat: Position and role. Block level: Organizational Hierarchy (Different departments), Village level: Role of Elected and Appointed officials, Importance of grass root democracy",
+            "subTopics": []
+          },
+          {
+            "topic": "Unit - 6 Election Commission: Election Commission: Role and Functioning. Chief Election Commissioner and Election Commissioners. State Election Commission: Role and Functioning. Institute and Bodies for the welfare of SC/ST/OBC and women.",
+            "subTopics": []
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+]

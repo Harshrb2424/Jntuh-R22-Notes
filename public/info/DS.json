@@ -1,157 +1,156 @@
 [
-    {
-      "name": "DATA STRUCTURES",
-      "code": "DS",
-      "units": [
-        {
-          "name": "UNIT - 1 Introduction to Data Structures and Sracks",
-          "topics": [
-            {
-              "topic": "Introduction to Data Structures",
-              "subTopics": [
-                "Abstract data types",
-                "Linear list – singly linked list implementation",
-                "Insertion, deletion and searching operations on linear list"
-              ]
-            },
-            {
-              "topic": "Stacks",
-              "subTopics": [
-                "Operations",
-                "Array and linked representations of stacks",
-                "Stack applications"
-              ]
-            },
-            {
-              "topic": "Queues",
-              "subTopics": [
-                "Operations",
-                "Array and linked representations"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 2 Dictionaries and Hash Table Representation",
-          "topics": [
-            {
-              "topic": "Dictionaries",
-              "subTopics": [
-                "Linear list representation",
-                "Skip list representation",
-                "Operations - insertion, deletion and searching"
-              ]
-            },
-            {
-              "topic": "Hash Table Representation",
-              "subTopics": [
-                "Hash functions",
-                "Collision resolution - separate chaining, open addressing-linear probing, quadratic probing, double hashing",
-                "Rehashing",
-                "Extendible hashing"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 3 Search Trees",
-          "topics": [
-            {
-              "topic": "Search Trees",
-              "subTopics": [
-                "Binary Search Trees - Definition, Implementation, Operations- Searching, Insertion and Deletion",
-                "B- Trees, B+ Trees",
-                "AVL Trees - Definition, Height of an AVL Tree, Operations – Insertion, Deletion and Searching",
-                "Red –Black, Splay Trees"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 4 Graphs and Sorting",
-          "topics": [
-            {
-              "topic": "Graphs",
-              "subTopics": [
-                "Graph Implementation Methods",
-                "Graph Traversal Methods"
-              ]
-            },
-            {
-              "topic": "Sorting",
-              "subTopics": [
-                "Quick Sort",
-                "Heap Sort",
-                "External Sorting - Model for external sorting, Merge Sort"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 5 Pattern Matching and Tries",
-          "topics": [
-            {
-              "topic": "Pattern Matching and Tries",
-              "subTopics": [
-                "Pattern matching algorithms - Brute force, the Boyer–Moore algorithm, the Knuth-Morris-Pratt algorithm",
-                "Standard Tries",
-                "Compressed Tries",
-                "Suffix tries"
-              ]
-            }
-          ]
-        }
-      ],
-      "links": [
-        {
-            "name": "DS Mid 1 Quesetion and Answers",
-            "link": "./resources/2nd Year/DS-Mid-1-QnA.pdf"
-        },
-        {
-            "name": "DS Mid 2 Quesetion and Answers",
-            "link": "./resources/2nd Year/DS-Mid-2-QnA.pdf"
-        },
-        {
-            "name": "DS Unit 1 Introduction To Data Structures And Sracks",
-            "link": "./resources/2nd Year/DS-Unit1.pdf"
-        },
-        {
-            "name": "DS Unit 2 Dictionaries And Hash Table Representation",
-            "link": "./resources/2nd Year/DS-Unit2.pdf"
-        },
-        {
-            "name": "DS Unit 3 Search Trees",
-            "link": "./resources/2nd Year/DS-Unit3.pdf"
-        },
-        {
-            "name": "DS Unit 4 Graphs And Sorting",
-            "link": "./resources/2nd Year/DS-Unit4.pdf"
-        },
-        {
-            "name": "DS Unit 5 Pattern Matching And Tries",
-            "link": "./resources/2nd Year/DS-Unit5.pdf"
-        },
-        {
-            "name": "DS Unit 1 (Alt) Introduction To Data Structures And Sracks",
-            "link": "./resources/2nd Year/DS-Unit1-alt.pdf"
-        },
-        {
-            "name": "DS Unit 2 (Alt) Dictionaries And Hash Table Representation",
-            "link": "./resources/2nd Year/DS-Unit2-alt.pdf"
-        },
-        {
-            "name": "DS Unit 3 (Alt) Search Trees",
-            "link": "./resources/2nd Year/DS-Unit3-alt.pdf"
-        },
-        {
-            "name": "DS Unit 4 (Alt) Graphs And Sorting",
-            "link": "./resources/2nd Year/DS-Unit4-alt.pdf"
-        },
-        {
-            "name": "DS Unit 5 (Alt) Pattern Matching And Tries",
-            "link": "./resources/2nd Year/OBS-DS-Unit5.pdf"
-        }
-      ]
-    }
-  ]
-  
+  {
+    "name": "DATA STRUCTURES",
+    "code": "DS",
+    "units": [
+      {
+        "name": "UNIT - 1 Introduction to Data Structures and Sracks",
+        "topics": [
+          {
+            "topic": "Introduction to Data Structures",
+            "subTopics": [
+              "Abstract data types",
+              "Linear list – singly linked list implementation",
+              "Insertion, deletion and searching operations on linear list"
+            ]
+          },
+          {
+            "topic": "Stacks",
+            "subTopics": [
+              "Operations",
+              "Array and linked representations of stacks",
+              "Stack applications"
+            ]
+          },
+          {
+            "topic": "Queues",
+            "subTopics": [
+              "Operations",
+              "Array and linked representations"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 2 Dictionaries and Hash Table Representation",
+        "topics": [
+          {
+            "topic": "Dictionaries",
+            "subTopics": [
+              "Linear list representation",
+              "Skip list representation",
+              "Operations - insertion, deletion and searching"
+            ]
+          },
+          {
+            "topic": "Hash Table Representation",
+            "subTopics": [
+              "Hash functions",
+              "Collision resolution - separate chaining, open addressing-linear probing, quadratic probing, double hashing",
+              "Rehashing",
+              "Extendible hashing"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 3 Search Trees",
+        "topics": [
+          {
+            "topic": "Search Trees",
+            "subTopics": [
+              "Binary Search Trees - Definition, Implementation, Operations- Searching, Insertion and Deletion",
+              "B- Trees, B+ Trees",
+              "AVL Trees - Definition, Height of an AVL Tree, Operations – Insertion, Deletion and Searching",
+              "Red –Black, Splay Trees"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 4 Graphs and Sorting",
+        "topics": [
+          {
+            "topic": "Graphs",
+            "subTopics": [
+              "Graph Implementation Methods",
+              "Graph Traversal Methods"
+            ]
+          },
+          {
+            "topic": "Sorting",
+            "subTopics": [
+              "Quick Sort",
+              "Heap Sort",
+              "External Sorting - Model for external sorting, Merge Sort"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 5 Pattern Matching and Tries",
+        "topics": [
+          {
+            "topic": "Pattern Matching and Tries",
+            "subTopics": [
+              "Pattern matching algorithms - Brute force, the Boyer–Moore algorithm, the Knuth-Morris-Pratt algorithm",
+              "Standard Tries",
+              "Compressed Tries",
+              "Suffix tries"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "name": "DS Mid 1 Quesetion and Answers",
+        "link": "./resources/2nd Year/DS-Mid-1-QnA.pdf"
+      },
+      {
+        "name": "DS Mid 2 Quesetion and Answers",
+        "link": "./resources/2nd Year/DS-Mid-2-QnA.pdf"
+      },
+      {
+        "name": "DS Unit 1 Introduction To Data Structures And Sracks",
+        "link": "./resources/2nd Year/DS-Unit1.pdf"
+      },
+      {
+        "name": "DS Unit 2 Dictionaries And Hash Table Representation",
+        "link": "./resources/2nd Year/DS-Unit2.pdf"
+      },
+      {
+        "name": "DS Unit 3 Search Trees",
+        "link": "./resources/2nd Year/DS-Unit3.pdf"
+      },
+      {
+        "name": "DS Unit 4 Graphs And Sorting",
+        "link": "./resources/2nd Year/DS-Unit4.pdf"
+      },
+      {
+        "name": "DS Unit 5 Pattern Matching And Tries",
+        "link": "./resources/2nd Year/DS-Unit5.pdf"
+      },
+      {
+        "name": "DS Unit 1 (Alt) Introduction To Data Structures And Sracks",
+        "link": "./resources/2nd Year/DS-Unit1-alt.pdf"
+      },
+      {
+        "name": "DS Unit 2 (Alt) Dictionaries And Hash Table Representation",
+        "link": "./resources/2nd Year/DS-Unit2-alt.pdf"
+      },
+      {
+        "name": "DS Unit 3 (Alt) Search Trees",
+        "link": "./resources/2nd Year/DS-Unit3-alt.pdf"
+      },
+      {
+        "name": "DS Unit 4 (Alt) Graphs And Sorting",
+        "link": "./resources/2nd Year/DS-Unit4-alt.pdf"
+      },
+      {
+        "name": "DS Unit 5 (Alt) Pattern Matching And Tries",
+        "link": "./resources/2nd Year/OBS-DS-Unit5.pdf"
+      }
+    ]
+  }
+]

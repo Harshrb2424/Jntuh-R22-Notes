@@ -1,81 +1,79 @@
 [
-    {
-      "name": "ENGLISH FOR SKILL ENHANCEMENT",
-      "code": "ESE",
-      "units": [
-        {
-          "name": "UNIT - 1 ‘Toasted English’",
-          "topics": [
-            {
-              "topic": "Chapter entitled ‘Toasted English’ by R.K.Narayan",
-              "subTopics": [
-                "Vocabulary: The Concept of Word Formation -The Use of Prefixes and Suffixes - Acquaintance with Prefixes and Suffixes from Foreign Languages to form Derivatives - Synonyms and Antonyms",
-                "Grammar: Identifying Common Errors in Writing with Reference to Articles and Prepositions.",
-                "Reading: Reading and Its Importance- Techniques for Effective Reading.",
-                "Writing: Sentence Structures -Use of Phrases and Clauses in Sentences- Importance of Proper Punctuation- Techniques for Writing precisely – Paragraph Writing – Types, Structures and Features of a Paragraph - Creating Coherence-Organizing Principles of Paragraphs in Documents."
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 2 ‘Appro JRD’",
-          "topics": [
-            {
-              "topic": "Chapter entitled ‘Appro JRD’ by Sudha Murthy",
-              "subTopics": [
-                "Vocabulary: Words Often Misspelt - Homophones, Homonyms and Homographs",
-                "Grammar: Identifying Common Errors in Writing with Reference to Noun-pronoun Agreement and Subject-verb Agreement.",
-                "Reading: Sub-Skills of Reading – Skimming and Scanning – Exercises for Practice",
-                "Writing: Nature and Style of Writing- Defining /Describing People, Objects, Places and Events – Classifying- Providing Examples or Evidence."
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 3 ‘Lessons from Online Learning’",
-          "topics": [
-            {
-              "topic": "Chapter entitled ‘Lessons from Online Learning’ by F.Haider Alvi, Deborah Hurst et al",
-              "subTopics": [
-                "Vocabulary: Words Often Confused - Words from Foreign Languages and their Use in English.",
-                "Grammar: Identifying Common Errors in Writing with Reference to Misplaced Modifiers and Tenses.",
-                "Reading: Sub-Skills of Reading – Intensive Reading and Extensive Reading – Exercises for Practice.",
-                "Writing: Format of a Formal Letter-Writing Formal Letters E.g.., Letter of Complaint, Letter of Requisition, Email Etiquette, Job Application with CV/Resume."
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 4 ‘Art and Literature’",
-          "topics": [
-            {
-              "topic": "Chapter entitled ‘Art and Literature’ by Abdul Kalam",
-              "subTopics": [
-                "Vocabulary: Standard Abbreviations in English",
-                "Grammar: Redundancies and Clichés in Oral and Written Communication.",
-                "Reading: Survey, Question, Read, Recite and Review (SQ3R Method) - Exercises for Practice",
-                "Writing: Writing Practices- Essay Writing-Writing Introduction and Conclusion -Précis Writing."
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 5 ‘Go, Kiss the World’",
-          "topics": [
-            {
-              "topic": "Chapter entitled ‘Go, Kiss the World’ by Subroto Bagchi",
-              "subTopics": [
-                "Vocabulary: Technical Vocabulary and their Usage",
-                "Grammar: Common Errors in English (Covering all the other aspects of grammar which were not covered in the previous units)",
-                "Reading: Reading Comprehension-Exercises for Practice",
-                "Writing: Technical Reports- Introduction – Characteristics of a Report – Categories of Reports Formats- Structure of Reports (Manuscript Format) -Types of Reports - Writing a Report."
-              ]
-            }
-          ]
-        }
-      ],
-      "links": [
-      ]
-    }
-  ]
-  
+  {
+    "name": "ENGLISH FOR SKILL ENHANCEMENT",
+    "code": "ESE",
+    "units": [
+      {
+        "name": "UNIT - 1 ‘Toasted English’",
+        "topics": [
+          {
+            "topic": "Chapter entitled ‘Toasted English’ by R.K.Narayan",
+            "subTopics": [
+              "Vocabulary: The Concept of Word Formation -The Use of Prefixes and Suffixes - Acquaintance with Prefixes and Suffixes from Foreign Languages to form Derivatives - Synonyms and Antonyms",
+              "Grammar: Identifying Common Errors in Writing with Reference to Articles and Prepositions.",
+              "Reading: Reading and Its Importance- Techniques for Effective Reading.",
+              "Writing: Sentence Structures -Use of Phrases and Clauses in Sentences- Importance of Proper Punctuation- Techniques for Writing precisely – Paragraph Writing – Types, Structures and Features of a Paragraph - Creating Coherence-Organizing Principles of Paragraphs in Documents."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 2 ‘Appro JRD’",
+        "topics": [
+          {
+            "topic": "Chapter entitled ‘Appro JRD’ by Sudha Murthy",
+            "subTopics": [
+              "Vocabulary: Words Often Misspelt - Homophones, Homonyms and Homographs",
+              "Grammar: Identifying Common Errors in Writing with Reference to Noun-pronoun Agreement and Subject-verb Agreement.",
+              "Reading: Sub-Skills of Reading – Skimming and Scanning – Exercises for Practice",
+              "Writing: Nature and Style of Writing- Defining /Describing People, Objects, Places and Events – Classifying- Providing Examples or Evidence."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 3 ‘Lessons from Online Learning’",
+        "topics": [
+          {
+            "topic": "Chapter entitled ‘Lessons from Online Learning’ by F.Haider Alvi, Deborah Hurst et al",
+            "subTopics": [
+              "Vocabulary: Words Often Confused - Words from Foreign Languages and their Use in English.",
+              "Grammar: Identifying Common Errors in Writing with Reference to Misplaced Modifiers and Tenses.",
+              "Reading: Sub-Skills of Reading – Intensive Reading and Extensive Reading – Exercises for Practice.",
+              "Writing: Format of a Formal Letter-Writing Formal Letters E.g.., Letter of Complaint, Letter of Requisition, Email Etiquette, Job Application with CV/Resume."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 4 ‘Art and Literature’",
+        "topics": [
+          {
+            "topic": "Chapter entitled ‘Art and Literature’ by Abdul Kalam",
+            "subTopics": [
+              "Vocabulary: Standard Abbreviations in English",
+              "Grammar: Redundancies and Clichés in Oral and Written Communication.",
+              "Reading: Survey, Question, Read, Recite and Review (SQ3R Method) - Exercises for Practice",
+              "Writing: Writing Practices- Essay Writing-Writing Introduction and Conclusion -Précis Writing."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 5 ‘Go, Kiss the World’",
+        "topics": [
+          {
+            "topic": "Chapter entitled ‘Go, Kiss the World’ by Subroto Bagchi",
+            "subTopics": [
+              "Vocabulary: Technical Vocabulary and their Usage",
+              "Grammar: Common Errors in English (Covering all the other aspects of grammar which were not covered in the previous units)",
+              "Reading: Reading Comprehension-Exercises for Practice",
+              "Writing: Technical Reports- Introduction – Characteristics of a Report – Categories of Reports Formats- Structure of Reports (Manuscript Format) -Types of Reports - Writing a Report."
+            ]
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+]

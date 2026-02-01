@@ -1,123 +1,123 @@
 [
-  {
-    "name": "Communication Technologies",
-    "code": "EC832OE",
-    "units": [
-      {
-        "name": "UNIT 1: INFORMATION THEORY",
-        "topics": [
-          {
-            "topic": "Information Theory Fundamentals",
-            "subTopics": [
-              "Shannon capacity",
-              "Information content",
-              "Entropy",
-              "Source coding",
-              "Channel coding"
-            ]
-          },
-          {
-            "topic": "Data and Communication Basics",
-            "subTopics": [
-              "Multimedia data",
-              "Data processing",
-              "Boolean logics",
-              "Modulation schemes",
-              "Internet"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "UNIT 2: WIRELESS COMMUNICATION TECHNOLOGIES",
-        "topics": [
-          {
-            "topic": "Wireless Networks",
-            "subTopics": [
-              "WLAN",
-              "WiFi",
-              "Bluetooth",
-              "Wireless PAN technologies",
-              "Wireless WAN technologies"
-            ]
-          },
-          {
-            "topic": "Broadcast and Satellite Communication",
-            "subTopics": [
-              "Satellite communications",
-              "Broadcast services"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "UNIT 3: CELLULAR MOBILE NETWORKS",
-        "topics": [
-          {
-            "topic": "Mobile Communication Generations",
-            "subTopics": [
-              "GSM (2G)",
-              "UMTS (3G)",
-              "LTE (4G)",
-              "5G mobile networks"
-            ]
-          },
-          {
-            "topic": "Mobile Network Planning",
-            "subTopics": [
-              "Mobile network planning aspects",
-              "Coverage and capacity considerations"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "UNIT 4: FREE SPACE OPTICAL COMMUNICATIONS",
-        "topics": [
-          {
-            "topic": "Optical Communication Systems",
-            "subTopics": [
-              "Optical fiber",
-              "FTTC",
-              "FTTH",
-              "FTTBS"
-            ]
-          },
-          {
-            "topic": "Free Space Optical Communication",
-            "subTopics": [
-              "Free space optical link",
-              "Channel model with different factors",
-              "Deep space optical communications"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "UNIT 5: NETWORK SECURITY AND MANAGEMENT",
-        "topics": [
-          {
-            "topic": "Network Security",
-            "subTopics": [
-              "Symmetrical encryption",
-              "Asymmetrical encryption",
-              "Authentication",
-              "Hash-value",
-              "Integrity check"
-            ]
-          },
-          {
-            "topic": "Network Management",
-            "subTopics": [
-              "Telecommunications management network",
-              "SNMP",
-              "Functionalities of network management",
-              "Trends and future development"
-            ]
-          }
-        ]
-      }
-    ],
-    "links": []
-  }
+    {
+        "name": "Communication Technologies",
+        "code": "EC832OE",
+        "units": [
+            {
+                "name": "UNIT 1: INFORMATION THEORY",
+                "topics": [
+                    {
+                        "topic": "Information Theory Fundamentals",
+                        "subTopics": [
+                            "Shannon capacity",
+                            "Information content",
+                            "Entropy",
+                            "Source coding",
+                            "Channel coding"
+                        ]
+                    },
+                    {
+                        "topic": "Data and Communication Basics",
+                        "subTopics": [
+                            "Multimedia data",
+                            "Data processing",
+                            "Boolean logics",
+                            "Modulation schemes",
+                            "Internet"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT 2: WIRELESS COMMUNICATION TECHNOLOGIES",
+                "topics": [
+                    {
+                        "topic": "Wireless Networks",
+                        "subTopics": [
+                            "WLAN",
+                            "WiFi",
+                            "Bluetooth",
+                            "Wireless PAN technologies",
+                            "Wireless WAN technologies"
+                        ]
+                    },
+                    {
+                        "topic": "Broadcast and Satellite Communication",
+                        "subTopics": [
+                            "Satellite communications",
+                            "Broadcast services"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT 3: CELLULAR MOBILE NETWORKS",
+                "topics": [
+                    {
+                        "topic": "Mobile Communication Generations",
+                        "subTopics": [
+                            "GSM (2G)",
+                            "UMTS (3G)",
+                            "LTE (4G)",
+                            "5G mobile networks"
+                        ]
+                    },
+                    {
+                        "topic": "Mobile Network Planning",
+                        "subTopics": [
+                            "Mobile network planning aspects",
+                            "Coverage and capacity considerations"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT 4: FREE SPACE OPTICAL COMMUNICATIONS",
+                "topics": [
+                    {
+                        "topic": "Optical Communication Systems",
+                        "subTopics": [
+                            "Optical fiber",
+                            "FTTC",
+                            "FTTH",
+                            "FTTBS"
+                        ]
+                    },
+                    {
+                        "topic": "Free Space Optical Communication",
+                        "subTopics": [
+                            "Free space optical link",
+                            "Channel model with different factors",
+                            "Deep space optical communications"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "UNIT 5: NETWORK SECURITY AND MANAGEMENT",
+                "topics": [
+                    {
+                        "topic": "Network Security",
+                        "subTopics": [
+                            "Symmetrical encryption",
+                            "Asymmetrical encryption",
+                            "Authentication",
+                            "Hash-value",
+                            "Integrity check"
+                        ]
+                    },
+                    {
+                        "topic": "Network Management",
+                        "subTopics": [
+                            "Telecommunications management network",
+                            "SNMP",
+                            "Functionalities of network management",
+                            "Trends and future development"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "links": []
+    }
 ]

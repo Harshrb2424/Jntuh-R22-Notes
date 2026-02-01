@@ -1,184 +1,183 @@
 [
-    {
-      "name": "PROGRAMMING FOR PROBLEM SOLVING",
-      "code": "PPS",
-      "units": [
-        {
-          "name": "UNIT I: Introduction to Programming",
-          "topics": [
-            {
-              "topic": "Compilers, compiling and executing a program",
-              "subTopics": [
-                "Representation of Algorithm - Algorithms for finding roots of a quadratic equations, finding minimum and maximum numbers of a given set, finding if a number is prime number",
-                "Flowchart/Pseudocode with examples",
-                "Program design and structured programming"
-              ]
-            },
-            {
-              "topic": "Introduction to C Programming Language",
-              "subTopics": [
-                "variables (with data types and space requirements)",
-                "Syntax and Logical Errors in compilation",
-                "object and executable code",
-                "Operators, expressions and precedence",
-                "Expression evaluation",
-                "Storage classes (auto, extern, static and register)",
-                "type conversion",
-                "The main method and command line arguments",
-                "Bitwise operations: Bitwise AND, OR, XOR and NOT operators"
-              ]
-            },
-            {
-              "topic": "Conditional Branching and Loops",
-              "subTopics": [
-                "Writing and evaluation of conditionals and consequent branching with if, if-else, switch-case, ternary operator, goto",
-                "Iteration with for, while, do-while loops",
-                "I/O: Simple input and output with scanf and printf, formatted I/O",
-                "Introduction to stdin, stdout and stderr",
-                "Command line arguments"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT II: Arrays, Strings, Structures and Pointers",
-          "topics": [
-            {
-              "topic": "Arrays",
-              "subTopics": [
-                "one and two dimensional arrays, creating, accessing and manipulating elements of arrays"
-              ]
-            },
-            {
-              "topic": "Strings",
-              "subTopics": [
-                "Introduction to strings",
-                "handling strings as array of characters",
-                "basic string functions available in C (strlen, strcat, strcpy, strstr etc.)",
-                "arrays of strings"
-              ]
-            },
-            {
-              "topic": "Structures",
-              "subTopics": [
-                "Defining structures",
-                "initializing structures",
-                "unions",
-                "Array of structures"
-              ]
-            },
-            {
-              "topic": "Pointers",
-              "subTopics": [
-                "Idea of pointers",
-                "Defining pointers",
-                "Pointers to Arrays and Structures",
-                "Use of Pointers in self-referential structures",
-                "usage of self-referential structures in linked list (no implementation)",
-                "Enumeration data type"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT III: Preprocessor and File handling in C",
-          "topics": [
-            {
-              "topic": "Preprocessor",
-              "subTopics": [
-                "Commonly used Preprocessor commands like include, define, undef, if, ifdef, ifndef"
-              ]
-            },
-            {
-              "topic": "Files",
-              "subTopics": [
-                "Text and Binary files",
-                "Creating and Reading and writing text and binary files",
-                "Appending data to existing files",
-                "Writing and reading structures using binary files",
-                "Random access using fseek, ftell and rewind functions"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT IV: Function and Dynamic Memory Allocation",
-          "topics": [
-            {
-              "topic": "Functions",
-              "subTopics": [
-                "Designing structured programs",
-                "Declaring a function",
-                "Signature of a function",
-                "Parameters and return type of a function",
-                "passing parameters to functions",
-                "call by value",
-                "Passing arrays to functions",
-                "passing pointers to functions",
-                "idea of call by reference",
-                "Some C standard functions and libraries"
-              ]
-            },
-            {
-              "topic": "Recursion",
-              "subTopics": [
-                "Simple programs, such as Finding Factorial, Fibonacci series etc.",
-                "Limitations of Recursive functions"
-              ]
-            },
-            {
-              "topic": "Dynamic memory allocation",
-              "subTopics": [
-                "Allocating and freeing memory",
-                "Allocating memory for arrays of different data types"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT V: Searching and Sorting",
-          "topics": [
-            {
-              "topic": "Basic searching in an array of elements",
-              "subTopics": [
-                "linear and binary search techniques"
-              ]
-            },
-            {
-              "topic": "Basic algorithms to sort array of elements",
-              "subTopics": [
-                "Bubble, Insertion and Selection sort algorithms"
-              ]
-            },
-            {
-              "topic": "Basic concept of order of complexity through the example programs",
-              "subTopics": []
-            }
-          ]
-        }
-      ],
-      "links": [
-        {
-          "name": "PPS Unit 1",
-          "link": "./resources/1st Year/PPS-Unit1.pdf"
-        },
-        {
-          "name": "PPS Unit 2",
-          "link": "./resources/1st Year/PPS-Unit2.pdf"
-        },
-        {
-          "name": "PPS Unit 3",
-          "link": "./resources/1st Year/PPS-Unit3.pdf"
-        },
-        {
-          "name": "PPS Unit 4",
-          "link": "./resources/1st Year/PPS-Unit4.pdf"
-        },
-        {
-          "name": "PPS unit 5",
-          "link": "./resources/1st Year/PPS-Unit5.pdf"
-        }
-      ]
-    }
-  ]
-  
+  {
+    "name": "PROGRAMMING FOR PROBLEM SOLVING",
+    "code": "PPS",
+    "units": [
+      {
+        "name": "UNIT I: Introduction to Programming",
+        "topics": [
+          {
+            "topic": "Compilers, compiling and executing a program",
+            "subTopics": [
+              "Representation of Algorithm - Algorithms for finding roots of a quadratic equations, finding minimum and maximum numbers of a given set, finding if a number is prime number",
+              "Flowchart/Pseudocode with examples",
+              "Program design and structured programming"
+            ]
+          },
+          {
+            "topic": "Introduction to C Programming Language",
+            "subTopics": [
+              "variables (with data types and space requirements)",
+              "Syntax and Logical Errors in compilation",
+              "object and executable code",
+              "Operators, expressions and precedence",
+              "Expression evaluation",
+              "Storage classes (auto, extern, static and register)",
+              "type conversion",
+              "The main method and command line arguments",
+              "Bitwise operations: Bitwise AND, OR, XOR and NOT operators"
+            ]
+          },
+          {
+            "topic": "Conditional Branching and Loops",
+            "subTopics": [
+              "Writing and evaluation of conditionals and consequent branching with if, if-else, switch-case, ternary operator, goto",
+              "Iteration with for, while, do-while loops",
+              "I/O: Simple input and output with scanf and printf, formatted I/O",
+              "Introduction to stdin, stdout and stderr",
+              "Command line arguments"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT II: Arrays, Strings, Structures and Pointers",
+        "topics": [
+          {
+            "topic": "Arrays",
+            "subTopics": [
+              "one and two dimensional arrays, creating, accessing and manipulating elements of arrays"
+            ]
+          },
+          {
+            "topic": "Strings",
+            "subTopics": [
+              "Introduction to strings",
+              "handling strings as array of characters",
+              "basic string functions available in C (strlen, strcat, strcpy, strstr etc.)",
+              "arrays of strings"
+            ]
+          },
+          {
+            "topic": "Structures",
+            "subTopics": [
+              "Defining structures",
+              "initializing structures",
+              "unions",
+              "Array of structures"
+            ]
+          },
+          {
+            "topic": "Pointers",
+            "subTopics": [
+              "Idea of pointers",
+              "Defining pointers",
+              "Pointers to Arrays and Structures",
+              "Use of Pointers in self-referential structures",
+              "usage of self-referential structures in linked list (no implementation)",
+              "Enumeration data type"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT III: Preprocessor and File handling in C",
+        "topics": [
+          {
+            "topic": "Preprocessor",
+            "subTopics": [
+              "Commonly used Preprocessor commands like include, define, undef, if, ifdef, ifndef"
+            ]
+          },
+          {
+            "topic": "Files",
+            "subTopics": [
+              "Text and Binary files",
+              "Creating and Reading and writing text and binary files",
+              "Appending data to existing files",
+              "Writing and reading structures using binary files",
+              "Random access using fseek, ftell and rewind functions"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT IV: Function and Dynamic Memory Allocation",
+        "topics": [
+          {
+            "topic": "Functions",
+            "subTopics": [
+              "Designing structured programs",
+              "Declaring a function",
+              "Signature of a function",
+              "Parameters and return type of a function",
+              "passing parameters to functions",
+              "call by value",
+              "Passing arrays to functions",
+              "passing pointers to functions",
+              "idea of call by reference",
+              "Some C standard functions and libraries"
+            ]
+          },
+          {
+            "topic": "Recursion",
+            "subTopics": [
+              "Simple programs, such as Finding Factorial, Fibonacci series etc.",
+              "Limitations of Recursive functions"
+            ]
+          },
+          {
+            "topic": "Dynamic memory allocation",
+            "subTopics": [
+              "Allocating and freeing memory",
+              "Allocating memory for arrays of different data types"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT V: Searching and Sorting",
+        "topics": [
+          {
+            "topic": "Basic searching in an array of elements",
+            "subTopics": [
+              "linear and binary search techniques"
+            ]
+          },
+          {
+            "topic": "Basic algorithms to sort array of elements",
+            "subTopics": [
+              "Bubble, Insertion and Selection sort algorithms"
+            ]
+          },
+          {
+            "topic": "Basic concept of order of complexity through the example programs",
+            "subTopics": []
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "name": "PPS Unit 1",
+        "link": "./resources/1st Year/PPS-Unit1.pdf"
+      },
+      {
+        "name": "PPS Unit 2",
+        "link": "./resources/1st Year/PPS-Unit2.pdf"
+      },
+      {
+        "name": "PPS Unit 3",
+        "link": "./resources/1st Year/PPS-Unit3.pdf"
+      },
+      {
+        "name": "PPS Unit 4",
+        "link": "./resources/1st Year/PPS-Unit4.pdf"
+      },
+      {
+        "name": "PPS unit 5",
+        "link": "./resources/1st Year/PPS-Unit5.pdf"
+      }
+    ]
+  }
+]

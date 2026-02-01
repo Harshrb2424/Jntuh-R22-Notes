@@ -1,110 +1,109 @@
 [
-    {
-      "name": "ELECTRONIC DEVICES AND CIRCUITS",
-      "code": "EDC",
-      "units": [
-        {
-          "name": "UNIT - 1 Diodes",
-          "topics": [
-            {
-              "topic": "Diodes",
-              "subTopics": [
-                "Diode - Static and Dynamic resistances",
-                "Equivalent circuit",
-                "Diffusion and Transition Capacitances",
-                "V-I Characteristics",
-                "Diode as a switch - switching times"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 2 Diode Applications",
-          "topics": [
-            {
-              "topic": "Diode Applications",
-              "subTopics": [
-                "Rectifier - Half Wave Rectifier, Full Wave Rectifier, Bridge Rectifier",
-                "Rectifiers with Capacitive and Inductive Filters",
-                "Clippers-Clipping at two independent levels",
-                "Clamper-Clamping Circuit Theorem, Clamping Operation, Types of Clampers"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 3 Bipolar Junction Transistor",
-          "topics": [
-            {
-              "topic": "Bipolar Junction Transistor (BJT)",
-              "subTopics": [
-                "Principle of Operation",
-                "Common Emitter, Common Base and Common Collector Configurations",
-                "Transistor as a switch, switching times"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 4 Junction Field Effect Transistor",
-          "topics": [
-            {
-              "topic": "Junction Field Effect Transistor (FET)",
-              "subTopics": [
-                "Construction",
-                "Principle of Operation",
-                "Pinch-Off Voltage",
-                "Volt-Ampere Characteristic",
-                "Comparison of BJT and FET",
-                "FET as Voltage Variable Resistor",
-                "MOSFET",
-                "MOSTET as a capacitor"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 5 Special Purpose Devices",
-          "topics": [
-            {
-              "topic": "Special Purpose Devices",
-              "subTopics": [
-                "Zener Diode - Characteristics, Zener diode as Voltage Regulator, Principle of Operation",
-                "SCR",
-                "Tunnel diode",
-                "UJT",
-                "Varactor Diode",
-                "Photo diode",
-                "Solar cell",
-                "LED",
-                "Schottky diode"
-              ]
-            }
-          ]
-        }
-      ],
-      "links": [
-        {
-            "name": "EDC Unit 1 Diodes",
-            "link": "./resources/1st Year/EDC-Unit1.pdf"
-        },
-        {
-            "name": "EDC Unit 2 Diode Applications",
-            "link": "./resources/1st Year/EDC-Unit2.pdf"
-        },
-        {
-            "name": "EDC Unit 3 Bipolar Junction Transistor",
-            "link": "./resources/1st Year/EDC-Unit3.pdf"
-        },
-        {
-            "name": "EDC Unit 4 Junction Field Effect Transistor",
-            "link": "./resources/1st Year/EDC-Unit4.pdf"
-        },
-        {
-            "name": "EDC Unit 5 Special Purpose Devices",
-            "link": "./resources/1st Year/EDC-Unit5.pdf"
-        }
-      ]
-    }
-  ]
-  
+  {
+    "name": "ELECTRONIC DEVICES AND CIRCUITS",
+    "code": "EDC",
+    "units": [
+      {
+        "name": "UNIT - 1 Diodes",
+        "topics": [
+          {
+            "topic": "Diodes",
+            "subTopics": [
+              "Diode - Static and Dynamic resistances",
+              "Equivalent circuit",
+              "Diffusion and Transition Capacitances",
+              "V-I Characteristics",
+              "Diode as a switch - switching times"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 2 Diode Applications",
+        "topics": [
+          {
+            "topic": "Diode Applications",
+            "subTopics": [
+              "Rectifier - Half Wave Rectifier, Full Wave Rectifier, Bridge Rectifier",
+              "Rectifiers with Capacitive and Inductive Filters",
+              "Clippers-Clipping at two independent levels",
+              "Clamper-Clamping Circuit Theorem, Clamping Operation, Types of Clampers"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 3 Bipolar Junction Transistor",
+        "topics": [
+          {
+            "topic": "Bipolar Junction Transistor (BJT)",
+            "subTopics": [
+              "Principle of Operation",
+              "Common Emitter, Common Base and Common Collector Configurations",
+              "Transistor as a switch, switching times"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 4 Junction Field Effect Transistor",
+        "topics": [
+          {
+            "topic": "Junction Field Effect Transistor (FET)",
+            "subTopics": [
+              "Construction",
+              "Principle of Operation",
+              "Pinch-Off Voltage",
+              "Volt-Ampere Characteristic",
+              "Comparison of BJT and FET",
+              "FET as Voltage Variable Resistor",
+              "MOSFET",
+              "MOSTET as a capacitor"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 5 Special Purpose Devices",
+        "topics": [
+          {
+            "topic": "Special Purpose Devices",
+            "subTopics": [
+              "Zener Diode - Characteristics, Zener diode as Voltage Regulator, Principle of Operation",
+              "SCR",
+              "Tunnel diode",
+              "UJT",
+              "Varactor Diode",
+              "Photo diode",
+              "Solar cell",
+              "LED",
+              "Schottky diode"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "name": "EDC Unit 1 Diodes",
+        "link": "./resources/1st Year/EDC-Unit1.pdf"
+      },
+      {
+        "name": "EDC Unit 2 Diode Applications",
+        "link": "./resources/1st Year/EDC-Unit2.pdf"
+      },
+      {
+        "name": "EDC Unit 3 Bipolar Junction Transistor",
+        "link": "./resources/1st Year/EDC-Unit3.pdf"
+      },
+      {
+        "name": "EDC Unit 4 Junction Field Effect Transistor",
+        "link": "./resources/1st Year/EDC-Unit4.pdf"
+      },
+      {
+        "name": "EDC Unit 5 Special Purpose Devices",
+        "link": "./resources/1st Year/EDC-Unit5.pdf"
+      }
+    ]
+  }
+]

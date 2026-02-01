@@ -16,14 +16,14 @@ $(document).ready(function () {
   }
 
   var codeValue = getUrlParameter("code");
-  
-  if(!codeValue) {
-      $(".page-title").text("Subject Not Found");
-      $("main").html('<div class="glass-panel" style="text-align:center"><h3>No subject code provided.</h3></div>');
-      return;
+
+  if (!codeValue) {
+    $(".page-title").text("Subject Not Found");
+    $("main").html('<div class="glass-panel" style="text-align:center"><h3>No subject code provided.</h3></div>');
+    return;
   }
 
-  var filePath = "./info/" + codeValue + ".json"; 
+  var filePath = "./info/" + codeValue + ".json";
 
   $.getJSON(filePath, function (data) {
     var subjectData = data[0]; // Assuming array structure
@@ -39,7 +39,7 @@ $(document).ready(function () {
 
     $.each(subjectData.units, function (index, unit) {
       var row = $("<tr></tr>");
-      
+
       // Unit Name Column
       row.append("<td>" + casing(unit.name) + "</td>");
 
@@ -86,32 +86,32 @@ $(document).ready(function () {
       var index = $(this).data("index");
       var unit = subjectData.units[index];
       var unitInfo = $("#unitInfo");
-      
+
       // Clear and Rebuild
       unitInfo.empty();
       unitInfo.append("<h3>" + casing(unit.name) + "</h3>");
-      
+
       var topicsList = $("<ul></ul>");
-      
+
       $.each(unit.topics, function (i, topic) {
         var topicItem = $("<li><strong>" + topic.topic + "</strong></li>");
         var subTopicsList = $("<ul></ul>");
-        
+
         $.each(topic.subTopics, function (j, subTopic) {
           subTopicsList.append("<li>" + subTopic + "</li>");
         });
-        
+
         topicItem.append(subTopicsList);
         topicsList.append(topicItem);
       });
 
       unitInfo.append(topicsList);
-      
+
       // Show section and smooth scroll
       $(".info-section").fadeIn();
-      
+
       $('html, body').animate({
-          scrollTop: $(".info-section").offset().top - 80 // Offset for sticky navbar
+        scrollTop: $(".info-section").offset().top - 80 // Offset for sticky navbar
       }, 500);
     });
 

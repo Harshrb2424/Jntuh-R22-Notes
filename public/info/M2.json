@@ -1,108 +1,107 @@
 [
-    {
-      "name": "ORDINARY DIFFERENTIAL EQUATIONS AND VECTOR CALCULUS",
-      "code": "M2",
-      "units": [
-        {
-          "name": "UNIT 1 First Order ODE",
-          "topics": [
-            {
-              "topic": "First Order ODE",
-              "subTopics": [
-                "Exact differential equations",
-                "Equations reducible to exact differential equations",
-                "Linear and Bernoulli’s equations",
-                "Orthogonal Trajectories (only in Cartesian Coordinates)",
-                "Applications: Newton’s law of cooling, Law of natural growth and decay"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT 2 Ordinary Differential Equations of Higher Order",
-          "topics": [
-            {
-              "topic": "Ordinary Differential Equations of Higher Order",
-              "subTopics": [
-                "Second order linear differential equations with constant coefficients",
-                "Non-Homogeneous terms of the type 𝑒^𝑎𝑥, sin 𝑎𝑥, cos 𝑎𝑥, polynomials in 𝑥, 𝑒^𝑎𝑥V(𝑥) and 𝑥V(𝑥)",
-                "Method of variation of parameters",
-                "Equations reducible to linear ODE with constant coefficients: Legendre’s equation, Cauchy-Euler equation",
-                "Applications: Electric Circuits"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT 3 Laplace transforms",
-          "topics": [
-            {
-              "topic": "Laplace transforms",
-              "subTopics": [
-                "Laplace Transform of standard functions",
-                "First shifting theorem",
-                "Second shifting theorem",
-                "Unit step function",
-                "Dirac delta function",
-                "Laplace transforms of functions when they are multiplied and divided by ‘t’",
-                "Laplace transforms of derivatives and integrals of function",
-                "Evaluation of integrals by Laplace transforms",
-                "Laplace transform of periodic functions",
-                "Inverse Laplace transform by different methods",
-                "Convolution theorem (without proof)",
-                "Applications: solving Initial value problems by Laplace Transform method"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT 4 Vector Differentiation",
-          "topics": [
-            {
-              "topic": "Vector Differentiation",
-              "subTopics": [
-                "Vector point functions and scalar point functions",
-                "Gradient, Divergence and Curl",
-                "Directional derivatives",
-                "Tangent plane and normal line",
-                "Vector Identities",
-                "Scalar potential functions",
-                "Solenoidal and Irrotational vectors"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT 5 Vector Integration",
-          "topics": [
-            {
-              "topic": "Vector Integration",
-              "subTopics": [
-                "Line, Surface and Volume Integrals",
-                "Theorems of Green, Gauss and Stokes (without proofs) and their applications"
-              ]
-            }
-          ]
-        }
-      ],
-      "links": [
-        {
-            "name": "MA201 Unit 1 First Order Ode",
-            "link": "./resources/1st Year/MA201-Unit1.pdf"
-        },
-        {
-            "name": "MA201 Unit 3 Laplace Transforms",
-            "link": "./resources/1st Year/MA201-Unit3.pdf"
-        },
-        {
-            "name": "MA201 Unit 4 Vector Differentiation",
-            "link": "./resources/1st Year/MA201-Unit4.pdf"
-        },
-        {
-            "name": "MA201 Unit 5 Vector Integration",
-            "link": "./resources/1st Year/MA201-Unit5.pdf"
-        }
-      ]
-    }
-  ]
-  
+  {
+    "name": "ORDINARY DIFFERENTIAL EQUATIONS AND VECTOR CALCULUS",
+    "code": "M2",
+    "units": [
+      {
+        "name": "UNIT 1 First Order ODE",
+        "topics": [
+          {
+            "topic": "First Order ODE",
+            "subTopics": [
+              "Exact differential equations",
+              "Equations reducible to exact differential equations",
+              "Linear and Bernoulli’s equations",
+              "Orthogonal Trajectories (only in Cartesian Coordinates)",
+              "Applications: Newton’s law of cooling, Law of natural growth and decay"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT 2 Ordinary Differential Equations of Higher Order",
+        "topics": [
+          {
+            "topic": "Ordinary Differential Equations of Higher Order",
+            "subTopics": [
+              "Second order linear differential equations with constant coefficients",
+              "Non-Homogeneous terms of the type 𝑒^𝑎𝑥, sin 𝑎𝑥, cos 𝑎𝑥, polynomials in 𝑥, 𝑒^𝑎𝑥V(𝑥) and 𝑥V(𝑥)",
+              "Method of variation of parameters",
+              "Equations reducible to linear ODE with constant coefficients: Legendre’s equation, Cauchy-Euler equation",
+              "Applications: Electric Circuits"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT 3 Laplace transforms",
+        "topics": [
+          {
+            "topic": "Laplace transforms",
+            "subTopics": [
+              "Laplace Transform of standard functions",
+              "First shifting theorem",
+              "Second shifting theorem",
+              "Unit step function",
+              "Dirac delta function",
+              "Laplace transforms of functions when they are multiplied and divided by ‘t’",
+              "Laplace transforms of derivatives and integrals of function",
+              "Evaluation of integrals by Laplace transforms",
+              "Laplace transform of periodic functions",
+              "Inverse Laplace transform by different methods",
+              "Convolution theorem (without proof)",
+              "Applications: solving Initial value problems by Laplace Transform method"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT 4 Vector Differentiation",
+        "topics": [
+          {
+            "topic": "Vector Differentiation",
+            "subTopics": [
+              "Vector point functions and scalar point functions",
+              "Gradient, Divergence and Curl",
+              "Directional derivatives",
+              "Tangent plane and normal line",
+              "Vector Identities",
+              "Scalar potential functions",
+              "Solenoidal and Irrotational vectors"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT 5 Vector Integration",
+        "topics": [
+          {
+            "topic": "Vector Integration",
+            "subTopics": [
+              "Line, Surface and Volume Integrals",
+              "Theorems of Green, Gauss and Stokes (without proofs) and their applications"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "name": "MA201 Unit 1 First Order Ode",
+        "link": "./resources/1st Year/MA201-Unit1.pdf"
+      },
+      {
+        "name": "MA201 Unit 3 Laplace Transforms",
+        "link": "./resources/1st Year/MA201-Unit3.pdf"
+      },
+      {
+        "name": "MA201 Unit 4 Vector Differentiation",
+        "link": "./resources/1st Year/MA201-Unit4.pdf"
+      },
+      {
+        "name": "MA201 Unit 5 Vector Integration",
+        "link": "./resources/1st Year/MA201-Unit5.pdf"
+      }
+    ]
+  }
+]

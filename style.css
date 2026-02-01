@@ -1,15 +1,16 @@
 :root {
   /* Core Palette - Kept your original hues, adjusted for depth */
   --bg-color: #200518;
-  --bg-card: rgba(104, 152, 0, 0.1); /* Low opacity green for glass effect */
+  --bg-card: rgba(104, 152, 0, 0.1);
+  /* Low opacity green for glass effect */
   --text-primary: #ffffff;
   --text-secondary: #cccccc;
-  
+
   /* Accent Colors - Made slightly "Neon" for modern contrast */
-  --accent-lime: #8ad10c; 
+  --accent-lime: #8ad10c;
   --accent-glow: #a4f216;
   --accent-dark: #689800;
-  
+
   /* Layout */
   --card-radius: 16px;
   --transition-speed: 0.3s;
@@ -104,12 +105,12 @@ main {
   overflow-x: auto;
   padding-bottom: 10px;
   /* Hide scrollbar for clean look */
-  scrollbar-width: none; 
+  scrollbar-width: none;
   -ms-overflow-style: none;
 }
 
-.filter-scroll::-webkit-scrollbar { 
-    display: none; 
+.filter-scroll::-webkit-scrollbar {
+  display: none;
 }
 
 .filter-pill {
@@ -145,7 +146,7 @@ main {
 .subjects-grid {
   display: grid;
   /* Auto-fit creates responsive columns without media queries */
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); 
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 25px;
 }
 
@@ -169,8 +170,8 @@ main {
 .subject-card:hover {
   transform: translateY(-8px);
   border-color: var(--accent-lime);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 
-              0 0 20px rgba(138, 209, 12, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5),
+    0 0 20px rgba(138, 209, 12, 0.1);
 }
 
 .card-header {
@@ -229,7 +230,8 @@ main {
   line-height: 1.6;
   margin-bottom: 20px;
   display: -webkit-box;
-  -webkit-line-clamp: 3; /* Truncate text after 3 lines */
+  -webkit-line-clamp: 3;
+  /* Truncate text after 3 lines */
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -258,7 +260,8 @@ main {
 }
 
 .subject-card:hover .open-btn {
-  transform: rotate(-45deg); /* Arrow points up-right on hover */
+  transform: rotate(-45deg);
+  /* Arrow points up-right on hover */
 }
 
 /* --- Footer --- */
@@ -266,7 +269,7 @@ footer {
   text-align: center;
   padding: 40px 0;
   margin-top: auto;
-  border-top: 1px solid rgba(255,255,255,0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
   font-size: 0.9rem;
   color: var(--text-secondary);
 }
@@ -287,7 +290,17 @@ footer a {
 
 /* Responsive adjustments */
 @media screen and (max-width: 600px) {
-  .logo-container h1 { font-size: 1rem; }
-  .subjects-grid { grid-template-columns: 1fr; } /* 1 column on mobile */
-  .filter-pill { padding: 8px 18px; font-size: 0.85rem;}
+  .logo-container h1 {
+    font-size: 1rem;
+  }
+
+  .subjects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* 1 column on mobile */
+  .filter-pill {
+    padding: 8px 18px;
+    font-size: 0.85rem;
+  }
 }

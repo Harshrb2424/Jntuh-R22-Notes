@@ -35,16 +35,14 @@ $(document).ready(function () {
             <div class="card-header">
                 <h2>${subject.name}</h2>
                 <div class="badges">
-                    ${
-                      subject.year && subject.sem
-                        ? `<span class="badge badge-year">${subject.year}.${subject.sem}</span>`
-                        : ""
-                    }
-                    ${
-                      subject.credits
-                        ? `<span class="badge badge-credits">${subject.credits} Credits</span>`
-                        : ""
-                    }
+                    ${subject.year && subject.sem
+          ? `<span class="badge badge-year">${subject.year}.${subject.sem}</span>`
+          : ""
+        }
+                    ${subject.credits
+          ? `<span class="badge badge-credits">${subject.credits} Credits</span>`
+          : ""
+        }
                 </div>
             </div>
             
@@ -69,16 +67,16 @@ $(document).ready(function () {
 
     // Handle Card Click (Delegated event)
     $(".subject-card").off("click").on("click", function () {
-        // Extract code from class list (assuming logic: class="subject-card CS3101")
-        // NOTE: Ensure your JSON codes don't have spaces or match other class names
-        const classes = $(this).attr("class").split(/\s+/);
-        // Find the class that isn't 'subject-card' (Simple logic, can be improved based on JSON data structure)
-        const code = classes.find(c => c !== "subject-card");
-        
-        if(code) {
-             const redirectURL = `./public/?code=${code}`;
-             window.open(redirectURL, "_blank");
-        }
+      // Extract code from class list (assuming logic: class="subject-card CS3101")
+      // NOTE: Ensure your JSON codes don't have spaces or match other class names
+      const classes = $(this).attr("class").split(/\s+/);
+      // Find the class that isn't 'subject-card' (Simple logic, can be improved based on JSON data structure)
+      const code = classes.find(c => c !== "subject-card");
+
+      if (code) {
+        const redirectURL = `./public/?code=${code}`;
+        window.open(redirectURL, "_blank");
+      }
     });
   }
 
@@ -86,8 +84,8 @@ $(document).ready(function () {
   $.getJSON(filePath, function (data) {
     subjectsData = data;
     displaySubjects(subjectsData); // Show all initially
-  }).fail(function() {
-      $grid.html('<div class="loading-state"><p>Error loading data.</p></div>');
+  }).fail(function () {
+    $grid.html('<div class="loading-state"><p>Error loading data.</p></div>');
   });
 
   // Filter Logic
@@ -103,7 +101,7 @@ $(document).ready(function () {
     } else {
       // Logic: filterValue is string "3.1", split into numbers
       const [year, sem] = filterValue.toString().split(".").map(Number);
-      
+
       const filtered = subjectsData.filter(
         (s) => s.year === year && s.sem === sem
       );

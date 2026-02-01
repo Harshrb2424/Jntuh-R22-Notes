@@ -1,129 +1,129 @@
 [
-    {
-      "name": "Natural Language Processing",
-      "code": "AM603PC",
-      "units": [
-        {
-          "name": "UNIT - 1: Finding the Structure of Words and Documents",
-          "topics": [
-            {
-              "topic": "Finding the Structure of Words",
-              "subTopics": [
-                "Words and Their Components",
-                "Issues and Challenges",
-                "Morphological Models"
-              ]
-            },
-            {
-              "topic": "Finding the Structure of Documents",
-              "subTopics": [
-                "Introduction",
-                "Methods",
-                "Complexity of the Approaches",
-                "Performances of the Approaches",
-                "Features"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 2: Syntax I",
-          "topics": [
-            {
-              "topic": "Syntax I",
-              "subTopics": [
-                "Parsing Natural Language",
-                "Treebanks: A Data-Driven Approach to Syntax",
-                "Representation of Syntactic Structure",
-                "Parsing Algorithms"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 3: Syntax II and Semantic Parsing I",
-          "topics": [
-            {
-              "topic": "Syntax II",
-              "subTopics": [
-                "Models for Ambiguity Resolution in Parsing",
-                "Multilingual Issues"
-              ]
-            },
-            {
-              "topic": "Semantic Parsing I",
-              "subTopics": [
-                "Introduction",
-                "Semantic Interpretation",
-                "System Paradigms",
-                "Word Sense"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 4: Semantic Parsing II",
-          "topics": [
-            {
-              "topic": "Semantic Parsing II",
-              "subTopics": [
-                "Predicate-Argument Structure",
-                "Meaning Representation Systems"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UNIT - 5: Language Modeling",
-          "topics": [
-            {
-              "topic": "Language Modeling",
-              "subTopics": [
-                "Introduction",
-                "N-Gram Models",
-                "Language Model Evaluation",
-                "Bayesian parameter estimation",
-                "Language Model Adaptation",
-                "Language Models - class based, variable length, Bayesian topic based",
-                "Multilingual and Cross Lingual Language Modeling"
-              ]
-            }
-          ]
-        }
-      ],
-      "links": [
-        {
-          "name": "NLP Handbook Second Edition Chapman & Hall CRC",
-          "link": "./resources/3rd Year/NLP Handbook Second Edition Chapman & Hall CRC.pdf"
-        },
-        {
-          "name": "NLP Unit 1: Finding the Structure of Words and Documents",
-          "link": "./resources/3rd Year/NLP Unit 1.pdf"
-        },
-        {
-          "name": "NLP Unit 1 (Part 2): Finding the Structure of Words and Documents",
-          "link": "./resources/3rd Year/NLP Unit 1.2.pdf"
-        },
-        {
-          "name": "NLP Unit 2: Syntax I",
-          "link": "./resources/3rd Year/NLP Unit 2.pdf"
-        },
-        {
-          "name": "NLP Imp QnA Unit 1,2,3",
-          "link": "./resources/3rd Year/NLP Imp QnA Unit 1,2,3.pdf"
-        },
-        {
-          "name": "NLP Unit 3",
-          "link": "./resources/3rd Year/NLP Unit 2.pdf"
-        },
-        {
-          "name": "NLP Unit 4",
-          "link": "./resources/3rd Year/NLP Unit 4.pdf"
-        },
-        {
-          "name": "NLP Unit 5",
-          "link": "./resources/3rd Year/NLP Unit 5.pdf"
-        }
-      ]
-    }
-  ]
+  {
+    "name": "Natural Language Processing",
+    "code": "AM603PC",
+    "units": [
+      {
+        "name": "UNIT - 1: Finding the Structure of Words and Documents",
+        "topics": [
+          {
+            "topic": "Finding the Structure of Words",
+            "subTopics": [
+              "Words and Their Components",
+              "Issues and Challenges",
+              "Morphological Models"
+            ]
+          },
+          {
+            "topic": "Finding the Structure of Documents",
+            "subTopics": [
+              "Introduction",
+              "Methods",
+              "Complexity of the Approaches",
+              "Performances of the Approaches",
+              "Features"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 2: Syntax I",
+        "topics": [
+          {
+            "topic": "Syntax I",
+            "subTopics": [
+              "Parsing Natural Language",
+              "Treebanks: A Data-Driven Approach to Syntax",
+              "Representation of Syntactic Structure",
+              "Parsing Algorithms"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 3: Syntax II and Semantic Parsing I",
+        "topics": [
+          {
+            "topic": "Syntax II",
+            "subTopics": [
+              "Models for Ambiguity Resolution in Parsing",
+              "Multilingual Issues"
+            ]
+          },
+          {
+            "topic": "Semantic Parsing I",
+            "subTopics": [
+              "Introduction",
+              "Semantic Interpretation",
+              "System Paradigms",
+              "Word Sense"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 4: Semantic Parsing II",
+        "topics": [
+          {
+            "topic": "Semantic Parsing II",
+            "subTopics": [
+              "Predicate-Argument Structure",
+              "Meaning Representation Systems"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT - 5: Language Modeling",
+        "topics": [
+          {
+            "topic": "Language Modeling",
+            "subTopics": [
+              "Introduction",
+              "N-Gram Models",
+              "Language Model Evaluation",
+              "Bayesian parameter estimation",
+              "Language Model Adaptation",
+              "Language Models - class based, variable length, Bayesian topic based",
+              "Multilingual and Cross Lingual Language Modeling"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "name": "NLP Handbook Second Edition Chapman & Hall CRC",
+        "link": "./resources/3rd Year/NLP Handbook Second Edition Chapman & Hall CRC.pdf"
+      },
+      {
+        "name": "NLP Unit 1: Finding the Structure of Words and Documents",
+        "link": "./resources/3rd Year/NLP Unit 1.pdf"
+      },
+      {
+        "name": "NLP Unit 1 (Part 2): Finding the Structure of Words and Documents",
+        "link": "./resources/3rd Year/NLP Unit 1.2.pdf"
+      },
+      {
+        "name": "NLP Unit 2: Syntax I",
+        "link": "./resources/3rd Year/NLP Unit 2.pdf"
+      },
+      {
+        "name": "NLP Imp QnA Unit 1,2,3",
+        "link": "./resources/3rd Year/NLP Imp QnA Unit 1,2,3.pdf"
+      },
+      {
+        "name": "NLP Unit 3",
+        "link": "./resources/3rd Year/NLP Unit 2.pdf"
+      },
+      {
+        "name": "NLP Unit 4",
+        "link": "./resources/3rd Year/NLP Unit 4.pdf"
+      },
+      {
+        "name": "NLP Unit 5",
+        "link": "./resources/3rd Year/NLP Unit 5.pdf"
+      }
+    ]
+  }
+]

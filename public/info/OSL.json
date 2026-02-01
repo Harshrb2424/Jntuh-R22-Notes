@@ -1,70 +1,69 @@
 [
-    {
-      "name": "OPERATING SYSTEMS LAB",
-      "code": "OSL",
-      "units": [
-        {
-          "name": "List of Experiments",
-          "topics": [
-            {
-              "topic": "1. Write C programs to simulate the following CPU Scheduling algorithms",
-              "subTopics": [
-                "a) FCFS",
-                "b) SJF",
-                "c) Round Robin",
-                "d) priority"
-              ]
-            },
-            {
-              "topic": "2. Write programs using the I/O system calls of UNIX/LINUX operating system",
-              "subTopics": [
-                "a) open",
-                "b) read",
-                "c) write",
-                "d) close",
-                "e) fcntl",
-                "f) seek",
-                "g) stat",
-                "h) opendir",
-                "i) readdir"
-              ]
-            },
-            {
-              "topic": "3. Write a C program to simulate Bankers Algorithm for Deadlock Avoidance and Prevention.",
-              "subTopics": []
-            },
-            {
-              "topic": "4. Write a C program to implement the Producer – Consumer problem using semaphores using UNIX/LINUX system calls.",
-              "subTopics": []
-            },
-            {
-              "topic": "5. Write C programs to illustrate the following IPC mechanisms",
-              "subTopics": [
-                "a) Pipes",
-                "b) FIFOs",
-                "c) Message Queues",
-                "d) Shared Memory"
-              ]
-            },
-            {
-              "topic": "6. Write C programs to simulate the following memory management techniques",
-              "subTopics": [
-                "a) Paging",
-                "b) Segmentation"
-              ]
-            },
-            {
-              "topic": "7. Write C programs to simulate Page replacement policies",
-              "subTopics": [
-                "a) FCFS",
-                "b) LRU",
-                "c) Optimal"
-              ]
-            }
-          ]
-        }
-      ],
-      "links": []
-    }
-  ]
-  
+  {
+    "name": "OPERATING SYSTEMS LAB",
+    "code": "OSL",
+    "units": [
+      {
+        "name": "List of Experiments",
+        "topics": [
+          {
+            "topic": "1. Write C programs to simulate the following CPU Scheduling algorithms",
+            "subTopics": [
+              "a) FCFS",
+              "b) SJF",
+              "c) Round Robin",
+              "d) priority"
+            ]
+          },
+          {
+            "topic": "2. Write programs using the I/O system calls of UNIX/LINUX operating system",
+            "subTopics": [
+              "a) open",
+              "b) read",
+              "c) write",
+              "d) close",
+              "e) fcntl",
+              "f) seek",
+              "g) stat",
+              "h) opendir",
+              "i) readdir"
+            ]
+          },
+          {
+            "topic": "3. Write a C program to simulate Bankers Algorithm for Deadlock Avoidance and Prevention.",
+            "subTopics": []
+          },
+          {
+            "topic": "4. Write a C program to implement the Producer – Consumer problem using semaphores using UNIX/LINUX system calls.",
+            "subTopics": []
+          },
+          {
+            "topic": "5. Write C programs to illustrate the following IPC mechanisms",
+            "subTopics": [
+              "a) Pipes",
+              "b) FIFOs",
+              "c) Message Queues",
+              "d) Shared Memory"
+            ]
+          },
+          {
+            "topic": "6. Write C programs to simulate the following memory management techniques",
+            "subTopics": [
+              "a) Paging",
+              "b) Segmentation"
+            ]
+          },
+          {
+            "topic": "7. Write C programs to simulate Page replacement policies",
+            "subTopics": [
+              "a) FCFS",
+              "b) LRU",
+              "c) Optimal"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+]

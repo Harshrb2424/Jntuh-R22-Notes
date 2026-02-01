@@ -1,42 +1,41 @@
 [
-    {
-      "name": "SOFTWARE ENGINEERING LAB",
-      "code": "SEL",
-      "units": [
-        {
-          "name": "List of Experiments",
-          "topics": [
-            {
-              "topic": "Do the following seven exercises for any two projects given in the list of sample projects or any other Projects:",
-              "subTopics": [
-                "1. Development of problem statements.",
-                "2. Preparation of Software Requirement Specification Document, Design Documents and Testing Phase related documents.",
-                "3. Preparation of Software Configuration Management and Risk Management related documents.",
-                "4. Study and usage of any Design phase CASE tool",
-                "5. Performing the Design by using any Design phase CASE tools.",
-                "6. Develop test cases for unit testing and integration testing",
-                "7. Develop test cases for various white box and black box testing techniques."
-              ]
-            },
-            {
-              "topic": "Sample Projects:",
-              "subTopics": [
-                "1. Passport automation System",
-                "2. Book Bank",
-                "3. Online Exam Registration",
-                "4. Stock Maintenance System",
-                "5. Online course reservation system",
-                "6. E-ticketing",
-                "7. Software Personnel Management System",
-                "8. Credit Card Processing",
-                "9. E-book management System.",
-                "10. Recruitment system"
-              ]
-            }
-          ]
-        }
-      ],
-      "links": []
-    }
-  ]
-  
+  {
+    "name": "SOFTWARE ENGINEERING LAB",
+    "code": "SEL",
+    "units": [
+      {
+        "name": "List of Experiments",
+        "topics": [
+          {
+            "topic": "Do the following seven exercises for any two projects given in the list of sample projects or any other Projects:",
+            "subTopics": [
+              "1. Development of problem statements.",
+              "2. Preparation of Software Requirement Specification Document, Design Documents and Testing Phase related documents.",
+              "3. Preparation of Software Configuration Management and Risk Management related documents.",
+              "4. Study and usage of any Design phase CASE tool",
+              "5. Performing the Design by using any Design phase CASE tools.",
+              "6. Develop test cases for unit testing and integration testing",
+              "7. Develop test cases for various white box and black box testing techniques."
+            ]
+          },
+          {
+            "topic": "Sample Projects:",
+            "subTopics": [
+              "1. Passport automation System",
+              "2. Book Bank",
+              "3. Online Exam Registration",
+              "4. Stock Maintenance System",
+              "5. Online course reservation system",
+              "6. E-ticketing",
+              "7. Software Personnel Management System",
+              "8. Credit Card Processing",
+              "9. E-book management System.",
+              "10. Recruitment system"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+]

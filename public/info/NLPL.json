@@ -1,74 +1,74 @@
 [
-    {
-      "name": "Natural Language Processing Lab",
-      "code": "AM604PC",
-      "units": [
-        {
-          "name": "List of Experiments",
-          "topics": [
-            {
-              "topic": "Experiment 1: Text Processing",
-              "subTopics": [
-                "a) Tokenization",
-                "b) Stop word Removal"
-              ]
-            },
-            {
-              "topic": "Experiment 2: Stemming",
-              "subTopics": [
-                "Implement Porter stemmer algorithm for stemming"
-              ]
-            },
-            {
-              "topic": "Experiment 3: Word Analysis and Generation",
-              "subTopics": [
-                "a) Word Analysis",
-                "b) Word Generation"
-              ]
-            },
-            {
-              "topic": "Experiment 4: Word Sense Disambiguation (WSD)",
-              "subTopics": [
-                "Create a Sample list for at least 5 words with ambiguous sense",
-                "Implement WSD"
-              ]
-            },
-            {
-              "topic": "Experiment 5: NLTK Toolkit - Stemming",
-              "subTopics": [
-                "Install NLTK tool kit and perform stemming"
-              ]
-            },
-            {
-              "topic": "Experiment 6: POS Tagging",
-              "subTopics": [
-                "Create Sample list of at least 10 words for POS tagging",
-                "Find the POS for any given word"
-              ]
-            },
-            {
-              "topic": "Experiment 7: Morphological Analysis and N-Grams",
-              "subTopics": [
-                "a) Perform Morphological Analysis using NLTK library",
-                "b) Generate n-grams using NLTK N-Grams library",
-                "c) Implement N-Grams Smoothing"
-              ]
-            },
-            {
-              "topic": "Experiment 8: Audio and Text Conversion",
-              "subTopics": [
-                "Using NLTK package to convert audio file to text",
-                "Using NLTK package to convert text file to audio files"
-              ]
-            }
-          ]
-        }
-      ],
-      "links": [
-        {
-          "name": "NLP Lab Manual",
-          "link": "./resources/3rd Year/NLP Lab Manual.pdf"
-        }
-      ]
-    }
-  ]
+  {
+    "name": "Natural Language Processing Lab",
+    "code": "AM604PC",
+    "units": [
+      {
+        "name": "List of Experiments",
+        "topics": [
+          {
+            "topic": "Experiment 1: Text Processing",
+            "subTopics": [
+              "a) Tokenization",
+              "b) Stop word Removal"
+            ]
+          },
+          {
+            "topic": "Experiment 2: Stemming",
+            "subTopics": [
+              "Implement Porter stemmer algorithm for stemming"
+            ]
+          },
+          {
+            "topic": "Experiment 3: Word Analysis and Generation",
+            "subTopics": [
+              "a) Word Analysis",
+              "b) Word Generation"
+            ]
+          },
+          {
+            "topic": "Experiment 4: Word Sense Disambiguation (WSD)",
+            "subTopics": [
+              "Create a Sample list for at least 5 words with ambiguous sense",
+              "Implement WSD"
+            ]
+          },
+          {
+            "topic": "Experiment 5: NLTK Toolkit - Stemming",
+            "subTopics": [
+              "Install NLTK tool kit and perform stemming"
+            ]
+          },
+          {
+            "topic": "Experiment 6: POS Tagging",
+            "subTopics": [
+              "Create Sample list of at least 10 words for POS tagging",
+              "Find the POS for any given word"
+            ]
+          },
+          {
+            "topic": "Experiment 7: Morphological Analysis and N-Grams",
+            "subTopics": [
+              "a) Perform Morphological Analysis using NLTK library",
+              "b) Generate n-grams using NLTK N-Grams library",
+              "c) Implement N-Grams Smoothing"
+            ]
+          },
+          {
+            "topic": "Experiment 8: Audio and Text Conversion",
+            "subTopics": [
+              "Using NLTK package to convert audio file to text",
+              "Using NLTK package to convert text file to audio files"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "name": "NLP Lab Manual",
+        "link": "./resources/3rd Year/NLP Lab Manual.pdf"
+      }
+    ]
+  }
+]

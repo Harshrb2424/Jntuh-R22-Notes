@@ -83,7 +83,7 @@ main {
 .section-header h2 {
     margin-top: 0;
     font-size: 1.5rem;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     padding-bottom: 15px;
     margin-bottom: 20px;
 }
@@ -127,7 +127,8 @@ main {
 .styled-table {
     width: 100%;
     border-collapse: separate;
-    border-spacing: 0 10px; /* Gap between rows */
+    border-spacing: 0 10px;
+    /* Gap between rows */
 }
 
 .styled-table th {
@@ -152,21 +153,21 @@ main {
 .styled-table td {
     padding: 20px 15px;
     font-family: 'Rubik', sans-serif;
-    border-top: 1px solid rgba(255,255,255,0.05);
-    border-bottom: 1px solid rgba(255,255,255,0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 /* Rounded corners for rows */
 .styled-table td:first-child {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    border-left: 1px solid rgba(255,255,255,0.05);
+    border-left: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .styled-table td:last-child {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    border-right: 1px solid rgba(255,255,255,0.05);
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .action-btn {
@@ -195,14 +196,14 @@ main {
     padding-left: 0;
 }
 
-#unitInfo > ul > li {
+#unitInfo>ul>li {
     margin-bottom: 15px;
-    background: rgba(0,0,0,0.2);
+    background: rgba(0, 0, 0, 0.2);
     padding: 15px;
     border-radius: 8px;
 }
 
-#unitInfo > ul > li > ul {
+#unitInfo>ul>li>ul {
     margin-top: 10px;
     padding-left: 20px;
     list-style: disc;
@@ -218,7 +219,7 @@ main {
 footer {
     margin-top: auto;
     padding: 20px;
-    border-top: 1px solid rgba(255,255,255,0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
     text-align: center;
 }
 
@@ -239,7 +240,8 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    .styled-table th:nth-child(2), 
+
+    .styled-table th:nth-child(2),
     .styled-table td:nth-child(2) {
         text-align: right;
     }
