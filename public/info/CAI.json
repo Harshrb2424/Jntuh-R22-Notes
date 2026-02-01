@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Conversational AI",
+    "code": "M865PE",
+    "units": [
+      {
+        "name": "UNIT 1: INTRODUCING DIALOGUE SYSTEMS",
+        "topics": [
+          {
+            "topic": "Dialogue Systems Overview",
+            "subTopics": [
+              "Introduction of dialogue systems",
+              "History of dialogue systems",
+              "Present-day dialogue systems"
+            ]
+          },
+          {
+            "topic": "Conversation Modeling",
+            "subTopics": [
+              "Modeling conversation dialogue systems",
+              "Designing dialogue systems",
+              "Developing dialogue systems"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT 2: RULE-BASED DIALOGUE SYSTEMS",
+        "topics": [
+          {
+            "topic": "Architecture and Design",
+            "subTopics": [
+              "Dialogue systems architecture",
+              "Designing a dialogue system",
+              "Tools for developing dialogue systems"
+            ]
+          },
+          {
+            "topic": "Rule-Based Techniques",
+            "subTopics": [
+              "Rule-based techniques in dialogue systems",
+              "Participating in the Alexa Prize"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT 3: STATISTICAL DATA-DRIVEN DIALOGUE SYSTEMS",
+        "topics": [
+          {
+            "topic": "Statistical Approaches",
+            "subTopics": [
+              "Motivating the statistical data-driven approach",
+              "Dialogue components in statistical data-driven systems"
+            ]
+          },
+          {
+            "topic": "Reinforcement Learning for Dialogue",
+            "subTopics": [
+              "Reinforcement learning (RL)",
+              "Representing dialogue as a Markov Decision Process (MDP)",
+              "From MDPs to POMDPs",
+              "Dialogue state tracking",
+              "Dialogue policy",
+              "Problems and issues with reinforcement learning in POMDPs"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT 4: EVALUATING DIALOGUE SYSTEMS",
+        "topics": [
+          {
+            "topic": "Evaluation Process",
+            "subTopics": [
+              "Process of evaluation",
+              "Best ways to evaluate dialogue systems"
+            ]
+          },
+          {
+            "topic": "Evaluation Types and Frameworks",
+            "subTopics": [
+              "Evaluating task-oriented dialogue systems",
+              "Evaluating open-domain dialogue systems",
+              "Evaluation frameworks: PARADISE",
+              "Quality of Experience (QoE)",
+              "Interaction quality"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT 5: END-TO-END NEURAL DIALOGUE SYSTEMS",
+        "topics": [
+          {
+            "topic": "Neural Dialogue Modeling",
+            "subTopics": [
+              "Neural network approaches to dialogue modeling",
+              "A neural conversational model",
+              "Introduction to neural dialogue technology"
+            ]
+          },
+          {
+            "topic": "Response Generation and Applications",
+            "subTopics": [
+              "Retrieval-based response generation",
+              "Task-oriented neural dialogue systems",
+              "Open-domain neural dialogue systems",
+              "Issues and current solutions"
+            ]
+          },
+          {
+            "topic": "Datasets and Challenges",
+            "subTopics": [
+              "Dialogue system datasets",
+              "Competitions",
+              "Tasks and challenges in dialogue systems"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+]

@@ -1107,11 +1107,11 @@
       "Elective"
     ],
     "info": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Introduction To Social Network Analysis",
+      "Network Analysis Tools And Techniques",
+      "Case Studies – Communication Networks",
+      "Online Social Networks",
+      "Content And Collaboration Networks"
     ]
   },
   {
@@ -1124,11 +1124,11 @@
       "Elective"
     ],
     "info": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Introducing Dialogue Systems",
+      "Rule-based Dialogue Systems",
+      "Statistical Data-driven Dialogue Systems",
+      "Evaluating Dialogue Systems",
+      "End-to-end Neural Dialogue Systems"
     ]
   },
   {
@@ -1141,28 +1141,11 @@
       "Elective"
     ],
     "info": [
-      "",
-      "",
-      "",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": "Project Stage - II including Seminar",
-    "code": "AM801PC",
-    "year": 4,
-    "sem": 2,
-    "credits": 11,
-    "tags": [
-      "Project"
-    ],
-    "info": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Information Theory",
+      "Wireless Communication Technologies",
+      "Cellular Mobile Networks",
+      "Free Space Optical Communications",
+      "Network Security And Management"
     ]
   }
 ]

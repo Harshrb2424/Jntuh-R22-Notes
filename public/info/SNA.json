@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Social Network Analysis",
+    "code": "AM851PE",
+    "units": [
+      {
+        "name": "UNIT 1: INTRODUCTION TO SOCIAL NETWORK ANALYSIS",
+        "topics": [
+          {
+            "topic": "Introduction",
+            "subTopics": [
+              "Social media and social networks",
+              "Basics of social network analysis",
+              "Measuring social networks",
+              "Mapping social networks",
+              "Modelling collections of connections"
+            ]
+          },
+          {
+            "topic": "Social Media",
+            "subTopics": [
+              "New technologies of collaboration",
+              "Role of social media platforms",
+              "Evolution of online social interaction"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT 2: NETWORK ANALYSIS TOOLS AND TECHNIQUES",
+        "topics": [
+          {
+            "topic": "NodeXL",
+            "subTopics": [
+              "Introduction to NodeXL",
+              "Preparing data",
+              "Filtering network data"
+            ]
+          },
+          {
+            "topic": "Network Visualization",
+            "subTopics": [
+              "Layout techniques",
+              "Visual design principles",
+              "Labelling networks"
+            ]
+          },
+          {
+            "topic": "Network Metrics",
+            "subTopics": [
+              "Calculating network metrics",
+              "Visualising network metrics",
+              "Clustering and grouping"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT 3: CASE STUDIES – COMMUNICATION NETWORKS",
+        "topics": [
+          {
+            "topic": "Email Networks",
+            "subTopics": [
+              "Email as modern communication",
+              "Structure of email networks",
+              "Analysis of email interactions"
+            ]
+          },
+          {
+            "topic": "Thread Networks",
+            "subTopics": [
+              "Message boards",
+              "Email lists",
+              "Mapping threaded conversations"
+            ]
+          },
+          {
+            "topic": "Twitter Networks",
+            "subTopics": [
+              "Twitter as a social network",
+              "Conversation networks",
+              "Entertainment and information diffusion"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT 4: CASE STUDIES – ONLINE SOCIAL NETWORKS",
+        "topics": [
+          {
+            "topic": "Facebook Networks",
+            "subTopics": [
+              "Visualizing Facebook networks",
+              "Interpreting social connections",
+              "Community structures"
+            ]
+          },
+          {
+            "topic": "WWW Hyperlink Networks",
+            "subTopics": [
+              "Structure of the World Wide Web",
+              "Hyperlink analysis",
+              "Network interpretation"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UNIT 5: CASE STUDIES – CONTENT AND COLLABORATION NETWORKS",
+        "topics": [
+          {
+            "topic": "YouTube Networks",
+            "subTopics": [
+              "Patterns of content interaction",
+              "Popularity and prominence",
+              "User engagement networks"
+            ]
+          },
+          {
+            "topic": "Wiki Networks",
+            "subTopics": [
+              "Collaborative content creation",
+              "Creativity and collaboration networks",
+              "Link structures in wikis"
+            ]
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+]
