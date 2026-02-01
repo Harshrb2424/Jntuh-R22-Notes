@@ -905,7 +905,13 @@
     "tags": [
       "Elective"
     ],
-    "info": []
+    "info": [
+      "Introduction And Flow Graphs And Path Testing",
+      "Transaction Flow Testing, Data Flow Testing, And Domain Testing",
+      "Paths, Path Products, Regular Expressions, And Logic-based Testing",
+      "State, State Graphs, And Transition Testing",
+      "Graph Matrices And Applications"
+    ]
   },
   {
     "name": "Open Elective-I",
@@ -916,7 +922,13 @@
     "tags": [
       "Elective"
     ],
-    "info": []
+    "info": [
+      "Number Systems And Boolean Algebra",
+      "Minimization Of Boolean Functions And Combinational Logic Circuits",
+      "Sequential Circuits Fundamentals",
+      "Realization Of Logic Gates And Logic Families",
+      "Integrated Circuits"
+    ]
   },
   {
     "name": "Natural Language Processing Lab",
@@ -938,18 +950,16 @@
     "tags": [
       "Laboratory"
     ],
-    "info": []
-  },
-  {
-    "name": "Industrial Oriented Mini Project/ Internship/Skill Development Course (DevOps)",
-    "code": "AM606PC",
-    "year": 3,
-    "sem": 2,
-    "credits": 2,
-    "tags": [
-      "Project"
-    ],
-    "info": []
+    "info": [
+      "Text Processing",
+      "Stemming",
+      "Word Analysis and Generation",
+      "Word Sense Disambiguation (WSD)",
+      "NLTK Toolkit - Stemming",
+      "POS Tagging",
+      "Morphological Analysis and N-Grams",
+      "Audio and Text Conversion"
+    ]
   },
   {
     "name": "Environmental Science",
@@ -960,7 +970,13 @@
     "tags": [
       "Management"
     ],
-    "info": []
+    "info": [
+      "Ecosystems",
+      "Natural Resources",
+      "Biodiversity And Biotic Resources",
+      "Environmental Pollution And Control Technologies",
+      "Environmental Policy, Legislation & Eia"
+    ]
   },
   {
     "name": "Deep Learning",
@@ -971,7 +987,13 @@
     "tags": [
       "Specialized Computer Science"
     ],
-    "info": []
+    "info": [
+      "Machine Learning Basics And Deep Feedforward Networks",
+      "Regularization And Optimization For Deep Learning",
+      "Convolutional Neural Networks",
+      "Recurrent And Recursive Networks",
+      "Practical Methodology And Applications"
+    ]
   },
   {
     "name": "Nature Inspired Computing",
@@ -982,7 +1004,13 @@
     "tags": [
       "Specialized Computer Science"
     ],
-    "info": []
+    "info": [
+      "Evolutionary Computing",
+      "Neurocomputing",
+      "Swarm Intelligence",
+      "Immunocomputing",
+      "Case Studies And Applications"
+    ]
   },
   {
     "name": "Data Mining: Professional Elective - III",
@@ -993,7 +1021,13 @@
     "tags": [
       "Elective"
     ],
-    "info": []
+    "info": [
+      "Introduction To Data Mining",
+      "Association Analysis",
+      "Classification",
+      "Cluster Analysis And Outlier Detection",
+      "Advanced Data Mining Concepts"
+    ]
   },
   {
     "name": "SEMANTIC WEB: Professional Elective - IV",
@@ -1004,7 +1038,13 @@
     "tags": [
       "Elective"
     ],
-    "info": []
+    "info": [
+      "Introduction To Semantic Web",
+      "Web Services",
+      "Resource Description Framework & Xml Technologies",
+      "Taxonomies And Ontologies",
+      "Semantic Web Applications And Search Technologies"
+    ]
   },
   {
     "name": "Electronic Sensors: Open Elective - II",
@@ -1015,7 +1055,13 @@
     "tags": [
       "Elective"
     ],
-    "info": []
+    "info": [
+      "Sensors / Transducers: Principles, Classification, Parameters, Characteristics",
+      "Thermal Sensors",
+      "Magnetic Sensors",
+      "Radiation And Electroanalytical Sensors",
+      "Smart Sensors And Applications"
+    ]
   },
   {
     "name": "Professional Practice, Law & Ethics",
@@ -1026,7 +1072,13 @@
     "tags": [
       "Management"
     ],
-    "info": []
+    "info": [
+      "Professional Practice And Ethics",
+      "Law Of Contract",
+      "Arbitration, Conciliation And Adr",
+      "Arbitration Agreements And Tribunal Procedures",
+      "Intellectual Property Law"
+    ]
   },
   {
     "name": "Data Mining Lab: Professional Elective - III Lab",
@@ -1037,7 +1089,13 @@
     "tags": [
       "Laboratory"
     ],
-    "info": []
+    "info": [
+      "Data Processing Techniques",
+      "Data Warehouse Schemas",
+      "ETL Operations",
+      "Apriori Algorithm",
+      "Naive Bayes Classification"
+    ]
   },
   {
     "name": "Social Netowrk Analysis: Professional Elective - V",
@@ -1048,7 +1106,13 @@
     "tags": [
       "Elective"
     ],
-    "info": []
+    "info": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
   },
   {
     "name": "Conversational AI: Professional Elective - VI",
@@ -1059,7 +1123,13 @@
     "tags": [
       "Elective"
     ],
-    "info": []
+    "info": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
   },
   {
     "name": "Communication Technologoes: Open Elective - III",
@@ -1070,7 +1140,13 @@
     "tags": [
       "Elective"
     ],
-    "info": []
+    "info": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
   },
   {
     "name": "Project Stage - II including Seminar",
@@ -1081,6 +1157,12 @@
     "tags": [
       "Project"
     ],
-    "info": []
+    "info": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
   }
 ]
