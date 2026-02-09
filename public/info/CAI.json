@@ -120,6 +120,19 @@
         ]
       }
     ],
-    "links": []
+    "links": [
+      {
+        "name": "CAI Unit 1: Introducing Dialogue Systems",
+        "link": "https://any.coop/A7XFJbCj2ucbxQDUNaH8BZHXM1Kssh1SyK12MxZ545gqqfY8/cai-unit-1-introducing-dialogue-systems"
+      },
+      {
+        "name": "CAI Unit 2: Rule-based Dialogue Systems",
+        "link": "https://any.coop/A7XFJbCj2ucbxQDUNaH8BZHXM1Kssh1SyK12MxZ545gqqfY8/cai-unit-2-rule-based-dialogue-systems"
+      },
+      {
+        "name": "CAI Unit 3: Statistical Data-driven Dialogue Systems",
+        "link": "https://any.coop/A7XFJbCj2ucbxQDUNaH8BZHXM1Kssh1SyK12MxZ545gqqfY8/cai-unit-3-statistical-data-driven-dialogue-systems"
+      }
+    ]
   }
 ]
