@@ -3,9 +3,25 @@ $(document).ready(function () {
   let subjectsData = [];
   const $grid = $(".subjects-grid");
 
+  const STORAGE_KEY = "selected_filter";
+
+  function applyFilter(filterValue) {
+    localStorage.setItem(STORAGE_KEY, filterValue);
+    $(".filter-pill").removeClass("active");
+    $(`.filter-pill[data-filter="${filterValue}"]`).addClass("active");
+
+    if (filterValue === "all") {
+      displaySubjects(subjectsData);
+    } else {
+      const [year, sem] = filterValue.toString().split(".").map(Number);
+      const filtered = subjectsData.filter(s => s.year === year && s.sem === sem);
+      displaySubjects(filtered);
+    }
+  }
+
   // Function to render subject cards
   function displaySubjects(subjects) {
-    $grid.empty(); // Clear current content
+    $grid.empty();
 
     if (subjects.length === 0) {
       $grid.append(
@@ -67,15 +83,12 @@ $(document).ready(function () {
 
     // Handle Card Click (Delegated event)
     $(".subject-card").off("click").on("click", function () {
-      // Extract code from class list (assuming logic: class="subject-card CS3101")
-      // NOTE: Ensure your JSON codes don't have spaces or match other class names
       const classes = $(this).attr("class").split(/\s+/);
-      // Find the class that isn't 'subject-card' (Simple logic, can be improved based on JSON data structure)
       const code = classes.find(c => c !== "subject-card");
 
       if (code) {
         const redirectURL = `./public/?code=${code}`;
-        window.open(redirectURL, "_blank");
+        window.open(redirectURL, "_self");
       }
     });
   }
@@ -83,29 +96,17 @@ $(document).ready(function () {
   // Fetch JSON
   $.getJSON(filePath, function (data) {
     subjectsData = data;
-    displaySubjects(subjectsData); // Show all initially
+
+    const savedFilter = localStorage.getItem(STORAGE_KEY) || "all";
+    applyFilter(savedFilter);
+    
   }).fail(function () {
     $grid.html('<div class="loading-state"><p>Error loading data.</p></div>');
   });
 
   // Filter Logic
   $(".filter-pill").click(function () {
-    // UI Updates
-    $(".filter-pill").removeClass("active");
-    $(this).addClass("active");
-
     const filterValue = $(this).data("filter");
-
-    if (filterValue === "all") {
-      displaySubjects(subjectsData);
-    } else {
-      // Logic: filterValue is string "3.1", split into numbers
-      const [year, sem] = filterValue.toString().split(".").map(Number);
-
-      const filtered = subjectsData.filter(
-        (s) => s.year === year && s.sem === sem
-      );
-      displaySubjects(filtered);
-    }
+    applyFilter(filterValue);
   });
 });
