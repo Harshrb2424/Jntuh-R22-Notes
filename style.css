@@ -101,6 +101,7 @@ main {
 
 .filter-scroll {
   display: flex;
+  flex-wrap: wrap;
   gap: 12px;
   overflow-x: auto;
   padding-bottom: 10px;

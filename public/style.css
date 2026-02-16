@@ -63,7 +63,6 @@ main {
     padding: 30px 5%;
     max-width: 1000px;
     margin: 0 auto;
-    width: 100%;
 }
 
 .accent-text {
@@ -240,9 +239,76 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    /* 1. Tighter Layout Containers */
+    main {
+        padding: 15px; /* Reduced from 30px */
+    }
 
+    .navbar {
+        padding: 0.8rem 15px; /* Reduced horizontal padding */
+        gap: 10px;
+    }
+
+    .glass-panel {
+        padding: 15px; /* Reduced from 25px */
+        margin-bottom: 15px;
+        border-radius: 12px; /* Slightly smaller radius */
+    }
+
+    .section-header h2 {
+        font-size: 1.25rem; /* Smaller headers */
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* 2. Compact Table View */
+    .table-container {
+        margin: 0 -5px; /* Negative margin to maximize width */
+    }
+
+    .styled-table {
+        border-spacing: 0 4px; /* Reduced gap between rows significantly */
+    }
+
+    .styled-table th {
+        font-size: 0.75rem;
+        padding: 0 10px 5px 10px;
+    }
+
+    .styled-table td {
+        padding: 12px 10px; /* drastically reduced from 20px */
+        font-size: 0.85rem;
+    }
+    
+    /* Align action button to right for better thumb reach */
     .styled-table th:nth-child(2),
     .styled-table td:nth-child(2) {
         text-align: right;
+        width: 80px; /* Prevent action column from taking too much space */
+    }
+
+    /* 3. Compact Resource Grid */
+    /* Allows 2 columns on mobile instead of 1 giant column */
+    .resources-grid {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 10px;
+    }
+
+    .resource-card {
+        padding: 10px;
+        font-size: 0.9rem;
+        flex-direction: column; /* Stack icon and text if needed */
+        text-align: center;
+        gap: 5px;
+    }
+
+    /* 4. Syllabus List Compaction */
+    #unitInfo > ul > li {
+        padding: 12px;
+        margin-bottom: 10px;
+    }
+    
+    #unitInfo li {
+        font-size: 0.9rem;
     }
 }
