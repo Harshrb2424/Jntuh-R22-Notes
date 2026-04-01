@@ -120,6 +120,26 @@
         ],
         "links": [
             {
+                "name": "Unit 1: Information Theory and Communication Technologies",
+                "link": "https://resources.harshrb.in/College/4-2/Communication-Technologies/Unit-1-Information-Theory-and-Communication-Technologies"
+            },
+            {
+                "name": "Unit 2: Wireless Communication Technologies",
+                "link": "https://resources.harshrb.in/College/4-2/Communication-Technologies/Unit-2-Wireless-Communication-Technologies"
+            },
+            {
+                "name": "Unit 3: Cellular Mobile Networks",
+                "link": "https://resources.harshrb.in/College/4-2/Communication-Technologies/Unit-3-Cellular-Mobile-Networks"
+            },
+            {
+                "name": "Unit 4: Free Space Optical Communications",
+                "link": "https://resources.harshrb.in/College/4-2/Communication-Technologies/Unit-4-Free-Space-Optical-Communications"
+            },
+            {
+                "name": "Unit 5: Network Security and Management",
+                "link": "https://resources.harshrb.in/College/4-2/Communication-Technologies/Unit-5-Network-Security-and-Management"
+            },
+            {
                 "name": "Communication Technologies - Assignment 1",
                 "link": "https://any.coop/A7XFJbCj2ucbxQDUNaH8BZHXM1Kssh1SyK12MxZ545gqqfY8/communication-technologies-assignment-1"
             }
