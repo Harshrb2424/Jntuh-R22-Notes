@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://harshrb2424.github.io/Jntuh-R22-Notes/sitemap.xml

@@ -1,3 +1,35 @@
+function setSeo({ title, description, url, image }) {
+  document.title = title;
+
+  const update = (selector, attr, value) => {
+    const el = document.querySelector(selector);
+    if (el && value) el.setAttribute(attr, value);
+  };
+
+  update('meta[name="description"]', 'content', description);
+  update('link[rel="canonical"]', 'href', url);
+
+  update('meta[property="og:title"]', 'content', title);
+  update('meta[property="og:description"]', 'content', description);
+  update('meta[property="og:url"]', 'content', url);
+  update('meta[property="og:image"]', 'content', image);
+
+  update('meta[name="twitter:title"]', 'content', title);
+  update('meta[name="twitter:description"]', 'content', description);
+  update('meta[name="twitter:image"]', 'content', image);
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": title,
+    "url": url,
+    "description": description
+  };
+
+  const jsonLdTag = document.getElementById("pageJsonLd");
+  if (jsonLdTag) jsonLdTag.textContent = JSON.stringify(jsonLd);
+}
+
 $(document).ready(function () {
   function getUrlParameter(name) {
     name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
@@ -28,6 +60,13 @@ $(document).ready(function () {
   $.getJSON(filePath, function (data) {
     var subjectData = data[0]; // Assuming array structure
     var fileName = casing(subjectData.name);
+
+    setSeo({
+      title: `${fileName} | JNTUH R22 CSE (AI & ML) Notes`,
+      description: `${fileName} unit-wise syllabus, notes, important questions, and resources for JNTUH R22 CSE (AI & ML).`,
+      url: `https://harshrb2424.github.io/Jntuh-R22-Notes/subject.html?code=${subjectData.code}`,
+      image: "https://harshrb2424.github.io/Jntuh-R22-Notes/assets/og-subject.png"
+    });
 
     // Update Titles
     $(".page-title").text(subjectData.code + ": " + fileName);
